@@ -31,22 +31,24 @@ module.exports = {
       },
 
       fontFamily: {
-        sans: ["'Saira'"],
+        sans: ["'Saira'", ...defaultTheme.fontFamily.mono],
       },
 
       backgroundImage: {
-        "lionel-background": "url('img/Lionel on site.JPG')",
-        "construction-background": "url('img/Construction Background.png')",
+        "lionel-background": "url('assets/img/Lionel on site.JPG')",
+        "construction-background":
+          "url('assets/img/Construction Background.png')",
         "construction-background-full":
-          "url('img/Construction Background Full.png')",
-        "exhibition-background": "url('img/Exhibition Background.png')",
+          "url('assets/img/Construction Background Full.png')",
+        "exhibition-background": "url('assets/img/Exhibition Background.png')",
         "exhibition-background-full":
-          "url('img/Exhibition Background Full.png')",
-        "disinfection-background": "url('img/Disinfection Background.png')",
+          "url('assets/img/Exhibition Background Full.png')",
+        "disinfection-background":
+          "url('assets/img/Disinfection Background.png')",
         "disinfection-background-full":
-          "url('img/Disinfection Background Full.png')",
+          "url('assets/img/Disinfection Background Full.png')",
         "lionel-contactsection":
-          "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('img/Construction Background.png')",
+          "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('assets/img/Construction Background.png')",
       },
     },
   },
