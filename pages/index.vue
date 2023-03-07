@@ -372,6 +372,7 @@
 
       <FeatureContentCenter />
       <SectionSeperator />
+      <FeatureContentImageRight />
       <FeatureContentImageLeft />
       <SectionSeperator />
       <FeatureContentImageRight />
