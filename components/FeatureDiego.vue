@@ -25,6 +25,9 @@
         <br />
         Much faster and more accurate than manual floor marking
       </p>
+      <IndustryApplicationsDiego
+        class="order-last lg:mt-10 ml-auto mr-auto lg:ml-0"
+      ></IndustryApplicationsDiego>
     </div>
   </div>
 </template>

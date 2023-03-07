@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto lg:w-[1000px]">
-    <div class="grid lg:grid-cols-2">
+    <div class="grid lg:grid-cols-2 gap-y-10">
       <div
-        class="order-2 mx-auto mt-[40px] md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
+        class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
       >
         <img
           src="../assets/img/Lionel.png"
@@ -25,6 +25,9 @@
         <br />
         Much faster and more accurate than manual floor marking
       </p>
+      <IndustryApplicationsLionel
+        class="order-last lg:mt-10 ml-auto mr-auto lg:ml-0"
+      ></IndustryApplicationsLionel>
     </div>
   </div>
 </template>

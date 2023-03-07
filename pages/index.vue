@@ -369,15 +369,53 @@
         </div>
       </div>
     </section> -->
+      <section>
+        <div class="container mx-auto">
+          <div
+            class="flex flex-col items-center gap-y-6 lg:gap-y-16 lg:w-[800px] mx-auto"
+          >
+            <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+              Industries we Serve
+            </h2>
+            <p
+              class="text-center text-mobileCopy lg:text-desktopCopy text-arblack leading-10"
+            >
+              We are the world leader in autonomous commercial robots, serving
+              the exhibition, construction and facilities management industries
+            </p>
+          </div>
+        </div>
+        <IndustrySelector></IndustrySelector>
+      </section>
 
-      <FeatureContentCenter />
       <SectionSeperator />
-      <FeatureContentImageRight />
-      <FeatureContentImageLeft />
-      <SectionSeperator />
-      <FeatureContentImageRight />
-      <SectionSeperator />
-      <FeatureContentCenter />
+      <section>
+        <div class="container mx-auto">
+          <div
+            class="flex flex-col items-center gap-y-6 lg:gap-y-16 lg:w-[800px] mx-auto"
+          >
+            <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+              Our Robots
+            </h2>
+            <p
+              class="text-center text-mobileCopy lg:text-desktopCopy text-arblack leading-10"
+            >
+              All our robots have been developed using August Robotics’
+              <br />industry-leading technology. View our current robot
+              portfolio below
+            </p>
+          </div>
+        </div>
+        <SectionSpacer />
+        <FeatureLionel />
+        <SectionSeperator />
+        <FeatureDiego />
+        <SectionSeperator />
+      </section>
+      <section>
+        <HomeFeatureInDevelopment></HomeFeatureInDevelopment>
+      </section>
+
       <section class="container mx-auto my-auto px-[5%]">
         <div class="mx-auto mt-[5%]">
           <h3
