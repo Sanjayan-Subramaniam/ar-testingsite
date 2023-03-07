@@ -1,6 +1,6 @@
 <template>
   <section
-    class="h-[70vh] bg-black/70 bg-lionel-background bg-cover bg-center bg-blend-overlay lg:h-[70vh]"
+    class="h-[70vh] bg-black/70 bg-lionel-background bg-cover bg-center bg-blend-overlay lg:h-[70vh] relative"
   >
     <!-- Hero content title and button -->
 
@@ -18,6 +18,7 @@
         <PrimaryButton></PrimaryButton>
       </div>
     </div>
+    <HeroCTAs></HeroCTAs>
   </section>
 </template>
 
