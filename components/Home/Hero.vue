@@ -9,16 +9,16 @@
     >
       <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:justify-start">
         <h1
-          class="text-xl text-white md:text-3xl lg:text-7xl lg:leading-normal hover:text-black"
+          class="text-xl text-white md:text-4xl lg:text-6xl lg:leading-normal"
         >
           We automate dirty, dangerous <br />
           and dull tasks all over the world.
         </h1>
 
-        <PrimaryButton></PrimaryButton>
+        <ButtonPrimary></ButtonPrimary>
       </div>
     </div>
-    <HeroCTAs></HeroCTAs>
+    <Mainbuttons></Mainbuttons>
   </section>
 </template>
 

@@ -2,24 +2,24 @@
   <div class="container mx-auto">
     <div class="grid lg:grid-cols-2 gap-y-10">
       <div
-        class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
+        class="order-2 md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
       >
         <div class="grid grid-rows-2 grid-cols-2 ml=0">
           <img
-            src="../assets/img/Airport.png"
-            class="ml-auto lg:ml-0 w-1/2 lg:w-[240px]"
+            src="~/assets/img/Airport.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
           />
           <img
-            src="../assets/img/Airport.png"
-            class="mr-auto lg:mr-0 w-1/2 lg:w-[240px]"
+            src="~/assets/img/Airport.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
           />
           <img
-            src="../assets/img/Airport.png"
-            class="ml-auto lg:ml-0 w-1/2 lg:w-[240px]"
+            src="~/assets/img/Airport.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
           />
           <img
-            src="../assets/img/Airport.png"
-            class="mr-auto lg:mr-0 w-1/2 lg:w-[240px]"
+            src="~/assets/img/Airport.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
           />
         </div>
       </div>

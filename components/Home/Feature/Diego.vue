@@ -5,7 +5,7 @@
         class="order-2 mx-auto mt-[40px] md:min-w-[320px] lg:col-start-2 lg:row-span-4 lg:row-start-1 lg:mt-0"
       >
         <img
-          src="../assets/img/Diego.png"
+          src="~/assets/img/Diego.png"
           class="mr-auto ml-auto w-96 lg:mr-0 lg:w-full"
         />
       </div>

@@ -76,7 +76,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="../assets/img/Airport.png"
+            src="~/assets/img/Airport.png"
             alt=""
             srcset=""
             class="h-[80px] w-[160px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
