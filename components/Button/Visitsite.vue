@@ -1,6 +1,6 @@
 <template>
   <button
-    class="lg:w-[200px] lg:h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
+    class="lg:w-[160px] max-w-[160px] lg:h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
   >
     <p class="text-[9px] lg:text-base basis-2/3">Visit Site</p>
     <svg

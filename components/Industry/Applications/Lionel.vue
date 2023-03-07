@@ -18,7 +18,10 @@
           >
             Construction
           </p>
-          <button
+          <ButtonVisitsite
+            class="col-span-4 col-start-7 my-auto"
+          ></ButtonVisitsite>
+          <!-- <button
             class="col-span-4 col-start-8 my-auto flex h-10 items-center justify-center gap-2 rounded-md bg-white"
           >
             <p class="text-[9px]">Visit Site</p>
@@ -52,7 +55,7 @@
                 </g>
               </g>
             </svg>
-          </button>
+          </button> -->
         </div>
 
         <div
@@ -63,7 +66,10 @@
           >
             Exhibition
           </p>
-          <button
+          <ButtonVisitsite
+            class="col-span-4 col-start-7 my-auto"
+          ></ButtonVisitsite>
+          <!-- <button
             class="col-span-4 col-start-8 my-auto flex h-10 items-center justify-center gap-2 rounded-md bg-white"
           >
             <p class="text-[9px]">Visit Site</p>
@@ -97,7 +103,7 @@
                 </g>
               </g>
             </svg>
-          </button>
+          </button> -->
         </div>
       </div>
       <a
