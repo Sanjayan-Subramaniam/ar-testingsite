@@ -5,7 +5,7 @@
     <!-- Hero content title and button -->
 
     <div
-      class="container pt-[10%] lg:pt-[2%] h-full flex flex-col items-start mx-auto"
+      class="container pt-[10%] md:pt-[30%] lg:pt-[2%] h-full flex flex-col items-center lg:items-start mx-auto"
     >
       <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:justify-start">
         <h1

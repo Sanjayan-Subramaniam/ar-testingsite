@@ -31,7 +31,7 @@ module.exports = {
       },
       fontSize: {
         desktopCopy: ["1.5rem", { lineHeight: "2.375rem" }],
-        mobileCopy: ["1rem", { lineHeight: "0.5rem" }],
+        mobileCopy: ["1rem", { lineHeight: "1.5rem" }],
       },
 
       fontFamily: {

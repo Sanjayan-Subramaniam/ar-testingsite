@@ -30,22 +30,24 @@
       <div
         class="flex flex-col-reverse justify-center gap-y-6 gap-x-6 md:flex-row md:gap-y-0"
       >
-        <div class="md:basis-3/5">
+        <div class="md:basis-3/5 flex flex-col items-center md:items-start">
           <h4 class="text-center text-base font-medium md:text-left md:text-xl">
             Exhibition Floor Marking
           </h4>
-          <p class="mt-6 text-center text-sm md:text-left md:text-lg">
+          <p
+            class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
+          >
             Our Lionel robot is helping exhibition venues around the world
             streamline the floor marking and show set-up process
           </p>
-          <ButtonVisitsite class="lg:mt-6"></ButtonVisitsite>
+          <ButtonVisitsite class="mt-6"></ButtonVisitsite>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
             src="~/assets/img/Airport.png"
             alt=""
             srcset=""
-            class="h-[80px] w-[160px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+            class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
           />
         </div>
       </div>

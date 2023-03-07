@@ -21,7 +21,7 @@
       </h2>
 
       <p
-        class="order-3 mx-auto w-[270px] text-center leading-10 text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
+        class="order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
       >
         We have an exciting pipeline of new robots currently under development
         <br /><br />Our proprietary and modular technology platform allows us to

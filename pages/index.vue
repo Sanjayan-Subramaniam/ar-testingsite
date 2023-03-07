@@ -1,7 +1,7 @@
 <template>
   <div>
     <TheHeader></TheHeader>
-    <HomeHero />
+    <HomeFeatureHero />
     <SectionSpacer />
 
     <section>
@@ -13,7 +13,7 @@
             Industries we Serve
           </h2>
           <p
-            class="text-center text-mobileCopy lg:text-desktopCopy text-arblack leading-10"
+            class="w-[270px] md:w-full text-center text-mobileCopy lg:text-desktopCopy text-arblack"
           >
             We are the world leader in autonomous commercial robots, serving the
             exhibition, construction and facilities management industries
@@ -33,7 +33,7 @@
             Our Robots
           </h2>
           <p
-            class="text-center text-mobileCopy lg:text-desktopCopy text-arblack leading-10"
+            class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
             All our robots have been developed using August Robotics’
             <br />industry-leading technology. View our current robot portfolio

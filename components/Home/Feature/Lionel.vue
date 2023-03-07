@@ -17,7 +17,7 @@
       </h4>
 
       <p
-        class="lg:translate-x-[60px] order-3 mx-auto w-[270px] text-center leading-10 text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
+        class="lg:translate-x-[60px] order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
       >
         Lionel moves around your floor and marks your digital plan on the ground
         <br /><br />
