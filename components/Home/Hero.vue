@@ -1,11 +1,11 @@
 <template>
   <section
-    class="h-[70vh] bg-black/70 bg-lionel-background bg-cover bg-center bg-blend-overlay lg:h-[70vh] relative"
+    class="md:h-[70vh] bg-black/70 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
   >
     <!-- Hero content title and button -->
 
     <div
-      class="container mx-auto h-full flex flex-col justify-center items-center lg:items-start"
+      class="container pt-[10%] lg:pt-[2%] h-full flex flex-col items-start mx-auto"
     >
       <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:justify-start">
         <h1
