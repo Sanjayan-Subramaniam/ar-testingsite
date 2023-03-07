@@ -964,11 +964,11 @@
         >
           <img
             class="rounded-tl-lg object-cover"
-            src="../assets/img/Suspension Bridge.png"
+            src="../assets/img/SuspensionBridge.png"
             alt=""
           />
           <img
-            src="../assets/img/Commercial Building.png"
+            src="../assets/img/CommercialBuilding.png"
             class="rounded-tr-lg object-cover md:rounded-none"
             alt=""
           />
@@ -985,7 +985,7 @@
           />
           <img src="" class="bg-argray/80 object-cover" alt="" />
           <img
-            src="../assets/img/Road Construction.png"
+            src="../assets/img/RoadConstruction.png"
             alt=""
             class="rounded-bl-lg object-cover md:rounded-none"
           />

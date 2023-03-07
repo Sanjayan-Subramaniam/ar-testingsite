@@ -39,20 +39,20 @@ module.exports = {
       },
 
       backgroundImage: {
-        "lionel-background": "url('assets/img/Lionel on site.JPG')",
+        "lionel-background": "url('assets/img/Lionelonsite.JPG')",
         "construction-background":
-          "url('assets/img/Construction Background.png')",
+          "url('assets/img/ConstructionBackground.png')",
         "construction-background-full":
-          "url('assets/img/Construction Background Full.png')",
-        "exhibition-background": "url('assets/img/Exhibition Background.png')",
+          "url('assets/img/ConstructionBackgroundFull.png')",
+        "exhibition-background": "url('assets/img/ExhibitionBackground.png')",
         "exhibition-background-full":
-          "url('assets/img/Exhibition Background Full.png')",
+          "url('assets/img/ExhibitionBackgroundFull.png')",
         "disinfection-background":
-          "url('assets/img/Disinfection Background.png')",
+          "url('assets/img/DisinfectionBackground.png')",
         "disinfection-background-full":
-          "url('assets/img/Disinfection Background Full.png')",
+          "url('assets/img/DisinfectionBackgroundFull.png')",
         "lionel-contactsection":
-          "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('assets/img/Construction Background.png')",
+          "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('assets/img/ConstructionBackground.png')",
       },
     },
   },
