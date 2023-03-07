@@ -371,9 +371,12 @@
     </section> -->
 
       <FeatureContentCenter />
-      <SectionSpacer />
+      <SectionSeperator />
       <FeatureContentImageLeft />
-
+      <SectionSeperator />
+      <FeatureContentImageRight />
+      <SectionSeperator />
+      <FeatureContentCenter />
       <section class="container mx-auto my-auto px-[5%]">
         <div class="mx-auto mt-[5%]">
           <h3

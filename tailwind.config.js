@@ -29,6 +29,10 @@ module.exports = {
         facebookblue: "#3b5998",
         linkedinblue: "#0072b1",
       },
+      fontSize: {
+        desktopCopy: ["1.5rem", { lineHeight: "2.375rem" }],
+        mobileCopy: ["1rem", { lineHeight: "1.25rem" }],
+      },
 
       fontFamily: {
         sans: ["'Saira'", ...defaultTheme.fontFamily.mono],

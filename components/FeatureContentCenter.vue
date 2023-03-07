@@ -4,7 +4,9 @@
       <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
         Industries we serve
       </h2>
-      <p class="text-center text-lg lg:text-2xl text-arblack leading-10">
+      <p
+        class="text-center text-mobileCopy lg:text-desktopCopy text-arblack leading-10"
+      >
         We are the world leader in autonomous commercial robots, <br />
         serving the exhibition, construction and facilities management
         industries
