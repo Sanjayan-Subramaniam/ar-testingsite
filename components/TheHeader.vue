@@ -17,29 +17,29 @@
             class="col-span-6 col-start-4 my-auto hidden space-x-8 text-left text-[12px] lg:block xl:text-[16px]"
           >
             <a
-              href=""
-              class="border-b-4 border-arprimary py-4 font-medium text-arprimary"
+              href="https:www/construction.augustrobotics.com"
+              class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
               >Construction</a
             >
             <a
-              href=""
+              href="https:www/exhibitions.augustrobotics.com"
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
               >Exhibitions</a
             >
-            <a
-              href=""
+            <NuxtLink
+              to="/technology"
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
-              >Technology</a
+              >Technology</NuxtLink
             >
-            <a
-              href=""
+            <NuxtLink
+              to="/"
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
-              >Company</a
+              >Company</NuxtLink
             >
-            <a
-              href=""
+            <NuxtLink
+              to=""
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
-              >Careers</a
+              >Careers</NuxtLink
             >
           </div>
 
@@ -76,7 +76,7 @@
       <!-- mobile menu -->
       <div class="mobile-menu mt-6 hidden lg:hidden">
         <ul class="">
-          <li class="active">
+          <li>
             <a
               href="index.html"
               class="block px-2 py-4 text-sm font-semibold text-white hover:bg-arprimary hover:text-white"

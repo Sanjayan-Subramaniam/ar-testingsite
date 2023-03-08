@@ -1,7 +1,6 @@
 <template>
   <a
     class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
-    href="{{ buttonLink }}"
   >
     <p class="text-base basis-2/3">Visit Site</p>
     <svg
@@ -37,10 +36,6 @@
   </a>
 </template>
 
-<script setup>
-defineProps({
-  buttonLink: String,
-});
-</script>
+<script setup></script>
 
 <style lang="scss" scoped></style>
