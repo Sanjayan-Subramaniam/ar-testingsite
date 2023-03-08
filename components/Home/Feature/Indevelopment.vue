@@ -2,24 +2,24 @@
   <div class="container mx-auto">
     <div class="grid lg:grid-cols-2 gap-y-10">
       <div
-        class="order-2 md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
+        class="order-2 md:min-w-[500px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
       >
-        <div class="grid grid-rows-2 grid-cols-2 ml=0">
+        <div
+          class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[640px]"
+        >
           <img
             src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-3xl"
           />
           <img
             src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
-          />
-          <img
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tr-3xl"
+          /><img
             src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
-          />
-          <img
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-bl-3xl"
+          /><img
             src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-br-3xl"
           />
         </div>
       </div>
@@ -38,6 +38,7 @@
         spin off new robots quickly <br /><br />Have an idea? <br /><br />Reach
         out for a chat!
       </p>
+      <ButtonPrimary class="order-last lg:translate-x-[60px]"></ButtonPrimary>
     </div>
   </div>
 </template>

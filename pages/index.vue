@@ -85,6 +85,8 @@
         </div>
       </div>
     </section>
+    <SectionSpacer />
+    <HomeFeatureContact></HomeFeatureContact>
 
     <section class="bg-black py-24 text-center text-white">
       <div

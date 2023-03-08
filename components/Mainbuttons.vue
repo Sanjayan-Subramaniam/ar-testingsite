@@ -18,9 +18,7 @@
     <div
       class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblack/20 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblack/60 hover:bg-exhibition-background-full"
     >
-      <div
-        class="pl-[5%] flex flex-col gap-y-4 lg:flex-row lg:justify-center gap-x-6"
-      >
+      <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 gap-y-2 mx-auto">
         <h2
           class="text-left text-[11px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px]"
         >
@@ -33,9 +31,7 @@
     <div
       class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblue/20 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblue/30 hover:bg-disinfection-background-full"
     >
-      <div
-        class="pl-[5%] flex flex-col gap-y-4 lg:flex-row lg:justify-center gap-x-6"
-      >
+      <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 gap-y-2 mx-auto">
         <h2
           class="text-left text-[11px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px]"
         >

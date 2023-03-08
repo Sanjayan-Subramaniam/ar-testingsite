@@ -5,17 +5,17 @@
         <div class="flex flex-row lg:flex-col">
           <img
             src="~/assets/img/Airport.png"
-            class="ml-auto lg:ml-0 w-1/2 lg:w-[240px]"
+            class="ml-auto lg:ml-0 w-1/2 lg:w-[320px]"
           />
           <img
             src="~/assets/img/Airport.png"
-            class="mr-auto lg:mr-0 w-1/2 lg:w-[240px]"
+            class="mr-auto lg:mr-0 w-1/2 lg:w-[320px]"
           />
         </div>
       </div>
 
       <h2
-        class="lg:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1 lg:text-left md:text-5xl lg:mb-10 text-center text-3xl text-ardarkgreen"
+        class="lg:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         Working at August Robotics
       </h2>
@@ -28,6 +28,12 @@
         spin off new robots quickly <br /><br />Have an idea? <br /><br />Reach
         out for a chat!
       </p>
+      <div
+        class="flex flex-row gap-x-6 justify-center lg:justify-start order-last"
+      >
+        <ButtonSecondary button-text="Careers" />
+        <ButtonTertiary button-text="About Us" />
+      </div>
     </div>
   </div>
 </template>
