@@ -1,8 +1,8 @@
 <template>
   <button
-    class="w-[100px] lg:w-[140px] lg:h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
+    class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
   >
-    <p class="text-[9px] lg:text-base basis-2/3">Visit Site</p>
+    <p class="text-base basis-2/3">Visit Site</p>
     <svg
       class="my-auto w-[24px] lg:w-6"
       xmlns="http://www.w3.org/2000/svg"

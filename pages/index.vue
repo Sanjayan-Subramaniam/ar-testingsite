@@ -54,38 +54,11 @@
     <section>
       <HomeFeatureWorking></HomeFeatureWorking>
     </section>
-    <section class="mt-40">
-      <h3
-        class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl"
-      >
-        Follow us
-      </h3>
-      <div
-        class="mx-auto flex flex-wrap items-center justify-around md:w-[60%] lg:w-[40%]"
-      >
-        <div
-          class="mb-16 flex h-16 w-16 items-center justify-center rounded-lg bg-arprimary opacity-50 md:mb-24 md:h-24 md:w-24 md:gap-x-4"
-        >
-          <img src="../assets/img/bell.svg" alt="" />
-        </div>
-        <div
-          class="mb-16 flex h-16 w-16 items-center justify-center rounded-lg bg-linkedinblue opacity-50 md:mb-24 md:h-24 md:w-24"
-        >
-          <img src="../assets/img/linkedin.svg" alt="" />
-        </div>
-        <div
-          class="mb-16 flex h-16 w-16 items-center justify-center rounded-lg bg-facebookblue opacity-50 md:mb-24 md:h-24 md:w-24"
-        >
-          <img src="../assets/img/facebook.svg" alt="" />
-        </div>
-        <div
-          class="mb-16 flex h-16 w-16 items-center justify-center rounded-lg bg-twitterblue opacity-50 md:mb-24 md:h-24 md:w-24"
-        >
-          <img src="../assets/img/twitter.svg" alt="" />
-        </div>
-      </div>
-    </section>
     <SectionSpacer />
+    <section>
+      <HomeSocials></HomeSocials>
+    </section>
+
     <HomeFeatureContact></HomeFeatureContact>
 
     <section class="bg-black py-24 text-center text-white">

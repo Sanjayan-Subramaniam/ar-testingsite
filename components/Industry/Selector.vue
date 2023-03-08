@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto w-5/6 max-w-[1000px] justify-start">
-    <div class="flex h-[200px] flex-row">
+    <div class="flex h-[100px] lg:h-[200px] flex-row">
       <button
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-argray/80 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-argray/100 hover:bg-construction-background-full"
       >
@@ -31,7 +31,9 @@
         class="flex flex-col-reverse justify-center gap-y-6 gap-x-6 md:flex-row md:gap-y-0"
       >
         <div class="md:basis-3/5 flex flex-col items-center md:items-start">
-          <h4 class="text-center text-base font-medium md:text-left md:text-xl">
+          <h4
+            class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
+          >
             Exhibition Floor Marking
           </h4>
           <p

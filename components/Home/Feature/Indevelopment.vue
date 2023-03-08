@@ -38,7 +38,9 @@
         spin off new robots quickly <br /><br />Have an idea? <br /><br />Reach
         out for a chat!
       </p>
-      <ButtonPrimary class="order-last lg:translate-x-[60px]"></ButtonPrimary>
+      <ButtonPrimary
+        class="order-last lg:translate-x-[60px] mx-auto lg:mx-0"
+      ></ButtonPrimary>
     </div>
   </div>
 </template>

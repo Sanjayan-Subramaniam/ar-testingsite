@@ -11,7 +11,7 @@
       </div>
 
       <h4
-        class="lg:translate-x-[60px] font-base order-1 text-center text-4xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left lg:text-3xl lg:mb-10"
+        class="lg:translate-x-[60px] font-base order-1 text-center text-3xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left lg:mb-10"
       >
         Lionel
       </h4>

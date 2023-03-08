@@ -5,11 +5,13 @@
     <!-- Hero content title and button -->
 
     <div
-      class="container pt-[10%] md:pt-[30%] lg:pt-[2%] h-full flex flex-col items-center lg:items-start mx-auto"
+      class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%]"
     >
-      <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:justify-start">
+      <div
+        class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
+      >
         <h1
-          class="text-xl text-white md:text-4xl lg:text-6xl lg:leading-normal"
+          class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
         >
           We automate dirty, dangerous <br />
           and dull tasks all over the world.
@@ -18,7 +20,7 @@
         <ButtonPrimary></ButtonPrimary>
       </div>
     </div>
-    <Mainbuttons></Mainbuttons>
+    <Mainbuttonsarrow></Mainbuttonsarrow>
   </section>
 </template>
 

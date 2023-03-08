@@ -1,26 +1,5 @@
 <template>
   <header>
-    <!-- <nav class="bg-white py-8">
-        <div class="container mx-auto">
-          <div class="grid grid-cols-12 items-center">
-            <div class="col-span-4 col-start-2">
-              <img src="/dist/../assets/img/ar_logo.svg" class="w-24" alt="" srcset="" />
-            </div>
-            <div
-              class="col-span-8 col-start-7 hidden flex-col content-center justify-center md:flex"
-            >
-              <button
-                class="h-12 w-32 rounded-lg bg-arprimary px-4 py-3 text-white"
-              >
-                Speak to us
-              </button>
-              <p class="text-center text-sm text-ardarkgreen">
-                info@augustrobotics.com
-              </p>
-            </div>
-          </div>
-        </div>
-      </nav> -->
     <!-- Navbar goes here -->
     <nav class="bg-white py-8 shadow-lg">
       <div class="container mx-auto">
@@ -69,11 +48,7 @@
             class="col-span-2 col-start-11 hidden items-center space-x-3 lg:block"
           >
             <div class="flex flex-col items-center justify-center gap-y-3">
-              <button
-                class="h-12 w-32 rounded-lg bg-arprimary px-4 py-3 text-white"
-              >
-                Speak to us
-              </button>
+              <ButtonPrimary />
               <p class="text-center text-sm text-arprimary">
                 info@augustrobotics.com
               </p>
