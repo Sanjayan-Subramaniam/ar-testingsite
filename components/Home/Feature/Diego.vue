@@ -2,7 +2,7 @@
   <div class="container mx-auto lg:w-[1000px]">
     <div class="grid lg:grid-cols-2 gap-y-10">
       <div
-        class="order-2 mx-auto mt-[40px] md:min-w-[320px] lg:col-start-2 lg:row-span-4 lg:row-start-1 lg:mt-0"
+        class="order-2 mx-auto md:min-w-[320px] lg:col-start-2 lg:row-span-4 lg:row-start-1"
       >
         <img
           src="~/assets/img/Diego.png"
@@ -11,7 +11,7 @@
       </div>
 
       <h4
-        class="font-base order-1 text-center text-3xl leading-6 text-arblue lg:order-first lg:col-start-1 lg:text-left lg:mb-10"
+        class="font-base order-1 text-center text-4xl leading-6 text-arblue lg:order-first lg:col-start-1 lg:text-left"
       >
         Diego
       </h4>
@@ -19,14 +19,16 @@
       <p
         class="lg:col-start-1 order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
       >
-        Lionel moves around your floor and marks your digital plan on the ground
+        Keep your team and patrons safe
         <br /><br />
-        Fully autonomous, no supervision needed <br />
+        Diego uses UV-C light to disinfect air and surfaces <br />
         <br />
-        Much faster and more accurate than manual floor marking
+        Hospital grade disinfection to protect people in your facilities
+        <br /><br />
+        Moves from room to room autonomously without needing any supervision
       </p>
       <IndustryApplicationsDiego
-        class="order-last lg:mt-10 ml-auto mr-auto lg:ml-0"
+        class="order-last ml-auto mr-auto lg:ml-0"
       ></IndustryApplicationsDiego>
     </div>
   </div>
