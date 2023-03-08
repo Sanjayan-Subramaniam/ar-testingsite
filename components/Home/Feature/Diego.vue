@@ -5,8 +5,8 @@
         class="order-2 mx-auto md:min-w-[320px] lg:col-start-2 lg:row-span-4 lg:row-start-1"
       >
         <img
-          src="~/assets/img/Diego.png"
-          class="mr-auto ml-auto w-96 lg:mr-0 lg:w-full"
+          src="~/assets/img/Diegocropped.png"
+          class="mr-auto ml-auto w-[100px] lg:mr-0 lg:w-[200px]"
         />
       </div>
 
