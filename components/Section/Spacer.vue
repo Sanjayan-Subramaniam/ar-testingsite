@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-16 lg:mt-36"></div>
+  <div class="mt-16 lg:mt-14"></div>
 </template>
 
 <script setup></script>

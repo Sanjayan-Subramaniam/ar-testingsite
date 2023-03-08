@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto lg:w-[1000px]">
-    <div class="grid lg:grid-cols-2 gap-y-10">
+    <div class="grid lg:grid-cols-2 gap-y-9">
       <div
         class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
       >
@@ -11,7 +11,7 @@
       </div>
 
       <h4
-        class="lg:translate-x-[60px] font-base order-1 text-center text-3xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left lg:mb-10"
+        class="lg:translate-x-[60px] font-base order-1 text-center text-3xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left"
       >
         Lionel
       </h4>
@@ -26,7 +26,7 @@
         Much faster and more accurate than manual floor marking
       </p>
       <IndustryApplicationsLionel
-        class="order-last lg:mt-10 ml-auto mr-auto lg:ml-0"
+        class="order-last ml-auto mr-auto lg:ml-0"
       ></IndustryApplicationsLionel>
     </div>
   </div>
