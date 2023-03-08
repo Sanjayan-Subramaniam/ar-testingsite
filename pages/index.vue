@@ -61,32 +61,8 @@
 
     <HomeFeatureContact></HomeFeatureContact>
 
-    <section class="bg-black py-24 text-center text-white">
-      <div
-        class="container mx-auto flex flex-col items-center justify-center gap-y-24 lg:flex-row lg:items-start lg:justify-around lg:gap-0 lg:text-left"
-      >
-        <div>
-          <img class="w-40" src="../assets/img/ar_logo.svg" alt="" srcset="" />
-        </div>
-        <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Test</h4>
-          <p class="hover:text-arprimary">Exhibitions</p>
-          <p class="hover:text-arprimary">Construction</p>
-          <p class="hover:text-arprimary">Disinfection</p>
-        </div>
-        <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Industries</h4>
-          <p>Exhibitions</p>
-          <p>Construction</p>
-          <p>Disinfection</p>
-        </div>
-        <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Industries</h4>
-          <p>Exhibitions</p>
-          <p>Construction</p>
-          <p>Disinfection</p>
-        </div>
-      </div>
+    <section class="">
+      <TheFooter></TheFooter>
     </section>
   </div>
 </template>
