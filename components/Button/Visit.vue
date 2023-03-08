@@ -1,7 +1,9 @@
 <template>
-  <a
+  <component
     class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2 justify-center"
-    :href="buttonLink"
+    :is="to ? 'nuxt-link' : href ? 'a' : 'button'"
+    :to="to"
+    :href="href"
   >
     <p class="text-base basis-2/3">Visit Site</p>
     <svg
@@ -34,12 +36,19 @@
         </g>
       </g>
     </svg>
-  </a>
+  </component>
 </template>
 
 <script setup>
 defineProps({
-  buttonLink: String,
+  to: {
+    type: String,
+    default: null,
+  },
+  href: {
+    type: String,
+    default: null,
+  },
 });
 </script>
 

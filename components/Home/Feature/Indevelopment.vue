@@ -25,7 +25,7 @@
       </div>
 
       <h2
-        class="lg:translate-x-[60px] font-base order-1 leading-6 lg:order-first lg:col-start-2 lg:text-left md:text-5xl lg:mb-10 text-center text-3xl text-ardarkgreen"
+        class="lg:translate-x-[60px] font-base order-1 leading-6 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         In Development
       </h2>

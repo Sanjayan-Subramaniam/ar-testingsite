@@ -8,7 +8,9 @@
           <img class="w-40" src="../assets/img/ar_logo.svg" alt="" srcset="" />
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Industries</h4>
+          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+            Industries
+          </h4>
           <a
             class="hover:text-arsecondary"
             href="https://exhibitions.augustrobotics.com"
@@ -24,18 +26,24 @@
           >
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Technology</h4>
+          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+            Technology
+          </h4>
           <NuxtLink class="hover:text-arsecondary" to="/">Lionel</NuxtLink>
           <NuxtLink class="hover:text-arsecondary" to="/">Diego</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Company</h4>
+          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+            Company
+          </h4>
           <NuxtLink class="hover:text-arsecondary" to="/">About</NuxtLink>
           <NuxtLink class="hover:text-arsecondary" to="/">News</NuxtLink>
           <NuxtLink class="hover:text-arsecondary" to="/">Careers</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-4xl text-white">Social Links</h4>
+          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+            Social Links
+          </h4>
           <a
             class="hover:text-arsecondary"
             href="https://www.linkedin.com/company/august-robotics"

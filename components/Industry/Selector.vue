@@ -35,21 +35,25 @@
     >
       <div
         v-if="state === 'construction'"
-        class="flex flex-col-reverse justify-center gap-y-6 gap-x-6 md:flex-row md:gap-y-0"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row gap-y-6"
       >
-        <div class="md:basis-3/5 flex flex-col items-center md:items-start">
+        <div
+          class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
+        >
           <h4
-            class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
+            class="text-argray text-center text-2xl lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
             Construction
           </h4>
           <p
-            class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
+            class="text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
             Our Lionel robot is helping contractors mark layouts for
             construction projects faster and smarter
           </p>
-          <ButtonVisitsite class="mt-6"></ButtonVisitsite>
+          <ButtonVisitsite
+            button-link="https://www.construction.augustrobotics.com"
+          ></ButtonVisitsite>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img

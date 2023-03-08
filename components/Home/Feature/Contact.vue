@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-lionel-background h-[90vh] flex flex-col justify-center items-center"
+    class="bg-lionel-background h-[60vh] flex flex-col justify-center items-center"
   >
     <div class="flex flex-col gap-y-10 items-center">
       <h2 class="text-center text-3xl text-white md:text-5xl">Contact Us</h2>
