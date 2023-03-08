@@ -46,8 +46,8 @@
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
-            Our Lionel robot is helping exhibition venues around the world
-            streamline the floor marking and show set-up process
+            Our Lionel robot is helping contractors mark layouts for
+            construction projects faster and smarter
           </p>
           <ButtonVisitsite class="mt-6"></ButtonVisitsite>
         </div>
