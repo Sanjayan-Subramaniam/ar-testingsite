@@ -8,7 +8,7 @@
             class="w-[40%] xl:w-[480px] xl:h-[320px] xl:translate-x-[-5%] object-cover rounded-tl-2xl rounded-bl-2xl lg:rounded-bl-2xl-none lg:rounded-bl-none lg:rounded-tr-2xl"
           />
           <img
-            src="~/assets/img/Working2.jpg"
+            src="~/assets/img/Working2.png"
             class="w-[40%] xl:w-[480px] xl:h-[320px] xl:translate-x-[-5%] object-cover rounded-tr-2xl rounded-br-2xl lg:rounded-tr-2xl-none lg:rounded-tr-none lg:rounded-bl-2xl"
           />
         </div>
