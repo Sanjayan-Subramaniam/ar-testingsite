@@ -19,9 +19,10 @@
             Commercial Disinfection
           </p>
 
-          <ButtonVisitsite
+          <ButtonVisitpath
             class="col-span-4 col-start-7 my-auto"
-          ></ButtonVisitsite>
+            button-link="/"
+          ></ButtonVisitpath>
         </div>
       </div>
     </div>

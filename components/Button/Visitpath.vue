@@ -1,6 +1,7 @@
 <template>
-  <a
-    class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
+  <NuxtLink
+    class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2 justify-center"
+    :to="buttonLink"
   >
     <p class="text-base basis-2/3">Visit Site</p>
     <svg
@@ -33,9 +34,13 @@
         </g>
       </g>
     </svg>
-  </a>
+  </NuxtLink>
 </template>
 
-<script setup></script>
+<script setup>
+defineProps({
+  buttonLink: String,
+});
+</script>
 
 <style lang="scss" scoped></style>

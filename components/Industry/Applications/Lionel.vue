@@ -20,6 +20,7 @@
           </p>
           <ButtonVisitsite
             class="col-span-4 col-start-7 my-auto"
+            button-link="https://www.construction.augustrobotics.com"
           ></ButtonVisitsite>
           <!-- <button
             class="col-span-4 col-start-8 my-auto flex h-10 items-center justify-center gap-2 rounded-md bg-white"
@@ -107,11 +108,12 @@
           </button> -->
         </div>
       </div>
-      <a
+      <NuxtLink
         class="text-center text-mobileCopy lg:text-desktopCopy text-argray lg:w-5/6 lg:min-w-[500px] lg:col-start-2 underline underline-offset-8"
+        to="/"
       >
         Lionel Technology
-      </a>
+      </NuxtLink>
     </div>
   </div>
 </template>

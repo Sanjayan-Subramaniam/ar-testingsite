@@ -1,7 +1,7 @@
 <template>
   <a
-    class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2"
-    href="{{ buttonLink }}"
+    class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2 justify-center"
+    :href="buttonLink"
   >
     <p class="text-base basis-2/3">Visit Site</p>
     <svg
