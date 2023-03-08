@@ -3,6 +3,7 @@
     <div class="flex h-[100px] lg:h-[200px] flex-row">
       <button
         @mouseover="changeState('construction')"
+        @click="changeState('construction')"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-argray/80 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-argray/100 hover:bg-construction-background-full"
       >
         <h2 class="my-auto text-center text-sm text-white md:text-3xl">
@@ -11,6 +12,7 @@
       </button>
       <button
         @mouseover="changeState('exhibitions')"
+        @click="changeState('exhibitions')"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblack/80 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblack/100 hover:bg-exhibition-background-full"
       >
         <h2 class="my-auto text-center text-sm text-white md:text-3xl">
@@ -19,6 +21,7 @@
       </button>
       <button
         @mouseover="changeState('disinfection')"
+        @click="changeState('disinfection')"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background"
       >
         <h2 class="my-auto text-center text-sm text-white md:text-3xl">
@@ -38,7 +41,7 @@
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
-            Construction layout marking
+            Construction
           </h4>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
@@ -65,7 +68,7 @@
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
-            Exhibition Floor Marking
+            Exhibitions
           </h4>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
@@ -92,13 +95,13 @@
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
-            Commercial Disinfection
+            Property Management
           </h4>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
-            Our Lionel robot is helping exhibition venues around the world
-            streamline the floor marking and show set-up process
+            Our Diego robot is providing hospital-grade disinfection for
+            offices, hotels and aged-care homes to keep people safe
           </p>
           <ButtonVisitsite class="mt-6"></ButtonVisitsite>
         </div>
@@ -116,10 +119,10 @@
 </template>
 
 <script setup>
-let state = ref("construction");
+let state = ref("disinfection");
 
 const changeState = (newState) => {
-  state = newState;
+  state.value = newState;
   console.log(state);
 };
 </script>
