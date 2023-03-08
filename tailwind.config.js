@@ -15,6 +15,12 @@ module.exports = {
     `/error.{js,ts,vue}`,
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: "0rem",
+        md: "4rem",
+      },
+    },
     extend: {
       colors: {
         ardarkgreen: "#4a6b2c",

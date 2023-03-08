@@ -2,7 +2,7 @@
   <div class="bg-black py-24 text-center text-white">
     <div class="container mx-auto">
       <div
-        class="container mx-auto flex flex-col items-center justify-center gap-y-24 lg:flex-row lg:items-start lg:justify-around lg:gap-0 lg:text-left"
+        class="flex flex-col items-center justify-center gap-y-24 lg:flex-row lg:items-start lg:justify-around lg:gap-0 lg:text-left"
       >
         <div>
           <img class="w-40" src="../assets/img/ar_logo.svg" alt="" srcset="" />
