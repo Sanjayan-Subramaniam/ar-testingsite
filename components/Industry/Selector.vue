@@ -41,7 +41,7 @@
           class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
           <h4
-            class="text-argray text-center text-2xl lg:text-desktopCopy font-medium md:text-left md:text-xl"
+            class="text-arblack text-center text-2xl lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
             Construction
           </h4>
@@ -57,7 +57,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="~/assets/img/Airport.png"
+            src="~/assets/img/Constructionindustry.jpeg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
@@ -84,7 +84,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="~/assets/img/RoadConstruction.png"
+            src="~/assets/img/Exhibitionindustry.jpeg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
@@ -111,7 +111,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="~/assets/img/Airport.png"
+            src="~/assets/img/Facilityindustry.jpeg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"

@@ -19,10 +19,10 @@
             Commercial Disinfection
           </p>
 
-          <ButtonVisitpath
+          <ButtonVisit
+            to="/diego"
             class="col-span-4 col-start-7 my-auto"
-            button-link="/"
-          ></ButtonVisitpath>
+          ></ButtonVisit>
         </div>
       </div>
     </div>

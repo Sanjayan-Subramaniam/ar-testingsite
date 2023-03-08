@@ -9,17 +9,17 @@
         >
           <img
             src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-3xl"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"
           />
           <img
-            src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tr-3xl"
+            src="~/assets/img/Mine.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tr-2xl"
           /><img
-            src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-bl-3xl"
+            src="~/assets/img/RoadConstruction.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-bl-2xl"
           /><img
-            src="~/assets/img/Airport.png"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-br-3xl"
+            src="~/assets/img/SuspensionBridge.png"
+            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-br-2xl"
           />
         </div>
       </div>

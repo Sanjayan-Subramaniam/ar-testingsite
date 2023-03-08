@@ -45,7 +45,8 @@ module.exports = {
       },
 
       backgroundImage: {
-        "lionel-background": "url('assets/img/Lionelonsite.JPG')",
+        "lionel-background": "url('assets/img/Lionelheroimage.JPG')",
+        "lionel-homehero": "url('assets/img/Lionelonsite.JPG')",
         "construction-background":
           "url('assets/img/ConstructionBackground.png')",
         "construction-background-full":

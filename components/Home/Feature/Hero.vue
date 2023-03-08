@@ -1,6 +1,6 @@
 <template>
   <section
-    class="md:h-[70vh] bg-black/70 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
+    class="md:h-[70vh] bg-black/40 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
   >
     <!-- Hero content title and button -->
 

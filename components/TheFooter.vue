@@ -5,7 +5,12 @@
         class="flex flex-col items-center justify-center gap-y-24 lg:flex-row lg:items-start lg:justify-around lg:gap-0 lg:text-left"
       >
         <div>
-          <img class="w-40" src="../assets/img/ar_logo.svg" alt="" srcset="" />
+          <img
+            class="w-40"
+            src="~/assets/img/white_logo.svg"
+            alt=""
+            srcset=""
+          />
         </div>
         <div class="flex flex-col gap-y-4">
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">

@@ -18,10 +18,10 @@
           >
             Construction
           </p>
-          <ButtonVisitsite
+          <ButtonVisit
             class="col-span-4 col-start-7 my-auto"
-            button-link="https://www.construction.augustrobotics.com"
-          ></ButtonVisitsite>
+            href="https://www.construction.augustrobotics.com"
+          ></ButtonVisit>
           <!-- <button
             class="col-span-4 col-start-8 my-auto flex h-10 items-center justify-center gap-2 rounded-md bg-white"
           >
@@ -67,10 +67,10 @@
           >
             Exhibition
           </p>
-          <ButtonVisitsite
+          <ButtonVisit
             class="col-span-4 col-start-7 my-auto"
-            button-link="https://www.exhibitions.augustrobotics.com"
-          ></ButtonVisitsite>
+            href="https://www.exhibitions.augustrobotics.com"
+          ></ButtonVisit>
           <!-- <button
             class="col-span-4 col-start-8 my-auto flex h-10 items-center justify-center gap-2 rounded-md bg-white"
           >
