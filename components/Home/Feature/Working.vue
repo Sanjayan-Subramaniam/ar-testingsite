@@ -5,11 +5,11 @@
         <div class="flex flex-row lg:flex-col">
           <img
             src="~/assets/img/Airport.png"
-            class="ml-auto lg:ml-0 w-1/2 lg:w-[320px]"
+            class="ml-auto w-1/2 xl:w-[480px] xl:h-[320px] xl:translate-x-[-5%] 2xl:xl:translate-x-[-40%] object-cover"
           />
           <img
             src="~/assets/img/Airport.png"
-            class="mr-auto lg:mr-0 w-1/2 lg:w-[320px]"
+            class="ml-auto w-1/2 xl:w-[480px] xl:h-[320px] xl:translate-x-[-5%] 2xl:xl:translate-x-[-40%] object-cover"
           />
         </div>
       </div>

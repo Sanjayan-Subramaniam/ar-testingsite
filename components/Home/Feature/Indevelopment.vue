@@ -5,7 +5,7 @@
         class="order-2 md:min-w-[500px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
       >
         <div
-          class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[640px]"
+          class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[500px]"
         >
           <img
             src="~/assets/img/Airport.png"
