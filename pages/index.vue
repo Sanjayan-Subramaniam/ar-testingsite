@@ -1,6 +1,7 @@
 <template>
   <div>
-    <TheHeader></TheHeader>
+    <Mainnav></Mainnav>
+
     <HomeFeatureHero />
     <SectionSpacer />
 
@@ -68,10 +69,13 @@
 </template>
 
 <script>
+import Mainnav from "~~/components/Mainnav.vue";
+
 export default {
   setup() {
     return {};
   },
+  components: { Mainnav },
 };
 </script>
 

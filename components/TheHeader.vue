@@ -17,12 +17,12 @@
             class="col-span-6 col-start-4 my-auto hidden space-x-8 text-left text-[12px] lg:block xl:text-[16px]"
           >
             <a
-              href="https:www/construction.augustrobotics.com"
+              href="https://www.construction.augustrobotics.com"
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
               >Construction</a
             >
             <a
-              href="https:www/exhibitions.augustrobotics.com"
+              href="https://www.exhibitions.augustrobotics.com"
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"
               >Exhibitions</a
             >
