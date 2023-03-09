@@ -169,13 +169,21 @@
                   />
                 </DisclosureButton>
                 <DisclosurePanel class="mt-2 space-y-2">
-                  <DisclosureButton
-                    class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arprimary/50 hover:text-white"
-                    >Lionel</DisclosureButton
+                  <Disclosure
+                    ><NuxtLink to="/about"
+                      ><DisclosureButton
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arprimary/50 hover:text-white"
+                        >Lionel</DisclosureButton
+                      ></NuxtLink
+                    ></Disclosure
                   >
-                  <DisclosureButton
-                    class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arblue/50 hover:text-white"
-                    >Diego</DisclosureButton
+                  <Disclosure
+                    ><NuxtLink to="/about"
+                      ><DisclosureButton
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arblue/50 hover:text-white"
+                        >Diego</DisclosureButton
+                      ></NuxtLink
+                    ></Disclosure
                   >
                 </DisclosurePanel>
               </Disclosure>
@@ -198,18 +206,24 @@
                     class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
                     >{{ item.name }}</DisclosureButton
                   > -->
-                  <Nuxtlink to="/">
-                    <DisclosureButton
-                      class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/80 hover:text-white"
-                      >About Us</DisclosureButton
-                    >
-                  </Nuxtlink>
-                  <NuxtLink to="/">
-                    <DisclosureButton
-                      class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/80 hover:text-white"
-                      >News</DisclosureButton
-                    >
-                  </NuxtLink>
+
+                  <Disclosure
+                    ><NuxtLink to="/about"
+                      ><DisclosureButton
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        >About Us</DisclosureButton
+                      ></NuxtLink
+                    ></Disclosure
+                  >
+
+                  <Disclosure
+                    ><NuxtLink to="/about"
+                      ><DisclosureButton
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        >News</DisclosureButton
+                      ></NuxtLink
+                    ></Disclosure
+                  >
                 </DisclosurePanel>
               </Disclosure>
             </div>
