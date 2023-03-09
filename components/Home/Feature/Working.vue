@@ -1,6 +1,6 @@
 <template>
   <div class="container mx-auto">
-    <div class="grid lg:grid-cols-2 gap-y-10">
+    <div class="grid lg:grid-cols-2 space-y-9">
       <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-4">
         <div class="flex flex-row lg:flex-col justify-center">
           <img

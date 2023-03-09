@@ -35,10 +35,10 @@
     >
       <div
         v-if="state === 'construction'"
-        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row gap-y-6"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row space-y-6"
       >
         <div
-          class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
+          class="md:basis-3/5 flex flex-col items-center md:items-start space-y-6"
         >
           <h4
             class="text-arblack text-center text-2xl lg:text-desktopCopy font-medium md:text-left md:text-xl"
@@ -51,9 +51,9 @@
             Our Lionel robot is helping contractors mark layouts for
             construction projects faster and smarter
           </p>
-          <ButtonVisitsite
-            button-link="https://www.construction.augustrobotics.com"
-          ></ButtonVisitsite>
+          <ButtonVisit
+            href="https://www.construction.augustrobotics.com"
+          ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
@@ -66,9 +66,11 @@
       </div>
       <div
         v-else-if="state === 'exhibitions'"
-        class="flex flex-col-reverse justify-center gap-y-6 gap-x-6 md:flex-row md:gap-y-0"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row space-y-6"
       >
-        <div class="md:basis-3/5 flex flex-col items-center md:items-start">
+        <div
+          class="md:basis-3/5 flex flex-col items-center md:items-start space-y-6"
+        >
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
@@ -80,7 +82,9 @@
             Our Lionel robot is helping exhibition venues around the world
             streamline the floor marking and show set-up process
           </p>
-          <ButtonVisitsite class="mt-6"></ButtonVisitsite>
+          <ButtonVisit
+            href="https://www.exhibitions.augustrobotics.com"
+          ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
@@ -93,9 +97,11 @@
       </div>
       <div
         v-else-if="state === 'disinfection'"
-        class="flex flex-col-reverse justify-center gap-y-6 gap-x-6 md:flex-row md:gap-y-0"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row space-y-6"
       >
-        <div class="md:basis-3/5 flex flex-col items-center md:items-start">
+        <div
+          class="md:basis-3/5 flex flex-col items-center md:items-start space-y-6"
+        >
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
@@ -107,7 +113,7 @@
             Our Diego robot is providing hospital-grade disinfection for
             offices, hotels and aged-care homes to keep people safe
           </p>
-          <ButtonVisitsite class="mt-6"></ButtonVisitsite>
+          <ButtonVisit to="/"></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
