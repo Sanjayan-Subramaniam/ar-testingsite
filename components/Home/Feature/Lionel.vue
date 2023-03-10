@@ -1,12 +1,12 @@
 <template>
   <div class="container mx-auto lg:w-[1000px]">
-    <div class="grid lg:grid-cols-2 space-y-9">
+    <div class="grid lg:grid-cols-2 gap-y-9">
       <div
-        class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
+        class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0"
       >
         <img
           src="~/assets/img/Lionelcropped.png"
-          class="mr-auto ml-auto w-[100px] lg:ml-0 lg:w-[320px]"
+          class="mr-auto ml-auto w-[100px] lg:ml-0 lg:w-[320px] lg:row-span-3"
         />
       </div>
 

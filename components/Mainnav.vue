@@ -115,7 +115,7 @@
         <!-- Secondary Navbar items -->
         <div class="flex flex-col items-center justify-center">
           <ButtonPrimary />
-          <p class="text-center text-sm text-arprimary">
+          <p class="text-center text-sm text-arprimary mt-3">
             info@augustrobotics.com
           </p>
         </div>

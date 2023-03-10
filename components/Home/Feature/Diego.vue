@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto lg:w-[1000px]">
-    <div class="grid lg:grid-cols-2 space-y-9">
+    <div class="grid lg:grid-cols-2 gap-y-9">
       <div
-        class="order-2 mx-auto md:min-w-[320px] lg:col-start-2 lg:row-span-4 lg:row-start-1"
+        class="order-2 mx-auto md:min-w-[320px] lg:col-start-2 lg:row-span-3 lg:row-start-1"
       >
         <img
           src="~/assets/img/Diegocropped.png"

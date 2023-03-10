@@ -1,8 +1,8 @@
 <template>
   <div class="container mx-auto">
-    <div class="grid lg:grid-cols-2 space-y-9">
+    <div class="grid lg:grid-cols-2 gap-y-9">
       <div
-        class="order-2 md:min-w-[500px] lg:col-start-1 lg:row-span-4 lg:row-start-1 lg:mt-0"
+        class="order-2 md:min-w-[500px] lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0"
       >
         <div
           class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[500px]"

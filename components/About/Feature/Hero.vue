@@ -13,14 +13,13 @@
         <h1
           class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
         >
-          We automate dirty, dangerous <br />
-          and dull tasks all over the world.
+          Learn about who we <br />
+          are and our journey
         </h1>
 
         <ButtonPrimary></ButtonPrimary>
       </div>
     </div>
-    <Mainbuttonsarrow></Mainbuttonsarrow>
   </section>
 </template>
 

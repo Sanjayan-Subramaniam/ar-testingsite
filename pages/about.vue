@@ -1,5 +1,53 @@
 <template>
-  <div></div>
+  <div>
+    <Mainnav></Mainnav>
+
+    <AboutFeatureHero />
+    <SectionSpacer />
+
+    <section>
+      <AboutFeatureOverview></AboutFeatureOverview>
+    </section>
+    <SectionSpacer />
+    <section>
+      <AboutFeatureFounder></AboutFeatureFounder>
+    </section>
+
+    <SectionSpacer />
+
+    <section>
+      <AboutFeatureInnovation></AboutFeatureInnovation>
+    </section>
+
+    <SectionSpacer />
+
+    <section>
+      <AboutFeatureHistory></AboutFeatureHistory>
+    </section>
+    <SectionSpacer />
+    <section>
+      <HomeFeatureIndevelopment></HomeFeatureIndevelopment>
+
+      <HomeSocials></HomeSocials>
+    </section>
+
+    <HomeFeatureContact></HomeFeatureContact>
+
+    <section class="">
+      <TheFooter></TheFooter>
+    </section>
+  </div>
 </template>
 
-<script setup></script>
+<script>
+import Mainnav from "~~/components/Mainnav.vue";
+
+export default {
+  setup() {
+    return {};
+  },
+  components: { Mainnav },
+};
+</script>
+
+<style lang="scss" scoped></style>

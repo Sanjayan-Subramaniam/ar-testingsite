@@ -14,7 +14,7 @@
           </div>
           <!-- Primary Navbar items -->
           <div
-            class="col-span-6 col-start-4 my-auto hidden space-x-8 text-left text-[12px] lg:block xl:text-[16px]"
+            class="col-span-6 col-start-4 my-auto hidden space-x-8 "
           >
             <a
               href="https://www.construction.augustrobotics.com"

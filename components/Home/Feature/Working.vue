@@ -1,21 +1,21 @@
 <template>
   <div class="container mx-auto">
-    <div class="grid lg:grid-cols-2 space-y-9">
-      <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-4">
+    <div class="grid lg:grid-cols-2 gap-y-9">
+      <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-3">
         <div class="flex flex-row lg:flex-col justify-center">
           <img
             src="~/assets/img/Working1.jpg"
-            class="w-[40%] xl:w-[480px] xl:h-[320px] xl:translate-x-[-5%] object-cover rounded-tl-2xl rounded-bl-2xl lg:rounded-bl-2xl-none lg:rounded-bl-none lg:rounded-tr-2xl"
+            class="w-[35%] md:w-[320px] xl:w-[480px] lg:h-[320px] xl:translate-x-[-5%] object-cover rounded-tl-2xl rounded-bl-2xl lg:rounded-bl-2xl-none lg:rounded-bl-none lg:rounded-tr-2xl"
           />
           <img
             src="~/assets/img/Working2.png"
-            class="w-[40%] xl:w-[480px] xl:h-[320px] xl:translate-x-[-5%] object-cover rounded-tr-2xl rounded-br-2xl lg:rounded-tr-2xl-none lg:rounded-tr-none lg:rounded-bl-2xl"
+            class="w-[35%] md:w-[320px] xl:w-[480px] lg:h-[320px] xl:translate-x-[-5%] object-cover rounded-tr-2xl rounded-br-2xl lg:rounded-tr-2xl-none lg:rounded-tr-none lg:rounded-bl-2xl"
           />
         </div>
       </div>
 
       <h2
-        class="lg:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
+        class="lg:w-[440px] xl:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         Working at August Robotics
       </h2>
