@@ -4,12 +4,11 @@
       class="mx-auto container flex items-center justify-between px-8 sm:px-16"
       aria-label="Global"
     >
-      <div class="">
-        <a href="#">
-          <span class="sr-only">August Robotics</span>
-          <img class="w-32 md:w-40" src="~/assets/img/ar_logo.svg" alt="" />
-        </a>
-      </div>
+      <Nuxtlink to="/">
+        <span class="sr-only">August Robotics</span>
+        <img class="w-32 md:w-40" src="~/assets/img/ar_logo.svg" alt="" />
+      </Nuxtlink>
+
       <div class="flex lg:hidden">
         <button
           type="button"
@@ -133,7 +132,7 @@
       >
         <div class="flex items-center justify-between">
           <a href="#" class="-m-1.5 p-1.5">
-            <span class="sr-only">Your Company</span>
+            <span class="sr-only">August Robotics</span>
             <img class="h-8 w-auto" src="~/assets/img/ar_logo.svg" alt="" />
           </a>
           <button

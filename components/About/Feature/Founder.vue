@@ -19,21 +19,27 @@
       <p
         class="w-[270px] md:w-[440px] lg:w-[480px] xl:w-[640px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:text-left lg:col-start-2"
       >
-        August Robotics began as a budding tech start-up in
-        <br class="hidden xl:block" />
-        Hong Kong and has rapidly expanded our footprint
-        <br class="hidden xl:block" />
-        across Asia, Europe, America and Oceania <br /><br />
-        We have brought together an international team of the
-        <br class="hidden xl:block" />
-        best engineering, business and creative talent to develop
-        <br class="hidden xl:block" />
-        and deploy robots across the world <br /><br />
-        Together, we are pushing technological boundaries to
-        <br class="hidden xl:block" />
-        create innovative, impactful and dependable products
-        <br class="hidden xl:block" />
-        that redefine how dirty, dangerous and dull jobs are done <br /><br />
+        August Robotics was founded by CEO Alex Wyatt.
+        <br class="hidden xl:block" />Born and raised in Melbourne, Australia,
+        Alex has always been fascinated and inspired by technology. <br /><br />
+
+        After completing undergraduate degrees in Computer Science and Law, Alex
+        received the prestigious Rhodes Scholarship from Oxford University.
+        There, he completed an MBA and an MPhil in Modern Chinese Studies.<br /><br />
+
+        Alex had always wanted to apply his entrepreneurial efforts to globally
+        connected, technology-oriented and purpose-driven projects. In 2006, he
+        co-founded Climate Bridge, an international clean energy and carbon
+        trading company. By the time he exited in 2013, the company had grown
+        its portfolio to 200+ clean energy projects, comprising more than 7GW of
+        power and US$2.5 billion total asset value. <br /><br />
+
+        Hungry for an even bigger adventure, in 2017, Alex founded August
+        Robotics with the mission to automate “dirty, dangerous and dull” jobs
+        across the economy. Alex’s role quickly pivoted from tinkering with
+        robots to leading a global team across five offices, while maintaining
+        an unwavering mission to improve businesses through technological
+        innovation.
       </p>
     </div>
   </div>

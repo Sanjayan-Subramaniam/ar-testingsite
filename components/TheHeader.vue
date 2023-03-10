@@ -8,14 +8,12 @@
             class="col-span-3 col-start-2 my-auto lg:col-span-2 lg:col-start-1"
           >
             <!-- Website Logo -->
-            <a href="#" class="">
+            <Nuxtlink to="/">
               <img src="../assets/img/ar_logo.svg" alt="Logo" class="w-48" />
-            </a>
+            </Nuxtlink>
           </div>
           <!-- Primary Navbar items -->
-          <div
-            class="col-span-6 col-start-4 my-auto hidden space-x-8 "
-          >
+          <div class="col-span-6 col-start-4 my-auto hidden space-x-8">
             <a
               href="https://www.construction.augustrobotics.com"
               class="py-4 px-2 font-medium text-arblack transition duration-300 hover:text-arprimary"

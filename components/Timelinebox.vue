@@ -25,7 +25,7 @@
         :class="imagePath"
       ></div>
       <div
-        class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy pb-6 lg:pb-0"
+        class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy lg:text-desktopCopy pb-6 lg:pb-0"
       >
         <p>
           {{ copy }}
