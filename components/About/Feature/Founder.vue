@@ -17,7 +17,7 @@
       </h2>
 
       <p
-        class="order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:text-left lg:col-start-2"
+        class="w-[270px] md:w-[480px] lg:w-[500px] xl:w-[640px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:text-left lg:col-start-2"
       >
         August Robotics began as a budding tech start-up in
         <br class="hidden xl:block" />

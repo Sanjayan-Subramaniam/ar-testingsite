@@ -22,12 +22,10 @@
     <SectionSpacer />
 
     <section>
-      <AboutFeatureHistory></AboutFeatureHistory>
+      <AboutFeatureJourney></AboutFeatureJourney>
     </section>
     <SectionSpacer />
     <section>
-      <HomeFeatureIndevelopment></HomeFeatureIndevelopment>
-
       <HomeSocials></HomeSocials>
     </section>
 
