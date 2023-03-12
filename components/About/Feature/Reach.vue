@@ -16,46 +16,78 @@
           >
             Locations
           </h4>
-          <AboutFeatureReachlocationbutton
+
+          <a
+            class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
             @mouseover="changeState('lasvegas')"
             @click="changeState('lasvegas')"
-            srlocation="Las Vegas Office"
-            location="Las Vegas"
-            flag-image="/_nuxt/assets/img/flags/usa.svg"
           >
-          </AboutFeatureReachlocationbutton>
-          <AboutFeatureReachlocationbutton
+            <div href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Las Vegas Office</span>
+              <img class="h-8 w-auto" src="~/assets/img/flags/usa.svg" alt="" />
+            </div>
+            <h4 class="text-argray text-[9px] text-center">Las Vegas</h4>
+          </a>
+
+          <a
+            class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
             @mouseover="changeState('indy')"
             @click="changeState('indy')"
-            srlocation="Indianapolis Office"
-            location="Indianapolis "
-            flag-image="/_nuxt/assets/img/flags/usa.svg"
           >
-          </AboutFeatureReachlocationbutton>
-          <AboutFeatureReachlocationbutton
+            <div href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Indianapolis Office</span>
+              <img class="h-8 w-auto" src="~/assets/img/flags/usa.svg" alt="" />
+            </div>
+            <h4 class="text-argray text-[9px] text-center">Indianapolis</h4>
+          </a>
+
+          <a
+            class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
             @mouseover="changeState('germany')"
             @click="changeState('germany')"
-            srlocation="German Office"
-            location="Germany"
-            flag-image="/_nuxt/assets/img/flags/germany.svg"
           >
-          </AboutFeatureReachlocationbutton>
-          <AboutFeatureReachlocationbutton
+            <div href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Germany Office</span>
+              <img
+                class="h-8 w-auto"
+                src="~/assets/img/flags/germany.svg"
+                alt=""
+              />
+            </div>
+            <h4 class="text-argray text-[9px] text-center">Germany</h4>
+          </a>
+
+          <a
+            class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
             @mouseover="changeState('hongkong')"
             @click="changeState('hongkong')"
-            srlocation="Hong Kong Office"
-            location="Hong Kong"
-            flag-image="/_nuxt/assets/img/flags/hongkong.svg"
           >
-          </AboutFeatureReachlocationbutton>
-          <AboutFeatureReachlocationbutton
+            <div href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Hong Kong Office</span>
+              <img
+                class="h-8 w-auto"
+                src="~/assets/img/flags/hongkong.svg"
+                alt=""
+              />
+            </div>
+            <h4 class="text-argray text-[9px] text-center">Hong Kong</h4>
+          </a>
+
+          <a
+            class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
             @mouseover="changeState('china')"
             @click="changeState('china')"
-            srlocation="Mainland China Office"
-            location="Mainland China"
-            flag-image="/_nuxt/assets/img/flags/mainlandchina.svg"
           >
-          </AboutFeatureReachlocationbutton>
+            <div href="#" class="-m-1.5 p-1.5">
+              <span class="sr-only">Mainland China Office</span>
+              <img
+                class="h-8 w-auto"
+                src="~/assets/img/flags/mainlandchina.svg"
+                alt=""
+              />
+            </div>
+            <h4 class="text-argray text-[9px] text-center">Mainland China</h4>
+          </a>
         </div>
       </div>
       <div
@@ -70,7 +102,7 @@
           >
             <img
               class="h-full w-auto"
-              src="/_nuxt/assets/img/flags/usa.svg"
+              src="~~/assets/img/flags/usa.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
@@ -119,7 +151,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/phone.svg"
+                  src="~/assets/img/icons/phone.svg"
                   alt=""
                 />
                 <p
@@ -133,7 +165,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/email.svg"
+                  src="~/assets/img/icons/email.svg"
                   alt=""
                 />
                 <p
@@ -157,7 +189,7 @@
           >
             <img
               class="h-full w-auto"
-              src="/_nuxt/assets/img/flags/usa.svg"
+              src="~~/assets/img/flags/usa.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
@@ -206,7 +238,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/phone.svg"
+                  src="~/assets/img/icons/phone.svg"
                   alt=""
                 />
                 <p
@@ -220,7 +252,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/email.svg"
+                  src="~/assets/img/icons/email.svg"
                   alt=""
                 />
                 <p
@@ -244,11 +276,11 @@
           >
             <img
               class="h-full w-auto"
-              src="/_nuxt/assets/img/flags/usa.svg"
+              src="~/assets/img/flags/germany.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Indianapolis, USA
+              Krefeld Uerdingen,, Germany
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
@@ -293,7 +325,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/phone.svg"
+                  src="~/assets/img/icons/phone.svg"
                   alt=""
                 />
                 <p
@@ -307,7 +339,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/email.svg"
+                  src="~~/assets/img/icons/email.svg"
                   alt=""
                 />
                 <p
@@ -331,7 +363,7 @@
           >
             <img
               class="h-full w-auto"
-              src="/_nuxt/assets/img/flags/usa.svg"
+              src="~/assets/img/flags/usa.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
@@ -380,7 +412,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/phone.svg"
+                  src="~/assets/img/icons/phone.svg"
                   alt=""
                 />
                 <p
@@ -394,7 +426,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/email.svg"
+                  src="~/assets/img/icons/email.svg"
                   alt=""
                 />
                 <p
@@ -418,7 +450,7 @@
           >
             <img
               class="h-full w-auto"
-              src="/_nuxt/assets/img/flags/usa.svg"
+              src="~/assets/img/flags/usa.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
@@ -467,7 +499,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/phone.svg"
+                  src="~/assets/img/icons/phone.svg"
                   alt=""
                 />
                 <p
@@ -481,7 +513,7 @@
               >
                 <img
                   class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="/_nuxt/assets/img/icons/email.svg"
+                  src="~/assets/img/icons/email.svg"
                   alt=""
                 />
                 <p
