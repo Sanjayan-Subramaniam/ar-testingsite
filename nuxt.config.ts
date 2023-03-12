@@ -5,4 +5,11 @@ export default defineNuxtConfig({
     global: true,
     dirs: ["~/components"],
   },
+
+  //code for the Google Maps library component
+
+  build: { transpile: ["@fawmi/vue-google-maps"] },
+  runtimeConfig: {
+    public: { GOOGLE_MAPS_API_KEY: process.env.GOOGLE_MAPS_API_KEY },
+  },
 });
