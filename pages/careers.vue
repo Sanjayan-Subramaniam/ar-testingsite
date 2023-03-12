@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Mainnav></Mainnav>
+
     <CareersFeatureHero></CareersFeatureHero>
     <SectionSpacer />
 
@@ -8,17 +8,8 @@
       <CareersFeatureWorkingatar></CareersFeatureWorkingatar>
     </section>
 
-    <SectionSpacer />
 
-    <section>
-      <HomeSocials></HomeSocials>
-    </section>
 
-    <HomeFeatureContact></HomeFeatureContact>
-
-    <section class="">
-      <TheFooter></TheFooter>
-    </section>
   </div>
 </template>
 

@@ -22,7 +22,7 @@ to="/lionel"
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
         <NuxtLink
-          to="https://www.construction.augustrobotics.com"
+          to="https://construction.augustrobotics.com/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
           >Construction</NuxtLink
         >

@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Mainnav></Mainnav>
+    
 
     <AboutFeatureHero />
     <SectionSpacer />
@@ -26,18 +26,6 @@
     </section>
     <SectionSpacer />
     <section><AboutFeatureReach></AboutFeatureReach></section>
-
-    <SectionSpacer />
-
-    <section>
-      <HomeSocials></HomeSocials>
-    </section>
-
-    <HomeFeatureContact></HomeFeatureContact>
-
-    <section class="">
-      <TheFooter></TheFooter>
-    </section>
   </div>
 </template>
 
