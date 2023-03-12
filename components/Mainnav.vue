@@ -100,7 +100,7 @@ to="/lionel"
               <nuxt-link
                 v-for="item in company"
                 :key="item.name"
-                :href="item.href"
+                :to="item.to"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-ardarkgreen/80 hover:text-white"
                 >{{ item.name }}</nuxt-link
               >
@@ -108,7 +108,7 @@ to="/lionel"
           </transition>
         </Popover>
         <NuxtLink
-          to="/"
+          to="/careers"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
           >Careers</NuxtLink
         >
@@ -267,8 +267,8 @@ import {
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 
 const technology = [
-  { name: "Lionel", href: "#" },
-  { name: "Diego", href: "#" },
+  { name: "Lionel", to: "/lionel" },
+  { name: "Diego", to: "/diego" },
 ];
 const company = [
   { name: "About us", to: "/about" },
