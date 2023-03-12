@@ -1,13 +1,14 @@
+to="/lionel"
 <template>
   <header class="bg-white py-8">
     <nav
       class="mx-auto container flex items-center justify-between px-8 sm:px-16"
       aria-label="Global"
     >
-      <Nuxtlink to="/">
+      <NuxtLink to="/">
         <span class="sr-only">August Robotics</span>
         <img class="w-32 md:w-40" src="~/assets/img/ar_logo.svg" alt="" />
-      </Nuxtlink>
+      </NuxtLink>
 
       <div class="flex lg:hidden">
         <button
@@ -20,15 +21,15 @@
         </button>
       </div>
       <PopoverGroup class="hidden lg:flex lg:gap-x-12">
-        <a
-          href="https://www.construction.augustrobotics.com"
+        <NuxtLink
+          to="https://www.construction.augustrobotics.com"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
-          >Construction</a
+          >Construction</NuxtLink
         >
-        <a
-          href="https://exhibitions.augustrobotics.com/"
+        <NuxtLink
+          to="https://exhibitions.augustrobotics.com/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
-          >Exhibitions</a
+          >Exhibitions</NuxtLink
         >
 
         <Popover class="relative">
@@ -60,14 +61,16 @@
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
                 >{{ item.name }}</a
               > -->
-              <Nuxtlink
+              <NuxtLink
+                to="/lionel"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-                >Lionel</Nuxtlink
+                >Lionel</NuxtLink
               >
 
-              <Nuxtlink
+              <NuxtLink
+                to="/diego"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white"
-                >Diego</Nuxtlink
+                >Diego</NuxtLink
               >
             </PopoverPanel>
           </transition>
@@ -94,20 +97,20 @@
             <PopoverPanel
               class="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg"
             >
-              <Nuxtlink
+              <nuxt-link
                 v-for="item in company"
                 :key="item.name"
                 :href="item.href"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-ardarkgreen/80 hover:text-white"
-                >{{ item.name }}</Nuxtlink
+                >{{ item.name }}</nuxt-link
               >
             </PopoverPanel>
           </transition>
         </Popover>
-        <Nuxtlink
+        <NuxtLink
           to="/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
-          >Careers</Nuxtlink
+          >Careers</NuxtLink
         >
       </PopoverGroup>
       <div class="hidden lg:flex lg:justify-end">
@@ -268,8 +271,8 @@ const technology = [
   { name: "Diego", href: "#" },
 ];
 const company = [
-  { name: "About us", href: "#" },
-  { name: "News", href: "#" },
+  { name: "About us", to: "/about" },
+  { name: "News", to: "/news" },
 ];
 
 const mobileMenuOpen = ref(false);

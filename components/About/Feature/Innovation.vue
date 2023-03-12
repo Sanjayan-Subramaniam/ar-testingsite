@@ -26,6 +26,7 @@
           class="flex flex-col lg:flex-row justify-between gap-y-12 items-center"
         >
           <Picturecard
+            image="~/assets/img/Airport.png"
             imagePath="bg-[url('assets/img/Mine.png')]"
             title="Innovative and dependable robots"
             copy="Our existing robots have world-class performance, autonomy and reliability"
