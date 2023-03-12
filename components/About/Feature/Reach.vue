@@ -335,7 +335,7 @@
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Indianapolis, USA
+              Hong Kong, Mainland China
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
@@ -422,7 +422,7 @@
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Indianapolis, USA
+              Shenzen, Mainland China
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
