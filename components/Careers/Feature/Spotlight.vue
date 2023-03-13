@@ -1,5 +1,5 @@
 <template>
-  <div class="container lg:w-[1000px] mx-auto">
+  <div class="container lg:w-[1000px] mx-auto relative">
     <div class="px-6 pt-6 w-[90%] lg:w-full mx-auto lg:px-0">
       <div class="flex flex-col lg:flex-row lg:gap-x-0">
         <div
@@ -8,10 +8,12 @@
           <nuxt-picture
             :src="personnelImage"
             format="webp"
-            class="rounded-full w-20 lg:w-full lg:h-[80%] lg:rounded-none"
+            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
           ></nuxt-picture>
 
-          <div class="flex flex-col gap-y-1 items-start lg:items-center">
+          <div
+            class="flex flex-col gap-y-1 items-start lg:justify-center mt-auto lg:py-12"
+          >
             <h4 class="text-arprimary lg:text-desktopCopy">
               Chief Marketing Officer
             </h4>
@@ -22,18 +24,32 @@
           </div>
         </div>
         <div
-          class="flex flex-col lg:basis-1/2 bg-gradient-to-b from-arsecondary/80 to-white/50"
+          class="flex flex-col lg:basis-1/2 bg-gradient-to-b from-arsecondary/100 to-white/50 lg:p-6"
         >
-          <div class="flex flex-col p-6 justify-center">
-            <h4 class="text-white text-[24px]">
+          <div class="flex flex-col p-6 md:p-12 lg:p-6 justify-center">
+            <!-- <h4 class="text-white text-[24px]">
               Championing robotics to the world
-            </h4>
-            <h4 class="text-arprimary text-[160px]">"</h4>
-            <h4 class="text-argray">
+            </h4> -->
+            <div class="flex flex-col items-start py-12">
+              <nuxt-img
+                src="/icons/quoteleft.svg"
+                class="lg:h-16 ml-0"
+                alt=""
+                srcset=""
+              ></nuxt-img>
+            </div>
+            <h4
+              class="text-arblack text-mobileCopy md:text-desktopCopy basis-2/3"
+            >
               I’m pretty lucky to work at August Robotics. I get to improve the
               world through robotics and do so with some of the smartest,
               kindest people I’ve met.
             </h4>
+            <div
+              class="flex flex-col rounded-full w-20 h-20 bg-arprimary justify-center items-center absolute right-4 md:right-20 lg:right-6 top-[40%] md:top-[50%]"
+            >
+              <nuxt-img src="/icons/chevronright.svg" class="w-12"></nuxt-img>
+            </div>
           </div>
           <div
             class="p-3 mx-auto flex flex-row w-full justify-center items-center gap-x-6 mt-auto"
