@@ -1,5 +1,5 @@
 <template>
-  <div class="container lg:w-[800px] mx-auto">
+  <div class="container w-[90%] lg:w-[1000px] mx-auto">
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Working at August Robotics
     </h2>
@@ -36,13 +36,14 @@
         </div>
       </div>
 
-      <div class="shadow-md bg-white p-6 mx-auto w-[90%] lg:w-full">
-        <div class="flex flex-col">
-          <div
-            class="h-[120px] bg-cover bg-center bg-[url('assets/img/Mine.png')]"
-          ></div>
+      <div class="shadow-md bg-white mx-auto w-[90%] lg:w-full">
+        <div class="flex flex-col lg:flex-row-reverse">
+          <nuxt-img
+            class="h-[120px] object-cover obejct-center lg:h-[320px] lg:w-[50%]"
+            src="/Mine.png"
+          ></nuxt-img>
 
-          <div class="flex-flex-col p-6">
+          <div class="flex-flex-col px-6 py-6 lg:w-[80%]">
             <h4 class="text-arprimary text-[20px]">Diverse</h4>
             <p class="w-full text-mobileCopy">
               At August Robotics, we believe that diversity is the spark for

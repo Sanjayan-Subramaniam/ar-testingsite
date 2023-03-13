@@ -1,6 +1,5 @@
 <template>
   <div>
-
     <CareersFeatureHero></CareersFeatureHero>
     <SectionSpacer />
 
@@ -8,8 +7,12 @@
       <CareersFeatureWorkingatar></CareersFeatureWorkingatar>
     </section>
 
+    <SectionSpacer />
 
-
+    <section>
+      <CareersFeatureSpotlight></CareersFeatureSpotlight>
+    </section>
+    <SectionSpacer />
   </div>
 </template>
 
