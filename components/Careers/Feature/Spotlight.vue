@@ -5,10 +5,11 @@
         <div
           class="shadow-md lg:rounded-lg rounded-none flex flex-row lg:flex-col items-center gap-x-6 gap-y-3 lg:basis-1/2 px-6 py-6 lg:p-0"
         >
-          <nuxt-img
+          <nuxt-picture
             src="/Airport.png"
+            format="webp"
             class="rounded-full w-20 lg:w-full lg:h-[80%] lg:rounded-none"
-          ></nuxt-img>
+          ></nuxt-picture>
 
           <div class="flex flex-col gap-y-1 items-start lg:items-center">
             <h4 class="text-arprimary lg:text-desktopCopy">
