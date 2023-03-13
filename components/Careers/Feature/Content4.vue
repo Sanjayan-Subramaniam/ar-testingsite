@@ -1,10 +1,10 @@
 <template>
   <div class="shadow-md bg-white mx-auto w-[90%] lg:w-full">
     <div class="flex flex-col lg:flex-row-reverse">
-      <nuxt-img
+      <nuxt-picture
         class="h-[120px] object-cover obejct-center lg:h-[320px] lg:w-[40%]"
         src="/inclusive.jpg"
-      ></nuxt-img>
+      ></nuxt-picture>
 
       <div class="flex flex-col px-6 py-6 lg:w-[80%] gap-y-6">
         <h4 class="text-arprimary text-[20px]">Everyone has a say</h4>
