@@ -10,10 +10,10 @@
     <SectionSpacer />
 
     <section>
-      <CareersFeatureSpotlight
+      <CareersFeatureSpotlightslider
         personnel-image="/Airport.png"
         flag-image="/flags/hongkong.svg"
-      ></CareersFeatureSpotlight>
+      ></CareersFeatureSpotlightslider>
     </section>
     <SectionSpacer />
   </div>
