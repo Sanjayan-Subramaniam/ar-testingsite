@@ -147,49 +147,49 @@
           <div class="flex flex-col p-6 md:p-12 lg:p-6 justify-center">
             <h4
               v-if="state === 1"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content1.mission }}
             </h4>
             <h4
               v-if="state === 2"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content2.mission }}
             </h4>
             <h4
               v-if="state === 3"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content3.mission }}
             </h4>
             <h4
               v-if="state === 4"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content4.mission }}
             </h4>
             <h4
               v-if="state === 5"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content5.mission }}
             </h4>
             <h4
               v-if="state === 6"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content6.mission }}
             </h4>
             <h4
               v-if="state === 7"
-              class="text-white text-[20px] md:text-[32px] italic"
+              class="text-white text-[20px] md:text-[30px] italic"
             >
               {{ content7.mission }}
             </h4>
             <div class="flex flex-col items-start py-6">
               <nuxt-img
-                src="/icons/quoteleft.svg"
+                :src="quoteIcon"
                 class="lg:h-16 ml-0"
                 alt=""
                 srcset=""
@@ -241,7 +241,7 @@
               @click="changeState((state += 1))"
               class="flex flex-col rounded-full w-20 h-20 bg-arprimary justify-center items-center absolute right-4 md:right-20 lg:right-6 top-[40%] md:top-[50%] hover:ring-arlightgray"
             >
-              <nuxt-img src="/icons/chevronright.svg" class="w-12"></nuxt-img>
+              <nuxt-img :src="chevron" class="w-12"></nuxt-img>
             </div>
           </div>
           <div
@@ -337,6 +337,9 @@ defineProps({
   country: String,
   number: Number,
 });
+
+const chevron = "/icons/chevronright.svg";
+const quoteIcon = "/icons/quoteleft.svg";
 
 const content1 = {
   mission: "Deploying robots and upskilling clients",
