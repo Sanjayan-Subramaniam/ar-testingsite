@@ -6,7 +6,7 @@
           class="shadow-md lg:rounded-lg rounded-none flex flex-row lg:flex-col items-center gap-x-6 gap-y-3 lg:basis-1/2 px-6 py-6 lg:p-0"
         >
           <nuxt-picture
-            src="/Airport.png"
+            :src="personnelImage"
             format="webp"
             class="rounded-full w-20 lg:w-full lg:h-[80%] lg:rounded-none"
           ></nuxt-picture>
@@ -16,10 +16,7 @@
               Chief Marketing Officer
             </h4>
             <div class="flex flex-row gap-x-3 items-center">
-              <nuxt-picture
-                src="/flags/hongkong.svg"
-                class="h-12"
-              ></nuxt-picture>
+              <nuxt-picture :src="flagImage" class="h-12"></nuxt-picture>
               <h4>Hong Kong</h4>
             </div>
           </div>
@@ -53,6 +50,11 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineProps({
+  personnelImage: String,
+  flagImage: String,
+});
+</script>
 
 <style lang="scss" scoped></style>
