@@ -102,7 +102,7 @@
           >
             <img
               class="h-full w-auto"
-              src="~~/assets/img/flags/usa.svg"
+              src="~/assets/img/flags/usa.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
