@@ -1,7 +1,5 @@
 <template>
   <div>
-    
-
     <AboutFeatureHero />
     <SectionSpacer />
 
@@ -26,11 +24,12 @@
     </section>
     <SectionSpacer />
     <section><AboutFeatureReach></AboutFeatureReach></section>
+    <section><HomeFeatureContact></HomeFeatureContact></section>
   </div>
 </template>
 
 <script>
-import Mainnav from "~~/components/Mainnav.vue";
+import Mainnav from "~/components/Mainnav.vue";
 
 export default {
   setup() {

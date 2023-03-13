@@ -2,7 +2,7 @@
   <div>
     <Mainnav></Mainnav>
     <slot />
-    <SectionSpacer></SectionSpacer>
+
     <section class="">
       <TheFooter></TheFooter>
     </section>

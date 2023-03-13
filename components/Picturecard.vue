@@ -2,7 +2,6 @@
   <div
     class="bg-white shadow-lg w-[240px] xl:w-[360px] h-[520px] lg:h-[560px] xl:h-[640px] rounded-lg"
   >
-    <nuxt-img> :src="image" </nuxt-img>
     <div
       class="w-[240px] xl:w-[360px] h-[200px] xl:h-[240px] bg-cover bg-center"
       :class="imagePath"

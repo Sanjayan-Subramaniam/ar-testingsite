@@ -4,7 +4,7 @@
       Our Reach
     </h2>
 
-    <div class="grid grid-cols-12 grid-rows-6 gap-x-3">
+    <div class="grid grid-cols-12 grid-rows-6 lg:grid-rows-5 gap-x-3">
       <div
         class="col-start-2 col-span-3 row-start-2 row-span-5 bg-white shadow-lg rounded-md py-6 lg:row-start-1 lg:row-span-3 lg:col-start-1 lg:col-span-2"
       >
