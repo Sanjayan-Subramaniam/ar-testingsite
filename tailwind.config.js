@@ -27,7 +27,7 @@ module.exports = {
         arprimary: "#679941",
         arsecondary: "#7fb655",
         argray: "#b0bac9",
-        ardarkgray: "#9c9a9a)",
+        ardarkgray: "#9c9a9a",
         arlightgray: "#d7dce4",
         arblack: "#3a3636",
         arblue: "#4192ec",

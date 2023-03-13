@@ -16,6 +16,9 @@
       ></CareersFeatureSpotlightslider>
     </section>
     <SectionSpacer />
+    <section>
+      <CareersFeatureOpenroles></CareersFeatureOpenroles>
+    </section>
   </div>
 </template>
 

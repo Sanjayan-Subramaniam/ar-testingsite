@@ -39,7 +39,7 @@
             v-if="state === 6"
             :src="content6.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="w-24 lg:w-full lg:rounded-none object-cover object-center"
           ></nuxt-picture>
           <nuxt-picture
             v-if="state === 7"
