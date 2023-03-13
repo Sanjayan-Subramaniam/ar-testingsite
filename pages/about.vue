@@ -24,7 +24,6 @@
     </section>
     <SectionSpacer />
     <section><AboutFeatureReach></AboutFeatureReach></section>
-    <section><HomeFeatureContact></HomeFeatureContact></section>
   </div>
 </template>
 

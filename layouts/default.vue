@@ -2,6 +2,14 @@
   <div>
     <Mainnav></Mainnav>
     <slot />
+    <SectionSpacer />
+    <section>
+      <HomeSocials />
+    </section>
+
+    <section>
+      <HomeFeatureContact />
+    </section>
 
     <section class="">
       <TheFooter></TheFooter>

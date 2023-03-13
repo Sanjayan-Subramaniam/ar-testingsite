@@ -34,7 +34,7 @@ to="/lionel"
 
         <Popover class="relative">
           <PopoverButton
-            class="flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
+            class="hidden flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
           >
             Technology
             <ChevronDownIcon
@@ -134,10 +134,10 @@ to="/lionel"
         class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
       >
         <div class="flex items-center justify-between">
-          <a href="#" class="-m-1.5 p-1.5">
+          <nuxt-link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">August Robotics</span>
-            <img class="h-8 w-auto" src="~/assets/img/ar_logo.svg" alt="" />
-          </a>
+            <img class="h-8 w-auto" src="/ar_logo.svg" alt="" />
+          </nuxt-link>
           <button
             type="button"
             class="-m-2.5 rounded-md p-2.5 text-gray-700"
@@ -160,9 +160,9 @@ to="/lionel"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-arblack hover:bg-arblack/50 hover:text-white"
                 >Exhibitions</a
               >
-              <Disclosure as="div" class="-mx-3" v-slot="{ open }">
+              <Disclosure as="div" class="hidden -mx-3" v-slot="{ open }">
                 <DisclosureButton
-                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
+                  class="hidden flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
                 >
                   Technology
                   <ChevronDownIcon
@@ -218,7 +218,7 @@ to="/lionel"
                     ></Disclosure
                   >
 
-                  <Disclosure
+                  <Disclosure class="hidden"
                     ><NuxtLink to="/about"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
@@ -270,10 +270,7 @@ const technology = [
   { name: "Lionel", to: "/lionel" },
   { name: "Diego", to: "/diego" },
 ];
-const company = [
-  { name: "About us", to: "/about" },
-  { name: "News", to: "/news" },
-];
+const company = [{ name: "About us", to: "/about" }];
 
 const mobileMenuOpen = ref(false);
 </script>

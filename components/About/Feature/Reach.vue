@@ -113,69 +113,29 @@
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0478372154957!2d114.20385292988665!3d22.42722523810468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678599783145!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3222.4792830781475!2d-115.19201106920048!3d36.13054184914143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80c8c402ce1b6b5b%3A0x12b7b021d3b72502!2s3400%20W%20Desert%20Inn%20Rd%2C%20Las%20Vegas%2C%20NV%2089102%2C%20USA!5e0!3m2!1sen!2sau!4v1678739736438!5m2!1sen!2sau"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-auto lg:h-[240px]"
+                class="w-full h-[280px] lg:h-[320px]"
               ></iframe>
             </div>
             <div class="flex flex-col gap-y-3 lg:basis-1/3">
               <h4
-                class="text-argray text-[14px] md:text-center lg:text-left lg:text-desktopCopy"
+                class="text-argray text-[24px] md:text-center lg:text-left lg:text-desktopCopy"
               >
                 Address
               </h4>
               <p
-                class="text-[10px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
+                class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19W,<br />
-                Science and Technology Ave W, <br />
-                Hong Kong Science Park, Sha Tin
+                3400 W Desert Inn Rd,<br />
+                Las Vegas <br />
+                NV 89102, United States
               </p>
-            </div>
-          </div>
-          <hr class="h-[1px] bg-argray/20 mx-3" />
-          <div class="flex flex-col gap-y-3 p-3 lg:p-6">
-            <h4
-              class="text-argray text-[14px] md:text-center lg:text-desktopCopy lg:text-left"
-            >
-              Contact
-            </h4>
-            <div
-              class="flex flex-col lg:flex-row gap-y-3 md:items-center lg:justify-start lg:items-center lg:mt-6"
-            >
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/phone.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  +656546546546
-                </p>
-              </div>
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/email.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  dan.tofigh@augustrobotics.com
-                </p>
-              </div>
               <ButtonPrimary
-                class="mt-3 lg:mt-0 mx-auto w-full justify-center"
+                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
@@ -200,69 +160,29 @@
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0478372154957!2d114.20385292988665!3d22.42722523810468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678599783145!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3065.765431607279!2d-86.30925378439913!3d39.78981920145045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886ca8fab2523ced%3A0x75cf024ef5a933be!2s8255%20Indy%20Ct%2C%20Indianapolis%2C%20IN%2046214%2C%20USA!5e0!3m2!1sen!2sau!4v1678740003684!5m2!1sen!2sau"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-auto lg:h-[240px]"
+                class="w-full h-[280px] lg:h-[320px]"
               ></iframe>
             </div>
             <div class="flex flex-col gap-y-3 lg:basis-1/3">
               <h4
-                class="text-argray text-[14px] md:text-center lg:text-left lg:text-desktopCopy"
+                class="text-argray text-[24px] md:text-center lg:text-left lg:text-desktopCopy"
               >
                 Address
               </h4>
               <p
-                class="text-[10px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
+                class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19W,<br />
-                Science and Technology Ave W, <br />
-                Hong Kong Science Park, Sha Tin
+                8255 Indy Court<br />
+                Indianapolis, <br />
+                IN 46214, United States
               </p>
-            </div>
-          </div>
-          <hr class="h-[1px] bg-argray/20 mx-3" />
-          <div class="flex flex-col gap-y-3 p-3 lg:p-6">
-            <h4
-              class="text-argray text-[14px] md:text-center lg:text-desktopCopy lg:text-left"
-            >
-              Contact
-            </h4>
-            <div
-              class="flex flex-col lg:flex-row gap-y-3 md:items-center lg:justify-start lg:items-center lg:mt-6"
-            >
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/phone.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  +656546546546
-                </p>
-              </div>
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/email.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  dan.tofigh@augustrobotics.com
-                </p>
-              </div>
               <ButtonPrimary
-                class="mt-3 lg:mt-0 mx-auto w-full justify-center"
+                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
@@ -287,69 +207,29 @@
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0478372154957!2d114.20385292988665!3d22.42722523810468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678599783145!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.4292346483835!2d6.6481833158930295!3d51.35840532940695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ba37f80ca6bb%3A0xd912809fc59ea2ef!2sDujardinstra%C3%9Fe%203%2C%2047829%20Krefeld%2C%20Germany!5e0!3m2!1sen!2sau!4v1678740609179!5m2!1sen!2sau"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-auto lg:h-[240px]"
+                class="w-full h-[280px] lg:h-[320px]"
               ></iframe>
             </div>
             <div class="flex flex-col gap-y-3 lg:basis-1/3">
               <h4
-                class="text-argray text-[14px] md:text-center lg:text-left lg:text-desktopCopy"
+                class="text-argray text-[24px] md:text-center lg:text-left lg:text-desktopCopy"
               >
                 Address
               </h4>
               <p
-                class="text-[10px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
+                class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19W,<br />
-                Science and Technology Ave W, <br />
-                Hong Kong Science Park, Sha Tin
+                Dujardinstr. 3-9, 47829<br />
+                Krefeld Uerdingen <br />
+                Germany 8255
               </p>
-            </div>
-          </div>
-          <hr class="h-[1px] bg-argray/20 mx-3" />
-          <div class="flex flex-col gap-y-3 p-3 lg:p-6">
-            <h4
-              class="text-argray text-[14px] md:text-center lg:text-desktopCopy lg:text-left"
-            >
-              Contact
-            </h4>
-            <div
-              class="flex flex-col lg:flex-row gap-y-3 md:items-center lg:justify-start lg:items-center lg:mt-6"
-            >
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/phone.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  +656546546546
-                </p>
-              </div>
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~~/assets/img/icons/email.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  dan.tofigh@augustrobotics.com
-                </p>
-              </div>
               <ButtonPrimary
-                class="mt-3 lg:mt-0 mx-auto w-full justify-center"
+                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
@@ -367,76 +247,36 @@
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Hong Kong, Mainland China
+              Sha Tin, Hong Kong
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0478372154957!2d114.20385292988665!3d22.42722523810468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678599783145!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0477054796943!2d114.20385292864755!3d22.4272301968038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678740805492!5m2!1sen!2sau"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-auto lg:h-[240px]"
+                class="w-full h-[280px] lg:h-[320px]"
               ></iframe>
             </div>
             <div class="flex flex-col gap-y-3 lg:basis-1/3">
               <h4
-                class="text-argray text-[14px] md:text-center lg:text-left lg:text-desktopCopy"
+                class="text-argray text-[24px] md:text-center lg:text-left lg:text-desktopCopy"
               >
                 Address
               </h4>
               <p
-                class="text-[10px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
+                class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19W,<br />
-                Science and Technology Ave W, <br />
+                Unit 230, Building 19W<br />
+                Science and Technology Ave W <br />
                 Hong Kong Science Park, Sha Tin
               </p>
-            </div>
-          </div>
-          <hr class="h-[1px] bg-argray/20 mx-3" />
-          <div class="flex flex-col gap-y-3 p-3 lg:p-6">
-            <h4
-              class="text-argray text-[14px] md:text-center lg:text-desktopCopy lg:text-left"
-            >
-              Contact
-            </h4>
-            <div
-              class="flex flex-col lg:flex-row gap-y-3 md:items-center lg:justify-start lg:items-center lg:mt-6"
-            >
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/phone.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  +656546546546
-                </p>
-              </div>
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/email.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  dan.tofigh@augustrobotics.com
-                </p>
-              </div>
               <ButtonPrimary
-                class="mt-3 lg:mt-0 mx-auto w-full justify-center"
+                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
@@ -461,12 +301,12 @@
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0478372154957!2d114.20385292988665!3d22.42722523810468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678599783145!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0477054796943!2d114.20385292864755!3d22.4272301968038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678740805492!5m2!1sen!2sau"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
-                class="w-full h-auto lg:h-[240px]"
+                class="w-full h-[280px] lg:h-[320px]"
               ></iframe>
             </div>
             <div class="flex flex-col gap-y-3 lg:basis-1/3">
@@ -478,52 +318,12 @@
               <p
                 class="text-[10px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19W,<br />
-                Science and Technology Ave W, <br />
-                Hong Kong Science Park, Sha Tin
+                Suite 316, West Lake Building<br />
+                46 Meilin Road, Futian District <br />
+                Shenzhen, China
               </p>
-            </div>
-          </div>
-          <hr class="h-[1px] bg-argray/20 mx-3" />
-          <div class="flex flex-col gap-y-3 p-3 lg:p-6">
-            <h4
-              class="text-argray text-[14px] md:text-center lg:text-desktopCopy lg:text-left"
-            >
-              Contact
-            </h4>
-            <div
-              class="flex flex-col lg:flex-row gap-y-3 md:items-center lg:justify-start lg:items-center lg:mt-6"
-            >
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/phone.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  +656546546546
-                </p>
-              </div>
-              <div
-                class="w-full grid grid-cols-12 items-center justify-start lg:grid-cols-4 lg:basis-1/3"
-              >
-                <img
-                  class="h-4 lg:h-8 col-start-1 md:col-start-4 col-span-1 justify-self-center lg:col-start-1 lg:mr-auto"
-                  src="~/assets/img/icons/email.svg"
-                  alt=""
-                />
-                <p
-                  class="col-start-3 md:col-start-5 col-span-6 md:col-span-6 text-[9px] lg:col-start-2 lg:col-span-3 lg:text-[13px]"
-                >
-                  dan.tofigh@augustrobotics.com
-                </p>
-              </div>
               <ButtonPrimary
-                class="mt-3 lg:mt-0 mx-auto w-full justify-center"
+                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
