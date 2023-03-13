@@ -188,12 +188,12 @@
               {{ content7.mission }}
             </h4>
             <div class="flex flex-col items-start py-6">
-              <nuxt-img
+              <nuxt-picture
                 :src="quoteIcon"
                 class="lg:h-16 ml-0"
                 alt=""
                 srcset=""
-              ></nuxt-img>
+              ></nuxt-picture>
             </div>
             <h4
               v-if="state === 1"
@@ -241,7 +241,7 @@
               @click="changeState((state += 1))"
               class="flex flex-col rounded-full w-20 h-20 bg-arprimary justify-center items-center absolute right-4 md:right-20 lg:right-6 top-[40%] md:top-[50%] hover:ring-arlightgray"
             >
-              <nuxt-img :src="chevron" class="w-12"></nuxt-img>
+              <nuxt-picture :src="chevron" class="w-12"></nuxt-picture>
             </div>
           </div>
           <div
