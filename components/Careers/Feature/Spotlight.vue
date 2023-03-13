@@ -16,7 +16,10 @@
               Chief Marketing Officer
             </h4>
             <div class="flex flex-row gap-x-3 items-center">
-              <nuxt-img src="/flags/hongkong.svg" class="h-12"></nuxt-img>
+              <nuxt-picture
+                src="/flags/hongkong.svg"
+                class="h-12"
+              ></nuxt-picture>
               <h4>Hong Kong</h4>
             </div>
           </div>
