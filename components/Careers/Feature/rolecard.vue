@@ -24,7 +24,7 @@
           <p class="max-w-[640px] text-arblack">{{ roleDescription }}</p>
 
           <ButtonDownloadjobdescription
-            :to="jdLink"
+            :href="jdLink"
           ></ButtonDownloadjobdescription>
         </div>
       </div>
