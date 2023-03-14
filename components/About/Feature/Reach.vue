@@ -311,12 +311,12 @@
             </div>
             <div class="flex flex-col gap-y-3 lg:basis-1/3">
               <h4
-                class="text-argray text-[14px] md:text-center lg:text-left lg:text-desktopCopy"
+                class="text-argray text-[24px] md:text-center lg:text-left lg:text-desktopCopy"
               >
                 Address
               </h4>
               <p
-                class="text-[10px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
+                class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
                 Suite 316, West Lake Building<br />
                 46 Meilin Road, Futian District <br />
