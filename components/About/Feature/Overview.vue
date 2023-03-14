@@ -6,7 +6,7 @@
           class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
         >
           <img
-            src="/overview-lionelcloseup.JPG"
+            src="/overview-lionelcloseup.jpg"
             class="w-[40%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
           />
         </div>

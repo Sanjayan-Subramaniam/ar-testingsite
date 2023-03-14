@@ -12,7 +12,7 @@
             class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"
           />
           <img
-            src="development-mine.png"
+            src="/development-mine.png"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tr-2xl"
           /><img
             src="/development-road.png"
