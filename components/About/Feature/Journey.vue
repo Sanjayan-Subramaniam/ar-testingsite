@@ -174,7 +174,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/journey-research.jpg"
+              src="/journey-diego.jpg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
