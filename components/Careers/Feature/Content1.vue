@@ -1,9 +1,11 @@
 <template>
-  <div class="shadow-md bg-white mx-auto w-[90%] lg:w-full">
+  <div
+    class="shadow-md bg-white mx-auto w-[90%] lg:w-full transition-all duration-1000 ease-in-out"
+  >
     <div class="flex flex-col lg:flex-row-reverse lg:items-center">
-      <nuxt-picture class="lg:w-[60%]" src="/collaborative.JPG"></nuxt-picture>
+      <img class="lg:w-[60%]" src="/collaborative.JPG" />
 
-      <div class="flex flex-col px-6 py-6 lg:py-0 lg:w-[50%] gap-y-6">
+      <div class="flex flex-col px-6 py-6 lg:py-0 lg:w-[60%] gap-y-6">
         <h4 class="text-arprimary text-[20px]">We honor teamwork</h4>
         <p class="w-full text-mobileCopy">
           At August Robotics, we believe that diversity is the spark for

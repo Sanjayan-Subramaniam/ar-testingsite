@@ -5,48 +5,48 @@
         <div
           class="shadow-md lg:rounded-lg rounded-none flex flex-row lg:flex-col items-center gap-x-6 gap-y-3 lg:basis-1/2 px-6 py-6 lg:p-0"
         >
-          <nuxt-picture
+          <img
             v-if="state === 1"
             :src="content1.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-lg object-cover object-center"
-          ></nuxt-picture>
-          <nuxt-picture
+            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+          />
+          <img
             v-if="state === 2"
             :src="content2.personnelImage"
             format="webp"
             class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
-          ></nuxt-picture>
-          <nuxt-picture
+          />
+          <img
             v-if="state === 3"
             :src="content3.personnelImage"
             format="webp"
             class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
-          ></nuxt-picture>
-          <nuxt-picture
+          />
+          <img
             v-if="state === 4"
             :src="content4.personnelImage"
             format="webp"
             class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
-          ></nuxt-picture>
-          <nuxt-picture
+          />
+          <img
             v-if="state === 5"
             :src="content5.personnelImage"
             format="webp"
             class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
-          ></nuxt-picture>
-          <nuxt-picture
+          />
+          <img
             v-if="state === 6"
             :src="content6.personnelImage"
             format="webp"
             class="w-24 lg:w-full lg:rounded-none object-cover object-center"
-          ></nuxt-picture>
-          <nuxt-picture
+          />
+          <img
             v-if="state === 7"
             :src="content7.personnelImage"
             format="webp"
             class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
-          ></nuxt-picture>
+          />
 
           <div
             class="flex flex-col gap-y-1 items-start lg:justify-center lg:items-center mt-auto lg:py-12"
@@ -94,41 +94,13 @@
               {{ content7.role }}
             </h4>
             <div class="flex flex-row gap-x-3 items-center">
-              <nuxt-picture
-                v-if="state === 1"
-                :src="content1.flagImage"
-                class="h-12"
-              ></nuxt-picture>
-              <nuxt-picture
-                v-if="state === 2"
-                :src="content2.flagImage"
-                class="h-12"
-              ></nuxt-picture>
-              <nuxt-picture
-                v-if="state === 3"
-                :src="content3.flagImage"
-                class="h-12"
-              ></nuxt-picture>
-              <nuxt-picture
-                v-if="state === 4"
-                :src="content4.flagImage"
-                class="h-12"
-              ></nuxt-picture>
-              <nuxt-picture
-                v-if="state === 5"
-                :src="content5.flagImage"
-                class="h-12"
-              ></nuxt-picture>
-              <nuxt-picture
-                v-if="state === 6"
-                :src="content6.flagImage"
-                class="h-12"
-              ></nuxt-picture>
-              <nuxt-picture
-                v-if="state === 7"
-                :src="content7.flagImage"
-                class="h-12"
-              ></nuxt-picture>
+              <img v-if="state === 1" :src="content1.flagImage" class="h-12" />
+              <img v-if="state === 2" :src="content2.flagImage" class="h-12" />
+              <img v-if="state === 3" :src="content3.flagImage" class="h-12" />
+              <img v-if="state === 4" :src="content4.flagImage" class="h-12" />
+              <img v-if="state === 5" :src="content5.flagImage" class="h-12" />
+              <img v-if="state === 6" :src="content6.flagImage" class="h-12" />
+              <img v-if="state === 7" :src="content7.flagImage" class="h-12" />
               <h4 v-if="state === 1">
                 {{ content1.country }}
               </h4>
@@ -188,12 +160,7 @@
               {{ content7.mission }}
             </h4>
             <div class="flex flex-col items-start py-6">
-              <nuxt-picture
-                :src="quoteIcon"
-                class="lg:h-16 ml-0"
-                alt=""
-                srcset=""
-              ></nuxt-picture>
+              <img :src="quoteIcon" class="lg:h-16 ml-0" alt="" srcset="" />
             </div>
             <h4
               v-if="state === 1"
@@ -241,7 +208,7 @@
               @click="changeState((state += 1))"
               class="flex flex-col rounded-full w-20 h-20 bg-arprimary justify-center items-center absolute right-4 md:right-20 lg:right-6 top-[40%] md:top-[50%] hover:ring-arlightgray"
             >
-              <nuxt-picture :src="chevron" class="w-12"></nuxt-picture>
+              <img :src="chevron" class="w-12" />
             </div>
           </div>
           <div

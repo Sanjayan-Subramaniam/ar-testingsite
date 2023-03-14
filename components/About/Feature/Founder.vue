@@ -4,7 +4,7 @@
       <div class="order-2 ml-auto mr-auto lg:ml-0 lg:row-span-3 lg:row-start-1">
         <div class="flex flex-row lg:flex-col justify-center">
           <div class="rounded-2xl w-[80%]">
-            <nuxt-picture
+            <img
               src="/Working1.jpg"
               class="object-cover"
               style="border-radius: 5px"

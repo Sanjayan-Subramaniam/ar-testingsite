@@ -6,11 +6,11 @@
           class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
         >
           <img
-            src="~/assets/img/Working1.jpg"
+            src="/Working1.jpg"
             class="w-[35%] md:w-[320px] xl:w-[400px] lg:h-[320px] xl:translate-x-[-5%] object-cover rounded-tl-2xl rounded-bl-2xl lg:rounded-bl-2xl-none lg:rounded-bl-none lg:rounded-tr-2xl"
           />
           <img
-            src="~/assets/img/Working2.png"
+            src="/Working2.png"
             class="w-[35%] md:w-[320px] xl:w-[400px] lg:h-[320px] xl:translate-x-[-5%] object-cover rounded-tr-2xl rounded-br-2xl lg:rounded-tr-2xl-none lg:rounded-tr-none lg:rounded-bl-2xl"
           />
         </div>

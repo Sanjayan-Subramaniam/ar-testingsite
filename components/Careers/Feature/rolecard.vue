@@ -3,20 +3,25 @@
     <div class="shadow-md bg-white mx-auto">
       <div class="flex lg:flex-row flex-col p-6 gap-y-6">
         <div
-          class="flex flex-row justify-around lg:flex-col basis-1/4 lg:justify-center items-center"
+          class="flex flex-row justify-around lg:items-start lg:flex-col basis-1/4 lg:justify-center items-center gap-y-6"
         >
-          <nuxt-picture src="/flags/mainlandchina.svg" />
-          <nuxt-picture src="/flags/mainlandchina.svg" />
+          <div
+            class="flex flex-col lg:flex-row items-center justify-start gap-x-3 gap-y-3"
+          >
+            <img :src="flag" class="h-[12]" />
+            <p class="text-ardarkgray text-[12px]">{{ Country }}</p>
+          </div>
+          <div
+            class="flex flex-col lg:flex-row items-center justify-start gap-x-3 gap-y-3"
+          >
+            <img :src="iconType" class="h-[4]" />
+            <p class="text-ardarkgray text-[12px]">{{ roleType }}</p>
+          </div>
         </div>
         <div class="flex flex-col basis-3/4 gap-y-6">
           <hr class="lg:hidden" />
-          <h4 class="text-mobileCopy lg:text-desktopCopy">Robotics Engineer</h4>
-          <p class="max-w-[640px] text-arblack">
-            澳谷智能 (August Robotics) 是一家国际化公司，致力
-            为商业用户提供各类特种应用机器人，帮助企业实现流
-            程自动化。公司的研发位于中国深圳，商务和销售办公
-            室在香港、德国和美国。
-          </p>
+          <h4 class="text-mobileCopy lg:text-desktopCopy">{{ roleTitle }}</h4>
+          <p class="max-w-[640px] text-arblack">{{ roleDescription }}</p>
 
           <ButtonDownloadjobdescription></ButtonDownloadjobdescription>
         </div>
@@ -25,6 +30,15 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineProps({
+  roleTitle: String,
+  country: String,
+  flag: String,
+  roleType: String,
+  iconType: String,
+  roleDescription: String,
+});
+</script>
 
 <style lang="scss" scoped></style>

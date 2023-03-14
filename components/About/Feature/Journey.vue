@@ -40,11 +40,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Lionel Idea</p>
             </div>
-            <nuxt-picture
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
-              height="600px"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Lioneldevelopment.jpg"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
@@ -86,11 +85,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Seed funding raised</p>
             </div>
-            <nuxt-picture
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
-              height="600px"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Lionelprototype.jpeg"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
@@ -129,11 +127,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Lionel prototype released</p>
             </div>
-            <nuxt-picture
-              height="600px"
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Mine.png"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
@@ -175,11 +172,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Pandemic crisis</p>
             </div>
-            <nuxt-picture
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
-              height="600px"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Lionelprototype.jpeg"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
@@ -222,11 +218,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Diego released</p>
             </div>
-            <nuxt-picture
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
-              height="600px"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Mine.png"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
@@ -268,11 +263,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Series A funding</p>
             </div>
-            <nuxt-picture
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
-              height="600px"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Mine.png"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
@@ -313,11 +307,10 @@
               </h4>
               <p class="text-[12px] text-arblack">Lionel for construction</p>
             </div>
-            <nuxt-picture
-              height="600px"
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6"
+            <img
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
               src="/Mine.png"
-            ></nuxt-picture>
+            />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >

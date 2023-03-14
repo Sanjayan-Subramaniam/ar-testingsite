@@ -1,5 +1,5 @@
 <template>
-  <div class="container mx-auto">
+  <div class="container mx-auto transition-all duration-1000 ease-in-out">
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl mb-6">
       Our Reach
     </h2>
@@ -19,6 +19,9 @@
 
           <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
+            :class="
+              state === 'lasvegas' ? 'border-arprimary border-2' : 'border-none'
+            "
             @mouseover="changeState('lasvegas')"
             @click="changeState('lasvegas')"
           >
@@ -31,6 +34,9 @@
 
           <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
+            :class="
+              state === 'indy' ? 'border-arprimary border-2' : 'border-none'
+            "
             @mouseover="changeState('indy')"
             @click="changeState('indy')"
           >
@@ -43,6 +49,9 @@
 
           <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
+            :class="
+              state === 'germany' ? 'border-arprimary border-2' : 'border-none'
+            "
             @mouseover="changeState('germany')"
             @click="changeState('germany')"
           >
@@ -59,6 +68,9 @@
 
           <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
+            :class="
+              state === 'hongkong' ? 'border-arprimary border-2' : 'border-none'
+            "
             @mouseover="changeState('hongkong')"
             @click="changeState('hongkong')"
           >
@@ -75,6 +87,9 @@
 
           <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
+            :class="
+              state === 'china' ? 'border-arprimary border-2' : 'border-none'
+            "
             @mouseover="changeState('china')"
             @click="changeState('china')"
           >
