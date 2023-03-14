@@ -6,7 +6,7 @@
 
     <div class="grid grid-cols-12 grid-rows-6 lg:grid-rows-5 gap-x-3">
       <div
-        class="col-start-2 col-span-3 row-start-2 row-span-5 bg-white shadow-lg rounded-md py-6 lg:row-start-1 lg:row-span-3 lg:col-start-1 lg:col-span-2"
+        class="col-start-2 col-span-3 row-start-1 row-span-3 bg-white shadow-lg rounded-md py-6 lg:row-start-1 lg:row-span-3 lg:col-start-1 lg:col-span-2"
       >
         <div
           class="flex flex-col h-full justify-between items-center gap-y-6 lg:gap-x-6 lg:px-6 lg:gap-y-3"
@@ -63,7 +63,7 @@
                 alt=""
               />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Germany</h4>
+            <h4 class="text-argray text-[9px] text-center">Dusseldorf</h4>
           </a>
 
           <a
@@ -101,17 +101,14 @@
                 alt=""
               />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Mainland China</h4>
+            <h4 class="text-argray text-[9px] text-center">Shenzhen</h4>
           </a>
         </div>
       </div>
       <div
-        class="col-start-5 col-span-7 row-span-6 bg-white shadow-lg lg:col-span-10 lg:row-span-4"
+        class="col-start-5 col-span-7 row-span-3 bg-white shadow-lg lg:col-span-10 lg:row-span-3"
       >
         <div class="flex flex-col h-full" v-if="state === 'lasvegas'">
-          <div
-            class="h-[80px] lg:h-[200px] bg-[url('assets/img/Mine.png')] bg-cover bg-center"
-          ></div>
           <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
           >
@@ -150,15 +147,12 @@
                 NV 89102, United States
               </p>
               <ButtonPrimary
-                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
+                class="mt-3 mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
         </div>
         <div class="flex flex-col h-full" v-if="state === 'indy'">
-          <div
-            class="h-[80px] lg:h-[200px] bg-[url('assets/img/Mine.png')] bg-cover bg-center"
-          ></div>
           <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
           >
@@ -197,15 +191,12 @@
                 IN 46214, United States
               </p>
               <ButtonPrimary
-                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
+                class="mt-3 mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
         </div>
         <div class="flex flex-col h-full" v-if="state === 'germany'">
-          <div
-            class="h-[80px] lg:h-[200px] bg-[url('assets/img/Mine.png')] bg-cover bg-center"
-          ></div>
           <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
           >
@@ -215,7 +206,7 @@
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Krefeld Uerdingen,, Germany
+              Krefeld, Germany
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
@@ -244,25 +235,22 @@
                 Germany 8255
               </p>
               <ButtonPrimary
-                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
+                class="mt-3 mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
         </div>
         <div class="flex flex-col h-full" v-if="state === 'hongkong'">
           <div
-            class="h-[80px] lg:h-[200px] bg-[url('assets/img/Mine.png')] bg-cover bg-center"
-          ></div>
-          <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
           >
             <img
               class="h-full w-auto"
-              src="~/assets/img/flags/usa.svg"
+              src="~/assets/img/flags/hongkong.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Sha Tin, Hong Kong
+              Hong Kong, China
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
@@ -291,25 +279,22 @@
                 Hong Kong Science Park, Sha Tin
               </p>
               <ButtonPrimary
-                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
+                class="mt-3 mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>
         </div>
         <div class="flex flex-col h-full" v-if="state === 'china'">
           <div
-            class="h-[80px] lg:h-[200px] bg-[url('assets/img/Mine.png')] bg-cover bg-center"
-          ></div>
-          <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
           >
             <img
               class="h-full w-auto"
-              src="~/assets/img/flags/usa.svg"
+              src="~/assets/img/flags/mainlandchina.svg"
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Shenzen, Mainland China
+              Shenzen, China
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
@@ -338,7 +323,7 @@
                 Shenzhen, China
               </p>
               <ButtonPrimary
-                class="mt-3 lg:mt-auto mx-auto lg:ml-0 w-full justify-center"
+                class="mt-3 mx-auto lg:ml-0 w-full justify-center"
               ></ButtonPrimary>
             </div>
           </div>

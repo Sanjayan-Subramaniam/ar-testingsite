@@ -42,7 +42,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Lioneldevelopment.jpg"
+              src="/journey-lioneldevelopment.jpg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
@@ -87,7 +87,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Lionelprototype.jpeg"
+              src="/journey-seed.jpeg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
@@ -129,7 +129,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Mine.png"
+              src="/journey-lionelprototype.jpg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
@@ -174,7 +174,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Lionelprototype.jpeg"
+              src="/journey-research.jpg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
@@ -214,13 +214,13 @@
               <h4
                 class="text-desktopCopy lg:text-[32px] text-arprimary font-medium"
               >
-                Mid 2020
+                Late 2020
               </h4>
               <p class="text-[12px] text-arblack">Diego released</p>
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Mine.png"
+              src="/journey-diego.png"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
@@ -265,7 +265,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Mine.png"
+              src="/journey-seriesa.jpg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
@@ -309,7 +309,7 @@
             </div>
             <img
               class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/Mine.png"
+              src="/journey-lionelconstruction.jpg"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"

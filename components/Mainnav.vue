@@ -160,9 +160,10 @@ to="/lionel"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-arblack hover:bg-arblack/50 hover:text-white"
                 >Exhibitions</a
               >
-              <Disclosure as="div" class="hidden -mx-3" v-slot="{ open }">
+
+              <!-- <Disclosure as="div" class="hidden -mx-3" v-slot="{ open }">
                 <DisclosureButton
-                  class="hidden flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
+                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
                 >
                   Technology
                   <ChevronDownIcon
@@ -188,7 +189,7 @@ to="/lionel"
                     ></Disclosure
                   >
                 </DisclosurePanel>
-              </Disclosure>
+              </Disclosure> -->
               <Disclosure as="div" class="-mx-3" v-slot="{ open }">
                 <DisclosureButton
                   class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
@@ -219,7 +220,7 @@ to="/lionel"
                   >
 
                   <Disclosure class="hidden"
-                    ><NuxtLink to="/about"
+                    ><NuxtLink to="/news"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
                         >News</DisclosureButton
@@ -228,6 +229,11 @@ to="/lionel"
                   >
                 </DisclosurePanel>
               </Disclosure>
+              <nuxt-link
+                to="/careers"
+                class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-arblack hover:bg-ardarkgreen/80 hover:text-white"
+                >Careers</nuxt-link
+              >
             </div>
 
             <!-- Secondary Navbar items -->

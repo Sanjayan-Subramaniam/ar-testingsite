@@ -9,43 +9,43 @@
             v-if="state === 1"
             :src="content1.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="rounded-full w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
           <img
             v-if="state === 2"
             :src="content2.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="rounded-full w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
           <img
             v-if="state === 3"
             :src="content3.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="rounded-full w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
           <img
             v-if="state === 4"
             :src="content4.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="rounded-full w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
           <img
             v-if="state === 5"
             :src="content5.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="rounded-full w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
           <img
             v-if="state === 6"
             :src="content6.personnelImage"
             format="webp"
-            class="w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="w-12 h-12 lg:w-full rounded-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
           <img
             v-if="state === 7"
             :src="content7.personnelImage"
             format="webp"
-            class="rounded-full w-24 lg:w-full lg:rounded-none object-cover object-center"
+            class="rounded-full w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-none object-cover object-center"
           />
 
           <div
@@ -315,7 +315,7 @@ const content1 = {
   quote:
     "Working with clients every day allows me to see first-hand their fascination and delight with the technology - the robots make short work of a tedious and unloved aspect of their job.",
   flagImage: "/flags/germany.svg",
-  personnelImage: "/Mine.png",
+  personnelImage: "/spotlight-engineeringgloballead.jpg",
 };
 const content2 = {
   mission: "Creating breakthrough innovations",
@@ -324,7 +324,7 @@ const content2 = {
   quote:
     "At August Robotics, we are led by a strong team and a clear strategy. The culture allows every voice to be heard and every individual to flourish to their full potential.",
   flagImage: "/flags/mainlandchina.svg",
-  personnelImage: "/Airport.png",
+  personnelImage: "/spotlight-roboticsengineer.JPG",
 };
 const content3 = {
   mission: "Championing robotics to the world",
@@ -333,7 +333,7 @@ const content3 = {
   quote:
     "I'm pretty lucky to work at August Robotics. I get to improve the world through robotics and do so with some of the smartest, kindest people l've met.",
   flagImage: "/flags/hongkong.svg",
-  personnelImage: "/Port.png",
+  personnelImage: "/spotlight-cmo.jpg",
 };
 const content4 = {
   mission: "Translating solutions to real-world impact",
@@ -342,7 +342,7 @@ const content4 = {
   quote:
     "I've always been interested in emerging technologies. I enjoy finding ways to explain sophisticated technology and its benefits to a layperson. Being that bridge is exciting and rewarding..",
   flagImage: "/flags/usa.svg",
-  personnelImage: "/SuspensionBridge.png",
+  personnelImage: "/spotlight-bdm.jpg",
 };
 const content5 = {
   mission: "Leading teams to success",
@@ -360,7 +360,7 @@ const content6 = {
   quote:
     "am building the software powering our autonomous and intelligent robots, which is very fun and exciting. By making people's lives easier, robotics is changing the world.",
   flagImage: "/flags/usa.svg",
-  personnelImage: "/Port.png",
+  personnelImage: "/spotlight-cio.jpeg",
 };
 const content7 = {
   mission: "Ensuring premium quality in every robot",
@@ -369,7 +369,7 @@ const content7 = {
   quote:
     "August Robotics has exposed me to a range of new knowledge and expanded my horizons. The culture and atmosphere are great everyone supports each other and helps each other grow.",
   flagImage: "/flags/mainlandchina.svg",
-  personnelImage: "/Airport.png",
+  personnelImage: "/spotlight-testingengineer.JPG",
 };
 </script>
 

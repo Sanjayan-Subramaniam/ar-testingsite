@@ -1,7 +1,7 @@
 <template>
   <div class="shadow-md bg-white mx-auto w-[90%] lg:w-full">
     <div class="flex flex-col lg:flex-row-reverse lg:items-center">
-      <img class="lg:w-[60%]" src="/Agile.JPG" />
+      <img class="lg:w-[60%]" src="/working-agile.JPG" />
 
       <div class="flex flex-col px-6 py-6 lg:py-0 lg:w-[50%] gap-y-6">
         <h4 class="text-arprimary text-[20px]">We are always moving</h4>

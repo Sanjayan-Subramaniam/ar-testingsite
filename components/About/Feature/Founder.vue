@@ -3,13 +3,10 @@
     <div class="grid lg:grid-cols-2 gap-y-9">
       <div class="order-2 ml-auto mr-auto lg:ml-0 lg:row-span-3 lg:row-start-1">
         <div class="flex flex-row lg:flex-col justify-center">
-          <div class="rounded-2xl w-[80%]">
-            <img
-              src="/Working1.jpg"
-              class="object-cover"
-              style="border-radius: 5px"
-            />
-          </div>
+          <img
+            src="/founder.jpeg"
+            class="w-[40%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
+          />
         </div>
       </div>
 

@@ -8,17 +8,17 @@
           class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[500px]"
         >
           <img
-            src="~/assets/img/Airport.png"
+            src="/development-airport.png"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"
           />
           <img
-            src="~/assets/img/Mine.png"
+            src="development-mine.png"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tr-2xl"
           /><img
-            src="~/assets/img/RoadConstruction.png"
+            src="/development-road.png"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-bl-2xl"
           /><img
-            src="~/assets/img/SuspensionBridge.png"
+            src="/development-bridge.png"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-br-2xl"
           />
         </div>

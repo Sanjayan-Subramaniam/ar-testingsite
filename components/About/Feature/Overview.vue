@@ -6,12 +6,8 @@
           class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
         >
           <img
-            src="/Working1.jpg"
-            class="w-[35%] md:w-[320px] xl:w-[400px] lg:h-[320px] xl:translate-x-[-5%] object-cover rounded-tl-2xl rounded-bl-2xl lg:rounded-bl-2xl-none lg:rounded-bl-none lg:rounded-tr-2xl"
-          />
-          <img
-            src="/Working2.png"
-            class="w-[35%] md:w-[320px] xl:w-[400px] lg:h-[320px] xl:translate-x-[-5%] object-cover rounded-tr-2xl rounded-br-2xl lg:rounded-tr-2xl-none lg:rounded-tr-none lg:rounded-bl-2xl"
+            src="/overview-lionelcloseup.JPG"
+            class="w-[40%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
           />
         </div>
       </div>
@@ -23,7 +19,7 @@
       </h2>
 
       <p
-        class="order-3 lg:mx-0 lg:text-left mx-auto w-[270px] md:w-[480px] lg:w-[500px] xl:w-[640px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
+        class="order-3 lg:mx-0 lg:text-left mx-auto w-[270px] md:w-[440px] lg:w-[440px] xl:w-[640px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
       >
         August Robotics began as a budding tech start-up in
         <br class="hidden xl:block" />
