@@ -7,7 +7,7 @@
         >
           <img
             src="/home-workingar.png"
-            class="w-[40%] md:w-[420px] lg:h-[640px] object-cover object-center rounded-2xl"
+            class="w-[70%] md:w-[420px] lg:h-[640px] object-cover object-center rounded-2xl"
           />
         </div>
       </div>
@@ -15,7 +15,7 @@
       <h2
         class="lg:w-[440px] xl:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
-        Overview
+        Working at August Robotics
       </h2>
 
       <p

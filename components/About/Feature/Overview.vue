@@ -7,7 +7,7 @@
         >
           <img
             src="/overview-lionelcloseup.jpg"
-            class="w-[40%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
+            class="w-[70%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
           />
         </div>
       </div>

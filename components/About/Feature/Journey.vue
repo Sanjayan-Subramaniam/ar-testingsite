@@ -276,6 +276,7 @@
             </div>
           </div>
         </div>
+
         <div
           class="container mx-auto pr-3 transition-all duration-1000 ease-in-out"
           @mouseover="changeState('7')"
@@ -305,10 +306,10 @@
               >
                 Late 2022
               </h4>
-              <p class="text-[12px] text-arblack">Lionel for construction</p>
+              <p class="text-[12px] text-arblack">Lionel for Construction</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover h-[100px] w-[132px] lg:h-[200px] lg:w-[480px]"
               src="/journey-lionelconstruction.jpg"
             />
             <div

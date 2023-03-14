@@ -9,7 +9,7 @@
             class="flex flex-col lg:flex-row items-center justify-start gap-x-3 gap-y-3"
           >
             <img :src="flag" class="h-[12]" />
-            <p class="text-ardarkgray text-[12px]">{{ Country }}</p>
+            <p class="text-ardarkgray text-[12px]">{{ country }}</p>
           </div>
           <div
             class="flex flex-col lg:flex-row items-center justify-start gap-x-3 gap-y-3"
@@ -23,7 +23,9 @@
           <h4 class="text-mobileCopy lg:text-desktopCopy">{{ roleTitle }}</h4>
           <p class="max-w-[640px] text-arblack">{{ roleDescription }}</p>
 
-          <ButtonDownloadjobdescription></ButtonDownloadjobdescription>
+          <ButtonDownloadjobdescription
+            :to="jdLink"
+          ></ButtonDownloadjobdescription>
         </div>
       </div>
     </div>
@@ -38,6 +40,7 @@ defineProps({
   roleType: String,
   iconType: String,
   roleDescription: String,
+  jdLink: String,
 });
 </script>
 

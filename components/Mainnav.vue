@@ -32,7 +32,7 @@ to="/lionel"
           >Exhibitions</NuxtLink
         >
 
-        <Popover class="relative">
+        <Popover class="relative hidden">
           <PopoverButton
             class="hidden flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
           >

@@ -1,15 +1,15 @@
 <template>
-  <component
-    class="min-w-[200px] max-w-[320px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-ardarkgray border-2 justify-center hover:border-arprimary"
-    :is="to ? 'nuxt-link' : href ? 'a' : 'button'"
-    :to="to"
-    :href="href"
-  >
-    <p class="text-base text-ardarkgray basis-2/3 hover:text-arprimary">
+  <div>
+    <nuxt-link
+      class="text-base text-ardarkgray basis-2/3 hover:text-arprimary cursor-pointer min-w-[200px] max-w-[320px] h-full bg-white flex flew-row items-center rounded-lg py-3 gap-x-3 my-auto border-ardarkgray border-2 justify-center hover:border-arprimary"
+      :to="to"
+      :href="href"
+    >
       Download Job Description
-    </p>
-    <nuxt-picture src="/icons/download.svg" class="w-8"></nuxt-picture>
-  </component>
+
+      <img src="/icons/download.svg" class="w-8" />
+    </nuxt-link>
+  </div>
 </template>
 
 <script setup>

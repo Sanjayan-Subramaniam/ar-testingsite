@@ -6,7 +6,7 @@
         @click="changeState('construction')"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-argray/80 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-argray/100 hover:bg-construction-background-full"
       >
-        <h2 class="my-auto text-center text-sm text-white md:text-3xl">
+        <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Construction
         </h2>
       </button>
@@ -15,7 +15,7 @@
         @click="changeState('exhibitions')"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblack/80 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblack/100 hover:bg-exhibition-background-full"
       >
-        <h2 class="my-auto text-center text-sm text-white md:text-3xl">
+        <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Exhibitions
         </h2>
       </button>
@@ -24,7 +24,7 @@
         @click="changeState('disinfection')"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background"
       >
-        <h2 class="my-auto text-center text-sm text-white md:text-3xl">
+        <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Commercial <br />
           Disinfection
         </h2>
@@ -35,13 +35,13 @@
     >
       <div
         v-if="state === 'construction'"
-        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row space-y-6"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row gap-y-6"
       >
         <div
-          class="md:basis-3/5 flex flex-col items-center md:items-start space-y-6"
+          class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
           <h4
-            class="text-arblack text-center text-2xl lg:text-desktopCopy font-medium md:text-left md:text-xl"
+            class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
             Construction
           </h4>
@@ -57,7 +57,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="~/assets/img/Constructionindustry.jpeg"
+            src="/selector-construction.jpeg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
@@ -66,10 +66,10 @@
       </div>
       <div
         v-else-if="state === 'exhibitions'"
-        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row space-y-6"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row gap-y-6"
       >
         <div
-          class="md:basis-3/5 flex flex-col items-center md:items-start space-y-6"
+          class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
@@ -88,7 +88,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="~/assets/img/Exhibitionindustry.jpeg"
+            src="/selector-exhibitions.jpeg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
@@ -97,10 +97,10 @@
       </div>
       <div
         v-else-if="state === 'disinfection'"
-        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row space-y-6"
+        class="flex flex-col-reverse justify-center gap-x-6 md:flex-row gap-y-6"
       >
         <div
-          class="md:basis-3/5 flex flex-col items-center md:items-start space-y-6"
+          class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
@@ -117,7 +117,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="~/assets/img/Facilityindustry.jpeg"
+            src="/selector-disinfection.jpeg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"

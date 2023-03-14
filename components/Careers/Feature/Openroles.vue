@@ -20,6 +20,7 @@ Robotics technical team. You will be responsible for writing
 the software required to ensure that the company’s robots
 function effectively and reliably, and that the robot user
 interfaces are intuitive and fully-featured."
+        jdLink="/jd/software_engineer.pdf"
       ></CareersFeatureRolecard>
       <CareersFeatureRolecard
         roleTitle="Python Software Engineer"

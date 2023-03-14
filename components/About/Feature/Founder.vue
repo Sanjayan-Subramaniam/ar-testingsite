@@ -2,10 +2,12 @@
   <div class="container mx-auto">
     <div class="grid lg:grid-cols-2 gap-y-9">
       <div class="order-2 ml-auto mr-auto lg:ml-0 lg:row-span-3 lg:row-start-1">
-        <div class="flex flex-row lg:flex-col justify-center">
+        <div
+          class="flex flex-row lg:flex-col justify-center lg:ml-0 lg:mr-auto"
+        >
           <img
             src="/founder.jpeg"
-            class="w-[40%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
+            class="min-w-[320px] sm:w-[420px] lg:h-[640px] object-cover rounded-2xl"
           />
         </div>
       </div>
