@@ -45,16 +45,18 @@ module.exports = {
       },
 
       backgroundImage: {
-        "lionel-background": "url('assets/img/Lionelheroimage.JPG')",
-        "lionel-homehero": "url('assets/img/Lionelonsite.JPG')",
-        "construction-background": "url('/industry-construction.png')",
-        "construction-background-full": "url('/industry-constructionfull.png')",
-        "exhibition-background": "url('/industry-exhibition.png')",
-        "exhibition-background-full": "url('/industry-exhibitionfull.png')",
-        "disinfection-background": "url('/industry-disinfection.png')",
-        "disinfection-background-full": "url('/industry-disinfectionfull.png')",
+        "lionel-background": "url('/Lionelheroimage.webp')",
+        "lionel-homehero": "url('assets/img/Lionelonsite.webp')",
+        "construction-background": "url('/industry-construction.webp')",
+        "construction-background-full":
+          "url('/industry-constructionfull.webp')",
+        "exhibition-background": "url('/industry-exhibition.webp')",
+        "exhibition-background-full": "url('/industry-exhibitionfull.webp')",
+        "disinfection-background": "url('/industry-disinfection.webp')",
+        "disinfection-background-full":
+          "url('/industry-disinfectionfull.webp')",
         "lionel-contactsection":
-          "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('/Contactus.png')",
+          "linear-gradient(to right bottom, rgba('#7ed56f',0.8), rgba('#28b485',0.8)), url('/Contactus.jpg')",
       },
     },
   },

@@ -26,17 +26,17 @@
           class="flex flex-col lg:flex-row justify-between gap-y-12 items-center"
         >
           <Picturecard
-            imagePath="bg-[url('/innovation1.jpg')]"
+            imagePath="bg-[url('/innovation1.webp')]"
             title="Innovative and dependable robots"
             copy="Our existing robots have world-class performance, autonomy and reliability"
           ></Picturecard>
           <Picturecard
-            imagePath="bg-[url('/innovation2.jpg')]"
+            imagePath="bg-[url('/innovation2.webp')]"
             title="...that are simple and affordable"
             copy="Our robots are simple to use and affordable, making the benefits of robotics accessible to all businesses"
           ></Picturecard>
           <Picturecard
-            imagePath="bg-[url('/innovation3.png')]"
+            imagePath="bg-[url('/innovation3.webp')]"
             title="...based off a common tech platform"
             copy="We can leverage our modularised technology platform to spin off new robots quickly, affordably and reliably, unlocking infinite opportunities"
           ></Picturecard>

@@ -5,7 +5,7 @@
         class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0"
       >
         <img
-          src="~/assets/img/Lionelcropped.png"
+          src="/Lionelcropped.webp"
           class="mr-auto ml-auto w-[100px] lg:ml-0 lg:w-[320px] lg:row-span-3"
         />
       </div>

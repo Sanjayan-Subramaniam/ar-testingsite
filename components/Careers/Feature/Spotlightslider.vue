@@ -315,7 +315,7 @@ const content1 = {
   quote:
     "Working with clients every day allows me to see first-hand their fascination and delight with the technology - the robots make short work of a tedious and unloved aspect of their job.",
   flagImage: "/flags/germany.svg",
-  personnelImage: "/spotlight-engineeringgloballead.jpg",
+  personnelImage: "/spotlight-engineeringgloballead.webp",
 };
 const content2 = {
   mission: "Creating breakthrough innovations",
@@ -324,7 +324,7 @@ const content2 = {
   quote:
     "At August Robotics, we are led by a strong team and a clear strategy. The culture allows every voice to be heard and every individual to flourish to their full potential.",
   flagImage: "/flags/mainlandchina.svg",
-  personnelImage: "/spotlight-roboticsengineer.JPG",
+  personnelImage: "/spotlight-roboticsengineer.webp",
 };
 const content3 = {
   mission: "Championing robotics to the world",
@@ -333,7 +333,7 @@ const content3 = {
   quote:
     "I'm pretty lucky to work at August Robotics. I get to improve the world through robotics and do so with some of the smartest, kindest people l've met.",
   flagImage: "/flags/hongkong.svg",
-  personnelImage: "/spotlight-cmo.jpg",
+  personnelImage: "/spotlight-cmo.webp",
 };
 const content4 = {
   mission: "Translating solutions to real-world impact",
@@ -342,7 +342,7 @@ const content4 = {
   quote:
     "I've always been interested in emerging technologies. I enjoy finding ways to explain sophisticated technology and its benefits to a layperson. Being that bridge is exciting and rewarding..",
   flagImage: "/flags/usa.svg",
-  personnelImage: "/spotlight-bdm.jpg",
+  personnelImage: "/spotlight-bdm.webp",
 };
 const content5 = {
   mission: "Leading teams to success",
@@ -351,16 +351,16 @@ const content5 = {
   quote:
     "We identify clients' real problems and develop the best solutions for their needs. Working here is very interesting - we are always experimenting and new things are happening every day.",
   flagImage: "/flags/mainlandchina.svg",
-  personnelImage: "/spotlight-seniorprojectmanager.png",
+  personnelImage: "/spotlight-seniorprojectmanager.webp",
 };
 const content6 = {
   mission: "Developing the next generation of software",
   role: "Chief Information Officer",
   country: "United States",
   quote:
-    "am building the software powering our autonomous and intelligent robots, which is very fun and exciting. By making people's lives easier, robotics is changing the world.",
+    "I am building the software powering our autonomous and intelligent robots, which is very fun and exciting. By making people's lives easier, robotics is changing the world.",
   flagImage: "/flags/usa.svg",
-  personnelImage: "/spotlight-cio.jpeg",
+  personnelImage: "/spotlight-cio.webp",
 };
 const content7 = {
   mission: "Ensuring premium quality in every robot",
@@ -369,7 +369,7 @@ const content7 = {
   quote:
     "August Robotics has exposed me to a range of new knowledge and expanded my horizons. The culture and atmosphere are great everyone supports each other and helps each other grow.",
   flagImage: "/flags/mainlandchina.svg",
-  personnelImage: "/spotlight-testingengineer.JPG",
+  personnelImage: "/spotlight-testingengineer.webp",
 };
 </script>
 
