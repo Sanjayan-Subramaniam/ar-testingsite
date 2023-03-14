@@ -7,7 +7,7 @@ to="/lionel"
     >
       <NuxtLink to="/">
         <span class="sr-only">August Robotics</span>
-        <img class="w-32 md:w-40" src="~/assets/img/ar_logo.svg" alt="" />
+        <img class="w-32 md:w-40" src="/logos/ar_logo.svg" alt="" />
       </NuxtLink>
 
       <div class="flex lg:hidden">
@@ -136,7 +136,7 @@ to="/lionel"
         <div class="flex items-center justify-between">
           <nuxt-link to="/" class="-m-1.5 p-1.5">
             <span class="sr-only">August Robotics</span>
-            <img class="h-8 w-auto" src="/ar_logo.svg" alt="" />
+            <img class="h-8 w-auto" src="/logos/ar_logo.svg" alt="" />
           </nuxt-link>
           <button
             type="button"
