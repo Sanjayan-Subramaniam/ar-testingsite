@@ -6,7 +6,7 @@
           class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
         >
           <img
-            src="/home-workingar.png"
+            src="/home-workingar.jpg"
             class="w-[70%] md:w-[420px] lg:h-[640px] object-cover object-center rounded-2xl"
           />
         </div>

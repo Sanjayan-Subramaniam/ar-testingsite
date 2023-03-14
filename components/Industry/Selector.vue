@@ -57,7 +57,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="/selector-construction.jpeg"
+            src="/selector-construction.png"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
@@ -88,7 +88,7 @@
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img
-            src="/selector-exhibitions.jpeg"
+            src="/selector-exhibitions.jpg"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"

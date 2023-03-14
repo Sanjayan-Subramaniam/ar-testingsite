@@ -351,7 +351,7 @@ const content5 = {
   quote:
     "We identify clients' real problems and develop the best solutions for their needs. Working here is very interesting - we are always experimenting and new things are happening every day.",
   flagImage: "/flags/mainlandchina.svg",
-  personnelImage: "/Airport.png",
+  personnelImage: "/spotlight-seniorprojectmanager.png",
 };
 const content6 = {
   mission: "Developing the next generation of software",
