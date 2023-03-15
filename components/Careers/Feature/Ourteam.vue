@@ -3,11 +3,9 @@
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">Our Team</h2>
     <SectionSpacer />
     <div class="grid lg:grid-cols-2 gap-y-9">
-      <div
-        class="order-2 md:min-w-[500px] lg:col-start-2 lg:row-start-1 lg:mt-0"
-      >
+      <div class="order-2 lg:col-start-2 lg:row-start-1 lg:mt-0">
         <div
-          class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[500px]"
+          class="grid grid-rows-2 grid-cols-2 mx-auto w-[300px] lg:mx-0 xl:w-[500px]"
         >
           <div
             class="bg-arprimary/70 ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"

@@ -1,9 +1,11 @@
 <template>
   <div class="container mx-auto">
     <div class="grid lg:grid-cols-2 gap-y-9">
-      <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-3">
+      <div
+        class="order-2 ml-auto mr-auto lg:ml-0 lg:col-start-1 lg:row-start-1 lg:row-span-3"
+      >
         <div
-          class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
+          class="flex flex-row lg:flex-col justify-center lg:mr-auto lg:ml-0"
         >
           <img
             :src="imagePath"
@@ -12,7 +14,7 @@
         </div>
       </div>
       <div
-        class="lg:w-[440px] xl:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1"
+        class="ml-auto mr-auto lg:mr-0 w-[270px] md:w-[520px] xl:w-[520px]leading-normal font-base order-1 lg:order-first lg:col-start-2"
       >
         <div
           class="flex flex-row lg:justify-start justify-center gap-x-6 lg:gap-x-12"
@@ -28,11 +30,11 @@
         </div>
       </div>
       <p
-        class="order-3 lg:mx-0 lg:text-left mx-auto w-[270px] md:w-[440px] lg:w-[440px] xl:w-[520px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
+        class="order-3 lg:mr-0 lg:text-left ml-auto mr-auto w-[270px] md:w-[440px] lg:w-[440px] xl:w-[520px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
       >
         {{ para1 }}} <br /><br />
         {{ para2 }}}<br /><br />
-        T{{ para3 }}} <br /><br />
+        {{ para3 }}} <br /><br />
       </p>
     </div>
   </div>
