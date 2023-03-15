@@ -1,18 +1,22 @@
 <template>
-  <a
+  <nuxt-link
     class="text-center tracking-wider text-base max-w-[160px] max-h-[56px] lg:text-lg rounded-lg bg-arprimary px-3 py-3 text-white hover:bg-white hover:border-black hover:border hover:text-arblack transition-all duration-50 ease-linear"
-    href="https://form.formcan.com/fr5r920fujg/"
+    :to="linkLocation"
   >
-    Speak to us
-  </a>
+    {{ buttonCopy }}
+  </nuxt-link>
 </template>
 
-<script>
-export default {
-  setup() {
-    return {};
+<script setup>
+defineProps({
+  linkLocation: {
+    type: String,
+    default: "https://form.formcan.com/fr5r920fujg/",
   },
-};
+  buttonCopy: {
+    type: String,
+    default: "Speak to us",
+  },
+});
 </script>
-
-<style lang="scss" scoped></style>
+<style></style>

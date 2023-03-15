@@ -17,7 +17,7 @@
           at August Robotics
         </h1>
 
-        <ButtonPrimary></ButtonPrimary>
+        <ButtonPrimary />
       </div>
     </div>
   </section>

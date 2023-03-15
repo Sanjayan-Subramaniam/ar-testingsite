@@ -10,18 +10,16 @@
           class="grid grid-rows-2 grid-cols-2 w-[320px] mx-auto lg:mx-0 xl:w-[500px]"
         >
           <img
-            src="/ourteam1.webp"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"
+            class="bg-arprimary/70 ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"
           />
           <img
             src="/ourteam2.webp"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover h-full rounded-tr-2xl"
           /><img
-            src="/ourteam3.webp"
+            src="/ourteam1.webp"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover h-full rounded-bl-2xl"
           /><img
-            src="/ourteam4.webp"
-            class="ml-auto mr-auto lg:ml-0 w-full object-cover rounded-br-2xl"
+            class="bg-argray/70 ml-auto mr-auto lg:ml-0 w-full object-cover rounded-br-2xl"
           />
         </div>
       </div>

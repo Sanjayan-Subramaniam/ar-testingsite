@@ -35,8 +35,8 @@
       <div
         class="flex flex-row gap-x-6 justify-center lg:justify-start order-last"
       >
-        <ButtonSecondary button-text="Careers" />
-        <ButtonTertiary button-text="About Us" />
+        <ButtonSecondary button-copy="Careers" link-location="/careers" />
+        <ButtonTertiary button-copy="About us" link-location="/about" />
       </div>
     </div>
   </div>

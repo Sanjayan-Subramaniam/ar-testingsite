@@ -212,13 +212,13 @@
             </h4>
             <div
               @click="changeState((state += 1))"
-              class="flex flex-col rounded-full w-20 h-20 bg-arprimary justify-center items-center absolute right-4 md:right-20 lg:right-6 top-[40%] md:top-[50%] hover:ring-arlightgray"
+              class="hover:shadow-lg hover:bg-arblack hover:ring-4 cursor-pointer flex flex-col rounded-full w-20 h-20 bg-arprimary justify-center items-center absolute right-4 md:right-20 lg:right-6 top-[40%] md:top-[50%]"
             >
               <img :src="chevron" class="w-12" />
             </div>
           </div>
           <div
-            class="p-3 mx-auto flex flex-row w-full justify-center items-center gap-x-6 mt-auto"
+            class="p-3 mx-auto flex flex-row w-full justify-center items-center gap-x-6 mt-auto cursor-pointer"
           >
             <div
               @click="changeState(1)"

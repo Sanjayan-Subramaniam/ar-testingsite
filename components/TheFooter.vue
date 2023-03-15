@@ -5,28 +5,30 @@
         class="flex flex-col items-center justify-center gap-y-24 lg:flex-row lg:items-start lg:justify-around lg:gap-0 lg:text-left"
       >
         <div>
-          <img
-            class="w-40"
-            src="~/assets/img/white_logo.svg"
-            alt=""
-            srcset=""
-          />
+          <nuxt-link to="/">
+            <img
+              class="w-40"
+              src="~/assets/img/white_logo.svg"
+              alt=""
+              srcset=""
+            />
+          </nuxt-link>
         </div>
         <div class="flex flex-col gap-y-4">
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
             Industries
           </h4>
-          <a
+          <nuxt-link
             class="hover:text-arsecondary"
-            href="https://exhibitions.augustrobotics.com"
-            >Exhibitions</a
+            to="https://exhibitions.augustrobotics.com"
+            >Exhibitions</nuxt-link
           >
           <a
             class="hover:text-arsecondary"
             href="https://construction.augustrobotics.com"
             >Construction</a
           >
-          <NuxtLink class="hover:text-arsecondary" to="/"
+          <NuxtLink class="hover:text-arsecondary hidden" to="/diego"
             >Disinfection</NuxtLink
           >
         </div>
@@ -41,34 +43,41 @@
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
             Company
           </h4>
-          <NuxtLink class="hover:text-arsecondary" to="/">About</NuxtLink>
-          <NuxtLink class="hover:text-arsecondary" to="/">News</NuxtLink>
-          <NuxtLink class="hover:text-arsecondary" to="/">Careers</NuxtLink>
+          <NuxtLink class="hover:text-arsecondary" to="/about"
+            >About us</NuxtLink
+          >
+
+          <NuxtLink class="hover:text-arsecondary" to="/careers"
+            >Careers</NuxtLink
+          >
+          <NuxtLink class="hover:text-arsecondary hidden" to="/">News</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
             Social Links
           </h4>
-          <a
+          <nuxt-link
             class="hover:text-arsecondary"
             href="https://www.linkedin.com/company/august-robotics"
-            >Linked In</a
+            >Linked In</nuxt-link
           >
 
-          <a
+          <nuxt-link
             class="hover:text-arsecondary"
             href="https://www.facebook.com/augustrobotics"
-            >Facebook</a
+            >Facebook</nuxt-link
           >
-          <a
+
+          <nuxt-link
             class="hover:text-arsecondary"
             href="https://twitter.com/AugustRobotics"
-            >Twitter</a
+            >Twitter</nuxt-link
           >
-          <a
+
+          <nuxt-link
             class="hover:text-arsecondary"
             href="https://angel.co/company/augustrobotics"
-            >Wellfound</a
+            >Wellfound</nuxt-link
           >
         </div>
       </div>

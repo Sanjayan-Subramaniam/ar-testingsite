@@ -12,14 +12,11 @@
     <section>
       <SectionSpacer />
       <SectionSeperator class="md:hidden" />
-      <CareersFeatureSpotlightslider
-        personnel-image="/Airport.png"
-        flag-image="/flags/hongkong.svg"
-      ></CareersFeatureSpotlightslider>
+      <CareersFeatureSpotlightslider></CareersFeatureSpotlightslider>
     </section>
     <SectionSpacer />
     <section>
-      <CareersFeatureImpact></CareersFeatureImpact>
+      <CareersFeatureOurteam />
     </section>
     <SectionSpacer />
     <SectionSeperator class="md:hidden" />
