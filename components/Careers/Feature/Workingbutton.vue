@@ -1,11 +1,14 @@
 <template>
   <div>
     <div
-      class="w-32 md:w-32 lg:w-40 flex flex-col justify-center items-center h-20 rounded-lg shadow-lg p-6"
+      class="w-24 md:w-32 lg:w-40 flex flex-col justify-center items-center h-20 rounded-lg shadow-lg p-6"
       :class="currentState === 'active' ? 'bg-arprimary/20 border' : 'bg-white'"
     >
       <img :src="iconImage" alt="" class="w-10" />
-      <h4 :class="currentState === 'active' ? 'text-arprimary' : 'text-argray'">
+      <h4
+        class="text-[12px] lg:text-[14px]"
+        :class="currentState === 'active' ? 'text-arprimary' : 'text-argray'"
+      >
         {{ title }}
       </h4>
     </div>

@@ -1,14 +1,15 @@
 <template>
-  <div class="container w-[1000px] mx-auto">
+  <div class="container w-[90%] lg:w-[1000px] mx-auto">
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Working at August Robotics
     </h2>
     <SectionSpacer></SectionSpacer> <SectionSpacer></SectionSpacer>
 
     <div class="shadow-md bg-white mb-12 rounded-xl p-6">
-      <div class="flex flex-row justify-between flex-wrap">
+      <div
+        class="flex flex-row flex-wrap gap-x-3 gap-y-3 justify-center lg:justify-between"
+      >
         <CareersFeatureWorkingbutton
-          class="basis-1/4"
           :icon-image="
             state === '1'
               ? '/icons/earthicongreen.svg'
@@ -20,7 +21,6 @@
           @click="changeState('1')"
         ></CareersFeatureWorkingbutton>
         <CareersFeatureWorkingbutton
-          class="basis-1/4"
           :icon-image="
             state === '2' ? '/icons/agilegreen.svg' : '/icons/agilegray.svg'
           "
@@ -30,7 +30,6 @@
           @click="changeState('2')"
         ></CareersFeatureWorkingbutton>
         <CareersFeatureWorkingbutton
-          class="basis-1/4"
           :icon-image="
             state === '3'
               ? '/icons/spartanhelmetgreen.svg'
@@ -42,7 +41,6 @@
           @click="changeState('3')"
         ></CareersFeatureWorkingbutton>
         <CareersFeatureWorkingbutton
-          class="basis-1/4"
           :icon-image="
             state === '4'
               ? '/icons/inclusivegreen.svg'
