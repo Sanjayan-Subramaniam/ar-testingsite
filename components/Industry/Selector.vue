@@ -46,13 +46,13 @@
             Construction
           </h4>
           <p
-            class="text-center text-mobileCopy lg:text-desktopCopy md:text-left"
+            class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
             Our Lionel robot is helping contractors mark layouts for
             construction projects faster and smarter
           </p>
           <ButtonVisit
-            href="https://www.construction.augustrobotics.com"
+            buttonLink="https://www.construction.augustrobotics.com"
           ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
@@ -113,7 +113,7 @@
             Our Diego robot is providing hospital-grade disinfection for
             offices, hotels and aged-care homes to keep people safe
           </p>
-          <ButtonVisit to="/"></ButtonVisit>
+          <ButtonVisit class="invisible"></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img

@@ -28,7 +28,7 @@
         Moves from room to room autonomously without needing any supervision
       </p>
       <IndustryApplicationsDiego
-        class="order-last ml-auto mr-auto lg:ml-0"
+        class="hidden order-last ml-auto mr-auto lg:ml-0"
       ></IndustryApplicationsDiego>
     </div>
   </div>

@@ -1,15 +1,14 @@
 <template>
-  <div class="container w-[90%] lg:w-[1000px] mx-auto">
+  <div class="container w-[1000px] mx-auto">
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Working at August Robotics
     </h2>
     <SectionSpacer></SectionSpacer> <SectionSpacer></SectionSpacer>
 
-    <div class="flex flex-col gap-y-6">
-      <div
-        class="shadow-md bg-white flex flex-row flex-wrap justify-center items-center gap-y-6 gap-x-6 p-6 lg:gap-x-6 mx-auto w-[90%] lg:w-full"
-      >
+    <div class="shadow-md bg-white mb-12 rounded-xl p-6">
+      <div class="flex flex-row justify-between flex-wrap">
         <CareersFeatureWorkingbutton
+          class="basis-1/4"
           :icon-image="
             state === '1'
               ? '/icons/earthicongreen.svg'
@@ -21,6 +20,7 @@
           @click="changeState('1')"
         ></CareersFeatureWorkingbutton>
         <CareersFeatureWorkingbutton
+          class="basis-1/4"
           :icon-image="
             state === '2' ? '/icons/agilegreen.svg' : '/icons/agilegray.svg'
           "
@@ -30,6 +30,7 @@
           @click="changeState('2')"
         ></CareersFeatureWorkingbutton>
         <CareersFeatureWorkingbutton
+          class="basis-1/4"
           :icon-image="
             state === '3'
               ? '/icons/spartanhelmetgreen.svg'
@@ -41,6 +42,7 @@
           @click="changeState('3')"
         ></CareersFeatureWorkingbutton>
         <CareersFeatureWorkingbutton
+          class="basis-1/4"
           :icon-image="
             state === '4'
               ? '/icons/inclusivegreen.svg'
@@ -52,13 +54,46 @@
           @click="changeState('4')"
         ></CareersFeatureWorkingbutton>
       </div>
-
-      <CareersFeatureContent1 v-if="state === '1'"></CareersFeatureContent1>
-      <CareersFeatureContent2 v-if="state === '2'"></CareersFeatureContent2>
-      <CareersFeatureContent3 v-if="state === '3'"></CareersFeatureContent3>
-      <CareersFeatureContent4 v-if="state === '4'"></CareersFeatureContent4>
-
-      <!-- <div class="shadow-md bg-white mx-auto w-[90%] lg:w-full">
+    </div>
+    <div class="shadow-md bg-white rounded-xl relative">
+      <CareersFeatureWorkingcontent
+        v-if="state === '1'"
+        title="We honor teamwork"
+        imagePath="/working-collaborative.webp"
+        workingCopy="Our small team size means everyone has outsized influence on the
+          trajectory of the company. We make big strategic decisions every day –
+          from what robot to build to what market to enter – and everyone, no
+          matter their role or seniority, has a say."
+      />
+      <CareersFeatureWorkingcontent
+        v-else-if="state === '2'"
+        title="We are always moving"
+        image-path="/working-agile.webp"
+        working-copy="Our small team size means everyone has outsized influence on the
+          trajectory of the company. We make big strategic decisions every day –
+          from what robot to build to what market to enter – and everyone, no
+          matter their role or seniority, has a say."
+      />
+      <CareersFeatureWorkingcontent
+        v-else-if="state === '3'"
+        title="We challenge convention"
+        image-path="/working-bold.webp"
+        working-copy="Our small team size means everyone has outsized influence on the
+          trajectory of the company. We make big strategic decisions every day –
+          from what robot to build to what market to enter – and everyone, no
+          matter their role or seniority, has a say."
+      />
+      <CareersFeatureWorkingcontent
+        v-else-if="state === '4'"
+        title="Everyone has a say"
+        image-path="/working-inclusive.webp"
+        working-copy="Our small team size means everyone has outsized influence on the
+          trajectory of the company. We make big strategic decisions every day –
+          from what robot to build to what market to enter – and everyone, no
+          matter their role or seniority, has a say."
+      />
+    </div>
+    <!-- <div class="shadow-md bg-white mx-auto w-[90%] lg:w-full">
         <div class="flex flex-col lg:flex-row-reverse">
           <nuxt-img
             class="h-[120px] object-cover obejct-center lg:h-[320px] lg:w-[50%]"
@@ -88,7 +123,7 @@
           </div>
         </div>
       </div> -->
-    </div>
+
     <!-- 
     <div class="grid grid-cols-12 grid-rows-6 gap-y-3">
       <div

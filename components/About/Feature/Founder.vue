@@ -6,7 +6,7 @@
           class="flex flex-row lg:flex-col justify-center lg:ml-0 lg:mr-auto"
         >
           <img
-            src="/founder.jpeg"
+            src="/founder.webp"
             class="min-w-[320px] sm:w-[420px] lg:h-[640px] object-cover rounded-2xl"
           />
         </div>

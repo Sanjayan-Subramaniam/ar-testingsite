@@ -1,14 +1,24 @@
 <template>
   <div class="container mx-auto">
-    <div class="flex flex-col gap-y-12">
-      <div
-        class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
-      >
+    <div class="flex flex-col">
+      <div class="flex flex-col items-center lg:w-[800px] mx-auto">
         <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
           Our Journey
         </h2>
+        <SectionSpacer />
       </div>
-      <div>
+      <AboutFeatureTimelinemoment
+        @mouseover="changeState('')"
+        @click="changeState('state')"
+        v-for="timeline in timelines"
+        :state="timeline.state"
+        :event="timeline.event"
+        :src="timeline.src"
+        :time="timeline.time"
+        :description="timeline.description"
+      />
+
+      <!-- <div>
         <div
           class="container mx-auto pr-3 transition-all duration-1000 ease-in-out"
           @mouseover="changeState('1')"
@@ -38,16 +48,16 @@
               >
                 Early 2018
               </h4>
-              <p class="text-[12px] text-arblack">Lionel Idea</p>
+              <p class="text-[16px] text-arblack">Lionel Idea</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
-              src="/journey-lioneldevelopment.jpg"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover w-[100px] h-[100px] lg:h-[200px] lg:w-[480px]"
+              src="/journey-lioneldevelopment.webp"
             />
             <div
               class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 text-mobileCopy xl:text-desktopCopy pb-6 lg:pb-0"
             >
-              <p>
+              <p >
                 A small team of engineers, led by Founder Alex Wyatt, begins
                 work on the Lionel project
               </p>
@@ -86,7 +96,7 @@
               <p class="text-[12px] text-arblack">Seed funding raised</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px] w-[100px] h-[100px]"
               src="/journey-seed.webp"
             />
             <div
@@ -128,7 +138,7 @@
               <p class="text-[12px] text-arblack">Lionel prototype released</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px] w-[100px] h-[100px]"
               src="/journey-lionelprototype.webp"
             />
             <div
@@ -173,7 +183,7 @@
               <p class="text-[12px] text-arblack">Pandemic crisis</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px] w-[100px] h-[100px]"
               src="/journey-research.webp"
             />
             <div
@@ -264,7 +274,7 @@
               <p class="text-[12px] text-arblack">Diego released</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px]"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px] w-[100px] h-[100px]"
               src="/journey-diego.webp"
             />
             <div
@@ -309,7 +319,7 @@
               <p class="text-[12px] text-arblack">Lionel for Construction</p>
             </div>
             <img
-              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover h-[100px] w-[132px] lg:h-[200px] lg:w-[480px]"
+              class="bg-center basis-2/6 col-start-8 col-span-4 lg:col-start-5 lg:col-span-4 lg:mb-6 object-cover lg:h-[200px] lg:w-[480px] w-[100px] h-[100px]"
               src="/journey-lionelconstruction.webp"
             />
             <div
@@ -322,7 +332,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -334,4 +344,62 @@ const changeState = (newState) => {
   state.value = newState;
   console.log(state.value);
 };
+
+const timelines = [
+  {
+    state: "1",
+    event: "Lionel Idea",
+    src: "/journey-lioneldevelopment.webp",
+    time: "Early 2018",
+    description:
+      "A small team of engineers, led by Founder Alex Wyatt, begins work on the Lionel project",
+  },
+  {
+    state: "2",
+    event: "Seed funding raised",
+    src: "/journey-seed.webp",
+    time: "Mid 2018",
+    description: "August Robotics raises $4M in seed funding",
+  },
+  {
+    state: "3",
+    event: "Lionel prototype released",
+    src: "/journey-lionelprototype.webp",
+    time: "Mid 2019",
+    description:
+      "August Robotics releases the first version of Lionel, a floor marking robot for the exhibition industry",
+  },
+  {
+    state: "4",
+    event: "Pandemic crisis",
+    src: "/journey-research.webp",
+    time: "Early 2020",
+    description:
+      "Covid-19 pandemic shuts down the global exhibition industry and customer demand, providing focused time for August Robotics to advance R&D",
+  },
+  {
+    state: "5",
+    event: "Series A funding",
+    src: "/journey-seriesa.webp",
+    time: "Mid 2020",
+    description:
+      "August Robotics raises an additional $10M in Series A funding",
+  },
+  {
+    state: "6",
+    event: "Diego released",
+    src: "/journey-diego.webp",
+    time: "Late 2020",
+    description:
+      "August Robotics releases the first version of Diego, a disinfection robot",
+  },
+  {
+    state: "7",
+    event: "Lionel for construction",
+    src: "/journey-lionelconstruction.webp",
+    time: "Early 2018",
+    description:
+      "August Robotics releases a version of Lionel optimised for marking layout for the construction industry",
+  },
+];
 </script>
