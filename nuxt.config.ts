@@ -1,6 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["@nuxt/content", "@nuxtjs/tailwindcss", "@nuxt/image-edge"],
+  modules: [
+    "@nuxt/content",
+    "@nuxtjs/tailwindcss",
+    "@nuxt/image-edge",
+    "@nuxtjs/sitemap",
+  ],
   components: {
     global: true,
     dirs: ["~/components"],

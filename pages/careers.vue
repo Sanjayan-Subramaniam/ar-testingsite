@@ -29,4 +29,16 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+useHead({
+  title: "August Robotics | Careers",
+  meta: [
+    {
+      name: "description",
+      content:
+        "Ready for an exciting career in fast-growing tech startup? Learn more about opportunities at August Robotics.",
+    },
+  ],
+  htmlAttrs: { lang: "en" },
+});
+</script>

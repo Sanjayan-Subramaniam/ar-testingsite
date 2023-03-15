@@ -27,15 +27,17 @@
   </div>
 </template>
 
-<script>
-import Mainnav from "~/components/Mainnav.vue";
-
-export default {
-  setup() {
-    return {};
-  },
-  components: { Mainnav },
-};
+<script setup>
+useHead({
+  title: "August Robotics | About us",
+  meta: [
+    {
+      name: "description",
+      content: "Learn about our history and mission",
+    },
+  ],
+  htmlAttrs: { lang: "en" },
+});
 </script>
 
 <style lang="scss" scoped></style>
