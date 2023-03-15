@@ -294,7 +294,7 @@
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Shenzen, China
+              Shenzhen, China
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />
