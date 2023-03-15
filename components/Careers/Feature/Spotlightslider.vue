@@ -1,5 +1,11 @@
 <template>
   <div class="container lg:w-[1000px] mx-auto relative">
+    <h2
+      class="leading-normal md:text-5xl text-center text-3xl text-ardarkgreen"
+    >
+      Team Spotlight
+    </h2>
+
     <div class="px-6 pt-6 w-[90%] lg:w-full mx-auto lg:px-0">
       <div class="flex flex-col lg:flex-row lg:gap-x-0">
         <div

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="md:h-[70vh] bg-gray/90 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
+    class="md:h-[70vh] bg-arblack/50 bg-careers-hero bg-cover bg-center bg-blend-overlay h-[50vh] relative"
   >
     <!-- Hero content title and button -->
 
@@ -13,8 +13,8 @@
         <h1
           class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
         >
-          Learn about who we <br />
-          are and our journey
+          Bring your ideas to life <br />
+          at August Robotics
         </h1>
 
         <ButtonPrimary></ButtonPrimary>
