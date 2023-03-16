@@ -1,28 +1,24 @@
 <template>
   <div class="container mx-auto">
-    <div class="grid lg:grid-cols-2 gap-y-9">
+    <div class="grid lg:grid-cols-2 gap-x-3 gap-y-9">
       <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-3">
         <div
-          class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
-        >
-          <img
-            :src="imagePath"
-            class="w-[70%] md:w-[480px] lg:h-[480px] object-cover rounded-3xl"
-          />
-        </div>
+          class="flex flex-row lg:flex-col justify-center lg:mr-auto lg:ml-0 rounded-tl-2xl bg-arblue/40 bg-url bg-blend-overlay bg-cover rounded-xl h-[200px] w-[400px] lg:h-[480px] lg:w-[400px] xl:w-[480px] object-cover"
+          :class="bgimagePath"
+        ></div>
       </div>
       <div
         class="lg:w-[440px] xl:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1"
       >
         <div
-          class="flex flex-row lg:justify-start justify-center gap-x-6 lg:gap-x-12"
+          class="flex flex-row lg:justify-start justify-center items-center lg:items-start gap-x-6 lg:gap-x-12"
         >
           <div
-            class="flex flex-col h-20 w-20 lg:h-40 lg:w-40 p-3 bg-arblue/30 justify-center items-center translate-y-[-30%] rounded-xl"
+            class="flex flex-col h-16 w-16 lg:h-20 lg:w-20 p-3 bg-arblue/30 justify-center items-center lg:translate-y-[-30%] rounded-xl"
           >
             <img :src="iconPath" alt="" srcset="" class="w-12 lg:w-20" />
           </div>
-          <h2 class="lg:text-left md:text-5xl text-center text-3xl text-arblue">
+          <h2 class="lg:text-left md:text-3xl text-center text-2xl text-arblue">
             {{ title }}
           </h2>
         </div>
@@ -30,9 +26,10 @@
       <p
         class="order-3 lg:mx-0 lg:text-left mx-auto w-[270px] md:w-[440px] lg:w-[440px] xl:w-[520px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
       >
-        {{ para1 }}} <br /><br />
-        {{ para2 }}}<br /><br />
-        T{{ para3 }}} <br /><br />
+        {{ para1 }} <br /><br />
+        {{ para2 }}<br /><br />
+        {{ para3 }} <br /><br />
+        {{ para4 }}
       </p>
     </div>
   </div>
@@ -41,11 +38,12 @@
 <script setup>
 defineProps({
   title: String,
-  imagePath: String,
+  bgimagePath: String,
   iconPath: String,
   para1: String,
   para2: String,
   para3: String,
+  para4: String,
 });
 </script>
 

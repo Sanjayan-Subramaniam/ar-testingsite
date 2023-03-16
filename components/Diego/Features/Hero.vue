@@ -1,6 +1,6 @@
 <template>
   <section
-    class="md:h-[70vh] bg-arblack/50 bg-careers-hero bg-cover bg-center bg-blend-overlay h-[50vh] relative"
+    class="md:h-[70vh] bg-arblack/70 bg-diego-hero bg-cover bg-center bg-blend-overlay h-[50vh] relative"
   >
     <!-- Hero content title and button -->
 
@@ -17,7 +17,7 @@
           and reliable disinfection robot
         </h1>
 
-        <ButtonPrimary class="bg-arblue" />
+        <ButtonPrimarydiego class="bg-arblue" />
       </div>
     </div>
   </section>
