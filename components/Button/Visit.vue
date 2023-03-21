@@ -1,11 +1,13 @@
 <template>
   <nuxt-link
-    class="w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg py-1 my-auto border-arblack border-2 justify-center"
+    class="w-[80px] md:w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg p-1 md:p-2 lg:p-3 my-auto border-arblack border-2 gap-x-2"
     :to="buttonLink"
   >
-    <p class="text-base basis-2/3">Visit Site</p>
+    <p class="text-base md:basis-2/3 text-arblack flex flex-row gap-x-1">
+      {{ buttonCopy1 }} <span class="hidden md:block"> {{ buttonCopy2 }}</span>
+    </p>
     <svg
-      class="my-auto w-[24px] lg:w-6"
+      class="my-auto w-[20px]"
       xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0,0,256,256"
@@ -43,7 +45,14 @@ defineProps({
     type: String,
     default: null,
   },
-  h,
+  buttonCopy1: {
+    type: String,
+    default: "Visit",
+  },
+  buttonCopy2: {
+    type: String,
+    default: "Site",
+  },
 });
 </script>
 

@@ -32,9 +32,9 @@ to="/lionel"
           >Exhibitions</NuxtLink
         >
 
-        <Popover class="relative hidden">
+        <Popover class="relative">
           <PopoverButton
-            class="hidden flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
+            class="flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
           >
             Technology
             <ChevronDownIcon

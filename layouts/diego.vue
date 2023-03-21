@@ -8,7 +8,7 @@
     </section>
 
     <section>
-      <HomeFeatureContact bgImagepath="bg-[url('/Contactus.webp')]" />
+      <HomeFeatureContact bgImagepath="bg-[url('/contactusdiego.webp')]" />
     </section>
 
     <section class="">

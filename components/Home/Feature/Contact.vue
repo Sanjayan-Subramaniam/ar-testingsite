@@ -1,6 +1,7 @@
 <template>
   <div
-    class="bg-[url('/Contactus.webp')] bg-center h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center"
+    class="bg-center h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center"
+    :class="bgImagepath"
   >
     <div class="flex flex-col space-y-9 items-center">
       <h2 class="text-center text-3xl text-white md:text-5xl">Contact Us</h2>
@@ -20,4 +21,6 @@
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+defineProps({ bgImagepath: String });
+</script>

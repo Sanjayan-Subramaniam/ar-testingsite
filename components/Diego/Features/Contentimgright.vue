@@ -3,7 +3,7 @@
     <div class="grid lg:grid-cols-2 gap-x-3 gap-y-9">
       <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-3">
         <div
-          class="flex flex-row lg:flex-col justify-center lg:mr-auto lg:ml-0 rounded-tl-2xl bg-arblue/40 bg-url bg-blend-overlay bg-cover rounded-xl h-[200px] w-[400px] lg:h-[480px] lg:w-[400px] xl:w-[480px] object-cover"
+          class="flex flex-row lg:flex-col justify-center mr-auto lg:mr-auto lg:ml-0 rounded-tl-2xl bg-arblue/40 bg-url bg-blend-overlay bg-cover rounded-xl h-[200px] w-[320px] lg:h-[480px] lg:w-[400px] xl:w-[480px] object-cover"
           :class="bgimagePath"
         ></div>
       </div>
@@ -24,7 +24,7 @@
         </div>
       </div>
       <p
-        class="order-3 lg:mx-0 lg:text-left mx-auto w-[270px] md:w-[440px] lg:w-[440px] xl:w-[520px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
+        class="order-3 lg:mx-0 lg:text-left mx-auto w-[240px] md:w-[360px] lg:w-[480px] xl:w-[520px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
       >
         {{ para1 }} <br /><br />
         {{ para2 }}<br /><br />

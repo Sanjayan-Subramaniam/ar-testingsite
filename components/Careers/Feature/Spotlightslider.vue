@@ -299,8 +299,6 @@ const changeState = (newState) => {
   } else {
     state.value = newState;
   }
-
-  console.log(state.value);
 };
 
 defineProps({

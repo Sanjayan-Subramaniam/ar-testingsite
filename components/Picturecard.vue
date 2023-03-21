@@ -30,6 +30,7 @@ defineProps({
   image: String,
   title: String,
   copy: String,
+  number: String,
 });
 </script>
 

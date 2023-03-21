@@ -16,6 +16,8 @@
     <SectionSpacer />
     <DiegoFeaturesContentimgleft
       title="Efficient"
+      title-color="text-arblue"
+      number="2"
       bgimage-path="bg-[url('/diego-efficient.webp')]"
       icon-path="/icons/efficient.svg"
       para1="UV-C light is not only the most powerful, but the most efficient disinfectant"
@@ -45,9 +47,15 @@
     <SectionSpacer />
 
     <DiegoFeaturesUvcslider />
+    <SectionSpacer />
+    <DiegoFeaturesUsingdiego />
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+definePageMeta({
+  layout: "diego",
+});
+</script>
 
 <style lang="scss" scoped></style>

@@ -17,7 +17,8 @@
         class="flex flex-col justify-center items-center ml-auto mr-auto lg:ml-0 w-full object-cover rounded-bl-2xl bg-arblack/20 bg-url bg-blend-overlay bg-[url('/usecase-aged.webp')] bg-cover hover:bg-arblue/40 hover:border-4 hover:border-arblue"
       >
         <h3 class="text-white text-3xl lg:text-4xl text-center">
-          Nursery Homes
+          Nursery <br />
+          Homes
         </h3>
       </div>
       <div
