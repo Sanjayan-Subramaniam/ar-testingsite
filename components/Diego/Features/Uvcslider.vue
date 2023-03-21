@@ -6,8 +6,7 @@
           class="relative flex flex-col justify-start lg:mr-auto lg:ml-0 rounded-2xl h-[640px] w-[300px] md:w-[400px] lg:h-[640px] lg:w-[400px] xl:w-[480px] xl:h-[720px] shadow-xl object-cover"
         >
           <img
-            :src="sliderContent[state - 1].image"
-            class="h-1/3 mt-0 object-cover"
+            class="bg-[url('/diegoUV.webp')] bg-cover bg-center h-1/3 mt-0 object-cover opacity-80 bg-black/20 bg-blend-overlay"
           />
           <img
             v-if="state === 1"

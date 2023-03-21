@@ -13,10 +13,10 @@
             class="bg-arprimary/70 ml-auto mr-auto lg:ml-0 w-full object-cover rounded-tl-2xl"
           ></div>
           <img
-            src="/ourteam2.webp"
+            src="/lionelimpact-2.webp"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover h-full rounded-tr-2xl"
           /><img
-            src="/ourteam1.webp"
+            src="/lionelimpact-1.webp"
             class="ml-auto mr-auto lg:ml-0 w-full object-cover h-full rounded-bl-2xl"
           />
           <div
@@ -34,21 +34,21 @@
             sub-title2="made"
             statistic1="160,000+ "
             statistic2="marks"
-            icon="/icons/location.svg"
+            icon="/icons/lionelimpact-markings.svg"
           />
           <LionelFeaturesImpactstatistics
             sub-title1="Hours"
             sub-title2="saved"
             statistic1="11,000+ "
             statistic2="hours"
-            icon="/icons/nationalities.svg"
+            icon="/icons/lionelimpact-hours.svg"
           />
           <LionelFeaturesImpactstatistics
             sub-title1="Floorspace"
             sub-title2="marked"
             statistic1="2.9M"
             statistic2="square metres"
-            icon="/icons/birthdaycake.svg"
+            icon="/icons/lionelimpact-area.svg"
           />
         </div>
       </div>

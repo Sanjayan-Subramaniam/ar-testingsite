@@ -47,7 +47,7 @@ const timelines = [
   {
     state: "2",
     event: "Lionel Steamp Version",
-    src: "/journey-seed.webp",
+    src: "/lionelhistory-first.webp",
     time: "Mid 2019",
     description:
       "August Robotics releases the first version of Lionel (the stamp robot), capable of stamping booth corners for exhibition halls",
@@ -62,7 +62,7 @@ const timelines = [
   {
     state: "4",
     event: "Lionel Pen Version",
-    src: "/journey-research.webp",
+    src: "/lionelhistory-pen.webp",
     time: "Mid 2020",
     description:
       "August Robotics releases the second version of Lionel (the pen robot), capable of drawing any symbol on smooth floors",
@@ -78,7 +78,7 @@ const timelines = [
   {
     state: "6",
     event: "Lionel Lease Version",
-    src: "/journey-diego.webp",
+    src: "/lionelhistory-lease.webp",
     time: "Early 2023",
     description:
       "August Robotics releases the first versAugust Robotics offers, in addition to its existing “service model”, a “lease model”, allowing clients to rent and operate Lionel independently without needing August Robotics engineers on siteion of Diego, a disinfection robot",

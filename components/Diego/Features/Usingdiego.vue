@@ -39,6 +39,7 @@
           <Sequencecard
             iconPath="/icons/easy.svg"
             imagePath="bg-[url('/innovation2.webp')]"
+            title-color="text-arblue"
             title="Set up disinfection"
             copy="Use Diego’s touchscreen to command instant disinfection or set up an automatic disinfection schedule "
             number="2"
@@ -48,7 +49,8 @@
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/easy.svg"
-            imagePath="bg-[url('/innovation3.webp')]"
+            imagePath="bg-[url('/usediego-run.webp')]"
+            title-color="text-arblue"
             title="Run the job"
             copy="Let Diego navigate around the unoccupied space, powerfully and efficiently disinfecting air and surfaces"
             number="3"

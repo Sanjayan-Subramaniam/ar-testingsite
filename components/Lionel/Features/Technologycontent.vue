@@ -2,7 +2,8 @@
   <div>
     <div class="flex flex-col w-full lg:flex-row bg-argray/5">
       <div
-        class="w-full h-[200px] lg:h-[320px] bg-[url('/journey-research.webp')] bg-cover bg-center transition-all duration-1000 ease-in-out"
+        class="w-full h-[200px] lg:h-[320px] bg-cover bg-center transition-all duration-1000 ease-in-out"
+        :class="imagePath"
       ></div>
       <div class="w-full h-[240px] lg:h-full p-6 flex flex-col gap-y-3">
         <div class="flex flex-row items-center gap-x-4">
@@ -40,6 +41,7 @@
 
 <script setup>
 defineProps({
+  imagePath: String,
   title: String,
   iconPath: String,
   copy: String,

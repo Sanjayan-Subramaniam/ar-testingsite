@@ -24,6 +24,7 @@
         :title="lionelTechContent[state - 1].title"
         :icon-path="lionelTechContent[state - 1].iconPath"
         :copy="lionelTechContent[state - 1].copy"
+        :image-path="lionelTechContent[state - 1].imagePath"
       />
       <div
         class="flex flex-row flex-wrap gap-x-2 lg:gap-x-12 gap-y-12 lg:p-6 mx-auto my-auto justify-center items-center"
@@ -134,31 +135,37 @@ const changeState = (newState) => {
 const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-maps-green.svg",
+    imagePath: "bg-[url('/lioneltech-map.webp')]",
     title: "Map Processing",
     copy: "Automatically translates your standard CAD plans to robot language, allowing you to use Lionel without extra work",
   },
   {
     iconPath: "/icons/lioneltech-localisation-green.svg",
+    imagePath: "bg-[url('/lioneltech-localisation.webp')]",
     title: "Accurate Localisation",
     copy: "Uses August Robotics’ world-leading localisation technology, ensuring your marks are millimetre perfect",
   },
   {
     iconPath: "/icons/lioneltech-obstacle-green.svg",
+    imagePath: "bg-[url('/lioneltech-obstacle.webp')]",
     title: "Advanced Obstacle Avoidance",
     copy: "Has multiple sensors to detect static and dynamic obstacles, allowing Lionel to operate seamlessly and safely in busy environments",
   },
   {
     iconPath: "/icons/lioneltech-flexible-green.svg",
+    imagePath: "bg-[url('/lioneltech-flexible.webp')]",
     title: "Flexible Marking",
     copy: "Has an innovative spray mechanism, allowing you to mark any symbol on any surface",
   },
   {
     iconPath: "/icons/lioneltech-mobility-green.svg",
+    imagePath: "bg-[url('/lioneltech-mobility.webp')]",
     title: "Full Mobility",
     copy: "Has a light footprint and 360 wheels, allowing quick manoeuvring and easy transport",
   },
   {
     iconPath: "/icons/lioneltech-fleet-green.svg",
+    imagePath: "bg-[url('/lioneltech-fleet.webp')]",
     title: "Fleet Management",
     copy: "Can work alone or as part of a fleet, allowing you to add extra robots for unlimited efficiency",
   },
