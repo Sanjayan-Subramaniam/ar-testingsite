@@ -397,7 +397,7 @@ const timelines = [
     state: "7",
     event: "Lionel for construction",
     src: "/journey-lionelconstruction.webp",
-    time: "Early 2018",
+    time: "Late 2022",
     description:
       "August Robotics releases a version of Lionel optimised for marking layout for the construction industry",
   },

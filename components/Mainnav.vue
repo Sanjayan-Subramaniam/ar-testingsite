@@ -20,7 +20,7 @@ to="/lionel"
           <Bars3Icon class="text-arblack h-12 w-12" aria-hidden="true" />
         </button>
       </div>
-      <PopoverGroup class="hidden lg:flex lg:gap-x-12">
+      <PopoverGroup class="lg:flex lg:gap-x-12 hidden">
         <NuxtLink
           to="https://construction.augustrobotics.com/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"

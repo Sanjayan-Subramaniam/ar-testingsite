@@ -23,21 +23,21 @@
             to="https://exhibitions.augustrobotics.com"
             >Exhibitions</nuxt-link
           >
-          <a
+          <NuxtLink
             class="hover:text-arsecondary"
-            href="https://construction.augustrobotics.com"
-            >Construction</a
-          >
-          <NuxtLink class="hover:text-arsecondary hidden" to="/diego"
+            to="https://construction.augustrobotics.com"
+            >Construction
+          </NuxtLink>
+          <NuxtLink class="hover:text-arsecondary" to="/diego"
             >Disinfection</NuxtLink
           >
         </div>
-        <div class="hidden flex flex-col gap-y-4">
+        <div class="flex flex-col gap-y-4">
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
             Technology
           </h4>
-          <NuxtLink class="hover:text-arsecondary" to="/">Lionel</NuxtLink>
-          <NuxtLink class="hover:text-arsecondary" to="/">Diego</NuxtLink>
+          <NuxtLink class="hover:text-arsecondary" to="lionel">Lionel</NuxtLink>
+          <NuxtLink class="hover:text-arsecondary" to="/diego">Diego</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
@@ -59,7 +59,7 @@
           <nuxt-link
             class="hover:text-arsecondary"
             href="https://www.linkedin.com/company/august-robotics"
-            >Linked In</nuxt-link
+            >LinkedIn</nuxt-link
           >
 
           <nuxt-link

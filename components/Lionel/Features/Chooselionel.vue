@@ -14,7 +14,7 @@
   <div class="container mx-auto md:w-[720px] lg:w-[1000px] justify-start">
     <div class="flex h-[320px] lg:h-[320px] flex-row">
       <div
-        class="mt-auto p-6 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-construction-background bg-argray/80 bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-argray/100 hover:bg-construction-background-full"
+        class="mt-auto p-6 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-construction-background bg-argray/80 bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-argray/100 hover:bg-construction-background-full hover:border-arprimary hover:border-[6px]"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -32,7 +32,7 @@
         />
       </div>
       <div
-        class="mt-auto p-6 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arblack/80 bg-cover bg-center bg-exhibition-background bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arblack/100 hover:bg-exhibition-background-full"
+        class="mt-auto p-6 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arblack/80 bg-cover bg-center bg-exhibition-background bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arblack/100 hover:bg-exhibition-background-full hover:border-arprimary hover:border-[6px]"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -50,7 +50,7 @@
         />
       </div>
       <div
-        class="mt-auto p-6 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arprimary/60 bg-[url('/chooselionel-other.webp')] bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arprimary/100"
+        class="mt-auto p-6 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arprimary/60 bg-[url('/chooselionel-other.webp')] bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arprimary/100 hover:border-arprimary hover:border-[6px]"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"

@@ -3,12 +3,12 @@
     class="absolute bottom-0 flex h-[60%] md:h-[40%] lg:h-[30%] flex-row w-full"
   >
     <NuxtLink
-      class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/2 bg-argray/20 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-argray/60 hover:bg-construction-background-full"
+      class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-argray/20 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-argray/60 hover:bg-construction-background-full"
       to="https://www.construction.augustrobotics.com"
     >
       <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 mx-auto">
         <h2
-          class="text-left text-[11px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px] max-w-[90px] sm:max-w-full"
+          class="text-left text-[12px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px] max-w-[90px] sm:max-w-full"
         >
           Construction layout marking<br />
           with Lionel
@@ -46,14 +46,14 @@
       </div>
     </NuxtLink>
     <NuxtLink
-      class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/2 bg-arblack/20 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblack/60 hover:bg-exhibition-background-full"
+      class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblack/20 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblack/60 hover:bg-exhibition-background-full"
       to="https://www.exhibitions.augustrobotics.com"
     >
       <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 mx-auto">
         <h2
-          class="text-left text-[11px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px] max-w-[90px] sm:max-w-full"
+          class="text-left text-[12px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px] max-w-[90px] sm:max-w-full"
         >
-          Construction layout marking<br />
+          Exhibition floor marking<br />
           with Lionel
         </h2>
         <svg
@@ -88,17 +88,15 @@
         </svg>
       </div>
     </NuxtLink>
-    <!-- <NuxtLink
-      class="hidden flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblue/20 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblue/30 hover:bg-disinfection-background-full"
+    <NuxtLink
+      class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblue/20 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblue/60 hover:bg-disinfection-background-full"
+      to="/diego"
     >
-      <NuxtLink
-        class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 gap-y-2 mx-auto"
-        to="/"
-      >
+      <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 mx-auto">
         <h2
-          class="text-left text-[11px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px] max-w-[90px] sm:max-w-full"
+          class="text-left text-[12px] text-white md:text-[14px] lg:text-[16px] xl:text-[20px] max-w-[90px] sm:max-w-full"
         >
-          Commercial disinfection<br />
+          Commercial Disinfection<br />
           with Diego
         </h2>
         <svg
@@ -131,8 +129,8 @@
             </g>
           </g>
         </svg>
-      </NuxtLink>
-    </NuxtLink> -->
+      </div>
+    </NuxtLink>
   </div>
 </template>
 

@@ -9,7 +9,7 @@
     <div class="px-6 pt-6 w-[90%] lg:w-full mx-auto lg:px-0">
       <div class="flex flex-col lg:flex-row lg:gap-x-0">
         <div
-          class="shadow-md lg:rounded-lg rounded-none flex flex-row lg:flex-col items-center gap-x-6 gap-y-3 lg:basis-1/2 px-6 py-6 lg:p-0"
+          class="shadow-md lg:rounded-lg rounded-none flex flex-row lg:flex-col-reverse items-center gap-x-6 gap-y-3 lg:basis-1/2 px-6 py-6 lg:p-0"
         >
           <img
             :src="content[state - 1].personnelImage"

@@ -27,8 +27,8 @@
           class="flex flex-col lg:flex-row justify-between gap-y-16 items-center"
         >
           <Sequencecard
-            iconPath="/icons/easy.svg"
-            imagePath="bg-[url('/innovation1.webp')]"
+            iconPath="/icons/usediego-upload.svg"
+            imagePath="bg-[url('/usediego-upload.webp')]"
             title-color="text-arblue"
             title="Upload floor plan"
             copy="Let August Robotics map your space or send us your digital floor plan"
@@ -37,7 +37,7 @@
             bgColor="bg-arblue"
           ></Sequencecard>
           <Sequencecard
-            iconPath="/icons/easy.svg"
+            iconPath="/icons/usediego-setup.svg"
             imagePath="bg-[url('/innovation2.webp')]"
             title-color="text-arblue"
             title="Set up disinfection"
@@ -48,7 +48,7 @@
             bgColor="bg-arblue"
           ></Sequencecard>
           <Sequencecard
-            iconPath="/icons/easy.svg"
+            iconPath="/icons/usediego-run.svg"
             imagePath="bg-[url('/usediego-run.webp')]"
             title-color="text-arblue"
             title="Run the job"

@@ -16,6 +16,13 @@
     </section>
     <SectionSpacer />
     <section>
+      <SectionSpacer />
+      <SectionSeperator class="md:hidden" />
+      <CareersFeatureAlternativespotlightslider></CareersFeatureAlternativespotlightslider>
+    </section>
+    <SectionSpacer />
+
+    <section>
       <CareersFeatureOurteam />
     </section>
     <SectionSpacer />

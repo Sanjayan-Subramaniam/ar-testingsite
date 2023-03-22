@@ -113,7 +113,7 @@
             Our Diego robot is providing hospital-grade disinfection for
             offices, hotels and aged-care homes to keep people safe
           </p>
-          <ButtonVisit class="invisible"></ButtonVisit>
+          <ButtonVisit buttonLink="/diego"></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
           <img

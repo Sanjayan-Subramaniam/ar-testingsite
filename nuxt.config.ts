@@ -5,4 +5,5 @@ export default defineNuxtConfig({
     global: true,
     dirs: ["~/components"],
   },
+  target: "static",
 });
