@@ -37,12 +37,6 @@
         <br class="hidden xl:block" />
         that redefine how dirty, dangerous and dull jobs are done <br /><br />
       </p>
-      <p
-        class="lg:mx-0 text-center lg:text-left mx-auto w-[270px] md:w-[480px] lg:w-[500px] xl:w-[640px] text-argray font-light italic text-mobileCopy lg:text-desktopCopy order-last"
-      >
-        (P.S. If you’re wondering where our name comes from, <br />it’s named
-        after our Founder’s Grandfather Augustus)
-      </p>
     </div>
   </div>
 </template>
