@@ -41,11 +41,11 @@
         <div
           class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
-          <h4
+          <h3
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
             Construction
-          </h4>
+          </h3>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
@@ -72,11 +72,11 @@
         <div
           class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
-          <h4
+          <h3
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
             Exhibitions
-          </h4>
+          </h3>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
@@ -103,11 +103,11 @@
         <div
           class="md:basis-3/5 flex flex-col items-center md:items-start gap-y-6"
         >
-          <h4
+          <h3
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
             Commercial Disinfection
-          </h4>
+          </h3>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
           >
