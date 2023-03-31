@@ -80,7 +80,7 @@ const articles = computed(() => data.value?.articles ?? []);
         <div class="flex flex-col gap-5">
           <article
             v-for="article in articles"
-            class="bg-white shadow-lg px-5 py-10 grid grid-cols-[1fr_4fr] grid-rows-[repeat(4,auto)] gap-5 rounded-xl"
+            class="bg-white shadow-lg px-5 py-10 md:grid grid-cols-[1fr_4fr] grid-rows-[repeat(4,auto)] gap-5 rounded-xl flex flex-col"
           >
             <NuxtImg
               :src="article.image"
@@ -107,7 +107,7 @@ const articles = computed(() => data.value?.articles ?? []);
             </p>
             <a
               :href="article._path"
-              class="bg-black text-white rounded-lg px-8 py-2 justify-self-start shadow"
+              class="bg-black text-white rounded-lg px-8 py-2 justify-self-start self-start shadow"
               >Read Story</a
             >
           </article>
