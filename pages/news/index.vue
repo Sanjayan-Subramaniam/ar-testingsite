@@ -57,17 +57,19 @@ const articles = computed(() => data.value?.articles ?? []);
         </div>
         <Mainbuttonsarrow></Mainbuttonsarrow>
       </section>
-      <section class="py-10 max-w-6xl mx-auto">
+      <section class="p-5 lg:p-10 container mx-auto">
         <h3
           class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl px-10"
         >
           News Archive
         </h3>
-        <ul class="flex gap-3 row-start-5 row-end-6 p-10">
+        <ul
+          class="flex gap-3 row-start-5 row-end-6 p-10 flex-wrap justify-center"
+        >
           <li v-for="tag in store.newsTags" class="contents">
             <button
               :class="[
-                'font-medium text-sm border flex-1 px-5 rounded-full',
+                'font-medium text-sm border px-5 rounded-full',
                 tag.classes,
                 { [tag.activeClasses]: tag.label === selectedTag },
               ]"
@@ -80,7 +82,7 @@ const articles = computed(() => data.value?.articles ?? []);
         <div class="flex flex-col gap-5">
           <article
             v-for="article in articles"
-            class="bg-white shadow-lg px-5 py-10 md:grid grid-cols-[1fr_4fr] grid-rows-[repeat(4,auto)] gap-5 rounded-xl flex flex-col"
+            class="bg-white shadow-lg px-5 py-10 md:grid grid-cols-[1fr_4fr] grid-rows-[auto_auto_1fr_auto] gap-5 rounded-xl flex flex-col"
           >
             <NuxtImg
               :src="article.image"
@@ -89,12 +91,17 @@ const articles = computed(() => data.value?.articles ?? []);
               width="400"
               height="400"
               format="webp"
-              class="col-span-1 row-start-1 row-end-4 rounded-xl shadow mx-auto"
+              class="col-span-1 row-start-1 row-end-5 rounded-xl shadow mx-auto w-full"
             />
-            <ul class="flex gap-3 row-start-4 row-end-5 col-span-1 self-center">
+            <ul
+              class="flex gap-3 row-start-5 row-end-6 col-span-1 md:self-center flex-wrap"
+            >
               <li
                 v-for="tag in article.tags"
-                class="font-medium text-sm border px-5 rounded-full text-ardarkgreen border-ardarkgreen"
+                :class="[
+                  'font-medium text-sm border px-5 rounded-full',
+                  store.newsTags.find((t) => t.label === tag)?.classes,
+                ]"
               >
                 {{ tag }}
               </li>
