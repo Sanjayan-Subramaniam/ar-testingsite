@@ -1,4 +1,3 @@
-to="/lionel"
 <template>
   <header class="bg-white py-8">
     <nav
@@ -276,7 +275,10 @@ const technology = [
   { name: "Lionel", to: "/lionel" },
   { name: "Diego", to: "/diego" },
 ];
-const company = [{ name: "About us", to: "/about" }];
+const company = [
+  { name: "News", to: "/news" },
+  { name: "About us", to: "/about" },
+];
 
 const mobileMenuOpen = ref(false);
 </script>
