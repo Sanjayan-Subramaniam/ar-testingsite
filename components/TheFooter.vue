@@ -36,7 +36,9 @@
           <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
             Technology
           </h4>
-          <NuxtLink class="hover:text-arsecondary" to="lionel">Lionel</NuxtLink>
+          <NuxtLink class="hover:text-arsecondary" to="/lionel"
+            >Lionel</NuxtLink
+          >
           <NuxtLink class="hover:text-arsecondary" to="/diego">Diego</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
