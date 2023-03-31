@@ -11,6 +11,7 @@ export default defineNuxtConfig({
     dirs: ["~/components"],
   },
   extends: ["nuxt-seo-kit"],
+  ssr: true,
   runtimeConfig: {
     public: {
       siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://example.com",
@@ -18,7 +19,6 @@ export default defineNuxtConfig({
         "August Robotics - the world's leading autonomous commercial robotics company",
       siteDescription:
         "We automate dirty, dangerous and dull tasks all over the world. ",
-
       language: "en", // prefer more explicit language codes like `en-AU` over `en`
     },
   },
