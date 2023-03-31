@@ -10,7 +10,6 @@ export default defineNuxtConfig({
     global: true,
     dirs: ["~/components"],
   },
-  target: "static",
   extends: ["nuxt-seo-kit"],
   runtimeConfig: {
     public: {
