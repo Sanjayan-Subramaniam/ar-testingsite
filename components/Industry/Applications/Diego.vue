@@ -12,7 +12,7 @@
       >
         <nuxt-link
           class="mx-auto my-auto mb-auto grid h-20 w-[80%] grid-cols-12 items-center border-0 bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:w-[90%] hover:border-4 hover:border-arsecondary hover:bg-arblue/100"
-          to="/diego"
+          to="/diego/"
         >
           <p
             class="col-start-2 pl-[30%] text-mobileCopy lg:text-[24px] font-medium text-white"
@@ -21,7 +21,7 @@
           </p>
 
           <ButtonVisit
-            to="/diego"
+            to="/diego/"
             class="col-span-4 col-start-7 my-auto"
           ></ButtonVisit>
         </nuxt-link>

@@ -61,13 +61,13 @@
                 >{{ item.name }}</a
               > -->
               <NuxtLink
-                to="/lionel"
+                to="/lionel/"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
                 >Lionel</NuxtLink
               >
 
               <NuxtLink
-                to="/diego"
+                to="/diego/"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white"
                 >Diego</NuxtLink
               >
@@ -107,7 +107,7 @@
           </transition>
         </Popover>
         <NuxtLink
-          to="/careers"
+          to="/careers/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
           >Careers</NuxtLink
         >
@@ -272,12 +272,12 @@ import {
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
 
 const technology = [
-  { name: "Lionel", to: "/lionel" },
-  { name: "Diego", to: "/diego" },
+  { name: "Lionel", to: "/lionel/" },
+  { name: "Diego", to: "/diego/" },
 ];
 const company = [
-  { name: "News", to: "/news" },
-  { name: "About us", to: "/about" },
+  { name: "News", to: "/news/" },
+  { name: "About us", to: "/about/" },
 ];
 
 const mobileMenuOpen = ref(false);

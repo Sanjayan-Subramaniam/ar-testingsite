@@ -105,18 +105,18 @@ const articles = computed(() => data.value?.articles ?? []);
             <p class="col-start-2 col-span-1">
               {{ article.description }}
             </p>
-            <a
-              :href="article._path"
+            <NuxtLink
+              :href="article._path + '/'"
               class="bg-black text-white rounded-lg px-8 py-2 justify-self-start self-start shadow"
-              >Read Story</a
+              >Read Story</NuxtLink
             >
           </article>
         </div>
       </section>
     </main>
     <nav class="bg-gray-200 shadow mx-auto max-w-max flex gap-px">
-      <a
-        :href="pageNo === 1 ? undefined : `/news/page/${pageNo - 1}`"
+      <NuxtLink
+        :href="pageNo === 1 ? undefined : `/news/page/${pageNo - 1}/`"
         :class="[
           'bg-white grid place-content-center p-3',
           { 'text-argray pointer-events-none': pageNo === 1 },
@@ -124,10 +124,10 @@ const articles = computed(() => data.value?.articles ?? []);
         aria-label="previous"
       >
         <ChevronLeftIcon class="h-5 w-5" />
-      </a>
-      <a
+      </NuxtLink>
+      <NuxtLink
         v-for="page in data.pages"
-        :href="`/news/page/${page}`"
+        :href="`/news/page/${page}/`"
         :class="[
           'grid place-content-center p-3',
           {
@@ -141,9 +141,9 @@ const articles = computed(() => data.value?.articles ?? []);
         <span class="h-5 w-5 grid place-content-center">
           {{ page }}
         </span>
-      </a>
-      <a
-        :href="pageNo === data.pages ? undefined : `/news/page/${pageNo + 1}`"
+      </NuxtLink>
+      <NuxtLink
+        :href="pageNo === data.pages ? undefined : `/news/page/${pageNo + 1}/`"
         :class="[
           'bg-white grid place-content-center p-3',
           { 'text-argray pointer-events-none': pageNo === data.pages },
@@ -151,7 +151,7 @@ const articles = computed(() => data.value?.articles ?? []);
         aria-label="previous"
       >
         <ChevronRightIcon class="h-5 w-5" />
-      </a>
+      </NuxtLink>
     </nav>
   </div>
 </template>

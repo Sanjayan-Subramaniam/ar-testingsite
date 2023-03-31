@@ -62,7 +62,7 @@
         >
           Lionel's technology and history
         </p>
-        <ButtonVisit button-link="#usinglionel" class="mx-auto basis-1/6" />
+        <ButtonVisit button-link="/#usinglionel" class="mx-auto basis-1/6" />
       </div>
     </div>
   </div>

@@ -20,6 +20,7 @@ export default defineNuxtConfig({
       siteDescription:
         "We automate dirty, dangerous and dull tasks all over the world. ",
       language: "en", // prefer more explicit language codes like `en-AU` over `en`
+      trailingSlash: true,
     },
   },
   linkChecker: {
