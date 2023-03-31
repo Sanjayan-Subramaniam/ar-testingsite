@@ -85,7 +85,11 @@ const articles = computed(() => data.value?.articles ?? []);
             <NuxtImg
               :src="article.image"
               :alt="article.title"
-              class="col-span-1 row-start-1 row-end-4 rounded-xl shadow"
+              sizes="sm:100vw md:100vw lg:400px"
+              width="400"
+              height="400"
+              format="webp"
+              class="col-span-1 row-start-1 row-end-4 rounded-xl shadow mx-auto"
             />
             <ul class="flex gap-3 row-start-4 row-end-5 col-span-1 self-center">
               <li
