@@ -56,18 +56,6 @@
   </div>
 </template>
 
-<script setup lang="ts">
-useHead({
-  title:
-    "August Robotics | The world's leading autonomous commercial robotics company",
-  meta: [
-    {
-      name: "description",
-      content: "We automate dirty, dangerous and dull tasks all over the world",
-    },
-  ],
-  htmlAttrs: { lang: "en" },
-});
-</script>
+<script setup lang="ts"></script>
 
 <style lang="scss" scoped></style>
