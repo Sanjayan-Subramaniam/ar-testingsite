@@ -15,9 +15,9 @@
           </nuxt-link>
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+          <h3 class="text-mobileCopy lg:text-desktopCopy text-white">
             Industries
-          </h4>
+          </h3>
           <nuxt-link
             class="hover:text-arsecondary"
             to="https://exhibitions.augustrobotics.com/"
@@ -33,18 +33,18 @@
           >
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+          <h3 class="text-mobileCopy lg:text-desktopCopy text-white">
             Technology
-          </h4>
+          </h3>
           <NuxtLink class="hover:text-arsecondary" to="/lionel/"
             >Lionel</NuxtLink
           >
           <NuxtLink class="hover:text-arsecondary" to="/diego/">Diego</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+          <h3 class="text-mobileCopy lg:text-desktopCopy text-white">
             Company
-          </h4>
+          </h3>
           <NuxtLink class="hover:text-arsecondary" to="/about/"
             >About us</NuxtLink
           >
@@ -55,9 +55,9 @@
           <NuxtLink class="hover:text-arsecondary hidden" to="/">News</NuxtLink>
         </div>
         <div class="flex flex-col gap-y-4">
-          <h4 class="text-mobileCopy lg:text-desktopCopy text-white">
+          <h3 class="text-mobileCopy lg:text-desktopCopy text-white">
             Social Links
-          </h4>
+          </h3>
           <nuxt-link
             class="hover:text-arsecondary"
             href="https://www.linkedin.com/company/august-robotics/"
