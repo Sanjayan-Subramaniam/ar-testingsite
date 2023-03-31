@@ -106,7 +106,7 @@ const articles = computed(() => data.value?.articles ?? []);
               {{ article.description }}
             </p>
             <a
-              href="#"
+              :href="article._path"
               class="bg-black text-white rounded-lg px-8 py-2 justify-self-start shadow"
               >Read Story</a
             >
