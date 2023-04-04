@@ -102,7 +102,7 @@ useSeoMeta({
             </NuxtLink>
           </article>
           <NuxtLink
-            to="/news"
+            to="/news/"
             class="self-start px-4 py-2 rounded-full bg-gradient-to-b from-[#7FB655] to-[#679941] text-white"
           >
             View All
@@ -145,7 +145,7 @@ useSeoMeta({
             </NuxtLink>
           </article>
           <NuxtLink
-            to="/news"
+            to="/news/"
             class="self-start px-4 py-2 rounded-full bg-gradient-to-b from-[#7FB655] to-[#679941] text-white"
           >
             View All
