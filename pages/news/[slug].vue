@@ -1,12 +1,21 @@
 <script setup lang="ts">
+import { ChevronRightIcon } from "@heroicons/vue/24/outline";
+const MAX_TOP_STORIES = 2;
+const MAX_EXHIBITION = 2;
+
 const route = useRoute();
-const { data } = await useAsyncData(route.path, () =>
-  queryContent(route.path).findOne()
-);
+const [{ data: article }, { data: topStories }, { data: exhibition }] =
+  await Promise.all([
+    useAsyncData(route.path, () => queryContent(route.path).findOne()),
+    useAsyncData("top-stories", () => queryContent("/news").find()),
+    useAsyncData("exhibition", () => queryContent("/news").find()),
+  ]);
 
 useSeoMeta({
-  title: () => data.value?.seo.title,
-  description: () => data.value?.seo.description,
+  title: () => article.value?.seo.title,
+  description: () => article.value?.seo.description,
+  // @ts-ignore: it works
+  keywords: () => article.value?.seo.keywords.join(","),
 });
 </script>
 
@@ -33,28 +42,117 @@ useSeoMeta({
     </div>
     <Mainbuttonsarrow></Mainbuttonsarrow>
   </section>
-  <div class="grid grid-cols-[5fr_minmax(200px,1fr)] container mx-auto p-10">
-    <main v-if="data" class="grid gap-5">
+  <div
+    class="grid grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
+  >
+    <main v-if="article" class="grid gap-5 self-start">
       <NuxtImg
-        :src="data.image"
-        :alt="data.title"
+        :src="article.image"
+        :alt="article.title"
         sizes="sm:100vw md:100vw lg:700px"
         width="700"
         height="400"
         format="webp"
         class="rounded-xl shadow w-full"
       />
-      <h1 class="font-bold text-4xl">{{ data.title }}</h1>
+      <h1 class="font-bold text-4xl">{{ article.title }}</h1>
       <span class="text-argray text-2xl">{{
-        new Date(data.created).toLocaleDateString(undefined, {
+        new Date(article.created).toLocaleDateString(undefined, {
           dateStyle: "medium",
         })
       }}</span>
       <div class="nuxt-content">
-        <ContentRenderer :value="data" />
+        <ContentRenderer :value="article" />
       </div>
     </main>
-    <aside />
+    <aside class="grid-rows-2 gap-5 grid">
+      <div
+        class="bg-white p-5 rounded-xl shadow-lg gap-5 flex flex-col"
+        v-if="topStories && topStories.length > 0"
+      >
+        <h3 class="text-xl font-medium text-arprimary">Top Stories</h3>
+        <div class="flex flex-col gap-5">
+          <article
+            v-for="article in topStories.slice(0, MAX_TOP_STORIES)"
+            class="flex flex-col gap-3"
+          >
+            <NuxtImg
+              :src="article.image"
+              :alt="article.title"
+              sizes="sm:100vw md:100vw lg:700px"
+              width="700"
+              height="400"
+              format="webp"
+              class="rounded-2xl shadow w-full"
+            />
+            <span class="text-argray">{{
+              new Date(article.created).toLocaleDateString(undefined, {
+                dateStyle: "medium",
+              })
+            }}</span>
+            <p>
+              {{ clampString(article.description, 100) }}
+            </p>
+            <NuxtLink
+              :href="article._path + '/'"
+              class="text-arprimary flex gap-1 items-center"
+            >
+              <span> Read Story </span>
+              <ChevronRightIcon class="h-4 w-4"></ChevronRightIcon>
+            </NuxtLink>
+          </article>
+          <NuxtLink
+            to="/news"
+            class="self-start px-4 py-2 rounded-full bg-gradient-to-b from-[#7FB655] to-[#679941] text-white"
+          >
+            View All
+          </NuxtLink>
+        </div>
+      </div>
+      <div
+        class="bg-white p-5 rounded-xl shadow-lg gap-5 flex flex-col"
+        v-if="exhibition && exhibition.length > 0"
+      >
+        <h3 class="text-xl font-medium text-arprimary">Exhibition</h3>
+        <div class="flex flex-col gap-5">
+          <article
+            v-for="article in exhibition.slice(0, MAX_EXHIBITION)"
+            class="flex flex-col gap-3"
+          >
+            <NuxtImg
+              :src="article.image"
+              :alt="article.title"
+              sizes="sm:100vw md:100vw lg:700px"
+              width="700"
+              height="400"
+              format="webp"
+              class="rounded-2xl shadow w-full"
+            />
+            <span class="text-argray">{{
+              new Date(article.created).toLocaleDateString(undefined, {
+                dateStyle: "medium",
+              })
+            }}</span>
+            <p>
+              {{ clampString(article.description, 100) }}
+            </p>
+            <NuxtLink
+              :href="article._path + '/'"
+              class="text-arprimary flex gap-1 items-center"
+            >
+              <span> Read Story </span>
+              <ChevronRightIcon class="h-4 w-4"></ChevronRightIcon>
+            </NuxtLink>
+          </article>
+          <NuxtLink
+            to="/news"
+            class="self-start px-4 py-2 rounded-full bg-gradient-to-b from-[#7FB655] to-[#679941] text-white"
+          >
+            View All
+          </NuxtLink>
+        </div>
+      </div>
+    </aside>
   </div>
 </template>
 
