@@ -1,7 +1,7 @@
 ---
 title: "Title"
 description: "Description"
-tags: ["All", "Lionel", "Exhibition"]
+tags: ["All", "Lionel", "Exhibitions"]
 image: "/Highresimg/lionelonsite.jpg"
 seo:
   title: "SeoTitle"

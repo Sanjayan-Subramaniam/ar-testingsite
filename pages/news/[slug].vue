@@ -18,7 +18,7 @@ const [{ data: article }, { data: topStories }, { data: exhibition }] =
         .then((articles) =>
           articles
             .filter((article) =>
-              article.tags.some((tag) => tag.toLowerCase() === "exhibition")
+              article.tags.some((tag) => tag.toLowerCase() === "exhibitions")
             )
             .sort((a, b) => b.created - a.created)
         )
