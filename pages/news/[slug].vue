@@ -7,8 +7,22 @@ const route = useRoute();
 const [{ data: article }, { data: topStories }, { data: exhibition }] =
   await Promise.all([
     useAsyncData(route.path, () => queryContent(route.path).findOne()),
-    useAsyncData("top-stories", () => queryContent("/news").find()),
-    useAsyncData("exhibition", () => queryContent("/news").find()),
+    useAsyncData("top-stories", () =>
+      queryContent("/news")
+        .find()
+        .then((articles) => articles.sort((a, b) => b.created - a.created))
+    ),
+    useAsyncData("exhibition", () =>
+      queryContent("/news")
+        .find()
+        .then((articles) =>
+          articles
+            .filter((article) =>
+              article.tags.some((tag) => tag.toLowerCase() === "exhibition")
+            )
+            .sort((a, b) => b.created - a.created)
+        )
+    ),
   ]);
 
 useSeoMeta({
@@ -65,7 +79,7 @@ useSeoMeta({
         <ContentRenderer :value="article" />
       </div>
     </main>
-    <aside class="grid-rows-2 gap-5 grid">
+    <aside class="flex flex-col gap-5">
       <div
         class="bg-white p-5 rounded-xl shadow-lg gap-5 flex flex-col"
         v-if="topStories && topStories.length > 0"
