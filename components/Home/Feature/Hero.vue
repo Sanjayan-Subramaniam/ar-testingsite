@@ -1,11 +1,21 @@
 <template>
   <section
-    class="md:h-[70vh] bg-gray/90 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
+    class="md:h-[70vh] bg-lionel-background h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
   >
+    <video
+      autoplay
+      loop
+      muted
+      playsinline
+      alt=""
+      class="w-full object-cover transition-all duration-1000 ease-in-out absolute inset-0"
+    >
+      <source src="/lt-map-localization.mp4" type="video/mp4" />
+    </video>
     <!-- Hero content title and button -->
 
     <div
-      class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%]"
+      class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%] relative z-10"
     >
       <div
         class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
