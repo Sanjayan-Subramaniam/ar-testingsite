@@ -4,6 +4,7 @@
       <button
         @mouseover="changeState('construction')"
         @click="changeState('construction')"
+        :class="initial"
         class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-argray/80 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-argray/100 hover:bg-construction-background-full"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
@@ -105,7 +106,7 @@
           <h4
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
-            Property Management
+            Commercial Disinfection
           </h4>
           <p
             class="mt-6 text-center text-mobileCopy lg:text-desktopCopy md:text-left"
@@ -129,7 +130,12 @@
 </template>
 
 <script setup>
-let state = ref("disinfection");
+import { onMounted } from "vue";
+onMounted(() => {
+  let initial = ref("h-5/6");
+});
+
+let state = ref("construction");
 
 const changeState = (newState) => {
   state.value = newState;

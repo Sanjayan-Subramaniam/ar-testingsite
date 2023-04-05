@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="container mx-auto">
-      <div class="flex flex-col gap-y-12">
+      <div class="flex flex-col">
         <div
-          class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
+          class="flex flex-col items-center gap-y-4 lg:gap-y-6 lg:w-[800px] mx-auto"
         >
           <h2 class="text-center text-3xl text-arprimary md:text-5xl">
             How to use Lionel
@@ -12,9 +12,7 @@
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
             Using Lionel is very simple and does not require technical knowledge
-            <br class="hidden xl:block" />
             Unlock the benefits of robotic marking in three easy steps
-            <br /><br />
           </p>
         </div>
         <SectionSpacer />

@@ -1,10 +1,18 @@
 <template>
   <div>
     <div class="flex flex-col w-full lg:flex-row bg-argray/5">
-      <div
+      <!-- <div
         class="w-full h-[200px] lg:h-[320px] bg-cover bg-center transition-all duration-1000 ease-in-out"
         :class="imagePath"
-      ></div>
+      ></div> -->
+      <video
+        autoplay
+        loop
+        alt=""
+        class="w-[320px] h-[200px] lg:h-[320px] transition-all duration-1000 ease-in-out"
+      >
+        <source src="public/lt-map-localization.mp4" type="video/mp4" />
+      </video>
       <div class="w-full h-[240px] lg:h-full p-6 flex flex-col gap-y-3">
         <div class="flex flex-row items-center gap-x-4">
           <div class="basis-2/6">
@@ -42,6 +50,7 @@
 <script setup>
 defineProps({
   imagePath: String,
+  videoPath: String,
   title: String,
   iconPath: String,
   copy: String,

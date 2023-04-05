@@ -10,9 +10,10 @@
         <p
           class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
         >
-          Using Lionel is very simple and does not require technical knowledge
+          Interested in Lionel’s technology?
           <br /><br />
-          Unlock the benefits of robotic marking in three easy steps
+          Here are the main features that provide it with unparalleled autonomy,
+          flexibility and simplicity
           <br /><br />
         </p>
       </div>
@@ -135,7 +136,7 @@ const changeState = (newState) => {
 const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-maps-green.svg",
-    imagePath: "bg-[url('/lioneltech-map.webp')]",
+    videoPath: "/lt-map-localization.mp4",
     title: "Map Processing",
     copy: "Automatically translates your standard CAD plans to robot language, allowing you to use Lionel without extra work",
   },

@@ -22,7 +22,7 @@
         />
       </div>
       <NuxtLink
-        class="text-center text-mobileCopy lg:text-desktopCopy text-argray lg:w-5/6 lg:min-w-[500px] lg:col-start-2 underline underline-offset-8"
+        class="text-center text-mobileCopy lg:text-[20px] text-argray lg:w-5/6 lg:min-w-[500px] lg:col-start-2 underline underline-offset-8"
         to="/lionel"
       >
         Lionel Technology
