@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="flex flex-col w-full lg:flex-row bg-argray/5 rounded-t-md overflow-hidden"
+      class="flex flex-col w-full lg:flex-row bg-argray/5 md:rounded-t-md rounded-t-md overflow-hidden"
     >
       <!-- <div
         class="w-full h-[200px] lg:h-[320px] bg-cover bg-center transition-all duration-1000 ease-in-out"
@@ -13,10 +13,9 @@
         muted
         playsinline
         alt=""
-        width="320"
-        class="w-[320px] h-[200px] lg:h-[320px] transition-all duration-1000 ease-in-out"
+        class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out"
       >
-        <source src="/lt-map-localization.mp4" type="video/mp4" />
+        <source :src="videoPath" type="video/webm" />
       </video>
       <div class="w-full h-[240px] lg:h-full p-6 flex flex-col gap-y-3">
         <div class="flex flex-row items-center gap-x-4">

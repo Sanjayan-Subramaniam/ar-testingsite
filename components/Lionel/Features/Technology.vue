@@ -19,13 +19,14 @@
       </div>
     </div>
     <div
-      class="w-[320px] lg:w-[800px] h-[1100px] lg:h-[800px] mx-auto flex flex-col bg-white shadow-lg rounded-lg"
+      class="w-[320px] lg:w-[800px] h-[1200px] lg:h-[800px] mx-auto flex flex-col bg-white shadow-lg rounded-lg"
     >
       <LionelFeaturesTechnologycontent
         :title="lionelTechContent[state - 1].title"
         :icon-path="lionelTechContent[state - 1].iconPath"
         :copy="lionelTechContent[state - 1].copy"
         :image-path="lionelTechContent[state - 1].imagePath"
+        :video-path="lionelTechContent[state - 1].videoPath"
       />
       <div
         class="flex flex-row flex-wrap gap-x-2 lg:gap-x-12 gap-y-12 lg:p-6 mx-auto my-auto justify-center items-center"
@@ -136,37 +137,38 @@ const changeState = (newState) => {
 const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-maps-green.svg",
-    videoPath: "/lt-map-localization.mp4",
+    videoPath: "/lt-map-processing.webm",
+
     title: "Map Processing",
     copy: "Automatically translates your standard CAD plans to robot language, allowing you to use Lionel without extra work",
   },
   {
     iconPath: "/icons/lioneltech-localisation-green.svg",
-    imagePath: "bg-[url('/lioneltech-localisation.webp')]",
+    videoPath: "/lt-accurate-localisation.webm",
     title: "Accurate Localisation",
     copy: "Uses August Robotics’ world-leading localisation technology, ensuring your marks are millimetre perfect",
   },
   {
     iconPath: "/icons/lioneltech-obstacle-green.svg",
-    imagePath: "bg-[url('/lioneltech-obstacle.webp')]",
+    videoPath: "/lt-obstacle-avoidance.webm",
     title: "Advanced Obstacle Avoidance",
     copy: "Has multiple sensors to detect static and dynamic obstacles, allowing Lionel to operate seamlessly and safely in busy environments",
   },
   {
     iconPath: "/icons/lioneltech-flexible-green.svg",
-    imagePath: "bg-[url('/lioneltech-flexible.webp')]",
+    videoPath: "/lt-flexible-marking.webm",
     title: "Flexible Marking",
     copy: "Has an innovative spray mechanism, allowing you to mark any symbol on any surface",
   },
   {
     iconPath: "/icons/lioneltech-mobility-green.svg",
-    imagePath: "bg-[url('/lioneltech-mobility.webp')]",
+    videoPath: "/lt-accurate-localisation.webm",
     title: "Full Mobility",
     copy: "Has a light footprint and 360 wheels, allowing quick manoeuvring and easy transport",
   },
   {
     iconPath: "/icons/lioneltech-fleet-green.svg",
-    imagePath: "bg-[url('/lioneltech-fleet.webp')]",
+    videoPath: "/lt-fleet-management.webm",
     title: "Fleet Management",
     copy: "Can work alone or as part of a fleet, allowing you to add extra robots for unlimited efficiency",
   },
