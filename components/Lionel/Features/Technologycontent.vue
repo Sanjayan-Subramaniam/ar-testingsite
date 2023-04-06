@@ -8,6 +8,7 @@
         :class="imagePath"
       ></div> -->
       <video
+        :key="videoPath"
         autoplay
         loop
         muted
