@@ -1,6 +1,5 @@
 <template>
   <div>
-    <CareersFeatureHero></CareersFeatureHero>
     <SectionSpacer />
 
     <section>

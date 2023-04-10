@@ -35,7 +35,7 @@
       alt=""
       class="object-cover absolute h-full w-full"
     >
-      <source src="/Diego Hero.webm" type="video/webm" />
+      <source src="/DiegoHero.webm" type="video/webm" />
     </video>
     <!-- Hero content title and button -->
 
