@@ -5,7 +5,7 @@
         class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
       >
         <h2 class="text-center text-3xl text-arprimary md:text-5xl">
-          How to use Lionel
+          Lionel's Technology
         </h2>
         <p
           class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
