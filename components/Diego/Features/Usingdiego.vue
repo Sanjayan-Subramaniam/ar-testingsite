@@ -32,7 +32,7 @@
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/usediego-setup.svg"
-            imagePath="bg-[url('/innovation2.webp')]"
+            imagePath="bg-[url('/usediego-setup.webp')]"
             title-color="text-arblue"
             title="Set up disinfection"
             copy="Use Diego’s touchscreen to command instant disinfection or set up an automatic disinfection schedule "

@@ -138,7 +138,7 @@ const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-maps-green.svg",
     videoPath: "/lt-map-processing.webm",
-
+    imagePath: "/lt-map-processing.webp",
     title: "Map Processing",
     copy: "Automatically translates your standard CAD plans to robot language, allowing you to use Lionel without extra work",
   },
@@ -151,24 +151,28 @@ const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-obstacle-green.svg",
     videoPath: "/lt-obstacle-avoidance.webm",
+    imagePath: "/lt-obstacle-avoidance.webp",
     title: "Advanced Obstacle Avoidance",
     copy: "Has multiple sensors to detect static and dynamic obstacles, allowing Lionel to operate seamlessly and safely in busy environments",
   },
   {
     iconPath: "/icons/lioneltech-flexible-green.svg",
     videoPath: "/lt-flexible-marking.webm",
+    imagePath: "/lt-flexible-marking.webp",
     title: "Flexible Marking",
     copy: "Has an innovative spray mechanism, allowing you to mark any symbol on any surface",
   },
   {
     iconPath: "/icons/lioneltech-mobility-green.svg",
     videoPath: "/lt-full-mobility.webm",
+    imagePath: "/lt-full-mobility.webp",
     title: "Full Mobility",
     copy: "Has a light footprint and 360 wheels, allowing quick manoeuvring and easy transport",
   },
   {
     iconPath: "/icons/lioneltech-fleet-green.svg",
     videoPath: "/lt-fleet-management.webm",
+    imagePath: "/lt-fleet-management.webp",
     title: "Fleet Management",
     copy: "Can work alone or as part of a fleet, allowing you to add extra robots for unlimited efficiency",
   },

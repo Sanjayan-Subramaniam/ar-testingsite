@@ -184,7 +184,7 @@ const content = [
     role: "Business Development Manager",
     country: "United States",
     quote:
-      "I've always been interested in emerging technologies. I enjoy finding ways to explain sophisticated technology and its benefits to a layperson. Being that bridge is exciting and rewarding..",
+      "I've always been interested in emerging technologies. I enjoy finding ways to explain sophisticated technology and its benefits to a layperson. Being that bridge is exciting and rewarding.",
     flagImage: "/flags/usa.svg",
     personnelImage: "/spotlight-bdm.webp",
   },

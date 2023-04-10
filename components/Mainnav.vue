@@ -203,6 +203,47 @@
                   >
                 </DisclosurePanel>
               </Disclosure> -->
+
+              <Disclosure as="div" class="-mx-3" v-slot="{ open }">
+                <DisclosureButton
+                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
+                >
+                  Technology
+                  <ChevronDownIcon
+                    :class="[open ? 'rotate-180' : '', 'h-5 w-5 flex-none']"
+                    aria-hidden="true"
+                  />
+                </DisclosureButton>
+                <DisclosurePanel class="mt-2 space-y-2">
+                  <!-- <DisclosureButton
+                    v-for="item in company"
+                    :key="item.name"
+                    as="a"
+                    :href="item.href"
+                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
+                    >{{ item.name }}</DisclosureButton
+                  > -->
+
+                  <Disclosure
+                    ><NuxtLink to="/lionel"
+                      ><DisclosureButton
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        >Lionel</DisclosureButton
+                      ></NuxtLink
+                    ></Disclosure
+                  >
+
+                  <Disclosure
+                    ><NuxtLink to="/diego"
+                      ><DisclosureButton
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arblue/50 hover:text-white"
+                        >Diego</DisclosureButton
+                      ></NuxtLink
+                    ></Disclosure
+                  >
+                </DisclosurePanel>
+              </Disclosure>
+
               <Disclosure as="div" class="-mx-3" v-slot="{ open }">
                 <DisclosureButton
                   class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
@@ -232,7 +273,7 @@
                     ></Disclosure
                   >
 
-                  <Disclosure class="hidden"
+                  <Disclosure
                     ><NuxtLink to="/news"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"

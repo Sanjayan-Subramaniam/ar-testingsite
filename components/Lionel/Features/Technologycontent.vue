@@ -1,12 +1,13 @@
 <template>
   <div>
     <div
-      class="flex flex-col w-full lg:flex-row bg-argray/5 md:rounded-t-md rounded-t-md overflow-hidden"
+      class="flex flex-col w-full lg:flex-row bg-argray/5 md:rounded-t-md rounded-t-md overflow-hidden relative"
     >
       <!-- <div
         class="w-full h-[200px] lg:h-[320px] bg-cover bg-center transition-all duration-1000 ease-in-out"
         :class="imagePath"
       ></div> -->
+
       <video
         :key="videoPath"
         autoplay
@@ -14,10 +15,16 @@
         muted
         playsinline
         alt=""
-        class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out"
+        class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out z-10"
       >
         <source :src="videoPath" type="video/webm" />
       </video>
+      <image
+        class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out absolute"
+        :src="imagePath"
+      >
+      </image>
+
       <div class="w-full h-[240px] lg:h-full p-6 flex flex-col gap-y-3">
         <div class="flex flex-row items-center gap-x-4">
           <div class="basis-2/6">
