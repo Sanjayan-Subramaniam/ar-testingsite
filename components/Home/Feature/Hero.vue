@@ -8,9 +8,9 @@
       muted
       playsinline
       alt=""
-      class="w-full object-cover transition-all duration-1000 ease-in-out absolute inset-0"
+      class="object-cover absolute h-full w-full"
     >
-      <source src="/lt-map-localization.mp4" type="video/mp4" />
+      <source src="/AR Home Hero.webm" type="video/webm" />
     </video>
     <!-- Hero content title and button -->
 
@@ -30,7 +30,7 @@
         <ButtonPrimary></ButtonPrimary>
       </div>
     </div>
-    <Mainbuttonsarrow></Mainbuttonsarrow>
+    <Mainbuttonsarrow class="z-10"></Mainbuttonsarrow>
   </section>
 </template>
 

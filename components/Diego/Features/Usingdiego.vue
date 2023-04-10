@@ -11,15 +11,9 @@
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
-            We don’t just replicate, assemble or incrementally improve
-            <br class="hidden xl:block" />
-            upon existing solutions in the market <br /><br />
-            We use our optimism and resourcefulness to push
-            <br class="hidden xl:block" />
-            technological, engineering and creative boundaries to make
-            <br class="hidden xl:block" />
-            breakthrough innovations <br /><br />
-            What makes us different from other robotics companies?
+            Diego is very easy to use. <br class="hidden xl:block" />
+            <br class="hidden xl:block" />Unlock the benefits of robotic
+            disinfection in three easy steps.
           </p>
         </div>
         <SectionSpacer />

@@ -29,9 +29,11 @@
       title="Autonomous"
       bgimage-path="bg-[url('/diego-autonomous.webp')]"
       icon-path="/icons/autonomous.svg"
-      para1="Diego disinfects with UV-C light which has been used effectively for over 100 years (used in hospitals and military bio-defence systems)"
-      para2="UV-C light powerfully destroys 99.9% of microorganisms, including bacteria, viruses and mould"
-      para3="Give your staff and customers the best protection"
+      para1="Diego autonomously moves around a room and from room to room based on your floorplan
+Intelligently reaches every nook and cranny
+"
+      para2="Equipped with advanced navigation, obstacle avoidance and safety technology"
+      para3="No human supervision – free up valuable labour for other cleaning needs"
     />
 
     <SectionSpacer />

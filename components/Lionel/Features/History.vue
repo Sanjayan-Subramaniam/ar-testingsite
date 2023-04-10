@@ -46,7 +46,7 @@ const timelines = [
   },
   {
     state: "2",
-    event: "Lionel Steamp Version",
+    event: "Lionel Stamp Version",
     src: "/lionelhistory-first.webp",
     time: "Mid 2019",
     description:
@@ -81,7 +81,7 @@ const timelines = [
     src: "/lionelhistory-lease.webp",
     time: "Early 2023",
     description:
-      "August Robotics releases the first versAugust Robotics offers, in addition to its existing “service model”, a “lease model”, allowing clients to rent and operate Lionel independently without needing August Robotics engineers on siteion of Diego, a disinfection robot",
+      "August Robotics offers, in addition to its existing “service model”, a “lease model”, allowing clients to rent and operate Lionel independently without needing August Robotics engineers on site ",
   },
 ];
 </script>

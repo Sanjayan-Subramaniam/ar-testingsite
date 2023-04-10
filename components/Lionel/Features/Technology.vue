@@ -162,7 +162,7 @@ const lionelTechContent = [
   },
   {
     iconPath: "/icons/lioneltech-mobility-green.svg",
-    videoPath: "/lt-accurate-localisation.webm",
+    videoPath: "/lt-full-mobility.webm",
     title: "Full Mobility",
     copy: "Has a light footprint and 360 wheels, allowing quick manoeuvring and easy transport",
   },

@@ -230,9 +230,8 @@
               <p
                 class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Dujardinstr. 3-9, 47829<br />
-                Krefeld Uerdingen <br />
-                Germany 8255
+                Oberbilker Allee 270A,<br />
+                40227 Düsseldorf, <br />Germany
               </p>
               <ButtonPrimary
                 class="mt-3 mx-auto lg:ml-0 w-full justify-center"

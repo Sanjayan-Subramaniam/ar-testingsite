@@ -51,7 +51,7 @@
             leave-to-class="opacity-0 translate-y-1"
           >
             <PopoverPanel
-              class="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg"
+              class="absolute -left-8 top-full mt-3 w-56 rounded-xl bg-white p-2 shadow-lg z-20"
             >
               <!-- <a
                 v-for="item in technology"
@@ -68,7 +68,7 @@
 
               <NuxtLink
                 to="/diego/"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white"
+                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white z-50"
                 >Diego</NuxtLink
               >
             </PopoverPanel>
@@ -94,14 +94,25 @@
             leave-to-class="opacity-0 translate-y-1"
           >
             <PopoverPanel
-              class="absolute -left-8 top-full z-10 mt-3 w-56 rounded-xl bg-white p-2 shadow-lg"
+              class="absolute -left-8 top-full mt-3 w-56 rounded-xl bg-white p-2 shadow-lg z-20"
             >
-              <nuxt-link
-                v-for="item in company"
+              <!-- <a
+                v-for="item in technology"
                 :key="item.name"
-                :to="item.to"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-ardarkgreen/80 hover:text-white"
-                >{{ item.name }}</nuxt-link
+                :href="item.href"
+                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
+                >{{ item.name }}</a
+              > -->
+              <NuxtLink
+                to="/about/"
+                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
+                >About us</NuxtLink
+              >
+
+              <NuxtLink
+                to="/news/"
+                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white z-50"
+                >News</NuxtLink
               >
             </PopoverPanel>
           </transition>
@@ -276,8 +287,8 @@ const technology = [
   { name: "Diego", to: "/diego/" },
 ];
 const company = [
-  { name: "News", to: "/news/" },
   { name: "About us", to: "/about/" },
+  { name: "News", to: "/news/" },
 ];
 
 const mobileMenuOpen = ref(false);
