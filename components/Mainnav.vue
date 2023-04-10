@@ -61,12 +61,15 @@
                 >{{ item.name }}</a
               > -->
               <NuxtLink
+                @click="techMenuOpen = true"
                 to="/lionel/"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-                >Lionel</NuxtLink
+              >
+                <PopoverButton>Lionel </PopoverButton></NuxtLink
               >
 
               <NuxtLink
+                @click="techMenuOpen = true"
                 to="/diego/"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white z-50"
                 >Diego</NuxtLink
@@ -292,4 +295,6 @@ const company = [
 ];
 
 const mobileMenuOpen = ref(false);
+const techMenuOpen = ref(false);
+const companyMenuOpen = ref(false);
 </script>
