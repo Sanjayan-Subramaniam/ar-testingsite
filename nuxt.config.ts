@@ -5,7 +5,16 @@ export default defineNuxtConfig({
     "@nuxt/content",
     "@nuxtjs/tailwindcss",
     "@nuxt/image-edge",
+    "@nuxtjs/google-fonts",
   ],
+  googleFonts: {
+    families: {
+      Saira: {
+        wght: [300, 400, 500, 600, 700, 800, 900],
+        ital: [300, 400, 500, 600, 700, 800, 900],
+      },
+    },
+  },
   components: {
     global: true,
     dirs: ["~/components"],
