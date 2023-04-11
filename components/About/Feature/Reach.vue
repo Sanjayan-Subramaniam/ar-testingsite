@@ -320,7 +320,7 @@
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3688.0477054796943!2d114.20385292864755!3d22.4272301968038!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890c6e5ba1d%3A0xef42d8046db41843!2sUnit%20230%2C%20Building%2C%2019%20Science%20Park%20W%20Ave%2C%20Sha%20Tin%2C%20Hong%20Kong!5e0!3m2!1sen!2sau!4v1678740805492!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14737.133757782785!2d114.06484!3d22.5685!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3403f46257252eaf%3A0x87ab2098ed666ff4!2zQ2hpbmEsIEd1YW5nIERvbmcgU2hlbmcsIFNoZW4gWmhlbiBTaGksIEZ1IFRpYW4gUXUsIOaiheael-i3rzQ25Y-3IOmCruaUv-e8lueggTogNTE4MDQ5!5e0!3m2!1sen!2shk!4v1681196019809!5m2!1sen!2shk"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"

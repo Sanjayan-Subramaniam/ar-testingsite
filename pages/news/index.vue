@@ -57,14 +57,14 @@ const articles = computed(() => data.value?.articles ?? []);
         </div>
         <Mainbuttonsarrow></Mainbuttonsarrow>
       </section>
+      <SectionSpacer />
       <section class="p-5 lg:p-10 container mx-auto">
-        <h3
-          class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl px-10"
-        >
-          News Archive
+        <h3 class="mx-auto text-center text-3xl text-ardarkgreen md:text-5xl">
+          News
         </h3>
+        <SectionSpacer />
         <ul
-          class="flex gap-3 row-start-5 row-end-6 p-10 flex-wrap justify-center"
+          class="flex gap-3 row-start-5 row-end-6 px-10 flex-wrap justify-center"
         >
           <li v-for="tag in store.newsTags" class="contents">
             <button

@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto flex flex-col gap-y-6">
     <p class="text-mobileCopy lg:text-desktopCopy mx-auto">
-      Watch the video to see how to set up Lionel on-site
+      Watch the video to see how to set up Lionel on site
     </p>
 
     <iframe

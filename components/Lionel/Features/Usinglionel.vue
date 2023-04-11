@@ -32,8 +32,8 @@
           <Sequencecard
             iconPath="/icons/uselionel-setup.svg"
             imagePath="bg-[url('/uselionel-setup.webp')]"
-            title="Set up on-site"
-            copy="Set up the Lionel system on-site and calibrate Lionel so it is ready to run"
+            title="Set up on site"
+            copy="Set up the Lionel system on site and calibrate Lionel so it is ready to run"
             number="2"
             borderColor="border-arprimary"
             bgColor="bg-arprimary"

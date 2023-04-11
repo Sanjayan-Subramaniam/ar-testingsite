@@ -4,12 +4,11 @@
       Choose your Lionel
     </h2>
     <p
-      class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full mx-auto"
+      class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full mx-auto mb-6"
     >
       What are you interested in?
     </p>
   </div>
-  <SectionSpacer />
 
   <div class="container mx-auto md:w-[720px] lg:w-[1000px] justify-start">
     <div class="flex h-[320px] lg:h-[320px] flex-row">

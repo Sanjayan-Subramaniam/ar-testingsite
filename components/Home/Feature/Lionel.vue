@@ -11,13 +11,13 @@
       </div>
 
       <h4
-        class="lg:translate-x-[60px] font-base order-1 text-center text-4xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left"
+        class="font-base order-1 text-center text-4xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left"
       >
         Lionel
       </h4>
 
       <p
-        class="lg:translate-x-[60px] order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
+        class="order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
       >
         Lionel moves around your floor and marks your digital plan on the ground
         <br /><br />

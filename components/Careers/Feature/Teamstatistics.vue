@@ -7,7 +7,7 @@
     </div>
     <div class="flex flex-col items-start justify-start">
       <h5
-        class="text-argray uppercase text-[11px] translate-y-[-5px] font-medium lg:translate-y-[-10px] tracking-[0.4em]"
+        class="text-argray uppercase text-[11px] translate-y-[-5px] font-medium lg:translate-y-[-10px] tracking-[0.4em] text-left"
       >
         {{ subTitle }}
       </h5>

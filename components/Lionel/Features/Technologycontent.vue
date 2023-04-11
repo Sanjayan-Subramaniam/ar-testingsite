@@ -27,7 +27,7 @@
 
       <div class="w-full h-[240px] lg:h-full p-6 flex flex-col gap-y-3">
         <div class="flex flex-row items-center gap-x-4">
-          <div class="basis-2/6">
+          <div class="basis-1/6">
             <div
               class="flex flex-col border-arprimary bg-white border-4 rounded-md h-20 w-20 justify-center items-center"
             >

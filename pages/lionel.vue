@@ -6,7 +6,6 @@
 
     <SectionSpacer />
 
-    <SectionSpacer />
     <LionelFeaturesUsinglionel id="usinglionel" />
     <SectionSpacer />
     <LionelFeaturesVideos />

@@ -8,7 +8,7 @@
       </h4>
 
       <div
-        class="order-5 my-auto ml-auto mr-auto flex h-40 w-[320px] flex-col items-center justify-center rounded-lg bg-white shadow-md md:w-5/6 lg:ml-0 lg:mr-auto lg:w-[500px] lg:col-start-2"
+        class="order-5 my-auto ml-auto mr-auto flex h-40 w-[320px] flex-col items-center justify-center rounded-lg bg-white shadow-md md:w-5/6 lg:w-[500px] lg:col-start-2"
       >
         <nuxt-link
           class="mx-auto my-auto mb-auto grid h-20 w-[80%] grid-cols-12 items-center border-0 bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:w-[90%] hover:border-4 hover:border-arsecondary hover:bg-arblue/100"
