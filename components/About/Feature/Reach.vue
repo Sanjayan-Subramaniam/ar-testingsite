@@ -29,7 +29,11 @@
               <span class="sr-only">Las Vegas Office</span>
               <img class="h-8 w-auto" src="~/assets/img/flags/usa.svg" alt="" />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Las Vegas</h4>
+            <h4
+              class="text-argray text-[9px] md:text-[12px] lg:text-[16px] text-center"
+            >
+              Las Vegas
+            </h4>
           </a>
 
           <a
@@ -44,7 +48,11 @@
               <span class="sr-only">Indianapolis Office</span>
               <img class="h-8 w-auto" src="~/assets/img/flags/usa.svg" alt="" />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Indianapolis</h4>
+            <h4
+              class="text-argray text-[9px] md:text-[12px] lg:text-[16px] text-center"
+            >
+              Indianapolis
+            </h4>
           </a>
 
           <a
@@ -63,7 +71,11 @@
                 alt=""
               />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Dusseldorf</h4>
+            <h4
+              class="text-argray text-[9px] md:text-[12px] lg:text-[16px] text-center"
+            >
+              Dusseldorf
+            </h4>
           </a>
 
           <a
@@ -82,7 +94,11 @@
                 alt=""
               />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Hong Kong</h4>
+            <h4
+              class="text-argray text-[9px] md:text-[12px] lg:text-[16px] text-center"
+            >
+              Hong Kong
+            </h4>
           </a>
 
           <a
@@ -101,7 +117,11 @@
                 alt=""
               />
             </div>
-            <h4 class="text-argray text-[9px] text-center">Shenzhen</h4>
+            <h4
+              class="text-argray text-[9px] md:text-[12px] lg:text-[16px] text-center"
+            >
+              Shenzhen
+            </h4>
           </a>
         </div>
       </div>
@@ -273,9 +293,9 @@
               <p
                 class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19W<br />
-                Science and Technology Ave W <br />
-                Hong Kong Science Park, Sha Tin
+                Unit 230, Building 19<br />
+                Science Park W Ave <br />
+                Sha Tin, Hong Kong
               </p>
               <ButtonPrimary
                 class="mt-3 mx-auto lg:ml-0 w-full justify-center"

@@ -37,7 +37,7 @@
         power and US$2.5 billion total asset value. <br /><br />
 
         Hungry for an even bigger adventure, in 2017, Alex founded August
-        Robotics with the mission to automate “dirty, dangerous and dull” jobs
+        Robotics with the mission to automate dirty, dangerous and dull jobs
         across the economy. Alex’s role quickly pivoted from tinkering with
         robots to leading a global team across five offices, while maintaining
         an unwavering mission to improve businesses through technological

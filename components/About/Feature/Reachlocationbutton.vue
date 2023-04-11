@@ -6,7 +6,7 @@
       <span class="sr-only">{{ srlocation }}</span>
       <img class="h-8 w-auto" :src="flagImage" alt="" />
     </div>
-    <h4 class="text-argray text-[9px] text-center">{{ location }}</h4>
+    <h4 class="text-argray text-[16px] text-center">{{ location }}</h4>
   </a>
 </template>
 
