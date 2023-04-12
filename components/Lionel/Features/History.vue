@@ -1,7 +1,9 @@
 <template>
   <div class="container mx-auto">
     <div class="flex flex-col">
-      <div class="flex flex-col items-center lg:w-[800px] mx-auto gap-y-6">
+      <div
+        class="flex flex-col items-center lg:w-[800px] mx-auto gap-y-6 lg:gap-y-9"
+      >
         <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
           Lionel History
         </h2>

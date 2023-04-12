@@ -4,7 +4,7 @@
       <div
         class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
       >
-        <h2 class="text-center text-3xl text-arprimary md:text-5xl">
+        <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
           Lionel's Technology
         </h2>
         <p

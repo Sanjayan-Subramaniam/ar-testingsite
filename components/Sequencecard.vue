@@ -1,6 +1,7 @@
 <template>
   <div
-    class="bg-white shadow-lg w-[240px] xl:w-[360px] h-[520px] lg:h-[560px] xl:h-[640px] mx-6 rounded-lg relative"
+    class="bg-white shadow-lg w-[240px] xl:w-[360px] mx-6 rounded-lg relative mt-0"
+    :class="height"
   >
     <div
       class="w-14 h-14 rounded-full absolute top-0 translate-x-[-50%] translate-y-[-50%] flex flex-col justify-center items-center"
@@ -45,6 +46,7 @@ defineProps({
   title: String,
   copy: String,
   number: String,
+  height: String,
 });
 </script>
 

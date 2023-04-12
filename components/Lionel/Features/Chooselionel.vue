@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-col gap-y-6">
-    <h2 class="text-center text-3xl text-arprimary md:text-5xl">
+    <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Choose your Lionel
     </h2>
     <p
@@ -23,7 +23,7 @@
         <p
           class="text-center text-white text-mobileCopy w-[70%] mx-auto leading-tight basis-4/6"
         >
-          Fast and accurate layout using Lionel
+          Fast and accurate <br />layout using Lionel
         </p>
         <ButtonVisit
           button-link="www.construction.augustrobotics.com"
@@ -41,7 +41,7 @@
         <p
           class="text-center text-white text-mobileCopy w-[70%] mx-auto basis-4/6"
         >
-          Marking Exhibition floors using Lionel
+          Marking exhibition floors using Lionel
         </p>
         <ButtonVisit
           button-link="www.construction.augustrobotics.com"
@@ -59,7 +59,8 @@
         <p
           class="text-center text-white text-mobileCopy w-[70%] mx-auto basis-4/6"
         >
-          Lionel's technology and history
+          Lionel's technology<br />
+          and history
         </p>
         <ButtonVisit button-link="/#usinglionel" class="mx-auto basis-1/6" />
       </div>

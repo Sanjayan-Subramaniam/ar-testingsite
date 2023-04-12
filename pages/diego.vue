@@ -4,6 +4,10 @@
     <SectionSpacer />
     <DiegoFeaturesUsecases />
     <SectionSpacer />
+    <h2 class="text-center text-3xl text-arblue md:text-5xl">
+      Diego's Benefits
+    </h2>
+    <SectionSpacer />
     <DiegoFeaturesContentimgright
       title="Powerful"
       bgimage-path="bg-[url('/diego-powerful.webp')]"
@@ -14,6 +18,7 @@
     />
 
     <SectionSpacer />
+
     <DiegoFeaturesContentimgleft
       title="Efficient"
       title-color="text-arblue"
@@ -22,18 +27,17 @@
       icon-path="/icons/efficient.svg"
       para1="UV-C light is not only the most powerful, but the most efficient disinfectant"
       para2="Quickly destroys DNA and RNA of microorganisms on exposure"
-      para3="Disinfect each room in as little as five minutes"
+      para3="Diego disinfects each room in as little as five minutes"
     />
     <SectionSpacer />
     <DiegoFeaturesContentimgright
       title="Autonomous"
       bgimage-path="bg-[url('/diego-autonomous.webp')]"
       icon-path="/icons/autonomous.svg"
-      para1="Diego autonomously moves around a room and from room to room based on your floorplan
-Intelligently reaches every nook and cranny
-"
-      para2="Equipped with advanced navigation, obstacle avoidance and safety technology"
-      para3="No human supervision – free up valuable labour for other cleaning needs"
+      para1="Diego autonomously moves around a room and from room to room based on your floorplan"
+      para2="Intelligently reaches every nook and cranny"
+      para3="Equipped with advanced navigation, obstacle avoidance and safety technology"
+      para4="No human supervision – free up valuable labour for other cleaning needs"
     />
 
     <SectionSpacer />
@@ -41,10 +45,9 @@ Intelligently reaches every nook and cranny
       title="Easy"
       bgimage-path="bg-[url('/diego-easy.webp')]"
       icon-path="/icons/easy.svg"
-      para1="Diego autonomously moves around a room and from room to room based on your floorplan"
-      para2="Intelligently reaches every nook and cranny"
-      para3="Equipped with advanced navigation, obstacle avoidance and safety technology"
-      para4="No human supervision – free up valuable labour for other cleaning needs"
+      para1="Command instant disinfection at a push of a button"
+      para2="Or, set up an automatic disinfection schedule (e.g. floor 1 on Monday overnights, floor 2 on Tuesdays overnight)"
+      para3="Receive daily progress logs and reports"
     />
     <SectionSpacer />
 

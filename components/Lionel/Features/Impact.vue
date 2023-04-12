@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto">
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
-      Lionel's Impact to date
+      Lionel's Impact to Date
     </h2>
     <SectionSpacer />
 
@@ -45,7 +45,7 @@
           />
           <CareersFeatureTeamstatistics
             sub-title="floorspace marked"
-            statistic="2.9 Million sqm"
+            statistic="2.9 Million Sqm"
             icon="/icons/lionelimpact-area.svg"
           />
         </div>

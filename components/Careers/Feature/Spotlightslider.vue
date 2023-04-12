@@ -5,7 +5,7 @@
     >
       Team Spotlight
     </h2>
-
+    <SectionSpacer />
     <div class="px-6 pt-6 w-[90%] lg:w-full mx-auto lg:px-0">
       <div class="flex flex-col lg:flex-row lg:gap-x-0">
         <div
@@ -157,7 +157,7 @@ const content = [
     role: "On-Site Engineering Global Lead",
     country: "Germany",
     quote:
-      "Working with clients every day allows me to see first-hand their fascination and delight with the technology - the robots make short work of a tedious and unloved aspect of their job.",
+      "Working with clients every day allows me to see first-hand their fascination and delight with the technology — the robots make short work of a tedious and unloved aspect of their job.",
     flagImage: "/flags/germany.svg",
     personnelImage: "/spotlight-engineeringgloballead.webp",
   },
@@ -193,7 +193,7 @@ const content = [
     role: "Senior Project Manager",
     country: "Mainland China",
     quote:
-      "We identify clients' real problems and develop the best solutions for their needs. Working here is very interesting - we are always experimenting and new things are happening every day.",
+      "We identify clients' real problems and develop the best solutions for their needs. Working here is very interesting — we are always experimenting and new things are happening every day.",
     flagImage: "/flags/mainlandchina.svg",
     personnelImage: "/spotlight-seniorprojectmanager.webp",
   },

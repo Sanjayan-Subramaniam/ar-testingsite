@@ -41,7 +41,7 @@
           </div>
           <div class="flex flex-col justify-end">
             <h4
-              class="basis-4/6 text-[20px] lg:text-desktopCopy text-arprimary text-left font-medium transition-all duration-1000 ease-in-out"
+              class="basis-4/6 text-[20px] lg:text-desktopCopy text-ardarkgreen text-left font-medium transition-all duration-1000 ease-in-out"
             >
               {{ title }}
             </h4>

@@ -34,7 +34,7 @@
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
-            All our robots have been developed using August Robotics’
+            All August Robotics' robots have been developed using our own
             <br />industry-leading technology. View our current robot portfolio
             below
           </p>

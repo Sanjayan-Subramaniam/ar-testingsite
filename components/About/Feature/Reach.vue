@@ -163,7 +163,7 @@
                 class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
                 3400 W Desert Inn Rd,<br />
-                Las Vegas <br />
+                Las Vegas, <br />
                 NV 89102, United States
               </p>
               <ButtonPrimary
@@ -206,7 +206,7 @@
               <p
                 class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                8255 Indy Court<br />
+                8255 Indy Court,<br />
                 Indianapolis, <br />
                 IN 46214, United States
               </p>
@@ -293,9 +293,9 @@
               <p
                 class="text-[14px] text-left md:text-center lg:text-desktopCopy lg:items-start lg:text-left"
               >
-                Unit 230, Building 19<br />
-                Science Park W Ave <br />
-                Sha Tin, Hong Kong
+                Unit 230, Building 19W, <br />
+                Science Park W Ave, <br />
+                Hong Kong Science Park, <br />Hong Kong
               </p>
               <ButtonPrimary
                 class="mt-3 mx-auto lg:ml-0 w-full justify-center"

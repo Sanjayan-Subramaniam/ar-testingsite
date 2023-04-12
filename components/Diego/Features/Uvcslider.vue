@@ -89,7 +89,7 @@
         <div
           class="flex flex-row lg:justify-start justify-center items-center lg:items-start gap-x-6 lg:gap-x-12"
         >
-          <h2 class="lg:text-left md:text-3xl text-center text-2xl text-arblue">
+          <h2 class="lg:text-left text-center text-3xl text-arblue md:text-5xl">
             Why use UVC?
           </h2>
         </div>
@@ -140,7 +140,7 @@ const sliderContent = [
     image: "/diego-efficient.webp",
     icon: "/icons/clinicallyproven.svg",
     title: "Clinically proven",
-    para: "UVC radiation has been shown to destroy the outer protein coating of the SARS-Coronavirus...The destruction ultimately leads to inactivation of the virus.",
+    para: "UVC radiation has been shown to destroy the outer protein coating of the SARS-Coronavirus...  The destruction ultimately leads to inactivation of the virus.",
     quotePerson: "- U.S. Food and Drug Administration (FDA)",
   },
   {

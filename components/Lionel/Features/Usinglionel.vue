@@ -3,15 +3,17 @@
     <div class="container mx-auto">
       <div class="flex flex-col">
         <div
-          class="flex flex-col items-center gap-y-4 lg:gap-y-6 lg:w-[800px] mx-auto"
+          class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
         >
-          <h2 class="text-center text-3xl text-arprimary md:text-5xl">
+          <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
             How to use Lionel
           </h2>
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
             Using Lionel is very simple and does not require technical knowledge
+            <br />
+            <br />
             Unlock the benefits of robotic marking in three easy steps
           </p>
         </div>
@@ -28,6 +30,7 @@
             borderColor="border-arprimary"
             bgColor="bg-arprimary"
             titleColor="text-arprimary"
+            height="h-[420px] lg:h-[420px] xl:h-[560px]"
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/uselionel-setup.svg"
@@ -38,6 +41,7 @@
             borderColor="border-arprimary"
             bgColor="bg-arprimary"
             titleColor="text-arprimary"
+            height="h-[420px] lg:h-[420px] xl:h-[560px]"
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/uselionel-run.svg"
@@ -48,6 +52,7 @@
             borderColor="border-arprimary"
             bgColor="bg-arprimary"
             titleColor="text-arprimary"
+            height="h-[420px] lg:h-[420px] xl:h-[560px]"
           ></Sequencecard>
         </div>
       </div>

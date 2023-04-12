@@ -85,7 +85,7 @@
       </div>
       <div class="flex flex-row justify-center lg:justify-start">
         <p class="mt-10 lg:ml-16 text-sm">
-          Copyright August Robotics 2023. All rights reserved.
+          Copyright August Robotics Limited 2023. All rights reserved.
         </p>
       </div>
     </div>

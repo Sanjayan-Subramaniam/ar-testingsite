@@ -1,7 +1,7 @@
 <template>
   <div>
     <div class="container mx-auto">
-      <div class="flex flex-col gap-y-12">
+      <div class="flex flex-col">
         <div
           class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
         >
@@ -11,9 +11,9 @@
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
-            Diego is very easy to use. <br class="hidden xl:block" />
+            Diego is very easy to use <br class="hidden xl:block" />
             <br class="hidden xl:block" />Unlock the benefits of robotic
-            disinfection in three easy steps.
+            disinfection in three easy steps
           </p>
         </div>
         <SectionSpacer />
@@ -29,6 +29,7 @@
             number="1"
             borderColor="border-arblue"
             bgColor="bg-arblue"
+            height="h-[440px] lg:h-[440px] xl:h-[560px]"
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/usediego-setup.svg"
@@ -40,6 +41,7 @@
             color="arblue"
             borderColor="border-arblue"
             bgColor="bg-arblue"
+            height="h-[440px] lg:h-[440px] xl:h-[560px]"
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/usediego-run.svg"
@@ -51,6 +53,7 @@
             color="arblue"
             borderColor="border-arblue"
             bgColor="bg-arblue"
+            height="h-[440px] lg:h-[440px] xl:h-[560px]"
           ></Sequencecard>
         </div>
       </div>
