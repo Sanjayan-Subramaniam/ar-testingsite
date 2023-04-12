@@ -74,7 +74,7 @@
             <h4
               class="text-argray text-[9px] md:text-[12px] lg:text-[16px] text-center"
             >
-              Dusseldorf
+              Düsseldorf
             </h4>
           </a>
 
@@ -233,7 +233,7 @@
           <div class="flex flex-col lg:flex-row p-3 gap-y-3 lg:p-6 lg:gap-x-6">
             <div class="lg:basis-2/3">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2491.4292346483835!2d6.6481833158930295!3d51.35840532940695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8ba37f80ca6bb%3A0xd912809fc59ea2ef!2sDujardinstra%C3%9Fe%203%2C%2047829%20Krefeld%2C%20Germany!5e0!3m2!1sen!2sau!4v1678740609179!5m2!1sen!2sau"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2499.490098841227!2d6.803136416087169!3d51.21004667958731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b8cbb5ce0ecb37%3A0xf0b5c1c9771e86b9!2sOberbilker%20Allee%20270A%2C%2040227%20D%C3%BCsseldorf%2C%20Germany!5e0!3m2!1sen!2sau!4v1681270635793!5m2!1sen!2sau"
                 style="border: 0"
                 allowfullscreen=""
                 loading="lazy"

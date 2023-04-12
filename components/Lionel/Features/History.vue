@@ -38,7 +38,7 @@ const changeState = (newState) => {
 const timelines = [
   {
     state: "1",
-    event: "Lionel Idea",
+    event: "Lionel idea",
     src: "/journey-lioneldevelopment.webp",
     time: "Early 2018",
     description:

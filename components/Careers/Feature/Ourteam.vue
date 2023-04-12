@@ -2,7 +2,7 @@
   <div class="container mx-auto">
     <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">Our Team</h2>
     <SectionSpacer />
-    <div class="grid lg:grid-cols-2 gap-y-9">
+    <!-- <div class="grid lg:grid-cols-2 gap-y-9">
       <div class="order-2 lg:col-start-2 lg:row-start-1 lg:mt-0">
         <div
           class="grid grid-rows-2 grid-cols-2 mx-auto lg:mx-0 w-[300px] xl:w-[500px] h-[300px] xl:h-[500px]"
@@ -22,6 +22,35 @@
           ></div>
         </div>
       </div>
+
+      <div
+        class="lg:translate-x-[60px] order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left my-auto"
+      >
+        <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:my-auto">
+          <CareersFeatureTeamstatistics
+            sub-title="locations"
+            statistic="5 Offices"
+            icon="/icons/location.svg"
+          />
+          <CareersFeatureTeamstatistics
+            sub-title="diversity"
+            statistic="15 Nationalities"
+            icon="/icons/nationalities.svg"
+          />
+          <CareersFeatureTeamstatistics
+            sub-title="average age"
+            statistic="32 Years"
+            icon="/icons/birthdaycake.svg"
+          />
+        </div>
+      </div>
+    </div> -->
+
+    <div class="flex flex-col gap-y-6 lg:flex-row mx-auto lg:w-[1000px]">
+      <img
+        src="/ourteam1.webp"
+        class="mx-auto rounded-2xl w-[320px] h-[320px] md:w-[440px] md:h-[440px] object-cover"
+      />
 
       <div
         class="lg:translate-x-[60px] order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left my-auto"

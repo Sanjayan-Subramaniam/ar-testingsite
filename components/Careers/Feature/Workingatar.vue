@@ -95,7 +95,7 @@ const workingContent = [
     title: "Everyone has a say",
     imagePath: "/working-inclusive.webp",
     workingCopy:
-      "Our small team size means everyone has outsized influence on the, trajectory of the company. We make big strategic decisions every day – from what robot to build to what market to enter – and everyone, nomatter their role or seniority, has a say.",
+      "Our small team size means everyone has outsized influence on the, trajectory of the company. We make big strategic decisions every day – from what robot to build to what market to enter – and everyone, no matter their role or seniority, has a say.",
   },
 ];
 </script>

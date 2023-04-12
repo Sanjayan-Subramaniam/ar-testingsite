@@ -13,7 +13,7 @@
         >
           <img
             :src="content[state - 1].personnelImage"
-            class="rounded-t-lg rounded-bl-lg rounded-br-lg w-12 h-12 lg:w-full lg:h-[400px] lg:rounded-t-none lg:rounded-bl-lg lg:rounded-br-none object-cover object-center"
+            class="rounded-t-full rounded-bl-full rounded-br-full w-20 h-20 lg:w-full lg:h-[400px] lg:rounded-t-none lg:rounded-bl-lg lg:rounded-br-none object-cover object-center"
           />
 
           <div

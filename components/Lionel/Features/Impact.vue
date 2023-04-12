@@ -45,7 +45,7 @@
           />
           <CareersFeatureTeamstatistics
             sub-title="floorspace marked"
-            statistic="2.9 Million sq m"
+            statistic="2.9 Million sqm"
             icon="/icons/lionelimpact-area.svg"
           />
         </div>
