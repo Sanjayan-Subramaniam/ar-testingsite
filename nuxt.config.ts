@@ -6,7 +6,11 @@ export default defineNuxtConfig({
     "@nuxtjs/tailwindcss",
     "@nuxt/image-edge",
     "@nuxtjs/google-fonts",
+    "@nuxtjs/partytown",
   ],
+  partytown: {
+    forward: ["dataLayer.push"],
+  },
   googleFonts: {
     families: {
       Saira: {
