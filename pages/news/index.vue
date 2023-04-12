@@ -36,12 +36,22 @@ const articles = computed(() => data.value?.articles ?? []);
   <div v-if="data">
     <main>
       <section
-        class="md:h-[70vh] bg-gray/90 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
+        class="md:h-[70vh] bg-lionel-background h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
       >
+        <video
+          autoplay
+          loop
+          muted
+          playsinline
+          alt=""
+          class="object-cover absolute h-full w-full"
+        >
+          <source src="/NewsHero.webm" type="video/webm" />
+        </video>
         <!-- Hero content title and button -->
 
         <div
-          class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%]"
+          class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%] relative z-10"
         >
           <div
             class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
@@ -52,10 +62,9 @@ const articles = computed(() => data.value?.articles ?? []);
               Get all the latest updates
             </h1>
 
-            <ButtonPrimary button-copy="Speak to us"></ButtonPrimary>
+            <ButtonPrimarydiego class="bg-arprimary" />
           </div>
         </div>
-        <Mainbuttonsarrow></Mainbuttonsarrow>
       </section>
       <SectionSpacer />
       <section class="p-5 lg:p-10 container mx-auto">
