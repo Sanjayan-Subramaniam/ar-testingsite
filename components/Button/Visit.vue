@@ -1,9 +1,9 @@
 <template>
   <nuxt-link
-    class="w-[80px] md:w-[120px] lg:w-[140px] h-[48px] bg-white flex flew-row items-center rounded-lg p-1 md:p-2 lg:p-3 my-auto border-arblack border-2 gap-x-2"
+    class="w-[80px] md:w-[120px] lg:w-[140px] h-[36px] md:h-[48px] bg-white flex flew-row items-center rounded-lg p-2 md:p-2 lg:p-3 my-auto border-arblack border-2 gap-x-2"
     :to="buttonLink"
   >
-    <p class="text-base md:basis-2/3 text-arblack flex flex-row gap-x-1">
+    <p class="text-[14px] md:basis-2/3 text-arblack flex flex-row gap-x-1">
       {{ buttonCopy1 }} <span class="hidden md:block"> {{ buttonCopy2 }}</span>
     </p>
     <svg

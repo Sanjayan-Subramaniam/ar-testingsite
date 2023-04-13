@@ -30,7 +30,7 @@
             borderColor="border-arprimary"
             bgColor="bg-arprimary"
             titleColor="text-arprimary"
-            height="h-[420px] lg:h-[420px] xl:h-[560px]"
+            height="h-[420px] lg:h-[420px] xl:h-[480px]"
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/uselionel-setup.svg"
@@ -41,7 +41,7 @@
             borderColor="border-arprimary"
             bgColor="bg-arprimary"
             titleColor="text-arprimary"
-            height="h-[420px] lg:h-[420px] xl:h-[560px]"
+            height="h-[420px] lg:h-[420px] xl:h-[480px]"
           ></Sequencecard>
           <Sequencecard
             iconPath="/icons/uselionel-run.svg"
@@ -52,7 +52,7 @@
             borderColor="border-arprimary"
             bgColor="bg-arprimary"
             titleColor="text-arprimary"
-            height="h-[420px] lg:h-[420px] xl:h-[560px]"
+            height="h-[420px] lg:h-[420px] xl:h-[480px]"
           ></Sequencecard>
         </div>
       </div>

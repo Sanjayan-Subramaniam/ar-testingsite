@@ -10,7 +10,9 @@
     </p>
   </div>
 
-  <div class="container mx-auto md:w-[720px] lg:w-[1000px] justify-start">
+  <div
+    class="container mx-auto md:w-[720px] lg:w-[1000px] justify-start cursor-pointer"
+  >
     <div class="flex h-[320px] lg:h-[320px] flex-row">
       <div
         class="mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-construction-background bg-argray/80 bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-argray/100 hover:bg-construction-background-full hover:border-arprimary hover:border-[6px]"

@@ -5,9 +5,9 @@
     @click="changeState('state')"
     :class="state === 'state' ? 'opacity-100' : 'opacity-20'"
   >
-    <div class="grid grid-cols-12 grid-rows-2 lg:grid-rows-1 gap-x-3 gap-y-3">
+    <div class="grid grid-cols-12 grid-rows-1 gap-x-3 sm:gap-y-3">
       <div
-        class="col-start-1 col-span-3 row-span-2 lg:col-span-2 lg:row-span-1 relative flex flex-col justify-center items-center"
+        class="col-start-1 col-span-3 row-span-2 lg:col-span-2 lg:row-span-1 relative flex flex-col lg:justify-center items-center"
       >
         <div
           class="w-[4px] bg-argray h-full"
@@ -31,9 +31,9 @@
         :src="src"
       />
       <div
-        class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4"
+        class="flex flex-col lg:justify-center row-start-2 col-start-4 col-span-8 lg:row-start-1 lg:col-start-9 lg:col-span-4 mb-12"
       >
-        <p class="text-mobileCopy xl:text-[20px]">
+        <p class="text-mobileCopy xl:text-desktopCopy">
           {{ description }}
         </p>
       </div>
