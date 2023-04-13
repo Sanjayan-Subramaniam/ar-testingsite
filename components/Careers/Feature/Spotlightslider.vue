@@ -26,7 +26,7 @@
             <div class="flex flex-row gap-x-3 items-center">
               <img :src="content[state - 1].flagImage" class="h-12" />
 
-              <h4>
+              <h4 class="text-desktopCopy">
                 {{ content[state - 1].country }}
               </h4>
             </div>

@@ -12,7 +12,7 @@
         {{ subTitle }}
       </h5>
       <p
-        class="translate-y-[-5px] lg:translate-y-[-10px] text-arprimary text-mobileCopy font-bold lg:text-[32px] tracking-wide"
+        class="translate-y-[-5px] lg:translate-y-[-10px] text-arprimary text-desktopCopy font-bold lg:text-[32px] tracking-wide"
       >
         {{ statistic }}
       </p>

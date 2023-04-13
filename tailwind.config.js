@@ -36,8 +36,9 @@ module.exports = {
         linkedinblue: "#0072b1",
       },
       fontSize: {
-        desktopCopy: ["1.5rem", { lineHeight: "2rem" }],
+        desktopCopy: ["1.125rem", { lineHeight: "1.8rem" }],
         mobileCopy: ["1rem", { lineHeight: "1.5rem" }],
+        titleDesktopCopy: ["1.125rem", { lineHeight: "2rem" }],
       },
 
       fontFamily: {
