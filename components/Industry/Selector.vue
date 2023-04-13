@@ -4,8 +4,11 @@
       <button
         @mouseover="changeState('construction')"
         @click="changeState('construction')"
-        :class="initial"
-        class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-argray/80 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-argray/100 hover:bg-construction-background-full"
+        :class="[
+          initial,
+          'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-argray/80 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-argray/100 hover:bg-construction-background-full',
+          state === 'construction' && 'h-5/6',
+        ]"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Construction
@@ -14,7 +17,10 @@
       <button
         @mouseover="changeState('exhibitions')"
         @click="changeState('exhibitions')"
-        class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblack/80 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblack/100 hover:bg-exhibition-background-full"
+        :class="[
+          'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblack/80 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblack/100 hover:bg-exhibition-background-full',
+          state === 'exhibitions' && 'h-5/6',
+        ]"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Exhibitions
@@ -23,7 +29,10 @@
       <button
         @mouseover="changeState('disinfection')"
         @click="changeState('disinfection')"
-        class="mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background"
+        :class="[
+          'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background',
+          state === 'disinfection' && 'h-5/6',
+        ]"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Commercial <br />
