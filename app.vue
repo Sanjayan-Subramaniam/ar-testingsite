@@ -41,9 +41,7 @@ useHead({
     },
 
     {
-      cors: true,
       type: "text/partytown",
-      async: true,
 
       innerHTML: `
     var hubalzscript = document.createElement("script");
@@ -56,7 +54,6 @@ useHead({
     {
       type: "text/partytown",
       src: "https://platform.illow.io/banner.js?siteId=10e62391-b031-477d-95a9-52e1a13173ea",
-      async: true,
     },
   ],
 });
