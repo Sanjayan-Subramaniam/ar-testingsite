@@ -218,12 +218,10 @@ const content = [
   },
 ];
 useHead({
-  link: [
-    content.map(({ personnelImage }) => ({
-      href: personnelImage,
-      rel: "prefetch",
-    })),
-  ],
+  link: content.map(({ personnelImage }) => ({
+    href: personnelImage,
+    rel: "prefetch",
+  })),
 });
 </script>
 
