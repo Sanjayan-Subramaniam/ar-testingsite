@@ -85,7 +85,7 @@
           <h3
             class="text-center text-mobileCopy lg:text-desktopCopy font-medium md:text-left md:text-xl"
           >
-            Exhibitions
+            Construction
           </h3>
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy md:text-left"

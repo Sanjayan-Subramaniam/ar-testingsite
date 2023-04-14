@@ -111,9 +111,12 @@
         <!-- Secondary Navbar items -->
         <div class="flex flex-col items-center justify-center">
           <ButtonPrimary />
-          <p class="text-center text-sm text-arprimary mt-3">
+          <a
+            class="text-center text-sm text-arprimary mt-3"
+            href="mailto:info@augustrobotics.com"
+          >
             info@augustrobotics.com
-          </p>
+          </a>
         </div>
       </div>
     </nav>
