@@ -25,12 +25,12 @@ useSeoMeta({
 useHead({
   script: [
     {
-      type: "text/partytown",
+      // type: "text/partytown",
       src: "https://www.googletagmanager.com/gtag/js?id=G-3WC3XHZM91",
       async: true,
     },
     {
-      type: "text/partytown",
+      // type: "text/partytown",
       innerHTML: `window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
@@ -41,7 +41,7 @@ useHead({
     },
 
     {
-      type: "text/partytown",
+      // type: "text/partytown",
 
       innerHTML: `
     var hubalzscript = document.createElement("script");
@@ -52,7 +52,7 @@ useHead({
 `,
     },
     {
-      type: "text/partytown",
+      // type: "text/partytown",
       src: "https://platform.illow.io/banner.js?siteId=10e62391-b031-477d-95a9-52e1a13173ea",
     },
   ],
