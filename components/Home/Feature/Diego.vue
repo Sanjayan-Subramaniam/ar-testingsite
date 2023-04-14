@@ -6,6 +6,7 @@
       >
         <NuxtImg
           sizes="sm:100px md:100px lg:200px"
+          format="webp"
           src="/Diegocropped.png"
           class="mr-auto ml-auto w-[100px] lg:mr-0 lg:w-[200px]"
         />
