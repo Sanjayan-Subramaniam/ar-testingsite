@@ -99,7 +99,8 @@
           ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
-          <img
+          <NuxtImg
+            sizes="sm:240px md:1600px lg:1600px"
             src="/selector-construction.webp"
             alt=""
             srcset=""
@@ -130,8 +131,9 @@
           ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
-          <img
+          <NuxtImg
             src="/selector-exhibitions.webp"
+            sizes="sm:240px md:1600px lg:1600px"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
@@ -159,7 +161,8 @@
           <ButtonVisit buttonLink="/diego/"></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
-          <img
+          <NuxtImg
+            sizes="sm:240px md:1600px lg:1600px"
             src="/selector-disinfection.webp"
             alt=""
             srcset=""
