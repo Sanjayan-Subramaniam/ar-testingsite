@@ -19,7 +19,7 @@
           <Bars3Icon class="text-arblack h-12 w-12" aria-hidden="true" />
         </button>
       </div>
-      <PopoverGroup class="lg:flex lg:gap-x-12 hidden">
+      <div class="lg:flex lg:gap-x-12 hidden">
         <NuxtLink
           to="https://construction.augustrobotics.com/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
@@ -30,102 +30,83 @@
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
           >Exhibitions</NuxtLink
         >
-
-        <Popover class="relative">
-          <PopoverButton
-            class="flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
+        <div
+          class="flex flex-col justify-center items-center"
+          @click="openTech"
+          ref="techMenu"
+        >
+          <button
+            class="flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary relative"
           >
             Technology
             <ChevronDownIcon
               class="h-5 w-5 flex-none text-argray"
               aria-hidden="true"
             />
-          </PopoverButton>
+          </button>
 
-          <transition
-            enter-active-class="transition ease-out duration-200"
-            enter-from-class="opacity-0 translate-y-1"
-            enter-to-class="opacity-100 translate-y-0"
-            leave-active-class="transition ease-in duration-150"
-            leave-from-class="opacity-100 translate-y-0"
-            leave-to-class="opacity-0 translate-y-1"
+          <div
+            v-if="techOpen"
+            class="w-56 rounded-xl bg-white p-2 shadow-lg z-20 absolute mt-[10%]"
           >
-            <PopoverPanel
-              class="absolute -left-8 top-full mt-3 w-56 rounded-xl bg-white p-2 shadow-lg z-20"
+            <NuxtLink
+              @click="techOpen === false"
+              to="/lionel"
+              class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
             >
-              <!-- <a
-                v-for="item in technology"
-                :key="item.name"
-                :href="item.href"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-                >{{ item.name }}</a
-              > -->
-              <NuxtLink
-                @click="techMenuOpen = true"
-                to="/lionel/"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-              >
-                <PopoverButton>Lionel </PopoverButton></NuxtLink
-              >
+              Lionel
+            </NuxtLink>
 
-              <NuxtLink
-                @click="techMenuOpen = true"
-                to="/diego/"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white z-50"
-                >Diego</NuxtLink
-              >
-            </PopoverPanel>
-          </transition>
-        </Popover>
-        <Popover class="relative">
-          <PopoverButton
-            class="flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary"
+            <NuxtLink
+              @click="techOpen === false"
+              to="/diego/"
+              class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white z-50"
+              >Diego</NuxtLink
+            >
+          </div>
+        </div>
+        <div
+          class="flex flex-col justify-center items-center"
+          @click="openCompany"
+          ref="companyMenu"
+        >
+          <button
+            class="flex items-center gap-x-1 text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary focus:text-arprimary relative"
           >
             Company
             <ChevronDownIcon
               class="h-5 w-5 flex-none text-argray"
               aria-hidden="true"
             />
-          </PopoverButton>
+          </button>
 
-          <transition
-            enter-active-class="transition ease-out duration-200"
-            enter-from-class="opacity-0 translate-y-1"
-            enter-to-class="opacity-100 translate-y-0"
-            leave-active-class="transition ease-in duration-150"
-            leave-from-class="opacity-100 translate-y-0"
-            leave-to-class="opacity-0 translate-y-1"
+          <div
+            v-if="companyOpen"
+            class="w-56 rounded-xl bg-white p-2 shadow-lg z-20 absolute mt-[10%]"
           >
-            <PopoverPanel
-              class="absolute -left-8 top-full mt-3 w-56 rounded-xl bg-white p-2 shadow-lg z-20"
+            <NuxtLink
+              @click="companyOpen === false"
+              to="/about"
+              class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
             >
-              <!-- <a
-                v-for="item in technology"
-                :key="item.name"
-                :href="item.href"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-                >{{ item.name }}</a
-              > -->
-              <NuxtLink
-                to="/about/"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-                >About us</NuxtLink
-              >
+              About us
+            </NuxtLink>
 
-              <NuxtLink
-                to="/news/"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white z-50"
-                >News</NuxtLink
-              >
-            </PopoverPanel>
-          </transition>
-        </Popover>
+            <NuxtLink
+              @click="companyOpen === false"
+              to="/news"
+              class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white z-50"
+              >News</NuxtLink
+            >
+          </div>
+        </div>
+
         <NuxtLink
           to="/careers/"
           class="text-left text-[12px] xl:text-[16px] text-arblack font-medium hover:text-arprimary"
           >Careers</NuxtLink
         >
-      </PopoverGroup>
+      </div>
       <div class="hidden lg:flex lg:justify-end">
         <!-- Secondary Navbar items -->
         <div class="flex flex-col items-center justify-center">
@@ -137,6 +118,7 @@
       </div>
     </nav>
     <Dialog
+      v-show="mobileMenuOpen"
       as="div"
       class="lg:hidden"
       @close="mobileMenuOpen = false"
@@ -174,36 +156,6 @@
                 >Exhibitions</a
               >
 
-              <!-- <Disclosure as="div" class="hidden -mx-3" v-slot="{ open }">
-                <DisclosureButton
-                  class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
-                >
-                  Technology
-                  <ChevronDownIcon
-                    :class="[open ? 'rotate-180' : '', 'h-5 w-5 flex-none']"
-                    aria-hidden="true"
-                  />
-                </DisclosureButton>
-                <DisclosurePanel class="mt-2 space-y-2">
-                  <Disclosure
-                    ><NuxtLink to="/about"
-                      ><DisclosureButton
-                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arprimary/50 hover:text-white"
-                        >Lionel</DisclosureButton
-                      ></NuxtLink
-                    ></Disclosure
-                  >
-                  <Disclosure
-                    ><NuxtLink to="/about"
-                      ><DisclosureButton
-                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arblue/50 hover:text-white"
-                        >Diego</DisclosureButton
-                      ></NuxtLink
-                    ></Disclosure
-                  >
-                </DisclosurePanel>
-              </Disclosure> -->
-
               <Disclosure as="div" class="-mx-3" v-slot="{ open }">
                 <DisclosureButton
                   class="flex w-full items-center justify-between rounded-lg py-2 pl-3 pr-3.5 text-base font-semibold leading-7 hover:bg-ardarkgreen/80 hover:text-white"
@@ -215,19 +167,11 @@
                   />
                 </DisclosureButton>
                 <DisclosurePanel class="mt-2 space-y-2">
-                  <!-- <DisclosureButton
-                    v-for="item in company"
-                    :key="item.name"
-                    as="a"
-                    :href="item.href"
-                    class="block rounded-lg py-2 pl-6 pr-3 text-sm font-semibold leading-7 text-gray-900 hover:bg-gray-50"
-                    >{{ item.name }}</DisclosureButton
-                  > -->
-
                   <Disclosure
                     ><NuxtLink to="/lionel"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        @click="closeMobile()"
                         >Lionel</DisclosureButton
                       ></NuxtLink
                     ></Disclosure
@@ -237,6 +181,7 @@
                     ><NuxtLink to="/diego"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-arblue/50 hover:text-white"
+                        @click="closeMobile()"
                         >Diego</DisclosureButton
                       ></NuxtLink
                     ></Disclosure
@@ -268,6 +213,7 @@
                     ><NuxtLink to="/about"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        @click="mobileMenuOpen = false"
                         >About Us</DisclosureButton
                       ></NuxtLink
                     ></Disclosure
@@ -277,6 +223,7 @@
                     ><NuxtLink to="/news"
                       ><DisclosureButton
                         class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        @click="mobileMenuOpen = false"
                         >News</DisclosureButton
                       ></NuxtLink
                     ></Disclosure
@@ -286,6 +233,7 @@
               <nuxt-link
                 to="/careers"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-arblack hover:bg-ardarkgreen/80 hover:text-white"
+                @click="mobileMenuOpen = false"
                 >Careers</nuxt-link
               >
             </div>
@@ -304,6 +252,7 @@
 
 <script setup>
 import { ref } from "vue";
+import { onClickOutside } from "@vueuse/core";
 import {
   Dialog,
   DialogPanel,
@@ -325,6 +274,7 @@ import {
   XMarkIcon,
 } from "@heroicons/vue/24/outline";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
+import consolaGlobalInstance from "consola";
 
 const technology = [
   { name: "Lionel", to: "/lionel/" },
@@ -338,4 +288,40 @@ const company = [
 const mobileMenuOpen = ref(false);
 const techMenuOpen = ref(false);
 const companyMenuOpen = ref(false);
+const techOpen = ref(false);
+const companyOpen = ref(false);
+const techMenu = ref(null);
+const companyMenu = ref(null);
+
+const closeMobile = () => {
+  mobileMenuOpen.value = false;
+  // console.log(techOpen.value);
+};
+
+const openTech = () => {
+  techOpen.value = !techOpen.value;
+  // console.log(techOpen.value);
+};
+
+const openCompany = () => {
+  companyOpen.value = !companyOpen.value;
+  // console.log(techOpen.value);
+};
+
+const closeTech = () => {
+  techOpen.value = false;
+};
+
+const closeCompany = () => {
+  companyOpen.value = false;
+};
+
+onClickOutside(techMenu, () => {
+  closeTech();
+  console.log(techOpen.value);
+});
+
+onClickOutside(companyMenu, () => {
+  closeCompany();
+});
 </script>

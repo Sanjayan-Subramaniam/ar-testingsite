@@ -1,6 +1,8 @@
 <template>
   <div>
-    <Mainnav></Mainnav>
+    <!-- <Mainnav></Mainnav> -->
+    <Mainnavalt />
+
     <slot />
     <SectionSpacer />
     <section>
