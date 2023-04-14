@@ -152,7 +152,6 @@ defineProps({
 
 const chevron = "/icons/chevronright.svg";
 const quoteIcon = "/icons/quoteleft.svg";
-
 const content = [
   {
     mission: "Deploying robots and upskilling clients",
@@ -218,6 +217,14 @@ const content = [
     personnelImage: "/spotlight-testingengineer.webp",
   },
 ];
+useHead({
+  link: [
+    content.map(({ personnelImage }) => ({
+      href: personnelImage,
+      rel: "prefetch",
+    })),
+  ],
+});
 </script>
 
 <style lang="scss" scoped></style>
