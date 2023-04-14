@@ -4,7 +4,10 @@
       <div
         class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0"
       >
-        <img
+        <NuxtImg
+          sizes="sm:100px md:100px lg:320px"
+          width="380"
+          height="600"
           src="/Lionelcropped.webp"
           class="mr-auto ml-auto w-[100px] lg:ml-0 lg:w-[320px] lg:row-span-3"
         />
