@@ -13,11 +13,11 @@
         />
       </div>
 
-      <h4
+      <h2
         class="font-base order-1 text-center text-4xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left"
       >
         Lionel
-      </h4>
+      </h2>
 
       <p
         class="order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
