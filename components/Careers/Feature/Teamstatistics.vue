@@ -5,14 +5,14 @@
     >
       <img :src="icon" alt="" srcset="" />
     </div>
-    <div class="flex flex-col items-start justify-start">
+    <div class="flex flex-col items-start justify-start gap-y-3">
       <h5
-        class="text-argray uppercase text-[11px] translate-y-[-5px] font-medium lg:translate-y-[-10px] tracking-[0.4em] text-left"
+        class="text-argray uppercase text-[12px] translate-y-[-5px] font-medium lg:translate-y-[-10px] tracking-[0.4em] text-left leading-4"
       >
         {{ subTitle }}
       </h5>
       <p
-        class="translate-y-[-5px] lg:translate-y-[-10px] text-arprimary text-desktopCopy font-bold lg:text-[32px] tracking-wide"
+        class="translate-y-[-5px] lg:translate-y-[-10px] text-arprimary text-[22px] font-bold lg:text-[32px] text-left tracking-wide"
       >
         {{ statistic }}
       </p>

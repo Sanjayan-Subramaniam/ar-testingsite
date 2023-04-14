@@ -52,6 +52,7 @@
           >
             <PopoverPanel
               class="absolute -left-8 top-full mt-3 w-56 rounded-xl bg-white p-2 shadow-lg z-20"
+              v-slot="{ close }"
             >
               <!-- <a
                 v-for="item in technology"
@@ -61,18 +62,19 @@
                 >{{ item.name }}</a
               > -->
               <NuxtLink
-                @click="techMenuOpen = true"
                 to="/lionel/"
                 class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
+                @click="accept(close)"
               >
-                <PopoverButton>Lionel </PopoverButton></NuxtLink
+                Lionel</NuxtLink
               >
 
               <NuxtLink
-                @click="techMenuOpen = true"
-                to="/diego/"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white z-50"
-                >Diego</NuxtLink
+                to="/diego"
+                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arblue/50 hover:text-white"
+                @click="accept(close)"
+              >
+                Diego</NuxtLink
               >
             </PopoverPanel>
           </transition>
@@ -163,15 +165,15 @@
         <div class="mt-6 flow-root">
           <div class="-my-6 divide-y divide-gray-500/10">
             <div class="space-y-2 py-6">
-              <a
-                href="https://construction.augustrobotics.com/"
+              <NuxtLink
+                to="https://construction.augustrobotics.com/"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-arblack hover:bg-argray/50 hover:text-white"
-                >Construction</a
+                >Construction</NuxtLink
               >
-              <a
-                href="https://exhibitions.augustrobotics.com/"
+              <NuxtLink
+                to="https://exhibitions.augustrobotics.com/"
                 class="-mx-3 block rounded-lg py-2 px-3 text-base font-semibold leading-7 text-arblack hover:bg-arblack/50 hover:text-white"
-                >Exhibitions</a
+                >Exhibitions</NuxtLink
               >
 
               <!-- <Disclosure as="div" class="hidden -mx-3" v-slot="{ open }">
@@ -325,6 +327,7 @@ import {
   XMarkIcon,
 } from "@heroicons/vue/24/outline";
 import { ChevronDownIcon } from "@heroicons/vue/20/solid";
+import { doWhileStatement } from "@babel/types";
 
 const technology = [
   { name: "Lionel", to: "/lionel/" },
@@ -338,4 +341,8 @@ const company = [
 const mobileMenuOpen = ref(false);
 const techMenuOpen = ref(false);
 const companyMenuOpen = ref(false);
+
+const accept = (close) => {
+  close();
+};
 </script>

@@ -1,6 +1,7 @@
 <template>
   <div>
     <Mainnav></Mainnav>
+
     <slot />
     <SectionSpacer />
     <section>

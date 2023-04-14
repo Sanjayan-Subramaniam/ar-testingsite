@@ -36,7 +36,9 @@
           class="flex flex-col lg:basis-1/2 bg-gradient-to-b from-arsecondary/100 to-white/50 lg:p-6"
         >
           <div class="flex flex-col p-6 md:p-12 lg:p-6 justify-center">
-            <h4 class="text-white text-[20px] md:text-[30px] italic">
+            <h4
+              class="text-white text-[24px] md:text-[30px] leading-relaxed w-[80%] sm:w-full italic"
+            >
               {{ content[state - 1].mission }}
             </h4>
 
