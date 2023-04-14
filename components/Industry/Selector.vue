@@ -171,6 +171,30 @@
         </div>
       </div>
     </div>
+    <!-- This is here so nuxt optimizes even the images that are not currently in viewport -->
+    <div class="hidden">
+      <NuxtImg
+        sizes="sm:240px md:1600px lg:1600px"
+        src="/selector-construction.webp"
+        alt=""
+        srcset=""
+        class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+      />
+      <NuxtImg
+        sizes="sm:240px md:1600px lg:1600px"
+        src="/selector-disinfection.webp"
+        alt=""
+        srcset=""
+        class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+      />
+      <NuxtImg
+        src="/selector-exhibitions.webp"
+        sizes="sm:240px md:1600px lg:1600px"
+        alt=""
+        srcset=""
+        class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+      />
+    </div>
   </div>
 </template>
 
