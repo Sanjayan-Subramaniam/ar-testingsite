@@ -39,11 +39,20 @@ useHead({
 
       gtag("config", "G-3WC3XHZM91");`,
     },
+
     {
-      innerHTML: `var hubalzscript = document.createElement("script"); hubalzscript.src =
-      "https://www.hubalz.com/script.js"; hubalzscript.async = 1;
-      hubalzscript.dataset.apikey = "861305a694082ff6a64d153ca84f78";
-      document.getElementsByTagName("head")[0].append(hubalzscript);`,
+      type: "text/partytown",
+      innerHTML: `
+    var hubalzscript = document.createElement("script");
+    hubalzscript.src = "https://www.hubalz.com/script.js";
+    hubalzscript.async = 1;
+    hubalzscript.dataset.apikey = "36fc68e7e2cdabc8e91717f1bdefff";
+    document.getElementsByTagName('head')[0].append(hubalzscript);
+`,
+    },
+    {
+      type: "text/partytown",
+      src: "https://platform.illow.io/banner.js?siteId=10e62391-b031-477d-95a9-52e1a13173ea",
     },
   ],
 });
