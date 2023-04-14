@@ -59,7 +59,7 @@
 
 <script setup>
 definePageMeta({
-  layout: "diego",
+  layout: "default",
 });
 </script>
 
