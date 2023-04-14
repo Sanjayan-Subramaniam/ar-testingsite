@@ -295,17 +295,14 @@ const companyMenu = ref(null);
 
 const closeMobile = () => {
   mobileMenuOpen.value = false;
-  // console.log(techOpen.value);
 };
 
 const openTech = () => {
   techOpen.value = !techOpen.value;
-  // console.log(techOpen.value);
 };
 
 const openCompany = () => {
   companyOpen.value = !companyOpen.value;
-  // console.log(techOpen.value);
 };
 
 const closeTech = () => {
@@ -318,7 +315,6 @@ const closeCompany = () => {
 
 onClickOutside(techMenu, () => {
   closeTech();
-  console.log(techOpen.value);
 });
 
 onClickOutside(companyMenu, () => {

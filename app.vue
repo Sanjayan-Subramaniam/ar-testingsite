@@ -22,7 +22,7 @@ useSeoMeta({
     "diego",
   ].join(","),
 });
-useHeadSafe({
+useHead({
   script: [
     {
       type: "text/partytown",
@@ -41,8 +41,10 @@ useHeadSafe({
     },
 
     {
+      cors: true,
       type: "text/partytown",
       async: true,
+
       innerHTML: `
     var hubalzscript = document.createElement("script");
     hubalzscript.src = "https://www.hubalz.com/script.js";
