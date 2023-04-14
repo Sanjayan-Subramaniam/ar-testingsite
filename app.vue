@@ -26,7 +26,7 @@ useHead({
   script: [
     {
       // type: "text/partytown",
-      src: "https://www.googletagmanager.com/gtag/js?id=G-3WC3XHZM91",
+      src: "https://www.googletagmanager.com/gtag/js?id=G-TSW2E6T3PT",
       async: true,
     },
     {
@@ -37,7 +37,7 @@ useHead({
       }
       gtag("js", new Date());
 
-      gtag("config", "G-3WC3XHZM91");`,
+      gtag("config", "G-TSW2E6T3PT");`,
     },
 
     {
