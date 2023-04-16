@@ -16,6 +16,7 @@
     <div class="flex h-[320px] lg:h-[320px] flex-row">
       <div
         class="mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-construction-background bg-argray/80 bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-argray/100 hover:bg-construction-background-full hover:border-arprimary hover:border-[6px]"
+        @mouseover="initial = ''"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -37,6 +38,7 @@
           initial,
           'mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arblack/80 bg-cover bg-center bg-exhibition-background bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arblack/100 hover:bg-exhibition-background-full hover:border-arprimary hover:border-[6px]',
         ]"
+        @mouseover="initial = ''"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -55,6 +57,7 @@
       </div>
       <div
         class="mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arprimary/60 bg-lionel-other bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arprimary/100 hover:border-arprimary hover:border-[6px]"
+        @mouseover="initial = ''"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -70,7 +73,7 @@
         <ButtonVisit
           buttonCopy1="Scroll"
           buttonCopy2="down"
-          button-link="#usinglionel"
+          button-link="/lionel/#usinglionel"
           class="mx-auto basis-1/6"
           arrow-direction="rotate(90)"
         />
@@ -80,17 +83,7 @@
 </template>
 
 <script setup>
-import { onMounted } from "vue";
-onMounted(() => {
-  let initial = ref("h-full border-arprimary border-[6px]");
-});
-
-let state = ref("exhibitions");
-
-const changeState = (newState) => {
-  state.value = newState;
-  console.log(state);
-};
+const initial = ref("h-full border-arprimary border-[6px]");
 </script>
 
 <style lang="scss" scoped></style>
