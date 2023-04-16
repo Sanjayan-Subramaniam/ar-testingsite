@@ -33,7 +33,10 @@
         />
       </div>
       <div
-        class="mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arblack/80 bg-cover bg-center bg-exhibition-background bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arblack/100 hover:bg-exhibition-background-full hover:border-arprimary hover:border-[6px]"
+        :class="[
+          initial,
+          'mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arblack/80 bg-cover bg-center bg-exhibition-background bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arblack/100 hover:bg-exhibition-background-full hover:border-arprimary hover:border-[6px]',
+        ]"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -51,7 +54,7 @@
         />
       </div>
       <div
-        class="mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arprimary/60 bg-[url('/chooselionel-other.webp')] bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arprimary/100 hover:border-arprimary hover:border-[6px]"
+        class="mt-auto p-4 flex flex-col gap-y-3 h-5/6 basis-1/3 content-center justify-center bg-arprimary/60 bg-lionel-other bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-full hover:bg-arprimary/100 hover:border-arprimary hover:border-[6px]"
       >
         <h2
           class="text-center text-white text-xl md:text-2xl lg:text-3xl font-medium basis-1/6"
@@ -64,12 +67,30 @@
           Lionel's technology<br />
           and history
         </p>
-        <ButtonVisit button-link="/#usinglionel" class="mx-auto basis-1/6" />
+        <ButtonVisit
+          buttonCopy1="Scroll"
+          buttonCopy2="down"
+          button-link="#usinglionel"
+          class="mx-auto basis-1/6"
+          arrow-direction="rotate(90)"
+        />
       </div>
     </div>
   </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { onMounted } from "vue";
+onMounted(() => {
+  let initial = ref("h-full border-arprimary border-[6px]");
+});
+
+let state = ref("exhibitions");
+
+const changeState = (newState) => {
+  state.value = newState;
+  console.log(state);
+};
+</script>
 
 <style lang="scss" scoped></style>

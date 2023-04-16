@@ -12,6 +12,7 @@
       xmlns:xlink="http://www.w3.org/1999/xlink"
       viewBox="0,0,256,256"
       fill-rule="nonzero"
+      :transform="arrowDirection"
     >
       <g
         fill="#000000"
@@ -52,6 +53,10 @@ defineProps({
   buttonCopy2: {
     type: String,
     default: "Site",
+  },
+  arrowDirection: {
+    type: String,
+    default: "0",
   },
 });
 </script>

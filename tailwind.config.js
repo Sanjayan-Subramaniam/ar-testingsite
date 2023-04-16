@@ -47,6 +47,7 @@ module.exports = {
 
       backgroundImage: {
         "lionel-background": "url('/Lionelheroimage.webp')",
+        "lionel-other": "url('/chooselionel-other.webp')",
         "diego-hero": "url('/hero-diego.webp')",
         "aboutus-hero": "url('/hero-aboutus.webp')",
         "careers-hero": "url('/careers-hero.webp')",

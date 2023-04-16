@@ -226,7 +226,7 @@
               alt=""
             />
             <h4 class="text-arprimary text-mobileCopy lg:text-desktopCopy">
-              Krefeld, Germany
+              Düsseldorf, Germany
             </h4>
           </div>
           <hr class="h-[1px] bg-argray/20 mx-3" />

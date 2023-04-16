@@ -174,7 +174,7 @@
 <script setup>
 import { onMounted } from "vue";
 onMounted(() => {
-  let initial = ref("h-5/6 bg-argray/100 bg-construction-background-full'");
+  let initial = ref("h-full bg-arblack/100 bg-construction-background-full");
 });
 
 let state = ref("construction");
