@@ -8,22 +8,23 @@
         :class="imagePath"
       ></div> -->
 
-      <video
-        :key="videoPath"
-        autoplay
-        loop
-        muted
-        playsinline
-        alt=""
-        class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out z-10"
-      >
-        <source :src="videoPath" type="video/webm" />
-      </video>
-      <image
-        class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out absolute"
-        :src="imagePath"
-      >
-      </image>
+      <div class="max-w--[320px] min-w-[320px] h-[320px] overlap-children">
+        <video
+          :key="videoPath"
+          autoplay
+          loop
+          muted
+          playsinline
+          alt=""
+          class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out z-10"
+        >
+          <source :src="videoPath" type="video/webm" />
+        </video>
+        <img
+          class="w-[320px] h-[320px] transition-all duration-1000 ease-in-out"
+          :src="imagePath"
+        />
+      </div>
 
       <div class="w-full h-[240px] lg:h-full p-6 flex flex-col gap-y-3">
         <div class="flex flex-row items-center gap-x-4">
@@ -69,4 +70,11 @@ defineProps({
 });
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.overlap-children {
+  display: grid;
+}
+.overlap-children > * {
+  grid-area: 1/-1;
+}
+</style>
