@@ -4,8 +4,10 @@
       <div
         class="order-2 mx-auto md:min-w-[320px] lg:col-start-2 lg:row-span-3 lg:row-start-1"
       >
-        <img
-          src="~/assets/img/Diegocropped.png"
+        <NuxtImg
+          sizes="sm:100px md:100px lg:200px"
+          format="webp"
+          src="/Diegocropped.png"
           class="mr-auto ml-auto w-[100px] lg:mr-0 lg:w-[200px]"
         />
       </div>

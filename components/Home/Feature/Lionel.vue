@@ -4,17 +4,20 @@
       <div
         class="order-2 mx-auto md:min-w-[320px] lg:col-start-1 lg:row-span-3 lg:row-start-1 lg:mt-0"
       >
-        <img
+        <NuxtImg
+          sizes="sm:100px md:100px lg:320px"
+          width="380"
+          height="600"
           src="/Lionelcropped.webp"
           class="mr-auto ml-auto w-[100px] lg:ml-0 lg:w-[320px] lg:row-span-3"
         />
       </div>
 
-      <h4
+      <h2
         class="font-base order-1 text-center text-4xl leading-6 text-arprimary lg:order-first lg:col-start-2 lg:text-left"
       >
         Lionel
-      </h4>
+      </h2>
 
       <p
         class="order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"
