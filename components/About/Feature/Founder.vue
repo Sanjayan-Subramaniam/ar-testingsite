@@ -13,7 +13,7 @@
       </div>
 
       <h2
-        class="leading-normal font-base order-1 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
+        class="w-[270px] md:w-[400px] lg:w-[440px] xl:w-[500px] mx-auto leading-normal font-base order-1 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         Founder
       </h2>
