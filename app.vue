@@ -26,7 +26,7 @@ useHead({
   script: [
     {
       // type: "text/partytown",
-      src: "https://www.googletagmanager.com/gtag/js?id=G-TSW2E6T3PT",
+      src: "https://www.googletagmanager.com/gtag/js?id=G-C2B8H4W1NJ",
       async: true,
     },
     {
@@ -37,7 +37,7 @@ useHead({
       }
       gtag("js", new Date());
 
-      gtag("config", "G-TSW2E6T3PT");`,
+      gtag("config", "G-C2B8H4W1NJ");`,
     },
 
     {
@@ -47,7 +47,7 @@ useHead({
     var hubalzscript = document.createElement("script");
     hubalzscript.src = "https://www.hubalz.com/script.js";
     hubalzscript.async = 1;
-    hubalzscript.dataset.apikey = "36fc68e7e2cdabc8e91717f1bdefff";
+    hubalzscript.dataset.apikey = "0e728d2d772990f7590d02f4a05c6d";
     document.getElementsByTagName('head')[0].append(hubalzscript);
 `,
     },
