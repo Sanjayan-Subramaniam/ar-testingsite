@@ -18,7 +18,7 @@
         </div>
         <SectionSpacer />
         <div
-          class="flex flex-col lg:flex-row justify-between gap-y-16 items-center"
+          class="flex flex-col lg:flex-row justify-center gap-y-16 items-center"
         >
           <Sequencecard
             iconPath="/icons/usediego-upload.svg"

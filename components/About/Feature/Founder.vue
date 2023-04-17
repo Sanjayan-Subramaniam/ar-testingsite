@@ -19,7 +19,7 @@
       </h2>
 
       <p
-        class="w-[270px] md:w-[440px] lg:w-[480px] xl:w-[640px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:text-left lg:col-start-2"
+        class="w-[270px] md:w-[400px] lg:w-[440px] xl:w-[640px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:text-left lg:col-start-2"
       >
         August Robotics was founded by Alex Wyatt.
         <br class="hidden xl:block" />Born and raised in Melbourne, Australia,
