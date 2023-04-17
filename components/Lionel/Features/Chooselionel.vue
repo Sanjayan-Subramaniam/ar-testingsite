@@ -29,7 +29,7 @@
           Fast and accurate <br />layout using Lionel
         </p>
         <ButtonVisit
-          button-link="www.construction.augustrobotics.com"
+          button-link="https://www.construction.augustrobotics.com"
           class="mx-auto basis-1/6"
         />
       </div>
@@ -51,7 +51,7 @@
           Marking exhibition floors using Lionel
         </p>
         <ButtonVisit
-          button-link="www.construction.augustrobotics.com"
+          button-link="https://www.exhibitions.augustrobotics.com"
           class="mx-auto basis-1/6"
         />
       </div>
