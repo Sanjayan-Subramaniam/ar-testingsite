@@ -18,14 +18,14 @@
             <NuxtLink
               type="button"
               class="rounded-md bg-green-50 px-2 py-1.5 text-sm font-medium text-green-800 hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-green-50"
-              to="https://www.augustrobotoics.com/pr/Leipzig_Messe_and_August_Robotics(EN).pdf"
+              to="/pr/Leipzig_Messe_and_August_Robotics(EN).pdf"
             >
               Download Press Release (English)
             </NuxtLink>
             <NuxtLink
               type="button"
               class="ml-3 rounded-md bg-green-50 px-2 py-1.5 text-sm font-medium text-green-800 hover:bg-green-100 focus:outline-none focus:ring-2 focus:ring-green-600 focus:ring-offset-2 focus:ring-offset-green-50"
-              to="https://www.augustrobotoics.com/pr/Leipziger_Messe_und_August_Robotics(DE)"
+              to="/pr/Leipziger_Messe_und_August_Robotics(DE).pdf"
             >
               Pressemitteilung herunterladen (Deutsch)
             </NuxtLink>
