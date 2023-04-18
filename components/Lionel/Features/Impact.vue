@@ -35,17 +35,17 @@
         <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:my-auto">
           <CareersFeatureTeamstatistics
             sub-title="marks made"
-            statistic="160,000 Marks"
+            statistic="220,000 Marks"
             icon="/icons/lionelimpact-markings.svg"
           />
           <CareersFeatureTeamstatistics
             sub-title="hours saved"
-            statistic="11,000 Hours"
+            statistic="21,000 Hours"
             icon="/icons/lionelimpact-hours.svg"
           />
           <CareersFeatureTeamstatistics
             sub-title="floorspace marked"
-            statistic="2.9 Million Sqm"
+            statistic="3.8 Million Sqm"
             icon="/icons/lionelimpact-area.svg"
           />
         </div>
