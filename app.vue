@@ -31,7 +31,7 @@ useHead({
     },
     {
       // type: "text/partytown",
-      innerHTML: "_VH_CODE = 5484459478",
+      innerHTML: "_VH_CODE = 9714663130;",
     },
     {
       // type: "text/partytown",
