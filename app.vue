@@ -31,6 +31,15 @@ useHead({
     },
     {
       // type: "text/partytown",
+      innerHTML: "_VH_CODE = 5484459478",
+    },
+    {
+      // type: "text/partytown",
+      src: "https://visithunter.io/collect.js",
+      async: true,
+    },
+    {
+      // type: "text/partytown",
       innerHTML: `window.dataLayer = window.dataLayer || [];
       function gtag() {
         dataLayer.push(arguments);
