@@ -56,7 +56,7 @@ useHead({
     var hubalzscript = document.createElement("script");
     hubalzscript.src = "https://www.hubalz.com/script.js";
     hubalzscript.async = 1;
-    hubalzscript.dataset.apikey = "0e728d2d772990f7590d02f4a05c6d";
+    hubalzscript.dataset.apikey = "f7b11a06998d1bb931d407440a07b5";
     document.getElementsByTagName('head')[0].append(hubalzscript);
 `,
     },
