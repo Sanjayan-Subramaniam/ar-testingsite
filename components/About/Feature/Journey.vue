@@ -351,15 +351,14 @@ const timelines = [
     event: "Lionel Idea",
     src: "/journey-lioneldevelopment.webp",
     time: "Early 2018",
-    description:
-      "A small team of engineers, led by Founder Alex Wyatt, begins work on the Lionel project",
+    description: "A small team of engineers begins work on the Lionel project",
   },
   {
     state: "2",
     event: "Seed funding raised",
     src: "/journey-seed.webp",
     time: "Mid 2018",
-    description: "August Robotics raises $4M in seed funding",
+    description: "August Robotics raises $3.7M in seed funding",
   },
   {
     state: "3",
@@ -383,7 +382,7 @@ const timelines = [
     src: "/journey-seriesa.webp",
     time: "Mid 2020",
     description:
-      "August Robotics raises an additional $10M in Series A funding",
+      "August Robotics raises an additional $9.3M in Series A funding",
   },
   {
     state: "6",
