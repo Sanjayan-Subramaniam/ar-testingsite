@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto w-5/6 max-w-[1000px] justify-start">
     <div class="flex h-[100px] lg:h-[200px] flex-row">
-      <button
+      <a
         @mouseover="changeState('construction')"
         @click="changeState('construction')"
         :class="[
@@ -15,8 +15,8 @@
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Construction
         </h2>
-      </button>
-      <button
+      </a>
+      <a
         @mouseover="changeState('exhibitions')"
         @click="changeState('exhibitions')"
         :class="[
@@ -28,8 +28,8 @@
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Exhibitions
         </h2>
-      </button>
-      <button
+      </a>
+      <a
         @mouseover="changeState('disinfection')"
         @click="changeState('disinfection')"
         :class="[
@@ -42,7 +42,7 @@
           Commercial <br />
           Disinfection
         </h2>
-      </button>
+      </a>
     </div>
     <div
       class="h-[420px] rounded-lg p-12 shadow-md md:h-[360px] flex flex-col items-center justify-center"
