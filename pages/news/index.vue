@@ -93,7 +93,7 @@ const articles = computed(() => data.value?.articles ?? []);
             v-for="article in articles"
             class="bg-white shadow-lg px-5 py-10 md:grid grid-cols-[1fr_4fr] grid-rows-[auto_auto_1fr_auto] gap-5 rounded-xl flex flex-col"
           >
-            <NuxtImg
+            <img
               :src="article.image"
               :alt="article.title"
               sizes="sm:100vw md:100vw lg:400px"
