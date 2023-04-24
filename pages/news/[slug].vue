@@ -57,7 +57,7 @@ useSeoMeta({
     <Mainbuttonsarrow></Mainbuttonsarrow>
   </section> -->
   <div
-    class="grid grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
+    class="flex flex-col lg:grid lg:grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
   >
     <main v-if="article" class="grid gap-5 self-start">
       <img
