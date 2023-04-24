@@ -60,7 +60,7 @@ useSeoMeta({
     class="grid grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
   >
     <main v-if="article" class="grid gap-5 self-start">
-      <NuxtImg
+      <img
         :src="article.image"
         :alt="article.title"
         sizes="sm:100vw md:100vw lg:700px"
@@ -90,14 +90,10 @@ useSeoMeta({
             v-for="article in topStories.slice(0, MAX_TOP_STORIES)"
             class="flex flex-col gap-3"
           >
-            <NuxtImg
+            <img
               :src="article.image"
               :alt="article.title"
-              sizes="sm:100vw md:100vw lg:700px"
-              width="700"
-              height="400"
-              format="webp"
-              class="rounded-2xl shadow w-full"
+              class="rounded-2xl w-[300px] shadow lg:w-full"
             />
             <span class="text-argray">{{
               new Date(article.created).toLocaleDateString(undefined, {
@@ -105,7 +101,7 @@ useSeoMeta({
               })
             }}</span>
             <p>
-              {{ clampString(article.description, 100) }}
+              {{ clampString(article.title, 100) }}
             </p>
             <NuxtLink
               :href="article._path + '/'"
@@ -133,7 +129,7 @@ useSeoMeta({
             v-for="article in exhibition.slice(0, MAX_EXHIBITION)"
             class="flex flex-col gap-3"
           >
-            <NuxtImg
+            <img
               :src="article.image"
               :alt="article.title"
               sizes="sm:100vw md:100vw lg:700px"
