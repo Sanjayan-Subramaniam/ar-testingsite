@@ -34,10 +34,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <section
+  <!-- <section
     class="md:h-[70vh] bg-gray/90 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
   >
-    <!-- Hero content title and button -->
+
 
     <div
       class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%]"
@@ -55,7 +55,7 @@ useSeoMeta({
       </div>
     </div>
     <Mainbuttonsarrow></Mainbuttonsarrow>
-  </section>
+  </section> -->
   <div
     class="grid grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
   >
