@@ -90,7 +90,7 @@ const articles = computed(() => data.value?.articles ?? []);
         </ul>
         <div class="flex flex-col gap-5">
           <article
-            v-for="article in articles"
+            v-for="article in articles.slice().reverse()"
             class="bg-white shadow-lg px-5 py-10 md:grid grid-cols-[1fr_4fr] grid-rows-[auto_auto_1fr_auto] gap-5 rounded-xl flex flex-col"
           >
             <img
