@@ -67,15 +67,15 @@ useSeoMeta({
         width="700"
         height="400"
         format="webp"
-        class="rounded-xl shadow w-full"
+        class="rounded-xl shadow w-full lg:w-[55%]"
       />
-      <h1 class="font-bold text-4xl">{{ article.title }}</h1>
+      <h1 class="font-bold text-4xl w-full lg:w-[70%]">{{ article.title }}</h1>
       <span class="text-argray text-2xl">{{
         new Date(article.created).toLocaleDateString(undefined, {
           dateStyle: "medium",
         })
       }}</span>
-      <div class="nuxt-content">
+      <div class="nuxt-content w-full lg:w-[70%]">
         <ContentRenderer :value="article" />
       </div>
       <ButtonSecondary button-copy="Back to news" link-location="/news" />
