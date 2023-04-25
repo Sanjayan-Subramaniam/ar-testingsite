@@ -78,6 +78,7 @@ useSeoMeta({
       <div class="nuxt-content">
         <ContentRenderer :value="article" />
       </div>
+      <ButtonSecondary button-copy="Back to news" link-location="/news" />
     </main>
     <aside class="flex flex-col gap-5">
       <div
