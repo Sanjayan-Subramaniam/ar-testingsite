@@ -96,7 +96,7 @@
             <NuxtLink
               @click="companyOpen === false"
               to="/news"
-              class="hidden block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white z-50"
+              class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white z-50"
               >News</NuxtLink
             >
           </div>
@@ -226,7 +226,7 @@
                   <Disclosure
                     ><NuxtLink to="/news"
                       ><DisclosureButton
-                        class="hidden block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
+                        class="block rounded-lg py-2 pl-6 pr-64 text-sm font-semibold leading-7 text-arblack/50 hover:bg-ardarkgreen/50 hover:text-white"
                         @click="mobileMenuOpen = false"
                         >News</DisclosureButton
                       ></NuxtLink
