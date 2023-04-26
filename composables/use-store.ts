@@ -27,7 +27,7 @@ export const useStore = defineStore("store", () => {
       activeClasses: "text-white bg-ardarkgreen",
     },
     {
-      label: "Property",
+      label: "Diego",
       classes: "text-arblue border-arblue",
       activeClasses: "text-white bg-arblue",
     },

@@ -100,10 +100,10 @@ const articles = computed(() => data.value?.articles ?? []);
               width="400"
               height="400"
               format="webp"
-              class="col-span-1 row-start-1 row-end-5 rounded-xl shadow mx-auto w-full"
+              class="col-span-1 row-start-1 row-end-5 rounded-xl shadow mx-auto w-full h-full object-cover"
             />
             <ul
-              class="flex gap-3 row-start-5 row-end-6 col-span-1 md:self-center flex-wrap"
+              class="flex gap-3 row-start-5 row-end-6 col-span-2 md:self-center flex-wrap"
             >
               <li
                 v-for="tag in article.tags"
