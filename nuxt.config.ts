@@ -27,7 +27,7 @@ export default defineNuxtConfig({
   ssr: true,
   runtimeConfig: {
     public: {
-      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://example.com",
+      siteUrl: process.env.NUXT_PUBLIC_SITE_URL || "https://augustrobotics.com",
       siteName:
         "August Robotics - the world's leading autonomous commercial robotics company",
       siteDescription:
