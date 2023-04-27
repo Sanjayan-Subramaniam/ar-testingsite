@@ -2,7 +2,7 @@
 import type { ModuleOptions } from "nuxt-og-image";
 declare module "#nuxt-og-image/config" {
   export const forcePrerender: false | ModuleOptions["forcePrerender"];
-  export const host: "https://augustrobotics.com" | ModuleOptions["host"];
+  export const host: "https://example.com" | ModuleOptions["host"];
   export const defaults:
     | { component: "OgImageBasic"; width: 1200; height: 630 }
     | ModuleOptions["defaults"];
