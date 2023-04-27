@@ -1,6 +1,7 @@
 node_modules
 *.log*
-
+git
+.nuxt
 .nitro
 .cache
 .output
