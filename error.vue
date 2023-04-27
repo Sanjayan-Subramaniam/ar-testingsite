@@ -1,9 +1,8 @@
 <template>
-  <Mainnav />
   <div class="container mx-auto">
     <div class="flex flex-col my-auto gap-y-8 py-6">
       <h1 class="mx-auto text-center text-[32px] lg:text-[96px] text-argray">
-        Error Code: <span class="text-arprimary font-semibold">401</span>
+        Error Code: <span class="text-arprimary font-semibold">404</span>
       </h1>
       <img
         src="/icons/error.svg"
@@ -19,6 +18,9 @@
         Here are some useful links <br />
         that might help.
       </h2>
+
+      <Pathbuttons />
+
       <ButtonTertiary
         class="mx-auto text-center"
         button-copy="Go back"
