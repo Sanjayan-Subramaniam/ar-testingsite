@@ -40,7 +40,7 @@
           Marking exhibition floors using Lionel
         </p>
         <ButtonVisit
-          button-link="https://www.augustrobotics.com/diego"
+          button-link="https://www.exhibitions.augustrobotics.com"
           class="mx-auto basis-1/6"
         />
       </div>
@@ -56,13 +56,11 @@
         <p
           class="text-center text-white text-mobileCopy w-[70%] mx-auto basis-4/6"
         >
-          Diego<br />
-          Commercial Disinfection
+          Lionel's technology<br />
+          and history
         </p>
         <ButtonVisit
-          buttonCopy1="Visit"
-          buttonCopy2="site"
-          button-link="/diego"
+          button-link="https://www.augustrobotics.com/diego"
           class="mx-auto basis-1/6"
         />
       </div>
