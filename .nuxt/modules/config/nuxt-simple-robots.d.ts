@@ -7,7 +7,7 @@ declare module "#nuxt-simple-robots/config" {
   export const sitemap:
     | ["https://augustrobotics.com/sitemap.xml"]
     | ModuleOptions["sitemap"];
-  export const indexable: false | ModuleOptions["indexable"];
+  export const indexable: true | ModuleOptions["indexable"];
   export const robotsEnabledValue:
     | "index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
     | ModuleOptions["robotsEnabledValue"];
