@@ -58,7 +58,7 @@
         <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:my-auto">
           <CareersFeatureTeamstatistics
             sub-title="locations"
-            statistic="5 Offices"
+            statistic="4 Offices"
             icon="/icons/location.svg"
           />
           <CareersFeatureTeamstatistics
