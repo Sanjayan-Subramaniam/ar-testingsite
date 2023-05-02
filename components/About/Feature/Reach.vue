@@ -36,7 +36,7 @@
             </h4>
           </a>
 
-          <a
+          <!-- <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
             :class="
               state === 'indy' ? 'border-arprimary border-2' : 'border-none'
@@ -53,7 +53,7 @@
             >
               Indianapolis
             </h4>
-          </a>
+          </a> -->
 
           <a
             class="flex flex-col gap-y-1 items-center shadow-sm py-3 w-[80%] rounded-lg"
@@ -172,7 +172,7 @@
             </div>
           </div>
         </div>
-        <div class="flex flex-col h-full" v-if="state === 'indy'">
+        <!-- <div class="flex flex-col h-full" v-if="state === 'indy'">
           <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
           >
@@ -215,7 +215,7 @@
               ></ButtonPrimary>
             </div>
           </div>
-        </div>
+        </div> -->
         <div class="flex flex-col h-full" v-if="state === 'germany'">
           <div
             class="flex flex-row justify-start items-center p-3 gap-x-3 lg:p-6 lg:gap-x-6"
