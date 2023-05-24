@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto flex flex-col gap-y-6">
     <p class="text-mobileCopy lg:text-desktopCopy mx-auto">
-      Watch Diego's Autonomous UVC Disinfection in Action
+      Watch Diego in Action
     </p>
 
     <iframe
