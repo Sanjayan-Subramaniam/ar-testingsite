@@ -6,12 +6,7 @@
       >
         <div>
           <nuxt-link to="/">
-            <img
-              class="w-40"
-              src="~/assets/img/white_logo.svg"
-              alt=""
-              srcset=""
-            />
+            <img class="w-40" src="/white_logo.svg" alt="" srcset="" />
           </nuxt-link>
         </div>
         <div class="flex flex-col gap-y-4">
