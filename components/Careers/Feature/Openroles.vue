@@ -77,14 +77,14 @@ const roles = [
     jdLink: "/jd/procurement_engineer.pdf",
   },
   {
-    roleTitle: "Sales and Strategy Associate",
+    roleTitle: "Business Analyst",
     country: "Hong Kong (Remote)",
     flag: "/flags/hongkong.svg",
     roleType: "Commercial",
     iconType: "/icons/commercial.svg",
     roleDescription:
-      "As a Sales and Strategy Associate, you will be a member of the August Robotics commercial team. You will be responsible for creating compelling sales materials, conducting business analysis and leading workstreams in other commercial areas of the business",
-    jdLink: "/jd/sales_and_strategy_associate.pdf",
+      "As a Business Analyst, you will be a member of the August Robotics commercial team. You will be responsible for creating compelling sales materials, conducting business analysis and leading workstreams in other commercial areas of the business",
+    jdLink: "/jd/business_analyst.pdf",
   },
 ];
 </script>
