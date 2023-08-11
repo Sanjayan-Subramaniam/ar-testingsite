@@ -1,7 +1,13 @@
 <template>
-  <h3 class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl">
+  <!-- <h3 class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl">
     Follow us
-  </h3>
+  </h3> -->
+  <TypographyHeadingtwo
+    class="text-center lg:text-left"
+    text-color="ardarkgreen"
+    >Follow us</TypographyHeadingtwo
+  >
+  <SectionSpacer />
   <div
     class="mx-auto flex flex-wrap items-center justify-around md:w-[60%] lg:w-[40%]"
   >
