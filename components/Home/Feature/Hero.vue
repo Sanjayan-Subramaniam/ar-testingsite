@@ -1,6 +1,6 @@
 <template>
   <section
-    class="md:h-[70vh] bg-lionel-background h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
+    class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh] xl:min-h-[60vh]"
   >
     <video
       autoplay
@@ -18,14 +18,12 @@
       class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%] relative z-10"
     >
       <div
-        class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
+        class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-4"
       >
-        <h1
-          class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
-        >
+        <TypographyMainheading>
           We automate dirty, dangerous <br />
           and dull tasks all over the world.
-        </h1>
+        </TypographyMainheading>
 
         <ButtonPrimary></ButtonPrimary>
       </div>
