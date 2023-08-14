@@ -76,16 +76,16 @@ const roles = [
       "作为一名采购工程师，你将成为澳谷智能供应链管理的重要一员。你将主要负责公司生产、研发及其他方面所需物料采购；对供应商进行有效评估，管理及维护，确保采购质量并尽可能降低采购成本；执行公司产品的进出口物流管理，确保公司产品及时交付海外客户，并满足公司物流成本预算要求；",
     jdLink: "/jd/procurement_engineer.pdf",
   },
-  {
-    roleTitle: "Business Analyst",
-    country: "Hong Kong (Remote)",
-    flag: "/flags/hongkong.svg",
-    roleType: "Commercial",
-    iconType: "/icons/commercial.svg",
-    roleDescription:
-      "As a Business Analyst, you will be a member of the August Robotics commercial team. You will be responsible for creating compelling sales materials, conducting business analysis and leading workstreams in other commercial areas of the business",
-    jdLink: "/jd/business_analyst.pdf",
-  },
+  // {
+  //   roleTitle: "Business Analyst",
+  //   country: "Hong Kong (Remote)",
+  //   flag: "/flags/hongkong.svg",
+  //   roleType: "Commercial",
+  //   iconType: "/icons/commercial.svg",
+  //   roleDescription:
+  //     "As a Business Analyst, you will be a member of the August Robotics commercial team. You will be responsible for creating compelling sales materials, conducting business analysis and leading workstreams in other commercial areas of the business",
+  //   jdLink: "/jd/business_analyst.pdf",
+  // },
 ];
 </script>
 
