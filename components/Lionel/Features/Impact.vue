@@ -1,8 +1,11 @@
 <template>
   <div class="container mx-auto">
-    <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+    <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Lionel's Impact to Date
-    </h2>
+    </h2> -->
+    <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+      >Lionel's Impact to Date</TypographyHeadingtwo
+    >
     <SectionSpacer />
 
     <!-- <div

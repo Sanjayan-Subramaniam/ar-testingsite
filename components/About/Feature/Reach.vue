@@ -1,8 +1,11 @@
 <template>
   <div class="container mx-auto transition-all duration-1000 ease-in-out">
-    <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl mb-6">
+    <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl mb-6">
       Our Reach
-    </h2>
+    </h2> -->
+    <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+      >Our Reach</TypographyHeadingtwo
+    >
 
     <div class="grid grid-cols-12 grid-rows-3 gap-x-3">
       <div

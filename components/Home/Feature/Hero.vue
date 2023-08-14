@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh] xl:min-h-[50vh]"
+    class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh]"
   >
     <video
       autoplay

@@ -25,7 +25,7 @@
 
 <template>
   <section
-    class="md:h-[70vh] bg-diego-hero h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
+    class="bg-diego-hero min-h-[40vh] lg:min-h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
   >
     <video
       autoplay

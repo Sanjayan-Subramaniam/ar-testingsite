@@ -11,12 +11,17 @@
           />
         </div>
       </div>
+      <TypographyHeadingtwo
+        class="text-center lg:ml-[2%] xl:ml-[8%] 2xl:ml-[14%] lg:text-left"
+        text-color="ardarkgreen"
+        >Founder</TypographyHeadingtwo
+      >
 
-      <h2
+      <!-- <h2
         class="w-[270px] md:w-[400px] lg:w-[440px] xl:w-[500px] mx-auto leading-normal font-base order-1 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         Founder
-      </h2>
+      </h2> -->
 
       <p
         class="w-[270px] md:w-[400px] lg:w-[440px] xl:w-[500px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:text-left lg:col-start-2"

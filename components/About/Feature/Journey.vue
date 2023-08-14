@@ -2,9 +2,12 @@
   <div class="container mx-auto">
     <div class="flex flex-col">
       <div class="flex flex-col items-center lg:w-[800px] mx-auto">
-        <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+        <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
           Our Journey
-        </h2>
+        </h2> -->
+        <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+          >Our Journey</TypographyHeadingtwo
+        >
         <SectionSpacer />
       </div>
       <AboutFeatureTimelinemoment

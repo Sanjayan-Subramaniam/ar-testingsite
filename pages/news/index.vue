@@ -36,7 +36,7 @@ const articles = computed(() => data.value?.articles ?? []);
   <div v-if="data">
     <main>
       <section
-        class="md:h-[70vh] bg-lionel-background h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
+        class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh"
       >
         <video
           autoplay

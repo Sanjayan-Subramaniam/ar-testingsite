@@ -12,11 +12,16 @@
         </div>
       </div>
 
-      <h2
+      <!-- <h2
         class="lg:w-[440px] xl:w-[640px] leading-normal font-base order-1 lg:order-first lg:col-start-1 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         Overview
-      </h2>
+      </h2> -->
+      <TypographyHeadingtwo
+        class="text-center lg:ml-[2%] xl:ml-[8%] 2xl:ml-0 lg:text-left"
+        text-color="ardarkgreen"
+        >Overview</TypographyHeadingtwo
+      >
 
       <p
         class="order-3 lg:mx-0 lg:text-left mx-auto w-[270px] md:w-[440px] lg:w-[440px] xl:w-[640px] text-center text-mobileCopy lg:text-desktopCopy text-arblack"

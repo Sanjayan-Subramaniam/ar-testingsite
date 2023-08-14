@@ -1,8 +1,12 @@
 <template>
   <div class="flex flex-col gap-y-6">
-    <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+    <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Choose your Lionel
-    </h2>
+    </h2> -->
+    <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+      >Choose your Lionel</TypographyHeadingtwo
+    >
+
     <p
       class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full mx-auto mb-6"
     >

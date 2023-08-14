@@ -31,7 +31,7 @@
       </div>
 
       <TypographyHeadingtwo
-        class="text-center lg:text-left"
+        class="text-center lg:text-left lg:ml-[12%] xl:ml-[9%] 2xl:ml-[8%]"
         text-color="ardarkgreen"
         >In Development</TypographyHeadingtwo
       >

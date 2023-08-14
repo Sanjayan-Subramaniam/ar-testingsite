@@ -20,7 +20,7 @@
       </h2> -->
 
       <TypographyHeadingtwo
-        class="text-center lg:text-left"
+        class="text-center lg:text-left ml-o mr-0"
         text-color="ardarkgreen"
         >Working at August Robotics</TypographyHeadingtwo
       >

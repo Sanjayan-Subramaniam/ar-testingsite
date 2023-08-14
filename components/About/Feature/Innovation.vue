@@ -5,9 +5,12 @@
         <div
           class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
         >
-          <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+          <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
             Our Innovation
-          </h2>
+          </h2> -->
+          <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+            >Our Innovation</TypographyHeadingtwo
+          >
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >
