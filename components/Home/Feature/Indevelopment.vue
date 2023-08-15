@@ -30,11 +30,11 @@
         </div>
       </div>
 
-      <h2
-        class="lg:translate-x-[60px] font-base order-1 leading-6 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
+      <TypographyHeadingtwo
+        class="text-center lg:text-left lg:ml-[12%] xl:ml-[9%] 2xl:ml-[8%]"
+        text-color="ardarkgreen"
+        >In Development</TypographyHeadingtwo
       >
-        In Development
-      </h2>
 
       <p
         class="lg:translate-x-[60px] order-3 mx-auto w-[270px] text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:w-[440px] lg:text-left"

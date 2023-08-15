@@ -1,7 +1,11 @@
 <template>
-  <h3 class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl">
+  <!-- <h3 class="mx-auto mb-24 text-center text-3xl text-ardarkgreen md:text-5xl">
     Follow us
-  </h3>
+  </h3> -->
+  <TypographyHeadingtwo class="text-center mx-auto" text-color="ardarkgreen"
+    >Follow us</TypographyHeadingtwo
+  >
+  <SectionSpacer />
   <div
     class="mx-auto flex flex-wrap items-center justify-around md:w-[60%] lg:w-[40%]"
   >
@@ -27,7 +31,7 @@
       href="https://twitter.com/AugustRobotics"
       class="shadow-2xl mb-16 flex h-16 w-16 items-center justify-center rounded-lg bg-twitterblue opacity-50 md:mb-24 md:h-24 md:w-24 hover:opacity-100 transition-all duration-75 hover:translate-y-[-1rem] ease-in-out"
     >
-      <img src="~/assets/img/twitter.svg" alt="" />
+      <img src="~/assets/img/twitterx.svg" alt="" />
     </a>
   </div>
 </template>

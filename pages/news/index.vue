@@ -36,7 +36,7 @@ const articles = computed(() => data.value?.articles ?? []);
   <div v-if="data">
     <main>
       <section
-        class="md:h-[70vh] bg-lionel-background h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
+        class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh"
       >
         <video
           autoplay
@@ -90,20 +90,20 @@ const articles = computed(() => data.value?.articles ?? []);
         </ul>
         <div class="flex flex-col gap-5">
           <article
-            v-for="article in articles"
+            v-for="article in articles.slice().reverse()"
             class="bg-white shadow-lg px-5 py-10 md:grid grid-cols-[1fr_4fr] grid-rows-[auto_auto_1fr_auto] gap-5 rounded-xl flex flex-col"
           >
-            <NuxtImg
+            <img
               :src="article.image"
               :alt="article.title"
               sizes="sm:100vw md:100vw lg:400px"
               width="400"
               height="400"
               format="webp"
-              class="col-span-1 row-start-1 row-end-5 rounded-xl shadow mx-auto w-full"
+              class="col-span-1 row-start-1 row-end-5 rounded-xl shadow mx-auto w-full h-full object-cover"
             />
             <ul
-              class="flex gap-3 row-start-5 row-end-6 col-span-1 md:self-center flex-wrap"
+              class="flex gap-3 row-start-5 row-end-6 col-span-2 md:self-center flex-wrap"
             >
               <li
                 v-for="tag in article.tags"

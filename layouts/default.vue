@@ -1,6 +1,6 @@
 <template>
   <div>
-    <!-- <Mainnav></Mainnav> -->
+
     <Mainnavalt />
 
     <slot />

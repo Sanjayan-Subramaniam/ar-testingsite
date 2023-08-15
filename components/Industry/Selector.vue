@@ -1,7 +1,7 @@
 <template>
   <div class="container mx-auto w-5/6 max-w-[1000px] justify-start">
     <div class="flex h-[100px] lg:h-[200px] flex-row">
-      <button
+      <a
         @mouseover="changeState('construction')"
         @click="changeState('construction')"
         :class="[
@@ -10,36 +10,39 @@
           state === 'construction' &&
             'h-5/6 bg-argray/100 bg-construction-background-full',
         ]"
+        href="https://www.construction.augustrobotics.com"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Construction
         </h2>
-      </button>
-      <button
+      </a>
+      <a
         @mouseover="changeState('exhibitions')"
         @click="changeState('exhibitions')"
         :class="[
           'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblack/80 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblack/100 hover:bg-exhibition-background-full',
           state === 'exhibitions' && 'h-5/6',
         ]"
+        href="https://www.exhibitions.augustrobotics.com"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Exhibitions
         </h2>
-      </button>
-      <button
+      </a>
+      <a
         @mouseover="changeState('disinfection')"
         @click="changeState('disinfection')"
         :class="[
           'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background',
           state === 'disinfection' && 'h-5/6',
         ]"
+        href="https://www.augustrobotics.com/diego"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Commercial <br />
           Disinfection
         </h2>
-      </button>
+      </a>
     </div>
     <div
       class="h-[420px] rounded-lg p-12 shadow-md md:h-[360px] flex flex-col items-center justify-center"

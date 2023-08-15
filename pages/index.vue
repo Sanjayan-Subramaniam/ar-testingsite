@@ -8,9 +8,13 @@
         <div
           class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
         >
-          <h2 class="text-center text-3xl text-ardarkgreen md:text-[48px]">
+          <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-[48px]">
             Industries we Serve
-          </h2>
+          </h2> -->
+          <TypographyHeadingtwo text-color="ardarkgreen">
+            Industries we Serve
+          </TypographyHeadingtwo>
+
           <p
             class="w-[270px] md:w-full text-center text-mobileCopy lg:text-desktopCopy text-arblack"
           >
@@ -28,9 +32,13 @@
         <div
           class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
         >
-          <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+          <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
             Our Robots
-          </h2>
+          </h2> -->
+
+          <TypographyHeadingtwo text-color="ardarkgreen">
+            Our Robots
+          </TypographyHeadingtwo>
           <p
             class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
           >

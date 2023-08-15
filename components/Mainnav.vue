@@ -53,13 +53,7 @@
             <PopoverPanel
               class="absolute -left-8 top-full mt-3 w-56 rounded-xl bg-white p-2 shadow-lg z-20"
             >
-              <!-- <a
-                v-for="item in technology"
-                :key="item.name"
-                :href="item.href"
-                class="block rounded-lg py-2 px-3 text-sm font-semibold leading-6 text-arblack hover:bg-arsecondary/50 hover:text-white"
-                >{{ item.name }}</a
-              > -->
+
               <NuxtLink
                 @click="techMenuOpen = true"
                 to="/lionel/"

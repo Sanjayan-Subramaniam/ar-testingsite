@@ -25,7 +25,7 @@
 
 <template>
   <section
-    class="md:h-[70vh] bg-lionel-background h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
+    class="bg-lionel-background min-h-[40vh] lg:min-h-[50vh] relative overflow-hidden bg-cover bg-center bg-blend-overlay"
   >
     <video
       autoplay
@@ -45,12 +45,17 @@
       <div
         class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
       >
-        <h1
+        <!-- <h1
           class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
         >
           Meet Lionel, the world's <br />
           best floor marking robot
-        </h1>
+        </h1> -->
+
+        <TypographyMainheading>
+          Meet Lionel, the world's <br />
+          best floor marking robot
+        </TypographyMainheading>
 
         <ButtonPrimarydiego class="bg-arprimary" />
       </div>

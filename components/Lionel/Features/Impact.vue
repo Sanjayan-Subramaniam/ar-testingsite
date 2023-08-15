@@ -1,8 +1,11 @@
 <template>
   <div class="container mx-auto">
-    <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+    <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
       Lionel's Impact to Date
-    </h2>
+    </h2> -->
+    <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+      >Lionel's Impact to Date</TypographyHeadingtwo
+    >
     <SectionSpacer />
 
     <!-- <div
@@ -35,17 +38,17 @@
         <div class="flex flex-col gap-y-6 lg:gap-y-12 lg:my-auto">
           <CareersFeatureTeamstatistics
             sub-title="marks made"
-            statistic="160,000 Marks"
+            statistic="230,000 Marks"
             icon="/icons/lionelimpact-markings.svg"
           />
           <CareersFeatureTeamstatistics
             sub-title="hours saved"
-            statistic="11,000 Hours"
+            statistic="22,000 Hours"
             icon="/icons/lionelimpact-hours.svg"
           />
           <CareersFeatureTeamstatistics
             sub-title="floorspace marked"
-            statistic="2.9 Million Sqm"
+            statistic="4.0 Million Sqm"
             icon="/icons/lionelimpact-area.svg"
           />
         </div>

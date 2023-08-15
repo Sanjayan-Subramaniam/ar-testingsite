@@ -26,7 +26,16 @@ useHead({
   script: [
     {
       // type: "text/partytown",
-      src: "https://www.googletagmanager.com/gtag/js?id=G-TSW2E6T3PT",
+      src: "https://www.googletagmanager.com/gtag/js?id=G-C2B8H4W1NJ",
+      async: true,
+    },
+    {
+      // type: "text/partytown",
+      innerHTML: "_VH_CODE = 9714663130;",
+    },
+    {
+      // type: "text/partytown",
+      src: "https://visithunter.io/collect.js",
       async: true,
     },
     {
@@ -37,18 +46,20 @@ useHead({
       }
       gtag("js", new Date());
 
-      gtag("config", "G-TSW2E6T3PT");`,
+      gtag("config", "G-C2B8H4W1NJ");`,
     },
 
     {
       // type: "text/partytown",
 
       innerHTML: `
+      
     var hubalzscript = document.createElement("script");
     hubalzscript.src = "https://www.hubalz.com/script.js";
     hubalzscript.async = 1;
-    hubalzscript.dataset.apikey = "36fc68e7e2cdabc8e91717f1bdefff";
+    hubalzscript.dataset.apikey = "baf9deae02348415839b2d42ecc4c8";
     document.getElementsByTagName('head')[0].append(hubalzscript);
+
 `,
     },
     {

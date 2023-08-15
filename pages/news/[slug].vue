@@ -34,10 +34,10 @@ useSeoMeta({
 </script>
 
 <template>
-  <section
+  <!-- <section
     class="md:h-[70vh] bg-gray/90 bg-lionel-background bg-cover bg-center bg-blend-overlay h-[50vh] relative"
   >
-    <!-- Hero content title and button -->
+
 
     <div
       class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%]"
@@ -55,29 +55,30 @@ useSeoMeta({
       </div>
     </div>
     <Mainbuttonsarrow></Mainbuttonsarrow>
-  </section>
+  </section> -->
   <div
-    class="grid grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
+    class="flex flex-col lg:grid lg:grid-cols-[5fr_minmax(300px,1fr)] container mx-auto p-10 gap-5"
   >
     <main v-if="article" class="grid gap-5 self-start">
-      <NuxtImg
+      <img
         :src="article.image"
         :alt="article.title"
         sizes="sm:100vw md:100vw lg:700px"
         width="700"
         height="400"
         format="webp"
-        class="rounded-xl shadow w-full"
+        class="rounded-xl shadow w-full lg:w-[55%]"
       />
-      <h1 class="font-bold text-4xl">{{ article.title }}</h1>
+      <h1 class="font-bold text-4xl w-full lg:w-[90%]">{{ article.title }}</h1>
       <span class="text-argray text-2xl">{{
         new Date(article.created).toLocaleDateString(undefined, {
           dateStyle: "medium",
         })
       }}</span>
-      <div class="nuxt-content">
+      <div class="nuxt-content w-full lg:w-[90%]">
         <ContentRenderer :value="article" />
       </div>
+      <ButtonSecondary button-copy="Back to News" link-location="/news" />
     </main>
     <aside class="flex flex-col gap-5">
       <div
@@ -90,14 +91,10 @@ useSeoMeta({
             v-for="article in topStories.slice(0, MAX_TOP_STORIES)"
             class="flex flex-col gap-3"
           >
-            <NuxtImg
+            <img
               :src="article.image"
               :alt="article.title"
-              sizes="sm:100vw md:100vw lg:700px"
-              width="700"
-              height="400"
-              format="webp"
-              class="rounded-2xl shadow w-full"
+              class="rounded-2xl w-[300px] shadow lg:w-full"
             />
             <span class="text-argray">{{
               new Date(article.created).toLocaleDateString(undefined, {
@@ -105,7 +102,7 @@ useSeoMeta({
               })
             }}</span>
             <p>
-              {{ clampString(article.description, 100) }}
+              {{ clampString(article.title, 100) }}
             </p>
             <NuxtLink
               :href="article._path + '/'"
@@ -133,7 +130,7 @@ useSeoMeta({
             v-for="article in exhibition.slice(0, MAX_EXHIBITION)"
             class="flex flex-col gap-3"
           >
-            <NuxtImg
+            <img
               :src="article.image"
               :alt="article.title"
               sizes="sm:100vw md:100vw lg:700px"

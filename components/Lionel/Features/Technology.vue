@@ -4,9 +4,12 @@
       <div
         class="flex flex-col items-center gap-y-6 lg:gap-y-9 lg:w-[800px] mx-auto"
       >
-        <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+        <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
           Lionel's Technology
-        </h2>
+        </h2> -->
+        <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+          >Lionel's Technology</TypographyHeadingtwo
+        >
         <p
           class="text-center text-mobileCopy lg:text-desktopCopy text-arblack w-[270px] md:w-full"
         >
@@ -138,7 +141,7 @@ const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-maps-green.svg",
     videoPath: "/lt-map-processing.webm",
-    imagePath: "/lt-map-processing.webp",
+    imagePath: "/lt-map-processing.png",
     title: "Map Processing",
     copy: "Automatically translates your standard CAD plans to robot language, allowing you to use Lionel without extra work",
   },
@@ -151,28 +154,28 @@ const lionelTechContent = [
   {
     iconPath: "/icons/lioneltech-obstacle-green.svg",
     videoPath: "/lt-obstacle-avoidance.webm",
-    imagePath: "/lt-obstacle-avoidance.webp",
+    imagePath: "/lt-obstacle-avoidance.png",
     title: "Advanced Obstacle Avoidance",
     copy: "Has multiple sensors to detect static and dynamic obstacles, allowing Lionel to operate seamlessly and safely in busy environments",
   },
   {
     iconPath: "/icons/lioneltech-flexible-green.svg",
     videoPath: "/lt-flexible-marking.webm",
-    imagePath: "/lt-flexible-marking.webp",
+    imagePath: "/lt-flexible-marking.png",
     title: "Flexible Marking",
     copy: "Has an innovative spray mechanism, allowing you to mark any symbol on any surface",
   },
   {
     iconPath: "/icons/lioneltech-mobility-green.svg",
     videoPath: "/lt-full-mobility.webm",
-    imagePath: "/lt-full-mobility.webp",
+    imagePath: "/lt-full-mobility.png",
     title: "Full Mobility",
     copy: "Has a light footprint and 360 wheels, allowing quick manoeuvring and easy transport",
   },
   {
     iconPath: "/icons/lioneltech-fleet-green.svg",
     videoPath: "/lt-fleet-management.webm",
-    imagePath: "/lt-fleet-management.webp",
+    imagePath: "/lt-fleet-management.png",
     title: "Fleet Management",
     copy: "Can work alone or as part of a fleet, allowing you to add extra robots for unlimited efficiency",
   },

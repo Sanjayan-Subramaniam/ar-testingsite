@@ -4,9 +4,12 @@
       <div
         class="flex flex-col items-center lg:w-[800px] mx-auto gap-y-6 lg:gap-y-9"
       >
-        <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
+        <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-5xl">
           Lionel History
-        </h2>
+        </h2> -->
+        <TypographyHeadingtwo class="text-center" text-color="ardarkgreen"
+          >Lionel History</TypographyHeadingtwo
+        >
         <p class="text-mobileCopy lg:text-desktopCopy">
           Since 2018, Lionel has made great technological and commercial leaps.
           <br /><br />

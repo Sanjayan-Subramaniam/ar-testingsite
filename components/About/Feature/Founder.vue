@@ -11,15 +11,20 @@
           />
         </div>
       </div>
+      <TypographyHeadingtwo
+        class="text-center lg:ml-[2%] xl:ml-[8%] 2xl:ml-[14%] lg:text-left"
+        text-color="ardarkgreen"
+        >Founder</TypographyHeadingtwo
+      >
 
-      <h2
-        class="leading-normal font-base order-1 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
+      <!-- <h2
+        class="w-[270px] md:w-[400px] lg:w-[440px] xl:w-[500px] mx-auto leading-normal font-base order-1 lg:order-first lg:col-start-2 lg:text-left md:text-5xl text-center text-3xl text-ardarkgreen"
       >
         Founder
-      </h2>
+      </h2> -->
 
       <p
-        class="w-[270px] md:w-[440px] lg:w-[480px] xl:w-[640px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:mx-0 lg:text-left lg:col-start-2"
+        class="w-[270px] md:w-[400px] lg:w-[440px] xl:w-[500px] order-3 mx-auto text-center text-mobileCopy lg:text-desktopCopy text-arblack lg:text-left lg:col-start-2"
       >
         August Robotics was founded by Alex Wyatt.
         <br class="hidden xl:block" />Born and raised in Melbourne, Australia,
@@ -39,9 +44,9 @@
         Hungry for an even bigger adventure, in 2017, Alex founded August
         Robotics with the mission to automate dirty, dangerous and dull jobs
         across the economy. Alex’s role quickly pivoted from tinkering with
-        robots to leading a global team across five offices, while maintaining
-        an unwavering mission to improve businesses through technological
-        innovation.
+        robots to leading a global team across three continents, while
+        maintaining an unwavering mission to improve businesses through
+        technological innovation.
       </p>
     </div>
   </div>

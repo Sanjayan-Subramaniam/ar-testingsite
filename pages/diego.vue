@@ -2,6 +2,9 @@
   <div>
     <DiegoFeaturesHero />
     <SectionSpacer />
+    <SectionSpacer />
+    <DiegoFeaturesVideos />
+    <SectionSpacer />
     <DiegoFeaturesUsecases />
     <SectionSpacer />
     <h2 class="text-center text-3xl text-arblue md:text-5xl">
