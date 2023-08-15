@@ -4,7 +4,7 @@
   >
     <NuxtLink
       class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-argray/20 bg-construction-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-argray/60 hover:bg-construction-background-full"
-      to="https://www.construction.augustrobotics.com"
+      to="https://construction.augustrobotics.com"
     >
       <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 mx-auto">
         <h2
@@ -47,7 +47,7 @@
     </NuxtLink>
     <NuxtLink
       class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblack/20 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblack/60 hover:bg-exhibition-background-full"
-      to="https://www.exhibitions.augustrobotics.com"
+      to="https://exhibitions.augustrobotics.com"
     >
       <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 mx-auto">
         <h2

@@ -10,7 +10,7 @@
           state === 'construction' &&
             'h-5/6 bg-argray/100 bg-construction-background-full',
         ]"
-        href="https://www.construction.augustrobotics.com"
+        href="https://construction.augustrobotics.com"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Construction
@@ -36,7 +36,7 @@
           'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background',
           state === 'disinfection' && 'h-5/6',
         ]"
-        href="https://www.augustrobotics.com/diego"
+        href="https://augustrobotics.com/diego"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Commercial <br />
@@ -98,7 +98,7 @@
             <br class="hidden lg:block" /><br class="hidden lg:block" />
           </p>
           <ButtonVisit
-            href="https://www.construction.augustrobotics.com"
+            href="https://construction.augustrobotics.com"
           ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
@@ -130,7 +130,7 @@
             streamline the floor marking and show set-up process
           </p>
           <ButtonVisit
-            href="https://www.exhibitions.augustrobotics.com"
+            href="https://exhibitions.augustrobotics.com"
           ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
