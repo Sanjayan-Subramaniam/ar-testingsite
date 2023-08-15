@@ -36,7 +36,7 @@
           'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblue/60 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblue/80 hover:bg-disinfection-background',
           state === 'disinfection' && 'h-5/6',
         ]"
-        href="/diego"
+        href="/diego/"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Commercial <br />
