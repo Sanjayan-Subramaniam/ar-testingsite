@@ -23,7 +23,7 @@
           'mt-auto flex h-3/6 basis-1/3 content-center justify-center bg-arblack/80 bg-exhibition-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-5/6 hover:bg-arblack/100 hover:bg-exhibition-background-full',
           state === 'exhibitions' && 'h-5/6',
         ]"
-        href="https://www.exhibitions.augustrobotics.com"
+        href="https://exhibitions.augustrobotics.com"
       >
         <h2 class="my-auto text-center text-sm text-white lg:text-2xl">
           Exhibitions
