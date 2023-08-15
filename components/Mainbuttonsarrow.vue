@@ -90,7 +90,7 @@
     </NuxtLink>
     <NuxtLink
       class="flex flex-col justify-center mt-auto h-[60%] lg:h-[60%] basis-1/3 bg-arblue/20 bg-disinfection-background bg-cover bg-center bg-blend-overlay transition-all ease-in-out hover:h-[80%] hover:bg-arblue/60 hover:bg-disinfection-background-full"
-      to="/diego/"
+      to="/diego"
     >
       <div class="pl-[5%] flex flex-col xl:flex-row xl:gap-x-6 mx-auto">
         <h2
