@@ -1,5 +1,5 @@
 <template>
-  <Announcement />
+  <!-- <Announcement /> -->
   <header class="bg-white py-8">
     <nav
       class="mx-auto container flex items-center justify-between px-8 sm:px-16"

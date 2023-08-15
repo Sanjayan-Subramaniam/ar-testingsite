@@ -23,7 +23,7 @@
           </p>
         </div>
       </div>
-      <IndustrySelector></IndustrySelector>
+      <IndustrySelector />
     </section>
 
     <SectionSeperator />
