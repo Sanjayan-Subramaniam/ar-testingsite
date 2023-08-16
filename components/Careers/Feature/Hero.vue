@@ -1,6 +1,6 @@
 <template>
   <section
-    class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh"
+    class="bg-lionel-background relative overflow-hidden bg-cover bg-center bg-blend-overlay min-h-[40vh] lg:min-h-[50vh]"
   >
     <video
       autoplay
@@ -20,12 +20,17 @@
       <div
         class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
       >
-        <h1
+        <!-- <h1
           class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
         >
           Bring your ideas to life <br />
           at August Robotics
-        </h1>
+        </h1> -->
+
+        <TypographyMainheading
+          >Bring your ideas to life <br />
+          at August Robotics</TypographyMainheading
+        >
 
         <ButtonPrimarydiego class="bg-arprimary" />
       </div>

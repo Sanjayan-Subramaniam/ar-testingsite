@@ -18,10 +18,10 @@
       class="container h-full grid grid-cols-12 lg:items-start mx-auto pt-[5%] lg:pt-[5%] relative z-10"
     >
       <div
-        class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-4"
+        class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col justify-between"
       >
         <TypographyMainheading>
-          We automate dirty, dangerous <br />
+          We automate dirty, dangerous<br />
           and dull tasks all over the world.
         </TypographyMainheading>
 

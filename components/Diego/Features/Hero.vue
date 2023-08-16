@@ -45,13 +45,16 @@
       <div
         class="col-span-10 lg:col-span-11 col-start-2 md:col-start-1 flex flex-col gap-y-6"
       >
-        <h1
+        <!-- <h1
           class="text-xl text-white md:text-4xl lg:text-5xl lg:leading-normal"
         >
           Meet Diego, the most powerful <br />
           and reliable disinfection robot
-        </h1>
-
+        </h1> -->
+        <TypographyMainheading
+          >Meet Diego, the most powerful <br />
+          and reliable disinfection robot</TypographyMainheading
+        >
         <ButtonPrimarydiego class="bg-arblue" />
       </div>
     </div>
