@@ -35,6 +35,16 @@ const roles = [
       "As a Software Engineer, you will be a member of the August Robotics technical team. You will be responsible for writing the software required to ensure that the company’s robots function effectively and reliably, and that the robot user interfaces are intuitive and fully-featured.",
     jdLink: "/jd/software_engineer.pdf",
   },
+  {
+    roleTitle: "Robotics Field Engineer",
+    country: "USA",
+    flag: "/flags/usa.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Robotics Field Engineer, you will be a member of the August Robotics technical team. You will be responsible for installing, deploying and operating innovative robot technology in both the exhibition industry (Lionel) and the hospitality industry (Diego).",
+    jdLink: "/jd/robotics_field_engineer_LV.pdf",
+  },
   // {
   //   roleTitle: "Python Software Engineer",
   //   country: "Hong Kong",
