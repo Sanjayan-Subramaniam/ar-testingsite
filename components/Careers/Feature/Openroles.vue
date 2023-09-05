@@ -45,6 +45,16 @@ const roles = [
       "As a Robotics Field Engineer, you will be a member of the August Robotics technical team. You will be responsible for installing, deploying and operating innovative robot technology in both the exhibition industry (Lionel) and the hospitality industry (Diego).",
     jdLink: "/jd/robotics_field_engineer_LV.pdf",
   },
+  {
+    roleTitle: "Robotics Student Internship",
+    country: "USA",
+    flag: "/flags/usa.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Robotics Field Engineer, you will be a member of the August Robotics technical team. This program will suit those with an aspiration to build a career as a robotics R&D engineer after graduation, but also to gain some practical work experience in a real-life robotics work environment before their graduation.",
+    jdLink: "/jd/robotics_student_ internship.pdf",
+  },
   // {
   //   roleTitle: "Python Software Engineer",
   //   country: "Hong Kong",
