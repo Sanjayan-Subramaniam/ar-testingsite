@@ -6,102 +6,9 @@
           <!-- <h2 class="text-center text-3xl text-ardarkgreen md:text-[48px]">
               Industries we Serve
             </h2> -->
+
           <TypographyHeadingtwo text-color="ardarkgreen">
             Privacy
-          </TypographyHeadingtwo>
-
-          <table class="table-fixed border-black border-2 px-1">
-            <thead>
-              <tr
-                class="w-[270px] md:w-[70%] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <th class="border-black bg-ardarkgreen text-white border-2">
-                  Who is using my data?
-                </th>
-                <th class="border-black bg-ardarkgreen text-white border-2">
-                  August Robotics Limited
-                </th>
-              </tr>
-            </thead>
-            <tbody>
-              <tr
-                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <td class="border-black border-2 p-3">
-                  What is my data being used for?
-                </td>
-                <td class="border-black border-2 p-3">
-                  August Robotics Limited stores and processes data to help us
-                  maintain your account, process and store transaction details,
-                  offer customer support, send system updates and send offer
-                  details.
-                </td>
-              </tr>
-              <tr
-                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <td class="border-black border-2 p-3">
-                  What will happen to my data?
-                </td>
-                <td class="border-black border-2 p-3">
-                  August Robotics Limited may use your data to send you
-                  information, updates and offers we think you’ll be interested
-                  in.
-                </td>
-              </tr>
-              <tr
-                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <td class="border-black border-2 p-3">
-                  What data will be kept and stored?
-                </td>
-                <td class="border-black border-2 p-3">
-                  We only share your data with regulators or government bodies
-                  if requested.
-                </td>
-              </tr>
-              <tr
-                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <td class="border-black border-2 p-3">
-                  How long will my data be kept for?
-                </td>
-                <td class="border-black border-2 p-3">
-                  August Robotics Limited will store your data for a period of 7
-                  years after your last attempted login. After this period, your
-                  account will be deleted. You can request your account to be
-                  delete at any time.
-                </td>
-              </tr>
-              <tr
-                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <td class="border-black border-2 p-3">
-                  Who will be able to access my data?
-                </td>
-                <td class="border-black border-2 p-3">
-                  August Robotics Limited will never sell or share your data to
-                  any third-party, unless you grant us your explicit permission
-                  to do so.
-                </td>
-              </tr>
-              <tr
-                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
-              >
-                <td class="border-black border-2 p-3">
-                  How will my data be kept and made secure?
-                </td>
-                <td class="border-black border-2 p-3">
-                  August Robotics Limited stores your data on secure servers
-                  that are based in the UK. Data is processed in the UK, and we
-                  use standard industry security protocols.
-                </td>
-              </tr>
-            </tbody>
-          </table>
-          <SectionSpacer />
-          <TypographyHeadingtwo text-color="arblack">
-            Privacy Notice
           </TypographyHeadingtwo>
 
           <p
@@ -527,6 +434,100 @@
             are normally performed free of charge, but we may need to charge
             individuals for excessive or unreasonable data requests.
           </p>
+          <SectionSpacer />
+          <TypographyHeadingtwo text-color="ardarkgreen">
+            FAQ
+          </TypographyHeadingtwo>
+
+          <table class="table-fixed border-black border-2 px-1">
+            <thead>
+              <tr
+                class="w-[270px] md:w-[70%] text-center text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <th class="border-black bg-ardarkgreen text-white border-2">
+                  Who is using my data?
+                </th>
+                <th class="border-black bg-ardarkgreen text-white border-2">
+                  August Robotics Limited
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr
+                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <td class="border-black border-2 p-3">
+                  What is my data being used for?
+                </td>
+                <td class="border-black border-2 p-3">
+                  August Robotics Limited stores and processes data to help us
+                  maintain your account, process and store transaction details,
+                  offer customer support, send system updates and send offer
+                  details.
+                </td>
+              </tr>
+              <tr
+                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <td class="border-black border-2 p-3">
+                  What will happen to my data?
+                </td>
+                <td class="border-black border-2 p-3">
+                  August Robotics Limited may use your data to send you
+                  information, updates and offers we think you’ll be interested
+                  in.
+                </td>
+              </tr>
+              <tr
+                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <td class="border-black border-2 p-3">
+                  What data will be kept and stored?
+                </td>
+                <td class="border-black border-2 p-3">
+                  We only share your data with regulators or government bodies
+                  if requested.
+                </td>
+              </tr>
+              <tr
+                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <td class="border-black border-2 p-3">
+                  How long will my data be kept for?
+                </td>
+                <td class="border-black border-2 p-3">
+                  August Robotics Limited will store your data for a period of 7
+                  years after your last attempted login. After this period, your
+                  account will be deleted. You can request your account to be
+                  delete at any time.
+                </td>
+              </tr>
+              <tr
+                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <td class="border-black border-2 p-3">
+                  Who will be able to access my data?
+                </td>
+                <td class="border-black border-2 p-3">
+                  August Robotics Limited will never sell or share your data to
+                  any third-party, unless you grant us your explicit permission
+                  to do so.
+                </td>
+              </tr>
+              <tr
+                class="w-[270px] md:w-[60%] text-left text-mobileCopy lg:text-desktopCopy text-arblack"
+              >
+                <td class="border-black border-2 p-3">
+                  How will my data be kept and made secure?
+                </td>
+                <td class="border-black border-2 p-3">
+                  August Robotics Limited stores your data on secure servers
+                  that are based in the UK. Data is processed in the UK, and we
+                  use standard industry security protocols.
+                </td>
+              </tr>
+            </tbody>
+          </table>
           <SectionSpacer />
         </div>
       </div>
