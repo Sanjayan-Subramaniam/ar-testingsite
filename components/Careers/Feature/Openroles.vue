@@ -65,6 +65,16 @@ const roles = [
       "As a Part-time assistant, you will be a member of the August Robotics technical team. You will assist our German staff members to deploy our world-leading exhibition robots at exhibition centres all over Germany and around continental Europe (all travel and accommodation expenses met by the company)",
     jdLink: "/jd/part_time_assistant_DE.pdf",
   },
+  {
+    roleTitle: "Artificial Intelligence Engineer",
+    country: "Hong Kong",
+    flag: "/flags/hongkong.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As an Artificial Intelligence Engineer, you will be a member of the August Robotics technical team. You will be responsible for writing the software required to ensure that the company’s robots function effectively and reliably, and that the robot user interfaces are intuitive and fully-featured.",
+    jdLink: "/jd/artificial_intelligence_engineer.pdf",
+  },
   // {
   //   roleTitle: "Python Software Engineer",
   //   country: "Hong Kong",
