@@ -25,16 +25,16 @@
 
 <script setup>
 const roles = [
-  {
-    roleTitle: "Software Engineer",
-    country: "Hong Kong",
-    flag: "/flags/hongkong.svg",
-    roleType: "Technical",
-    iconType: "/icons/technical.svg",
-    roleDescription:
-      "As a Software Engineer, you will be a member of the August Robotics technical team. You will be responsible for writing the software required to ensure that the company’s robots function effectively and reliably, and that the robot user interfaces are intuitive and fully-featured.",
-    jdLink: "/jd/software_engineer.pdf",
-  },
+  // {
+  //   roleTitle: "Software Engineer",
+  //   country: "Hong Kong",
+  //   flag: "/flags/hongkong.svg",
+  //   roleType: "Technical",
+  //   iconType: "/icons/technical.svg",
+  //   roleDescription:
+  //     "As a Software Engineer, you will be a member of the August Robotics technical team. You will be responsible for writing the software required to ensure that the company’s robots function effectively and reliably, and that the robot user interfaces are intuitive and fully-featured.",
+  //   jdLink: "/jd/software_engineer.pdf",
+  // },
   // {
   //   roleTitle: "Robotics Field Engineer",
   //   country: "USA",
@@ -66,15 +66,25 @@ const roles = [
     jdLink: "/jd/part_time_assistant_DE.pdf",
   },
   {
-    roleTitle: "Artificial Intelligence Engineer",
-    country: "Hong Kong",
-    flag: "/flags/hongkong.svg",
-    roleType: "Technical",
-    iconType: "/icons/technical.svg",
+    roleTitle: "Sales and Operations Associate",
+    country: "Germany",
+    flag: "/flags/germany.svg",
+    roleType: "Commercial",
+    iconType: "/icons/commercial.svg",
     roleDescription:
-      "As an Artificial Intelligence Engineer, you will be a member of the August Robotics technical team. You will be responsible for writing the software required to ensure that the company’s robots function effectively and reliably, and that the robot user interfaces are intuitive and fully-featured.",
-    jdLink: "/jd/artificial_intelligence_engineer.pdf",
+      "As a Sales and Operations Associate, you will be a member of the August Robotics commerical team. You will assist our German staff members to engage potential customers with professional proposal documents, charm and maintain relationships with existing customers and have a relentless passion for customer happiness.",
+    jdLink: "/jd/part_time_assistant_DE.pdf",
   },
+  // {
+  //   roleTitle: "Artificial Intelligence Engineer",
+  //   country: "Hong Kong",
+  //   flag: "/flags/hongkong.svg",
+  //   roleType: "Technical",
+  //   iconType: "/icons/technical.svg",
+  //   roleDescription:
+  //     "As an Artificial Intelligence Engineer, you will be a member of the August Robotics technical team. You will be responsible for writing the software required to ensure that the company’s robots function effectively and reliably, and that the robot user interfaces are intuitive and fully-featured.",
+  //   jdLink: "/jd/artificial_intelligence_engineer.pdf",
+  // },
   // {
   //   roleTitle: "Python Software Engineer",
   //   country: "Hong Kong",
