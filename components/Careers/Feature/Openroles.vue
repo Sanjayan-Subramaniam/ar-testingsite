@@ -73,7 +73,7 @@ const roles = [
     iconType: "/icons/commercial.svg",
     roleDescription:
       "As a Sales and Operations Associate, you will be a member of the August Robotics commerical team. You will assist our German staff members to engage potential customers with professional proposal documents, charm and maintain relationships with existing customers and have a relentless passion for customer happiness.",
-    jdLink: "/jd/part_time_assistant_DE.pdf",
+    jdLink: "/jd/sales_ and_operations_associate_DE.pdf",
   },
   // {
   //   roleTitle: "Artificial Intelligence Engineer",
