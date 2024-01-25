@@ -75,6 +75,27 @@ const roles = [
       "As a Sales and Operations Associate, you will be a member of the August Robotics commerical team. You will assist our German staff members to engage potential customers with professional proposal documents, charm and maintain relationships with existing customers and have a relentless passion for customer happiness.",
     jdLink: "/jd/sales_ and_operations_associate_DE.pdf",
   },
+  {
+    roleTitle: "Site Operator",
+    country: "Germany",
+    flag: "/flags/germany.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Site Operator, you will be a member of the August Robotics technical team. You will assist our German staff members to install, deploy and operate our robot technology with daily tasks including maintenance, interacting with customers and conducting user training.",
+    jdLink: "/jd/site_operator_DE.pdf",
+  },
+  {
+    roleTitle: "Sales Manager",
+    country: "USA",
+    flag: "/flags/usa.svg",
+    roleType: "Commercial",
+    iconType: "/icons/commercial.svg",
+    roleDescription:
+      "As a Sales, you will be a member of the August Robotics commercial team. This role is well-suited for an entrepreneurial and customer- focussed business leader keen for professional independence, responsibility for commercial outcomes and the experience of working in a well-resourced and fast-growing start-up.",
+    jdLink: "/jd/site_operator_DE.pdf",
+  },
+
   // {
   //   roleTitle: "Artificial Intelligence Engineer",
   //   country: "Hong Kong",
