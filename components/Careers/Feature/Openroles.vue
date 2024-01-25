@@ -83,7 +83,7 @@ const roles = [
     iconType: "/icons/technical.svg",
     roleDescription:
       "As a Site Operator, you will be a member of the August Robotics technical team. You will assist our German staff members to install, deploy and operate our robot technology with daily tasks including maintenance, interacting with customers and conducting user training.",
-    jdLink: "/jd/site_operator_DE.pdf",
+    jdLink: "/jd/site_operator_ DE.pdf",
   },
   {
     roleTitle: "Sales Manager",
@@ -93,7 +93,7 @@ const roles = [
     iconType: "/icons/commercial.svg",
     roleDescription:
       "As a Sales, you will be a member of the August Robotics commercial team. This role is well-suited for an entrepreneurial and customer- focussed business leader keen for professional independence, responsibility for commercial outcomes and the experience of working in a well-resourced and fast-growing start-up.",
-    jdLink: "/jd/site_operator_DE.pdf",
+    jdLink: "/jd/sales_manager_US.pdf",
   },
 
   // {
