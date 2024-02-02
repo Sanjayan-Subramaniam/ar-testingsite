@@ -102,7 +102,7 @@ const roles = [
     roleType: "Technical",
     iconType: "/icons/technical.svg",
     roleDescription:
-      "As a Robotics Test Engineer, you will become one of the key members of August Robotics technical team in Shenzhen. You will participate in the testing and calibration of various robot systems, as well as the deployment and implementation of automated tests.",
+      "As a Robotics Test Engineer, you will become one of the key members of the August Robotics technical team in Shenzhen. You will participate in the testing and calibration of various robot systems, as well as the deployment and implementation of automated tests.",
     jdLink: "/jd/robotics_test_engineer_sz.pdf",
   },
   {
