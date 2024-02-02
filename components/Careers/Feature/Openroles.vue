@@ -95,6 +95,26 @@ const roles = [
       "As a Sales, you will be a member of the August Robotics commercial team. This role is well-suited for an entrepreneurial and customer- focussed business leader keen for professional independence, responsibility for commercial outcomes and the experience of working in a well-resourced and fast-growing start-up.",
     jdLink: "/jd/sales_manager_US.pdf",
   },
+  {
+    roleTitle: "Robotics Test Engineer",
+    country: "Shenzhen",
+    flag: "/flags/mainlandchina.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Robotics Test Engineer, you will become one of the key members of August Robotics technical team in Shenzhen. You will participate in the testing and calibration of various robot systems, as well as the deployment and implementation of automated tests.",
+    jdLink: "/jd/robotics_test_engineer_sz.pdf",
+  },
+  {
+    roleTitle: "Project Manager",
+    country: "Shenzhen",
+    flag: "/flags/mainlandchina.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Project manager, you will operate as the “bridge” between our R & D team and our operation teams in Germany, UK and USA. You will work closely with the company CPO to ensure that the global engineering team is focussed on the right priorities at all times.",
+    jdLink: "/jd/project_manager_sz.pdf",
+  },
 
   // {
   //   roleTitle: "Artificial Intelligence Engineer",
