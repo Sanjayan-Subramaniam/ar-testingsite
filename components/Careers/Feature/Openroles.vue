@@ -46,26 +46,6 @@ const roles = [
   //   jdLink: "/jd/robotics_field_engineer_LV.pdf",
   // },
   {
-    roleTitle: "Robotics Student Internship",
-    country: "USA",
-    flag: "/flags/usa.svg",
-    roleType: "Technical",
-    iconType: "/icons/technical.svg",
-    roleDescription:
-      "As a Robotics Field Engineer, you will be a member of the August Robotics technical team. This program will suit those with an aspiration to build a career as a robotics R&D engineer after graduation, but also to gain some practical work experience in a real-life robotics work environment before their graduation.",
-    jdLink: "/jd/robotics_student_ internship.pdf",
-  },
-  {
-    roleTitle: "Part-time Assistant",
-    country: "Germany",
-    flag: "/flags/germany.svg",
-    roleType: "Technical",
-    iconType: "/icons/technical.svg",
-    roleDescription:
-      "As a Part-time assistant, you will be a member of the August Robotics technical team. You will assist our German staff members to deploy our world-leading exhibition robots at exhibition centres all over Germany and around continental Europe (all travel and accommodation expenses met by the company)",
-    jdLink: "/jd/part_time_assistant_DE.pdf",
-  },
-  {
     roleTitle: "Sales and Operations Associate",
     country: "Germany",
     flag: "/flags/germany.svg",
@@ -96,16 +76,6 @@ const roles = [
     jdLink: "/jd/sales_manager_US.pdf",
   },
   {
-    roleTitle: "Robotics Test Engineer",
-    country: "Shenzhen",
-    flag: "/flags/mainlandchina.svg",
-    roleType: "Technical",
-    iconType: "/icons/technical.svg",
-    roleDescription:
-      "As a Robotics Test Engineer, you will become one of the key members of the August Robotics technical team in Shenzhen. You will participate in the testing and calibration of various robot systems, as well as the deployment and implementation of automated tests.",
-    jdLink: "/jd/robotics_test_engineer_sz.pdf",
-  },
-  {
     roleTitle: "Project Manager",
     country: "Shenzhen",
     flag: "/flags/mainlandchina.svg",
@@ -114,6 +84,38 @@ const roles = [
     roleDescription:
       "As a Project manager, you will operate as the “bridge” between our R & D team and our operation teams in Germany, UK and USA. You will work closely with the company CPO to ensure that the global engineering team is focussed on the right priorities at all times.",
     jdLink: "/jd/project_manager_sz.pdf",
+  },
+
+  {
+    roleTitle: "Robotics Student Internship",
+    country: "USA",
+    flag: "/flags/usa.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Robotics Field Engineer, you will be a member of the August Robotics technical team. This program will suit those with an aspiration to build a career as a robotics R&D engineer after graduation, but also to gain some practical work experience in a real-life robotics work environment before their graduation.",
+    jdLink: "/jd/robotics_student_ internship.pdf",
+  },
+  {
+    roleTitle: "Part-time Assistant",
+    country: "Germany",
+    flag: "/flags/germany.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Part-time assistant, you will be a member of the August Robotics technical team. You will assist our German staff members to deploy our world-leading exhibition robots at exhibition centres all over Germany and around continental Europe (all travel and accommodation expenses met by the company)",
+    jdLink: "/jd/part_time_assistant_DE.pdf",
+  },
+
+  {
+    roleTitle: "Robotics Test Engineer",
+    country: "Shenzhen",
+    flag: "/flags/mainlandchina.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a Robotics Test Engineer, you will become one of the key members of the August Robotics technical team in Shenzhen. You will participate in the testing and calibration of various robot systems, as well as the deployment and implementation of automated tests.",
+    jdLink: "/jd/robotics_test_engineer_sz.pdf",
   },
 
   // {
