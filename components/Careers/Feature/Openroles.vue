@@ -56,14 +56,14 @@ const roles = [
     jdLink: "/jd/sales_ and_operations_associate_DE.pdf",
   },
   {
-    roleTitle: "Site Operator",
+    roleTitle: "On-site Robotics Engineer",
     country: "Germany",
     flag: "/flags/germany.svg",
     roleType: "Technical",
     iconType: "/icons/technical.svg",
     roleDescription:
-      "As a Site Operator, you will be a member of the August Robotics technical team. You will assist our German staff members to install, deploy and operate our robot technology with daily tasks including maintenance, interacting with customers and conducting user training.",
-    jdLink: "/jd/site_operator_ DE.pdf",
+      "As an On-site Robotics Engineer, you will be a member of the August Robotics technical team. You will assist our German staff members to install, deploy and operate our robot technology with daily tasks including maintenance, interacting with customers and conducting user training.",
+    jdLink: "/jd/site_engineer_DE.pdf",
   },
   {
     roleTitle: "Sales Manager",
