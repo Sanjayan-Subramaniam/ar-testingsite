@@ -76,6 +76,17 @@ const roles = [
     jdLink: "/jd/sales_manager_US.pdf",
   },
   {
+    roleTitle: "Account Executive",
+    country: "USA",
+    flag: "/flags/usa.svg",
+    roleType: "Commercial",
+    iconType: "/icons/commercial.svg",
+    roleDescription:
+      "As an Account Executive you will have an entrepreneurial spirit who can manage complex sales cycles. You will contribute to developing and executing key Go-To-Market strategies, hitting annual targets, growing relationships, and understanding customer needs.",
+    jdLink: "/jd/account_executive_US.pdf",
+  },
+
+  {
     roleTitle: "Project Manager",
     country: "Shenzhen",
     flag: "/flags/mainlandchina.svg",
