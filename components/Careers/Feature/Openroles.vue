@@ -45,46 +45,46 @@ const roles = [
   //     "As a Robotics Field Engineer, you will be a member of the August Robotics technical team. You will be responsible for installing, deploying and operating innovative robot technology in both the exhibition industry (Lionel) and the hospitality industry (Diego).",
   //   jdLink: "/jd/robotics_field_engineer_LV.pdf",
   // },
-  {
-    roleTitle: "Sales and Operations Associate",
-    country: "Germany",
-    flag: "/flags/germany.svg",
-    roleType: "Commercial",
-    iconType: "/icons/commercial.svg",
-    roleDescription:
-      "As a Sales and Operations Associate, you will be a member of the August Robotics commerical team. You will assist our German staff members to engage potential customers with professional proposal documents, charm and maintain relationships with existing customers and have a relentless passion for customer happiness.",
-    jdLink: "/jd/sales_ and_operations_associate_DE.pdf",
-  },
-  {
-    roleTitle: "On-site Robotics Engineer",
-    country: "Germany",
-    flag: "/flags/germany.svg",
-    roleType: "Technical",
-    iconType: "/icons/technical.svg",
-    roleDescription:
-      "As an On-site Robotics Engineer, you will be a member of the August Robotics technical team. You will assist our German staff members to install, deploy and operate our robot technology with daily tasks including maintenance, interacting with customers and conducting user training.",
-    jdLink: "/jd/site_engineer_DE.pdf",
-  },
-  {
-    roleTitle: "Sales Manager",
-    country: "USA",
-    flag: "/flags/usa.svg",
-    roleType: "Commercial",
-    iconType: "/icons/commercial.svg",
-    roleDescription:
-      "As a Sales, you will be a member of the August Robotics commercial team. This role is well-suited for an entrepreneurial and customer- focussed business leader keen for professional independence, responsibility for commercial outcomes and the experience of working in a well-resourced and fast-growing start-up.",
-    jdLink: "/jd/sales_manager_US.pdf",
-  },
-  {
-    roleTitle: "Account Executive",
-    country: "USA",
-    flag: "/flags/usa.svg",
-    roleType: "Commercial",
-    iconType: "/icons/commercial.svg",
-    roleDescription:
-      "As an Account Executive you will have an entrepreneurial spirit who can manage complex sales cycles. You will contribute to developing and executing key Go-To-Market strategies, hitting annual targets, growing relationships, and understanding customer needs.",
-    jdLink: "/jd/account_executive_US.pdf",
-  },
+  // {
+  //   roleTitle: "Sales and Operations Associate",
+  //   country: "Germany",
+  //   flag: "/flags/germany.svg",
+  //   roleType: "Commercial",
+  //   iconType: "/icons/commercial.svg",
+  //   roleDescription:
+  //     "As a Sales and Operations Associate, you will be a member of the August Robotics commerical team. You will assist our German staff members to engage potential customers with professional proposal documents, charm and maintain relationships with existing customers and have a relentless passion for customer happiness.",
+  //   jdLink: "/jd/sales_ and_operations_associate_DE.pdf",
+  // },
+  // {
+  //   roleTitle: "On-site Robotics Engineer",
+  //   country: "Germany",
+  //   flag: "/flags/germany.svg",
+  //   roleType: "Technical",
+  //   iconType: "/icons/technical.svg",
+  //   roleDescription:
+  //     "As an On-site Robotics Engineer, you will be a member of the August Robotics technical team. You will assist our German staff members to install, deploy and operate our robot technology with daily tasks including maintenance, interacting with customers and conducting user training.",
+  //   jdLink: "/jd/site_engineer_DE.pdf",
+  // },
+  // {
+  //   roleTitle: "Sales Manager",
+  //   country: "USA",
+  //   flag: "/flags/usa.svg",
+  //   roleType: "Commercial",
+  //   iconType: "/icons/commercial.svg",
+  //   roleDescription:
+  //     "As a Sales, you will be a member of the August Robotics commercial team. This role is well-suited for an entrepreneurial and customer- focussed business leader keen for professional independence, responsibility for commercial outcomes and the experience of working in a well-resourced and fast-growing start-up.",
+  //   jdLink: "/jd/sales_manager_US.pdf",
+  // },
+  // {
+  //   roleTitle: "Account Executive",
+  //   country: "USA",
+  //   flag: "/flags/usa.svg",
+  //   roleType: "Commercial",
+  //   iconType: "/icons/commercial.svg",
+  //   roleDescription:
+  //     "As an Account Executive you will have an entrepreneurial spirit who can manage complex sales cycles. You will contribute to developing and executing key Go-To-Market strategies, hitting annual targets, growing relationships, and understanding customer needs.",
+  //   jdLink: "/jd/account_executive_US.pdf",
+  // },
 
   {
     roleTitle: "Project Manager",
