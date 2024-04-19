@@ -87,6 +87,27 @@ const roles = [
   // },
 
   {
+    roleTitle: "Commercial Manager",
+    country: "Hong Kong",
+    flag: "/flags/hongkong.svg",
+    roleType: "Commercial",
+    iconType: "/icons/commercial.svg",
+    roleDescription:
+      "As Commercial Manager, you will play a critical role in helping move the company forward commercially through strategizing, developing opportunities, and supporting our sales and customer success teams.",
+    jdLink: "/jd/commercial_manager_hk.pdf",
+  },
+  {
+    roleTitle: "Robotics Field Engineer",
+    country: "USA",
+    flag: "/flags/usa.svg",
+    roleType: "Technical",
+    iconType: "/icons/technical.svg",
+    roleDescription:
+      "As a robotics field engineer, you will install, deploy and operate innovative robot technology in both the exhibition industry (Lionel) and the hospitality industry (Diego) and regularly assist our customers with training, maintenance and technical support",
+    jdLink: "/jd/robotics_field_engineer_usa.pdf",
+  },
+
+  {
     roleTitle: "Project Manager",
     country: "Shenzhen",
     flag: "/flags/mainlandchina.svg",
