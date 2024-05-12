@@ -11,5 +11,5 @@ declare module '#nuxt-og-image/config' {
   export const experimentalInlineWasm: false | ModuleOptions['experimentalInlineWasm']
   export const experimentalRuntimeBrowser: false | ModuleOptions['experimentalRuntimeBrowser']
   export const playground: true | ModuleOptions['playground']
-  export const assetDirs: ["/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/public","/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/node_modules/nuxt-og-image/dist/runtime/public-assets"] | ModuleOptions['assetDirs']
+  export const assetDirs: ["/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/public","/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/node_modules/nuxt-og-image/dist/runtime/public-assets"] | ModuleOptions['assetDirs']
 }

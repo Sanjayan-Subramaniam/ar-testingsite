@@ -1,63 +1,63 @@
-globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/node-fetch-native/dist/polyfill.mjs';
+globalThis._importMeta_={url:import.meta.url,env:process.env};import 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/node-fetch-native/dist/polyfill.mjs';
 import { Server } from 'node:http';
 import { tmpdir } from 'node:os';
 import { join as join$1 } from 'node:path';
 import { existsSync, promises, mkdirSync } from 'node:fs';
 import { parentPort, threadId } from 'node:worker_threads';
-import { provider, isWindows } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/std-env/dist/index.mjs';
-import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, setHeader, getHeaders, getQuery, getCookie, createError, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, readBody } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/h3/dist/index.mjs';
-import { createRenderer } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/vue-bundle-renderer/dist/runtime.mjs';
-import devalue from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/@nuxt/devalue/dist/devalue.mjs';
-import destr from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/destr/dist/index.mjs';
-import { renderToString } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/vue/server-renderer/index.mjs';
-import { hash } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/ohash/dist/index.mjs';
-import { createFetch as createFetch$1, Headers } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/ofetch/dist/node.mjs';
-import { createCall, createFetch } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unenv/runtime/fetch/index.mjs';
-import { createHooks } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/hookable/dist/index.mjs';
-import { parseURL, withoutBase, joinURL, withQuery, withoutTrailingSlash, withLeadingSlash, isRelative, withBase } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/ufo/dist/index.mjs';
+import { provider, isWindows } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/std-env/dist/index.mjs';
+import { defineEventHandler, handleCacheHeaders, createEvent, eventHandler, setHeaders, sendRedirect, proxyRequest, setResponseStatus, getRequestHeader, setResponseHeader, getRequestHeaders, setHeader, getHeaders, getQuery, getCookie, createError, createApp, createRouter as createRouter$1, toNodeListener, fetchWithEvent, lazyEventHandler, readBody } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/h3/dist/index.mjs';
+import { createRenderer } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/vue-bundle-renderer/dist/runtime.mjs';
+import devalue from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/@nuxt/devalue/dist/devalue.mjs';
+import destr from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/destr/dist/index.mjs';
+import { renderToString } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/vue/server-renderer/index.mjs';
+import { hash } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/ohash/dist/index.mjs';
+import { createFetch as createFetch$1, Headers } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/ofetch/dist/node.mjs';
+import { createCall, createFetch } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unenv/runtime/fetch/index.mjs';
+import { createHooks } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/hookable/dist/index.mjs';
+import { parseURL, withoutBase, joinURL, withQuery, withoutTrailingSlash, withLeadingSlash, isRelative, withBase } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/ufo/dist/index.mjs';
 import { Readable } from 'node:stream';
-import { SitemapStream, streamToPromise } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/sitemap/dist/index.js';
-import { join, extname } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/pathe/dist/index.mjs';
-import { createStorage, prefixStorage } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unstorage/dist/index.mjs';
-import defu, { defuFn } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/defu/dist/defu.mjs';
-import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/scule/dist/index.mjs';
-import { unified } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unified/index.js';
-import { toString } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/mdast-util-to-string/index.js';
-import { preprocess } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/micromark/dev/lib/preprocess.js';
-import { postprocess } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/micromark/dev/lib/postprocess.js';
-import { stringifyPosition } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unist-util-stringify-position/index.js';
-import { markdownLineEnding, markdownSpace } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/micromark-util-character/dev/index.js';
-import { push, splice } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/micromark-util-chunked/dev/index.js';
-import { resolveAll } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/micromark-util-resolve-all/index.js';
-import remarkEmoji from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/remark-emoji/index.js';
-import rehypeSlug from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/rehype-slug/index.js';
-import remarkSqueezeParagraphs from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/remark-squeeze-paragraphs/index.js';
-import rehypeExternalLinks from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/rehype-external-links/index.js';
-import remarkGfm from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/remark-gfm/index.js';
-import rehypeSortAttributeValues from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/rehype-sort-attribute-values/index.js';
-import rehypeSortAttributes from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/rehype-sort-attributes/index.js';
-import rehypeRaw from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/rehype-raw/index.js';
-import remarkMDC, { parseFrontMatter } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/remark-mdc/dist/index.mjs';
-import remarkParse from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/remark-parse/index.js';
-import remark2rehype from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/remark-rehype/index.js';
-import { all } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/mdast-util-to-hast/index.js';
-import { detab } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/detab/index.js';
-import { u } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unist-builder/index.js';
-import { encode } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/mdurl/index.js';
-import slugify from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/slugify/slugify.js';
-import { position } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unist-util-position/index.js';
-import { visit } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unist-util-visit/index.js';
-import { BUNDLED_LANGUAGES, BUNDLED_THEMES, getHighlighter } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/shiki-es/dist/shiki.node.mjs';
-import consola from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unenv/runtime/npm/consola.mjs';
-import { renderSSRHead } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/@unhead/ssr/dist/index.mjs';
-import { defineHeadPlugin, resolveTitleTemplate, hashTag, hashCode, tagDedupeKey, ValidHeadTags, asArray as asArray$1, TagConfigKeys, TagsWithInnerContent } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/@unhead/shared/dist/index.mjs';
-import { toRouteMatcher, createRouter } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/radix3/dist/index.mjs';
-import { html as html$3 } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/satori-html/dist/index.js';
-import twemoji from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/twemoji/dist/twemoji.npm.js';
-import { initialize, svg2png as svg2png$1 } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/svg2png-wasm/dist/index.mjs';
-import satori$2 from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/satori/dist/index.js';
-import playwrightCore from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/playwright-core/index.mjs';
-import unstorage_47drivers_47fs from 'file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/unstorage/drivers/fs.mjs';
+import { SitemapStream, streamToPromise } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/sitemap/dist/index.js';
+import { join, extname } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/pathe/dist/index.mjs';
+import { createStorage, prefixStorage } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unstorage/dist/index.mjs';
+import defu, { defuFn } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/defu/dist/defu.mjs';
+import { snakeCase, kebabCase, pascalCase, camelCase } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/scule/dist/index.mjs';
+import { unified } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unified/index.js';
+import { toString } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/mdast-util-to-string/index.js';
+import { preprocess } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/micromark/dev/lib/preprocess.js';
+import { postprocess } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/micromark/dev/lib/postprocess.js';
+import { stringifyPosition } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unist-util-stringify-position/index.js';
+import { markdownLineEnding, markdownSpace } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/micromark-util-character/dev/index.js';
+import { push, splice } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/micromark-util-chunked/dev/index.js';
+import { resolveAll } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/micromark-util-resolve-all/index.js';
+import remarkEmoji from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/remark-emoji/index.js';
+import rehypeSlug from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/rehype-slug/index.js';
+import remarkSqueezeParagraphs from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/remark-squeeze-paragraphs/index.js';
+import rehypeExternalLinks from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/rehype-external-links/index.js';
+import remarkGfm from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/remark-gfm/index.js';
+import rehypeSortAttributeValues from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/rehype-sort-attribute-values/index.js';
+import rehypeSortAttributes from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/rehype-sort-attributes/index.js';
+import rehypeRaw from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/rehype-raw/index.js';
+import remarkMDC, { parseFrontMatter } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/remark-mdc/dist/index.mjs';
+import remarkParse from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/remark-parse/index.js';
+import remark2rehype from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/remark-rehype/index.js';
+import { all } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/mdast-util-to-hast/index.js';
+import { detab } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/detab/index.js';
+import { u } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unist-builder/index.js';
+import { encode } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/mdurl/index.js';
+import slugify from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/slugify/slugify.js';
+import { position } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unist-util-position/index.js';
+import { visit } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unist-util-visit/index.js';
+import { BUNDLED_LANGUAGES, BUNDLED_THEMES, getHighlighter } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/shiki-es/dist/shiki.node.mjs';
+import consola from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unenv/runtime/npm/consola.mjs';
+import { renderSSRHead } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/@unhead/ssr/dist/index.mjs';
+import { defineHeadPlugin, resolveTitleTemplate, hashTag, hashCode, tagDedupeKey, ValidHeadTags, asArray as asArray$1, TagConfigKeys, TagsWithInnerContent } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/@unhead/shared/dist/index.mjs';
+import { toRouteMatcher, createRouter } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/radix3/dist/index.mjs';
+import { html as html$3 } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/satori-html/dist/index.js';
+import twemoji from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/twemoji/dist/twemoji.npm.js';
+import { initialize, svg2png as svg2png$1 } from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/svg2png-wasm/dist/index.mjs';
+import satori$2 from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/satori/dist/index.js';
+import playwrightCore from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/playwright-core/index.mjs';
+import unstorage_47drivers_47fs from 'file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/unstorage/drivers/fs.mjs';
 
 const inlineAppConfig = {};
 
@@ -106,7 +106,7 @@ function deepFreeze(object) {
   return Object.freeze(object);
 }
 
-const serverAssets = [{"baseName":"server","dir":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/server/assets"}];
+const serverAssets = [{"baseName":"server","dir":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/server/assets"}];
 
 const assets = createStorage();
 
@@ -118,12 +118,12 @@ const storage = createStorage({});
 
 storage.mount('/assets', assets);
 
-storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/content","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/server","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
-storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('content:source:content', unstorage_47drivers_47fs({"name":"content:source:content","driver":"fs","base":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/content","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache:content', unstorage_47drivers_47fs({"driver":"fs","base":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/.nuxt/content-cache","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('root', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('src', unstorage_47drivers_47fs({"driver":"fs","readOnly":true,"base":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/server","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('build', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/.nuxt","ignore":["**/node_modules/**","**/.git/**"]}));
+storage.mount('cache', unstorage_47drivers_47fs({"driver":"fs","readOnly":false,"base":"/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/.nuxt/cache","ignore":["**/node_modules/**","**/.git/**"]}));
 
 function useStorage(base = "") {
   return base ? prefixStorage(storage, base) : storage;
@@ -532,7 +532,7 @@ const indexable = false;
 const robotsDisabledValue = "noindex, nofollow";
 
 const asArray = (v) => Array.isArray(v) ? v : [v];
-const _6YVDDr = defineEventHandler(async (event) => {
+const _r7Q7rE = defineEventHandler(async (event) => {
   setHeader(event, "Content-Type", "text/plain");
   const debug = `# Dev Mode: Generated by nuxt-simple-robots. Indexing is ${"disabled"}
 ` ;
@@ -543,7 +543,7 @@ ${disallowedPaths}
 ${sitemapLink}`;
 });
 
-const _TnMOx9 = defineEventHandler((event) => {
+const _30KSLf = defineEventHandler((event) => {
   if (event.path === "/robots.txt")
     return;
   const routeRules = getRouteRules(event);
@@ -564,7 +564,7 @@ function publicAssetsURL(...path) {
   return path.length ? joinURL(publicBase, ...path) : publicBase;
 }
 
-const _MW2jk4 = defineEventHandler(async () => {
+const _S9AxYF = defineEventHandler(async () => {
   const url = joinURL(baseURL(), "/sitemap.preview.xml");
   return `Only a preview of the sitemap is only available in development. It may be missing dynamic URLs and URLs added with the <code>sitemap:generate</code> hook.<br><br>You can preview it at <a href="${url}">/sitemap.preview.xml</a><br><br>If you'd like to view the real sitemap run <code>nuxi generate</code> or <code>nuxi build</code>.`;
 });
@@ -590,7 +590,7 @@ const sitemapConfig = /*#__PURE__*/Object.freeze({
       urls: urls
 });
 
-const _8X5k2E = defineEventHandler(async (e) => {
+const _Mlf65R = defineEventHandler(async (e) => {
   const stream = new SitemapStream({ ...sitemapConfig });
   const runtimeConfig = useRuntimeConfig();
   let urls$1 = [...urls];
@@ -610,7 +610,7 @@ const _8X5k2E = defineEventHandler(async (e) => {
 const defaults = {"component":"OgImageBasic","width":1200,"height":630};
 const fonts = ["Inter:400","Inter:700"];
 const satoriOptions = {};
-const assetDirs = ["/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/public","/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/node_modules/nuxt-og-image/dist/runtime/public-assets"];
+const assetDirs = ["/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/public","/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/node_modules/nuxt-og-image/dist/runtime/public-assets"];
 
 function decodeHtmlEntities(obj) {
   Object.entries(obj).forEach(([key, value]) => {
@@ -726,7 +726,7 @@ async function readPublicAssetBase64(file) {
   }
 }
 
-const _6EAsSC = defineEventHandler(async (e) => {
+const _CTa0IH = defineEventHandler(async (e) => {
   const path = withoutTrailingSlash(parseURL(e.path).pathname);
   if (!path.endsWith("/__og_image__"))
     return;
@@ -3371,7 +3371,7 @@ const json = defineTransformer({
     let parsed;
     if (typeof content === "string") {
       if (_id.endsWith("json5")) {
-        parsed = (await import('file:///Users/swizzleverse/Documents/August%20Robotics/Corporate%20Website/ar-website-nuxt/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
+        parsed = (await import('file:///Users/swizzleverse/Documents/August%20Robotics/Testing%20Sites/ar-website-nuxt/node_modules/json5/lib/index.js').then((m) => m.default || m)).parse(content);
       } else if (_id.endsWith("json")) {
         parsed = destr(content);
       }
@@ -3702,7 +3702,7 @@ const getContentQuery = (event) => {
   return query;
 };
 
-const _mhd4IU = defineEventHandler(async (event) => {
+const _oqnd9w = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (query.first) {
     const content = await serverQueryContent(event, query).findOne();
@@ -3733,7 +3733,7 @@ const _mhd4IU = defineEventHandler(async (event) => {
   return contents;
 });
 
-const _UxsRAZ = defineEventHandler(async (event) => {
+const _bQYUKQ = defineEventHandler(async (event) => {
   const { content } = useRuntimeConfig();
   const now = Date.now();
   const contents = await serverQueryContent(event).find();
@@ -3835,7 +3835,7 @@ function isObject(obj) {
   return Object.prototype.toString.call(obj) === "[object Object]";
 }
 
-const _jRP4Bz = defineEventHandler(async (event) => {
+const _2qQkzz = defineEventHandler(async (event) => {
   const query = getContentQuery(event);
   if (!isPreview(event) && Object.keys(query).length === 0) {
     const cache = await cacheStorage.getItem("content-navigation.json");
@@ -3872,35 +3872,35 @@ const _jRP4Bz = defineEventHandler(async (event) => {
   return createNav(contents, configs);
 });
 
-const _lazy_HEJz4J = () => Promise.resolve().then(function () { return renderer$1; });
-const _lazy_nL0oxy = () => Promise.resolve().then(function () { return og_png$1; });
-const _lazy_0ytFjI = () => Promise.resolve().then(function () { return html$1; });
-const _lazy_1eGRN8 = () => Promise.resolve().then(function () { return options$1; });
-const _lazy_gZ8RDX = () => Promise.resolve().then(function () { return svg$1; });
-const _lazy_p1q9Bz = () => Promise.resolve().then(function () { return vnode$1; });
-const _lazy_GzvlF0 = () => Promise.resolve().then(function () { return font$1; });
+const _lazy_gd3MKF = () => Promise.resolve().then(function () { return renderer$1; });
+const _lazy_AuYNXY = () => Promise.resolve().then(function () { return og_png$1; });
+const _lazy_B5PAiw = () => Promise.resolve().then(function () { return html$1; });
+const _lazy_fZ7xwh = () => Promise.resolve().then(function () { return options$1; });
+const _lazy_bBXM37 = () => Promise.resolve().then(function () { return svg$1; });
+const _lazy_hnlseh = () => Promise.resolve().then(function () { return vnode$1; });
+const _lazy_Nze313 = () => Promise.resolve().then(function () { return font$1; });
 
 const handlers = [
-  { route: '/__nuxt_error', handler: _lazy_HEJz4J, lazy: true, middleware: false, method: undefined },
-  { route: '/robots.txt', handler: _6YVDDr, lazy: false, middleware: false, method: undefined },
-  { route: '', handler: _TnMOx9, lazy: false, middleware: false, method: undefined },
-  { route: '/sitemap.xml', handler: _MW2jk4, lazy: false, middleware: false, method: undefined },
-  { route: '/sitemap.preview.xml', handler: _8X5k2E, lazy: false, middleware: false, method: undefined },
-  { route: '', handler: _lazy_nL0oxy, lazy: true, middleware: false, method: undefined },
-  { route: '/api/og-image-html', handler: _lazy_0ytFjI, lazy: true, middleware: false, method: undefined },
-  { route: '/api/og-image-options', handler: _lazy_1eGRN8, lazy: true, middleware: false, method: undefined },
-  { route: '/api/og-image-svg', handler: _lazy_gZ8RDX, lazy: true, middleware: false, method: undefined },
-  { route: '/api/og-image-vnode', handler: _lazy_p1q9Bz, lazy: true, middleware: false, method: undefined },
-  { route: '/api/og-image-font', handler: _lazy_GzvlF0, lazy: true, middleware: false, method: undefined },
-  { route: '', handler: _6EAsSC, lazy: false, middleware: false, method: undefined },
-  { route: '/api/_content/query/:qid/**:params', handler: _mhd4IU, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query/:qid', handler: _mhd4IU, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/query', handler: _mhd4IU, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/cache.json', handler: _UxsRAZ, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid/**:params', handler: _jRP4Bz, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation/:qid', handler: _jRP4Bz, lazy: false, middleware: false, method: "get" },
-  { route: '/api/_content/navigation', handler: _jRP4Bz, lazy: false, middleware: false, method: "get" },
-  { route: '/**', handler: _lazy_HEJz4J, lazy: true, middleware: false, method: undefined }
+  { route: '/__nuxt_error', handler: _lazy_gd3MKF, lazy: true, middleware: false, method: undefined },
+  { route: '/robots.txt', handler: _r7Q7rE, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _30KSLf, lazy: false, middleware: false, method: undefined },
+  { route: '/sitemap.xml', handler: _S9AxYF, lazy: false, middleware: false, method: undefined },
+  { route: '/sitemap.preview.xml', handler: _Mlf65R, lazy: false, middleware: false, method: undefined },
+  { route: '', handler: _lazy_AuYNXY, lazy: true, middleware: false, method: undefined },
+  { route: '/api/og-image-html', handler: _lazy_B5PAiw, lazy: true, middleware: false, method: undefined },
+  { route: '/api/og-image-options', handler: _lazy_fZ7xwh, lazy: true, middleware: false, method: undefined },
+  { route: '/api/og-image-svg', handler: _lazy_bBXM37, lazy: true, middleware: false, method: undefined },
+  { route: '/api/og-image-vnode', handler: _lazy_hnlseh, lazy: true, middleware: false, method: undefined },
+  { route: '/api/og-image-font', handler: _lazy_Nze313, lazy: true, middleware: false, method: undefined },
+  { route: '', handler: _CTa0IH, lazy: false, middleware: false, method: undefined },
+  { route: '/api/_content/query/:qid/**:params', handler: _oqnd9w, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query/:qid', handler: _oqnd9w, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/query', handler: _oqnd9w, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/cache.json', handler: _bQYUKQ, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid/**:params', handler: _2qQkzz, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation/:qid', handler: _2qQkzz, lazy: false, middleware: false, method: "get" },
+  { route: '/api/_content/navigation', handler: _2qQkzz, lazy: false, middleware: false, method: "get" },
+  { route: '/**', handler: _lazy_gd3MKF, lazy: true, middleware: false, method: undefined }
 ];
 
 function createNitroApp() {
@@ -4032,9 +4032,9 @@ const appRootTag = "div";
 
 globalThis.__buildAssetsURL = buildAssetsURL;
 globalThis.__publicAssetsURL = publicAssetsURL;
-const getClientManifest = () => import('/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
+const getClientManifest = () => import('/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/.nuxt/dist/server/client.manifest.mjs').then((r) => r.default || r).then((r) => typeof r === "function" ? r() : r);
 const getStaticRenderedHead = () => Promise.resolve().then(function () { return _virtual__headStatic$1; }).then((r) => r.default || r);
-const getServerEntry = () => import('/Users/swizzleverse/Documents/August Robotics/Corporate Website/ar-website-nuxt/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
+const getServerEntry = () => import('/Users/swizzleverse/Documents/August Robotics/Testing Sites/ar-website-nuxt/.nuxt/dist/server/server.mjs').then((r) => r.default || r);
 const getSSRRenderer = lazyCachedFunction(async () => {
   const manifest = await getClientManifest();
   if (!manifest) {
