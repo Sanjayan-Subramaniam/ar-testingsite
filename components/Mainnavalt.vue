@@ -5,7 +5,7 @@
       class="mx-auto container flex items-center justify-between px-8 sm:px-16"
       aria-label="Global"
     >
-      <NuxtLink to="/home">
+      <NuxtLink to="/home/">
         <span class="sr-only">August Robotics</span>
         <img class="w-32 md:w-40" src="/logos/ar_logo.svg" alt="" />
       </NuxtLink>
@@ -133,7 +133,7 @@
         class="fixed inset-y-0 right-0 z-10 w-full overflow-y-auto bg-white px-6 py-6 sm:max-w-sm sm:ring-1 sm:ring-gray-900/10"
       >
         <div class="flex items-center justify-between">
-          <nuxt-link to="/home" class="-m-1.5 p-1.5">
+          <nuxt-link to="/home/" class="-m-1.5 p-1.5">
             <span class="sr-only">August Robotics</span>
             <img class="h-8 w-auto" src="/logos/ar_logo.svg" alt="" />
           </nuxt-link>

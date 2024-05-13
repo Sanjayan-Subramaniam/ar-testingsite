@@ -24,11 +24,11 @@ useSeoMeta({
 });
 useHead({
   script: [
-    {
-      // type: "text/partytown",
-      src: "https://www.googletagmanager.com/gtag/js?id=G-C2B8H4W1NJ",
-      async: true,
-    },
+    // {
+    //   // type: "text/partytown",
+    //   src: "https://www.googletagmanager.com/gtag/js?id=G-C2B8H4W1NJ",
+    //   async: true,
+    // },
     {
       // type: "text/partytown",
       innerHTML: "_VH_CODE = 9714663130;",
@@ -38,16 +38,16 @@ useHead({
       src: "https://visithunter.io/collect.js",
       async: true,
     },
-    {
-      // type: "text/partytown",
-      innerHTML: `window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+    // {
+    //   // type: "text/partytown",
+    //   innerHTML: `window.dataLayer = window.dataLayer || [];
+    //   function gtag() {
+    //     dataLayer.push(arguments);
+    //   }
+    //   gtag("js", new Date());
 
-      gtag("config", "G-C2B8H4W1NJ");`,
-    },
+    //   gtag("config", "G-C2B8H4W1NJ");`,
+    // },
 
     {
       // Visitor analytics script",
@@ -58,52 +58,49 @@ useHead({
       tagPosition: "bodyClose",
     },
 
-    {
-      // type: "text/partytown",
+    //     {
+    //       // type: "text/hubalz",
 
-      innerHTML: `
+    //       innerHTML: `
 
-    var hubalzscript = document.createElement("script");
-    hubalzscript.src = "https://www.hubalz.com/script.js";
-    hubalzscript.async = 1;
-    hubalzscript.dataset.apikey = "baf9deae02348415839b2d42ecc4c8";
-    document.getElementsByTagName('head')[0].append(hubalzscript);
+    //     var hubalzscript = document.createElement("script");
+    //     hubalzscript.src = "https://www.hubalz.com/script.js";
+    //     hubalzscript.async = 1;
+    //     hubalzscript.dataset.apikey = "baf9deae02348415839b2d42ecc4c8";
+    //     document.getElementsByTagName('head')[0].append(hubalzscript);
 
-`,
-    },
-    {
-      // type: "text/partytown",
-      src: "https://platform.illow.io/banner.js?siteId=10e62391-b031-477d-95a9-52e1a13173ea",
-    },
-    {
-      // type: "text/partytown",
-      type: "text/javascript",
-      tagPosition: "bodyClose",
+    // `,
+    //     },
 
-      innerHTML: `
+    //     {
+    //       // type: "text/partytown",
+    //       type: "text/javascript",
+    //       tagPosition: "bodyClose",
 
-      _linkedin_partner_id = "5270084";
-window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
-window._linkedin_data_partner_ids.push(_linkedin_partner_id);
-`,
-    },
-    {
-      // type: "text/partytown",
-      type: "text/javascript",
-      tagPosition: "bodyClose",
+    //       innerHTML: `
 
-      innerHTML: `
+    //       _linkedin_partner_id = "5270084";
+    // window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || [];
+    // window._linkedin_data_partner_ids.push(_linkedin_partner_id);
+    // `,
+    //     },
+    //     {
+    //       // type: "vistoranalytics",
+    //       type: "text/javascript",
+    //       tagPosition: "bodyClose",
 
-      (function(l) {
-if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
-window.lintrk.q=[]}
-var s = document.getElementsByTagName("script")[0];
-var b = document.createElement("script");
-b.type = "text/javascript";b.async = true;
-b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
-s.parentNode.insertBefore(b, s);})(window.lintrk);
-`,
-    },
+    //       innerHTML: `
+
+    //       (function(l) {
+    // if (!l){window.lintrk = function(a,b){window.lintrk.q.push([a,b])};
+    // window.lintrk.q=[]}
+    // var s = document.getElementsByTagName("script")[0];
+    // var b = document.createElement("script");
+    // b.type = "text/javascript";b.async = true;
+    // b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+    // s.parentNode.insertBefore(b, s);})(window.lintrk);
+    // `,
+    //     },
   ],
 });
 </script>
