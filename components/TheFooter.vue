@@ -5,7 +5,7 @@
         class="flex flex-col items-center justify-center gap-y-24 lg:flex-row lg:items-start lg:justify-around lg:gap-0 lg:text-left"
       >
         <div>
-          <nuxt-link to="/">
+          <nuxt-link to="/home">
             <img class="w-40" src="/white_logo.svg" alt="" srcset="" />
           </nuxt-link>
         </div>
@@ -71,11 +71,11 @@
             >Twitter</nuxt-link
           >
 
-          <nuxt-link
+          <!-- <nuxt-link
             class="hover:text-arsecondary"
             href="https://angel.co/company/augustrobotics/"
             >Wellfound</nuxt-link
-          >
+          > -->
         </div>
       </div>
       <div class="flex flex-row justify-center lg:justify-start">
