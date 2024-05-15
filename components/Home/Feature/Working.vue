@@ -1,14 +1,18 @@
 <template>
   <div class="container mx-auto">
     <div class="grid lg:grid-cols-2 gap-y-9">
-      <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-3">
-        <div
-          class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
-        >
-          <NuxtImg
+      <div
+        class="order-2 ml-auto mr-auto 2xl:mr-0 2xl:ml-[10%] lg:col-start-2 lg:row-span-3"
+      >
+        <div class="flex flex-row lg:flex-col justify-center">
+          <!-- <NuxtImg
             sizes="sm:420px md:420ox lg:420px"
             src="/home-workingar.webp"
             class="w-[70%] md:w-[420px] lg:h-[640px] object-cover object-center rounded-2xl"
+          /> -->
+          <img
+            src="/home-workingar.webp"
+            class="items-start w-[70%] md:w-[420px] lg:h-[640px] object-cover object-center rounded-2xl"
           />
         </div>
       </div>
