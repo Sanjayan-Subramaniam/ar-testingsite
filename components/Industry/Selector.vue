@@ -176,7 +176,19 @@
     </div>
     <!-- This is here so nuxt optimizes even the images that are not currently in viewport -->
     <div class="hidden">
-      <NuxtImg
+      <img
+        src="/selector-construction.webp"
+        class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+      />
+      <img
+        src="/selector-disinfection.webp"
+        class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+      />
+      <img
+        src="/selector-exhibitions.webp"
+        class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+      />
+      <!-- <NuxtImg
         sizes="sm:240px md:1600px lg:1600px"
         src="/selector-construction.webp"
         alt=""
@@ -196,7 +208,7 @@
         alt=""
         srcset=""
         class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
-      />
+      /> -->
     </div>
   </div>
 </template>
