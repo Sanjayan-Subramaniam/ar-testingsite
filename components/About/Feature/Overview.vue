@@ -1,10 +1,10 @@
 <template>
   <div class="container mx-auto">
     <div class="grid lg:grid-cols-2 gap-y-9">
-      <div class="order-2 ml-auto mr-auto lg:mr-0 lg:col-start-2 lg:row-span-3">
-        <div
-          class="flex flex-row lg:flex-col justify-center lg:mr-0 lg:ml-auto"
-        >
+      <div
+        class="order-2 ml-auto mr-auto lg:mr-0 2xl:mr-auto 2xl:ml-[15%] lg:col-start-2 lg:row-span-3"
+      >
+        <div class="flex flex-row lg:flex-col justify-center">
           <img
             src="/overview-lionelcloseup.webp"
             class="w-[70%] md:w-[420px] lg:h-[640px] object-cover rounded-2xl"
