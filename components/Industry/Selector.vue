@@ -102,13 +102,17 @@
           ></ButtonVisit>
         </div>
         <div class="ml-auto mr-auto md:basis-2/5 md:align-top">
-          <NuxtImg
+          <img
+            src="/selector-construction.webp"
+            class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
+          />
+          <!-- <NuxtImg
             sizes="sm:240px md:1600px lg:1600px"
             src="/selector-construction.webp"
             alt=""
             srcset=""
             class="h-[120px] w-[240px] rounded-lg object-cover md:h-[200px] md:w-[1600px]"
-          />
+          /> -->
         </div>
       </div>
       <div
