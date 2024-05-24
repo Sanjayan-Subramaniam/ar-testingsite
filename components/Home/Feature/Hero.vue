@@ -25,7 +25,19 @@
           and dull tasks all over the world.
         </TypographyMainheading>
 
-        <ButtonPrimary></ButtonPrimary>
+        <ButtonPrimary
+          @click="
+            va(
+              'send',
+              'event',
+              'corporate_ALL_mainNavigation_desktop_primaryButton',
+              'onClick',
+              'mainDeskstop_CTA',
+              null,
+              null
+            )
+          "
+        ></ButtonPrimary>
       </div>
     </div>
     <Mainbuttonsarrow class="z-10"></Mainbuttonsarrow>
