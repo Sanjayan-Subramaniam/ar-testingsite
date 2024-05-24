@@ -1,6 +1,6 @@
 <template>
   <div
-    class="bg-center h-[40vh] lg:h-[60vh] flex flex-col justify-center items-center"
+    class="bg-center h-[40vh] lg:h-[50vh] flex flex-col justify-center items-center object-cover"
     :class="bgImagepath"
   >
     <div class="flex flex-col space-y-9 items-center">

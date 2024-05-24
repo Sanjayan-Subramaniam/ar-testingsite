@@ -111,7 +111,7 @@
       <div class="hidden lg:flex lg:justify-end">
         <!-- Secondary Navbar items -->
         <div class="flex flex-col items-center justify-center">
-          <ButtonPrimary />
+          <ButtonPrimary id="mainContactButtonDesktop" />
           <a
             class="text-center text-sm text-arprimary mt-3"
             href="mailto:info@augustrobotics.com"
@@ -324,4 +324,18 @@ onClickOutside(techMenu, () => {
 onClickOutside(companyMenu, () => {
   closeCompany();
 });
+
+document
+  .getElementById("mainContactButton_desktop")
+  .addEventListener("click", function () {
+    va(
+      "send",
+      "event",
+      "corporate_ALL_mainNavigation_desktop_primaryButton",
+      "onClick",
+      "mainDeskstop_CTA",
+      null,
+      null
+    );
+  });
 </script>
