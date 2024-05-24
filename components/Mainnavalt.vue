@@ -111,7 +111,19 @@
       <div class="hidden lg:flex lg:justify-end">
         <!-- Secondary Navbar items -->
         <div class="flex flex-col items-center justify-center">
-          <ButtonPrimary id="mainContactButtonDesktop" />
+          <ButtonPrimary
+            @click="
+              va(
+                'send',
+                'event',
+                'corporate_ALL_mainNavigation_desktop_primaryButton',
+                'onClick',
+                'mainDeskstop_CTA',
+                null,
+                null
+              )
+            "
+          />
           <a
             class="text-center text-sm text-arprimary mt-3"
             href="mailto:info@augustrobotics.com"
@@ -244,19 +256,7 @@
 
             <!-- Secondary Navbar items -->
             <div class="flex flex-col py-6">
-              <ButtonPrimary
-                @click="
-                  va(
-                    'send',
-                    'event',
-                    'corporate_ALL_mainNavigation_desktop_primaryButton',
-                    'onClick',
-                    'mainDeskstop_CTA',
-                    null,
-                    null
-                  )
-                "
-              />
+              <ButtonPrimary />
               <p class="my-4 text-sm text-arprimary">info@augustrobotics.com</p>
             </div>
           </div>
