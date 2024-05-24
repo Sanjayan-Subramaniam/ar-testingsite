@@ -325,17 +325,17 @@ onClickOutside(companyMenu, () => {
   closeCompany();
 });
 
-document
-  .getElementById("mainContactButton_desktop")
-  .addEventListener("click", function () {
-    va(
-      "send",
-      "event",
-      "corporate_ALL_mainNavigation_desktop_primaryButton",
-      "onClick",
-      "mainDeskstop_CTA",
-      null,
-      null
-    );
-  });
+// document
+//   .getElementById("mainContactButton_desktop")
+//   .addEventListener("click", function () {
+//     va(
+//       "send",
+//       "event",
+//       "corporate_ALL_mainNavigation_desktop_primaryButton",
+//       "onClick",
+//       "mainDeskstop_CTA",
+//       null,
+//       null
+//     );
+//   });
 </script>
