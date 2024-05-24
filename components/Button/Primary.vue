@@ -2,6 +2,17 @@
   <nuxt-link
     class="text-center tracking-wider text-base max-w-[160px] max-h-[56px] lg:text-lg rounded-lg bg-arprimary px-3 py-3 text-white hover:bg-white hover:border-black hover:border hover:text-arblack transition-all duration-50 ease-linear"
     :to="linkLocation"
+    @click="
+      va(
+        'send',
+        'event',
+        'corporate_ALL_mainNavigation_desktop_primaryButton',
+        'onClick',
+        'mainDeskstop_CTA',
+        null,
+        null
+      )
+    "
   >
     {{ buttonCopy }}
   </nuxt-link>
