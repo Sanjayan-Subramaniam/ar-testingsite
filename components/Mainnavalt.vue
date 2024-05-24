@@ -244,7 +244,19 @@
 
             <!-- Secondary Navbar items -->
             <div class="flex flex-col py-6">
-              <ButtonPrimary />
+              <ButtonPrimary
+                @click="
+                  va(
+                    'send',
+                    'event',
+                    'corporate_ALL_mainNavigation_desktop_primaryButton',
+                    'onClick',
+                    'mainDeskstop_CTA',
+                    null,
+                    null
+                  )
+                "
+              />
               <p class="my-4 text-sm text-arprimary">info@augustrobotics.com</p>
             </div>
           </div>
